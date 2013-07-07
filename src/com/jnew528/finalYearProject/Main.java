@@ -8,21 +8,24 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Play Tic-Tac-Toe:");
 
-		GameState gameState = new TicTacToeState();
+		GameState gameState = new HexState();
 
 		while(!gameState.isFinalState()) {
-			System.out.println(gameState);
-
 			try {
 				Move move = null;
 
-				if(gameState.getPlayerJustMoved() == 1) {
+				if(gameState.getPlayerJustMoved() == 2) {
+					System.out.println(gameState);
+//					move = getMoveFromUser(gameState);
+
 					StdMctsTree mctsTree = new StdMctsTree(gameState);
 					move = mctsTree.performSearch(50000);
 				} else {
+					System.out.println(gameState);
 //					move = getMoveFromUser(gameState);
+
 					StdMctsTree mctsTree = new StdMctsTree(gameState);
-					move = mctsTree.performSearch(10);
+					move = mctsTree.performSearch(25000);
 				}
 
 				gameState = gameState.createChildStateFromMove(move);
@@ -43,7 +46,17 @@ public class Main {
 				Scanner scanIn = new Scanner(System.in);
 
 				System.out.println("Possible moves:");
-				System.out.println(gameState.getChildMoves());
+
+				StringBuilder sb = new StringBuilder(200);
+				sb.append("[");
+				for(int i = 0; i < gameState.getChildMoves().size(); i++) {
+					sb.append(i + ":");
+					sb.append(gameState.getChildMoves().get(i));
+					sb.append(", ");
+				}
+				sb.append("]");
+				System.out.println(sb);
+
 				System.out.println("Select an index of a possible move above:");
 				Integer selectedMove = Integer.parseInt(scanIn.nextLine());
 

@@ -47,7 +47,10 @@ public class StdMctsTree {
 		while(!node.hasUntriedMoves() && node.hasChildren()) {
 			try {
 				node = node.utcSelectChild();
-			} catch (Exception e) { System.exit(1);	}
+			} catch (Exception e) {
+				System.out.println(e);
+				System.exit(1);
+			}
 		}
 
 		// Expand the node if it has untried moves
@@ -58,7 +61,10 @@ public class StdMctsTree {
 				GameState newGameState = node.getGameState().createChildStateFromMove(move);
 				StdMctsNode newNode = new StdMctsNode(move, node, newGameState);
 				node = node.addChild(newNode);
-			} catch (Exception e) { System.exit(1);	}
+			} catch (Exception e) {
+				System.out.println(e);
+				System.exit(1);
+			}
 		}
 
 		// Play a random game from the current node using the default policy
@@ -69,7 +75,10 @@ public class StdMctsTree {
 			Move move = moves.get(random.nextInt(moves.size()));
 			try {
 				gameState = gameState.createChildStateFromMove(move);
-			} catch (Exception e) { System.exit(1); }
+			} catch (Exception e) {
+				System.out.println(e);
+				System.exit(1);
+			}
 		}
 
 		// Back propogate the result from the perspective of the player that just moved
@@ -79,7 +88,10 @@ public class StdMctsTree {
 				node.update(result);
 				node = node.getParent();
 			}
-		} catch (Exception e) { System.exit(1); }
+		} catch (Exception e) {
+			System.out.println(e);
+			System.exit(1);
+		}
 	}
 
 
