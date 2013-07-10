@@ -5,38 +5,62 @@ import java.util.Vector;
 
 public class Main {
 
-	public static void main(String[] args) {
-		System.out.println("Play Tic-Tac-Toe:");
+	public static void main(String[] args) throws Exception{
+		long startTime = System.nanoTime();
 
-		GameState gameState = new HexState();
+//		for(int i = 0; i < 10; i ++) {
+			GameState gameState = new TicTacToeState();
 
-		while(!gameState.isFinalState()) {
-			try {
+			while(!gameState.isFinalState(false)) {
 				Move move = null;
 
 				if(gameState.getPlayerJustMoved() == 2) {
 					System.out.println(gameState);
-//					move = getMoveFromUser(gameState);
+//						move = getMoveFromUserAlt(gameState);
 
-					StdMctsTree mctsTree = new StdMctsTree(gameState);
-					move = mctsTree.performSearch(50000);
+					StdMctsTree mctsTree = new ExtendedMctsTree(gameState);
+					move = mctsTree.performSearch(10000);
 				} else {
 					System.out.println(gameState);
-//					move = getMoveFromUser(gameState);
+//						move = getMoveFromUser(gameState);
 
-					StdMctsTree mctsTree = new StdMctsTree(gameState);
-					move = mctsTree.performSearch(25000);
+					StdMctsTree mctsTree = new ExtendedMctsTree(gameState);
+					move = mctsTree.performSearch(10000);
 				}
 
 				gameState = gameState.createChildStateFromMove(move);
-			} catch (Exception e) { System.exit(1); }
+			}
+
+			System.out.println(gameState);
+			System.out.println("Player " + gameState.getWinner(false) + " has won!");
+//		}
+
+		long endTime = System.nanoTime();
+		long duration = endTime - startTime;
+		System.out.println("Duration: " + duration/1000000000);
+	}
+
+
+
+	public static HexMove getMoveFromUserAlt(GameState gameState) {
+		HexMove move = null;
+
+		while(true) {
+			try {
+				Scanner scanIn = new Scanner(System.in);
+				System.out.println("Select a possible move above:");
+				Integer selectedMove = Integer.parseInt(scanIn.nextLine());
+				move = new HexMove(selectedMove);
+				GameState gameState1 = gameState.createChildStateFromMove(move);
+				break;
+			} catch (Exception e) {
+				System.out.println("Invalid move entered");
+			}
 		}
 
-		System.out.println(gameState);
-		try {
-			System.out.println("Player " + gameState.getWinner() + " has won!");
-		} catch (Exception e) { System.exit(1); }
+		return move;
 	}
+
 
 	public static Move getMoveFromUser(GameState gameState) {
 		Move move = null;

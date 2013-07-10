@@ -1,11 +1,12 @@
 package com.jnew528.finalYearProject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Vector;
 
 public final class TicTacToeState implements GameState<TicTacToeMove> {
-	private Integer[] board = {0,0,0,0,0,0,0,0,0};
+	private int[] board = {0,0,0,0,0,0,0,0,0};
 	private Integer playerJustMoved = 2;
 	private Vector<TicTacToeMove> childMoves;
 	private Random random = new Random();
@@ -18,7 +19,7 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 	}
 
 	// Creates a board state from the input parameters
-	private TicTacToeState(Integer[] board, Integer playerJustMoved) {
+	private TicTacToeState(int[] board, Integer playerJustMoved) {
 		this.board = board;
 		this.playerJustMoved = playerJustMoved;
 	}
@@ -30,18 +31,25 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 	}
 
 	@Override
-	public boolean isFinalState() {
+	public Integer getPlayerToMove() {
+		return 3 - playerJustMoved;
+	}
+
+	@Override
+	public boolean isFinalState(boolean quickCheck) {
 		// A final state exists when there are no places left to move, or when someone has made three in a row.
 		return !isPlacesLeftToMove() || getPlayerWithLineOfThree() != 0;
 	}
 
 	@Override
-	public GameState createChildStateFromMove(TicTacToeMove move) throws Exception {
+	public GameState createChildStateFromMove(TicTacToeMove move) {
 		// Only allow moves that lead to a valid board, or on boards that are not in a final state
 		if(board[move.boardIndex] != 0) {
-			throw new Exception("A player has already moved in position " + move.boardIndex);
-		} else if(isFinalState()) {
-			throw new Exception("Cannot make a move on a board state that has been won");
+			System.out.println("A player has already moved in position " + move.boardIndex);
+			return null;
+		} else if(isFinalState(true)) {
+			System.out.println("Cannot make a move on a board state that has been won");
+			return null;
 		}
 
 		// The player who's turn it is makes the move
@@ -61,7 +69,7 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 		Vector<TicTacToeMove> moves = new Vector();
 
 		// Check if we are in a final state first, if we are then there are no child moves
-		if(isFinalState()) {
+		if(isFinalState(true)) {
 			return moves;
 		}
 
@@ -80,12 +88,13 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 	}
 
 	@Override
-	public Double getResult(Integer playerNumber) throws Exception {
+	public Double getResult(Integer playerNumber, boolean quickCheck) {
 		Integer playerWithLineOfThree = getPlayerWithLineOfThree();
 
 		if(isPlacesLeftToMove()) {
 			if(playerWithLineOfThree == 0) {
-				throw new Exception("Cannot determine result of board that is not in final state");
+				System.out.println("Cannot determine result of board that is not in final state");
+				return null;
 			} else if(playerWithLineOfThree == playerNumber) {
 				return 1.0;
 			} else {
@@ -103,12 +112,13 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 	}
 
 	@Override
-	public Integer getWinner() throws Exception {
+	public Integer getWinner(boolean quickCheck) {
 		if(getPlayerWithLineOfThree() != 0) {
 			return getPlayerWithLineOfThree();
 		} else {
 			if(isPlacesLeftToMove()) {
-				throw new Exception("Cannot get a winner of a board not in its final state");
+				System.out.println("Cannot get a winner of a board not in its final state");
+				return null;
 			} else {
 				return 0;
 			}
@@ -180,5 +190,26 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 		}
 
 		return placesLeftToMove;
+	}
+
+	@Override
+	public boolean equals(Object other){
+		if(other == null) return false;
+		if(other == this) return true;
+		if(this.getClass() != other.getClass()) return false;
+		TicTacToeState otherTTTState = (TicTacToeState)other;
+		return otherTTTState.playerJustMoved == this.playerJustMoved
+				&& Arrays.equals(otherTTTState.board, this.board);
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+
+		result = prime * result + playerJustMoved.hashCode();
+		result = prime * result + Arrays.hashCode(board);
+
+		return result;
 	}
 }

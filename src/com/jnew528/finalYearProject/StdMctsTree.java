@@ -11,8 +11,8 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  */
 public class StdMctsTree {
-	private StdMctsNode root;
-	private Random random;
+	protected StdMctsNode root;
+	protected Random random;
 
 	StdMctsTree(GameState gameState) {
 		root = new StdMctsNode(null, null, gameState);
@@ -36,7 +36,7 @@ public class StdMctsTree {
 			}
 		}
 
-		return selectedNode.getMove();
+		return selectedNode.getMoves().get(0);
 	}
 
 	public void performIteration() {
@@ -45,75 +45,60 @@ public class StdMctsTree {
 		// Traverse the tree until we reach an expandable node
 		// ie a node that has untried moves and non-terminal
 		while(!node.hasUntriedMoves() && node.hasChildren()) {
-			try {
-				node = node.utcSelectChild();
-			} catch (Exception e) {
-				System.out.println(e);
-				System.exit(1);
-			}
+			node = node.utcSelectChild();
 		}
 
 		// Expand the node if it has untried moves
 		// if it doesnt, do nothing, because it is a terminal state and doesnt need expanding
 		if(node.hasUntriedMoves()) {
 			Move move = node.getUntriedMoves().get(random.nextInt(node.getUntriedMoves().size()));
-			try {
-				GameState newGameState = node.getGameState().createChildStateFromMove(move);
-				StdMctsNode newNode = new StdMctsNode(move, node, newGameState);
-				node = node.addChild(newNode);
-			} catch (Exception e) {
-				System.out.println(e);
-				System.exit(1);
-			}
+			GameState newGameState = node.getGameState().createChildStateFromMove(move);
+
+			// Remove the move that we used to expand the node and add the new node generated to the tree
+			StdMctsNode newNode = new StdMctsNode(node, move, newGameState);
+			node.removeMove(move);
+			node.addChild(newNode);
+			node = newNode;
 		}
 
 		// Play a random game from the current node using the default policy
 		// in this case, default policy is to select random moves until a final state is reached
 		GameState gameState = node.getGameState();
-		while(!gameState.isFinalState()) {
+		while(!gameState.isFinalState(true)) {
 			Vector<Move> moves = gameState.getChildMoves();
 			Move move = moves.get(random.nextInt(moves.size()));
-			try {
-				gameState = gameState.createChildStateFromMove(move);
-			} catch (Exception e) {
-				System.out.println(e);
-				System.exit(1);
-			}
+			gameState = gameState.createChildStateFromMove(move);
 		}
 
 		// Back propogate the result from the perspective of the player that just moved
-		try {
-			while(node != null) {
-				double result = gameState.getResult(node.getGameState().getPlayerJustMoved());
-				node.update(result);
-				node = node.getParent();
-			}
-		} catch (Exception e) {
-			System.out.println(e);
-			System.exit(1);
+		while(node != null) {
+			double result = gameState.getResult(node.getGameState().getPlayerJustMoved(), true);
+			node.update(result);
+			node = node.getParents().get(0);
 		}
 	}
 
 
 	public class StdMctsNode {
-		private Move move;
 		private GameState gameState;
-
 		private double wins;
 		private int visits;
 
+		private Vector<Move> moves;
 		private Vector<Move> untriedMoves;
 		private Vector<StdMctsNode> children;
-		private StdMctsNode parent;
+		private Vector<StdMctsNode> parents;
 
-		StdMctsNode(Move move, StdMctsNode parent, GameState gameState) {
-			this.move = move;
+		StdMctsNode(StdMctsNode parent, Move move, GameState gameState) {
 			this.gameState = gameState;
 			this.wins = 0.0;
 			this.visits = 0;
 			this.untriedMoves = gameState.getChildMoves();
 			this.children = new Vector(untriedMoves.size());
-			this.parent = parent;
+			this.parents = new Vector();
+			this.moves = new Vector();
+			this.parents.add(parent);
+			this.moves.add(move);
 		}
 
 		public boolean hasUntriedMoves() {
@@ -132,12 +117,12 @@ public class StdMctsTree {
 			return gameState;
 		}
 
-		public Move getMove() {
-			return move;
+		public Vector<Move> getMoves() {
+			return moves;
 		}
 
-		public StdMctsNode getParent() {
-			return parent;
+		public Vector<StdMctsNode> getParents() {
+			return parents;
 		}
 
 		public Vector<StdMctsNode> getChildren() {
@@ -148,15 +133,22 @@ public class StdMctsTree {
 			return visits;
 		}
 
-		public StdMctsNode addChild(StdMctsNode child) {
+		public void addChild(StdMctsNode child) {
 			children.add(child);
-			untriedMoves.remove(child.getMove());
-			return child;
 		}
 
-		public StdMctsNode utcSelectChild() throws Exception {
+		public void addParent(StdMctsNode parent, Move move) {
+			moves.add(move);
+			parents.add(parent);
+		}
+
+		public void removeMove(Move move) {
+			untriedMoves.remove(move);
+		}
+
+		public StdMctsNode utcSelectChild() {
 			if(!hasChildren()) {
-				throw new Exception("Cannot select child since this node has no children");
+				return null;
 			}
 
 			// Find the child from the list of children with the highest mcts value

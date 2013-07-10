@@ -11,6 +11,10 @@ public class HexMove implements Move {
 	protected int boardIndex;
 	protected int boardSize;
 
+	HexMove(Integer boardIndex) throws Exception{
+		this(boardIndex, 11);
+	}
+
 	HexMove(Integer boardIndex, Integer boardSize) throws Exception {
 		if(boardIndex >= boardSize*boardSize || boardIndex < 0) {
 			throw new Exception("Move specified is invalid");

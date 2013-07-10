@@ -1,9 +1,6 @@
 package com.jnew528.finalYearProject;
 
-import java.util.Deque;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Vector;
+import java.util.*;
 
 public class HexState implements GameState<HexMove> {
 	private Integer[] board;
@@ -39,25 +36,85 @@ public class HexState implements GameState<HexMove> {
 	}
 
 	@Override
+	public Integer getPlayerToMove() {
+		return 3 - playerJustMoved;
+	}
+
+	@Override
 	public Integer getPlayerJustMoved() {
 		return playerJustMoved;
 	}
 
+
+
 	@Override
-	public boolean isFinalState() {
-		// Final state is defined as all moves player on board!
-		return childMoves.size() == 0;
+	public boolean isFinalState(boolean quickCheck) {
+		if(quickCheck) {
+			// Final state is defined as all moves player on board!
+			return childMoves.size() == 0;
+		} else {
+			Integer winner = determineWinner();
+			return winner != null;
+		}
 	}
 
 	@Override
-	public GameState createChildStateFromMove(HexMove move) throws Exception {
+	public Double getResult(Integer playerNumber, boolean quickCheck) {
+		if(quickCheck) {
+			if(childMoves.size() == 0) { // If we are quick checking then only determin winner if we know we have to
+				Integer winner = determineWinner();
+
+				// Hex doesn't have ties!
+				if(winner == playerNumber) {
+					return 1.0;
+				} else {
+					return 0.0;
+				}
+			} else {
+				return null;
+			}
+		} else {
+			Integer winner = determineWinner(); // Otherwise determine if theres a winner immediately since only way in hex to know
+
+			if(winner == null) {
+				return null;
+			} else {
+				// Hex doesn't have ties!
+				if(winner == playerNumber) {
+					return 1.0;
+				} else {
+					return 0.0;
+				}
+			}
+		}
+	}
+
+	@Override
+	public Integer getWinner(boolean quickCheck) {
+		if(quickCheck) {
+			if(childMoves.size() == 0) {
+				return determineWinner();
+			} else {
+				return null;
+			}
+		} else {
+			return determineWinner();
+		}
+	}
+
+
+
+	@Override
+	public GameState createChildStateFromMove(HexMove move) {
 		if(board[move.boardIndex] != 0) {
-			throw new Exception("A player has already moved in position " + move.boardIndex);
-		} else if(isFinalState()) {
-			throw new Exception("Cannot make a move on a board state that has been won");
+			System.out.println("A player has already moved in position " + move.boardIndex);
+			return null;
+		} else if(isFinalState(true)) { // quick check the final state
+			System.out.println("Cannot make a move on a board state that has been won");
+			return null;
 		}
 
-		// Make the move and remvoe from possible child moves
+		// Make the move and remove from possible child moves
 		HexState newHexState = new HexState(this);
 		newHexState.playerJustMoved = 3 - newHexState.playerJustMoved;
 		newHexState.board[move.boardIndex] = newHexState.playerJustMoved;
@@ -71,17 +128,7 @@ public class HexState implements GameState<HexMove> {
 		return (Vector<HexMove>) childMoves.clone();
 	}
 
-	@Override
-	public Double getResult(Integer playerNumber) throws Exception {
-		Integer winner = getWinner(); // Throws exception if not in the final state
 
-		// Hex doesnt have ties!
-		if(winner == playerNumber) {
-			return 1.0;
-		} else {
-			return 0.0;
-		}
-	}
 
 	private Vector<Integer> getNearbyPositions(int boardPosition, int player) {
 		Vector<Integer> nearBy = new Vector<Integer>(6);
@@ -114,43 +161,38 @@ public class HexState implements GameState<HexMove> {
 		return nearBy;
 	}
 
-	@Override
-	public Integer getWinner() throws Exception {
+	public Integer determineWinner() {
+		// Cache the result of this method call
 		if(winner != null) {
 			return winner;
 		}
 
-		if(!isFinalState()) {
-			throw new Exception("Cannot determine result of board that is not in final state");
-		}
-
 		winner = 0;
 
-		mainLoop1:
+		LinkedList<Integer> stackToCheck = new LinkedList<Integer>();
+		HashSet<Integer> visited = new HashSet<Integer>();
+
 		for(int i = 0; i < size; i++) {
 			if(board[i] == 1) {
-				LinkedList<Integer> stackToCheck = new LinkedList<Integer>();
-				HashSet<Integer> visited = new HashSet<Integer>();
-
 				stackToCheck.push(i);
+			}
+		}
 
-				while(!stackToCheck.isEmpty()) {
-					Integer checkPosition = stackToCheck.pop();
+		while(!stackToCheck.isEmpty()) {
+			Integer checkPosition = stackToCheck.pop();
 
-					if(checkPosition >= size*size-size) {
-						winner = 1;
-						break mainLoop1;
-					}
+			if(checkPosition >= size*size-size) {
+				winner = 1;
+				break;
+			}
 
-					if(!visited.contains(checkPosition)) {
-						visited.add(checkPosition);
-						Vector<Integer> neighbours = getNearbyPositions(checkPosition, 1);
+			if(!visited.contains(checkPosition)) {
+				visited.add(checkPosition);
+				Vector<Integer> neighbours = getNearbyPositions(checkPosition, 1);
 
-						for(Integer neighbour : neighbours) {
-							if(!visited.contains(neighbour)) {
-								stackToCheck.push(neighbour);
-							}
-						}
+				for(Integer neighbour : neighbours) {
+					if(!visited.contains(neighbour)) {
+						stackToCheck.push(neighbour);
 					}
 				}
 			}
@@ -162,31 +204,31 @@ public class HexState implements GameState<HexMove> {
 
 
 		// now do player 2
-		mainLoop2:
+		stackToCheck = new LinkedList<Integer>();
+		visited = new HashSet<Integer>();
+
+
 		for(int i = 0; i < size; i++) {
 			if(board[size*i] == 2) {
-				LinkedList<Integer> stackToCheck = new LinkedList<Integer>();
-				HashSet<Integer> visited = new HashSet<Integer>();
-
 				stackToCheck.push(size*i);
+			}
+		}
 
-				while(!stackToCheck.isEmpty()) {
-					Integer checkPosition = stackToCheck.pop();
+		while(!stackToCheck.isEmpty()) {
+			Integer checkPosition = stackToCheck.pop();
 
-					if((checkPosition + 1) % 11 == 0) {
-						winner = 2;
-						break mainLoop2;
-					}
+			if((checkPosition + 1) % 11 == 0) {
+				winner = 2;
+				break;
+			}
 
-					if(!visited.contains(checkPosition)) {
-						visited.add(checkPosition);
-						Vector<Integer> neighbours = getNearbyPositions(checkPosition, 2);
+			if(!visited.contains(checkPosition)) {
+				visited.add(checkPosition);
+				Vector<Integer> neighbours = getNearbyPositions(checkPosition, 2);
 
-						for(Integer neighbour : neighbours) {
-							if(!visited.contains(neighbour)) {
-								stackToCheck.push(neighbour);
-							}
-						}
+				for(Integer neighbour : neighbours) {
+					if(!visited.contains(neighbour)) {
+						stackToCheck.push(neighbour);
 					}
 				}
 			}
@@ -197,11 +239,9 @@ public class HexState implements GameState<HexMove> {
 			return winner;
 		}
 
-
-		System.out.println("Error in hex winner algorithm!");
-		System.exit(1);
-		return winner; /// SHOULD NEVER GET HERE!!
+		return null;
 	}
+
 
 	@Override
 	public String toString() {
@@ -228,5 +268,28 @@ public class HexState implements GameState<HexMove> {
 		}
 
 		return sb.toString();
+	}
+
+	@Override
+	public boolean equals(Object other){
+		if(other == null) return false;
+		if(other == this) return true;
+		if(this.getClass() != other.getClass()) return false;
+		HexState otherHexState = (HexState)other;
+		return otherHexState.size == this.size
+			&& otherHexState.playerJustMoved == this.playerJustMoved
+			&& Arrays.deepEquals(otherHexState.board, this.board);
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+
+		result = prime * result + playerJustMoved.hashCode();
+		result = prime * result + size.hashCode();
+		result = prime * result + Arrays.hashCode(board);
+
+		return result;
 	}
 }
