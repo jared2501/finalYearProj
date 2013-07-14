@@ -12,11 +12,11 @@ public class HexMove implements Move {
 	protected int boardSize;
 
 	HexMove(Integer boardIndex) throws Exception{
-		this(boardIndex, 11);
+		this(boardIndex, 7);
 	}
 
 	HexMove(Integer boardIndex, Integer boardSize) throws Exception {
-		if(boardIndex >= boardSize*boardSize || boardIndex < 0) {
+		if(boardIndex >= boardSize*boardSize || boardIndex < -1) { // Pie move represented by board index of -1
 			throw new Exception("Move specified is invalid");
 		}
 

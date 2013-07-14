@@ -1,9 +1,6 @@
 package com.jnew528.finalYearProject;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Vector;
+import java.util.*;
 
 public final class TicTacToeState implements GameState<TicTacToeMove> {
 	private int[] board = {0,0,0,0,0,0,0,0,0};
@@ -84,7 +81,89 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 
 		childMoves = moves;
 
-		return moves;
+		return (Vector<TicTacToeMove>) moves.clone();
+	}
+
+	private int[] flipBoard90DegCW(int[] input) {
+		int[] output = new int[9];
+
+		output[0] = input[6];
+		output[1] = input[3];
+		output[2] = input[0];
+		output[3] = input[7];
+		output[4] = input[4];
+		output[5] = input[1];
+		output[6] = input[8];
+		output[7] = input[5];
+		output[8] = input[2];
+
+		return output;
+	}
+
+	private int[] reflectBoardHorizontal(int[] input) {
+		int[] output = new int[9];
+
+		output[0] = input[6];
+		output[1] = input[7];
+		output[2] = input[8];
+
+		output[3] = input[3];
+		output[4] = input[4];
+		output[5] = input[5];
+
+		output[6] = input[0];
+		output[7] = input[1];
+		output[8] = input[2];
+
+		return output;
+	}
+
+	private int[] reflectBoardVertical(int[] input) {
+		int[] output = new int[9];
+
+		output[0] = input[2];
+		output[2] = input[0];
+
+		output[3] = input[5];
+		output[5] = input[3];
+
+		output[6] = input[8];
+		output[8] = input[6];
+
+		output[1] = input[1];
+		output[4] = input[4];
+		output[7] = input[7];
+
+		return output;
+	}
+
+	@Override
+	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> encounteredGamestates) {
+		int[] newBoard = this.board;
+
+		// Flip the board 4 times...
+		for(int i = 0; i < 4; i++) {
+			newBoard = flipBoard90DegCW(newBoard);
+			GameState test = new TicTacToeState(newBoard, this.playerJustMoved);
+
+			if(encounteredGamestates.get(test) != null) {
+				return encounteredGamestates.get(test);
+			}
+
+			test = new TicTacToeState(reflectBoardHorizontal(newBoard), this.playerJustMoved);
+			if(encounteredGamestates.get(test) != null) {
+				return encounteredGamestates.get(test);
+			}
+
+			test = new TicTacToeState(reflectBoardVertical(newBoard), this.playerJustMoved);
+			if(encounteredGamestates.get(test) != null) {
+				return encounteredGamestates.get(test);
+			}
+		}
+
+
+
+		return null;
 	}
 
 	@Override
@@ -142,7 +221,7 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 				sb.append(System.lineSeparator());
 			}
 		}
-
+		sb.append(System.lineSeparator());
 		return sb.toString();
 	}
 

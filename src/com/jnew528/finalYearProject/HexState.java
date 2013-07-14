@@ -5,9 +5,10 @@ import java.util.*;
 public class HexState implements GameState<HexMove> {
 	private Integer[] board;
 	private Integer playerJustMoved = 2;
-	private Integer size = 11;
+	private Integer size = 7;
 	private Vector<HexMove> childMoves;
 	private Integer winner;
+	private boolean pieMoveMade = false;
 
 	public HexState() {
 		// From a blank board state players can move anywhere
@@ -106,7 +107,11 @@ public class HexState implements GameState<HexMove> {
 
 	@Override
 	public GameState createChildStateFromMove(HexMove move) {
-		if(board[move.boardIndex] != 0) {
+		// If the move is the pie move: there has been ONLY ONE move played, and the player that just played it was player 1 everythings OK
+		if(move.boardIndex == -1 && ((childMoves.size() != size*size && playerJustMoved != 1) || pieMoveMade)) {
+			System.out.println("Pie move attempted to be player at wrong point in time");
+			return null;
+		} else if(move.boardIndex != -1 && board[move.boardIndex] != 0) { // Else if we arent playing pie move and someones already moved in that spot...
 			System.out.println("A player has already moved in position " + move.boardIndex);
 			return null;
 		} else if(isFinalState(true)) { // quick check the final state
@@ -117,8 +122,40 @@ public class HexState implements GameState<HexMove> {
 		// Make the move and remove from possible child moves
 		HexState newHexState = new HexState(this);
 		newHexState.playerJustMoved = 3 - newHexState.playerJustMoved;
-		newHexState.board[move.boardIndex] = newHexState.playerJustMoved;
+
+		// Remove the move we're making
 		newHexState.childMoves.remove(move);
+
+		// Remove the pie move from the list of possible moves always since we will re-add it if we can make it
+		try {
+			newHexState.childMoves.remove(new HexMove(-1));
+		} catch (Exception e) {
+			System.out.println(e);
+			System.exit(1);
+		}
+
+		// Add pie move if we can make it
+		if(!pieMoveMade && newHexState.playerJustMoved == 1 && newHexState.childMoves.size() == size*size-1) {
+			try {
+				childMoves.add(new HexMove(-1));
+			} catch (Exception e) {
+				System.out.println(e);
+				System.exit(1);
+			}
+		}
+
+		// Make the pie move if we are making it
+		if(move.boardIndex < 0) {
+			newHexState.pieMoveMade = true;
+			for(int i = 0; i < size*size; i++) {
+				if(newHexState.board[i] == 1) {
+					newHexState.board[i] = 2;
+					break;
+				}
+			}
+		} else {
+			newHexState.board[move.boardIndex] = newHexState.playerJustMoved;
+		}
 
 		return newHexState;
 	}
@@ -128,6 +165,10 @@ public class HexState implements GameState<HexMove> {
 		return (Vector<HexMove>) childMoves.clone();
 	}
 
+	@Override
+	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set) {
+		return null;  //To change body of implemented methods use File | Settings | File Templates.
+	}
 
 
 	private Vector<Integer> getNearbyPositions(int boardPosition, int player) {
@@ -138,24 +179,24 @@ public class HexState implements GameState<HexMove> {
 			nearBy.add(boardPosition + 1);
 		}
 		// Bottom R
-		if((boardPosition + 11) < size*size && board[boardPosition + 11] == player) {
-			nearBy.add(boardPosition + 11);
+		if((boardPosition + size) < size*size && board[boardPosition + size] == player) {
+			nearBy.add(boardPosition + size);
 		}
 		// Bottom L
-		if((boardPosition + 10) < size*size && (boardPosition + 10 + 1) % 11 != 0 && board[boardPosition + 10] == player) {
-			nearBy.add(boardPosition + 10);
+		if((boardPosition + size - 1) < size*size && (boardPosition + size - 1 + 1) % size != 0 && board[boardPosition + size - 1] == player) {
+			nearBy.add(boardPosition + size - 1);
 		}
 		// Left
-		if((boardPosition - 1) > 0 && (boardPosition - 1 + 1) % 11 != 0 && board[boardPosition - 1] == player) {
+		if((boardPosition - 1) > 0 && (boardPosition - 1 + 1) % size != 0 && board[boardPosition - 1] == player) {
 			nearBy.add(boardPosition - 1);
 		}
 		// Top L
-		if((boardPosition - 11) > 0 && board[boardPosition - 11] == player) {
-			nearBy.add(boardPosition - 11);
+		if((boardPosition - size) > 0 && board[boardPosition - size] == player) {
+			nearBy.add(boardPosition - size);
 		}
 		// Top R
-		if((boardPosition - 10) > 0 && (boardPosition - 10) % 11 != 0 && board[boardPosition - 10] == player) {
-			nearBy.add(boardPosition - 10);
+		if((boardPosition - (size - 1)) > 0 && (boardPosition - (size - 1)) % size != 0 && board[boardPosition - (size - 1)] == player) {
+			nearBy.add(boardPosition - (size - 1));
 		}
 
 		return nearBy;
@@ -217,7 +258,7 @@ public class HexState implements GameState<HexMove> {
 		while(!stackToCheck.isEmpty()) {
 			Integer checkPosition = stackToCheck.pop();
 
-			if((checkPosition + 1) % 11 == 0) {
+			if((checkPosition + 1) % size == 0) {
 				winner = 2;
 				break;
 			}
@@ -257,7 +298,7 @@ public class HexState implements GameState<HexMove> {
 			}
 
 			// Make a new line
-			if((i+1) % 11 == 0) {
+			if((i+1) % size == 0) {
 				sb.append(System.lineSeparator());
 
 				// And push each line across to make it look like a rhombus
@@ -286,9 +327,8 @@ public class HexState implements GameState<HexMove> {
 		final int prime = 31;
 		int result = 1;
 
-		result = prime * result + playerJustMoved.hashCode();
-		result = prime * result + size.hashCode();
-		result = prime * result + Arrays.hashCode(board);
+		// Dont need player just moved in hashcode since board implicitly has this in it
+		result = prime * result + Arrays.deepHashCode(board);
 
 		return result;
 	}

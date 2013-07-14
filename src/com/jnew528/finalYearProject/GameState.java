@@ -1,6 +1,7 @@
 package com.jnew528.finalYearProject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Vector;
 
 // All implementations of this interface should be immutable
@@ -34,4 +35,7 @@ public interface GameState<M extends Move> {
 	// NB/ Will be empty if there are no current possible moves. This usually indicates a final board state.
 	// Can return child moves even in final state if the board allows this to happen (e.g. Hex)
 	public Vector<M> getChildMoves();
+
+
+	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set);
 }
