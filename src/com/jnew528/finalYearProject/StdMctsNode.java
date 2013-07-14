@@ -7,7 +7,11 @@ import java.util.Random;
 import java.util.Vector;
 
 public class StdMctsNode {
-	private static Random random = new Random();
+	private static Random random;
+
+	static {
+		random = new Random();
+	}
 
 	private GameState gameState;
 	private double wins;

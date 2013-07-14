@@ -3,17 +3,23 @@ package com.jnew528.finalYearProject;
 import java.util.*;
 
 public class HexState implements GameState<HexMove> {
-	private Integer[] board;
+	private int[] board;
 	private Integer playerJustMoved = 2;
-	private Integer size = 7;
+	private Integer size;
 	private Vector<HexMove> childMoves;
 	private Integer winner;
 	private boolean pieMoveMade = false;
 
 	public HexState() {
+		this(11);
+	}
+
+	public HexState(Integer size) {
+		this.size = size;
+
 		// From a blank board state players can move anywhere
 		childMoves = new Vector<HexMove>(size*size);
-		board = new Integer[size*size];
+		board = new int[size*size];
 
 		for(int i = 0; i < size*size; i++) {
 			board[i] = 0;
@@ -25,7 +31,7 @@ public class HexState implements GameState<HexMove> {
 		}
 	}
 
-	private HexState(Integer[] board, Integer playerJustMoved, Integer size, Vector<HexMove> childMoves) {
+	private HexState(int[] board, Integer playerJustMoved, Integer size, Vector<HexMove> childMoves) {
 		this.board = board;
 		this.playerJustMoved = playerJustMoved;
 		this.size = size;
@@ -165,9 +171,29 @@ public class HexState implements GameState<HexMove> {
 		return (Vector<HexMove>) childMoves.clone();
 	}
 
+	private int[] flipBoard180deg(int[] inputBoard) {
+		int[] outputBoard = new int[size*size];
+
+		for(int i = 0; i < size*size; i++) {
+			outputBoard[size*size - 1 - i] = inputBoard[i];
+		}
+
+		return outputBoard;
+	}
+
 	@Override
 	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set) {
-		return null;  //To change body of implemented methods use File | Settings | File Templates.
+		if(set.containsKey(this)) {
+			return set.get(this);
+		}
+
+		GameState test = new HexState(flipBoard180deg(this.board), this.playerJustMoved, this.size, this.childMoves);
+
+		if(set.containsKey(test)) {
+			return set.get(test);
+		}
+
+		return null;
 	}
 
 
@@ -319,7 +345,7 @@ public class HexState implements GameState<HexMove> {
 		HexState otherHexState = (HexState)other;
 		return otherHexState.size == this.size
 			&& otherHexState.playerJustMoved == this.playerJustMoved
-			&& Arrays.deepEquals(otherHexState.board, this.board);
+			&& Arrays.equals(otherHexState.board, this.board);
 	}
 
 	@Override
@@ -328,7 +354,7 @@ public class HexState implements GameState<HexMove> {
 		int result = 1;
 
 		// Dont need player just moved in hashcode since board implicitly has this in it
-		result = prime * result + Arrays.deepHashCode(board);
+		result = prime * result + Arrays.hashCode(board);
 
 		return result;
 	}

@@ -12,14 +12,17 @@ import java.util.Vector;
  */
 public class StdMctsTree {
 	protected StdMctsNode root;
-	protected Random random;
+	protected static Random random;
 
-	StdMctsTree(GameState gameState) {
-		root = new StdMctsNode(null, null, gameState);
+	static {
 		random = new Random();
 	}
 
-	public Move performSearch(int iterationCount) {
+	StdMctsTree() {}
+
+	public Move performSearch(GameState gameState, int iterationCount) {
+		root = new StdMctsNode(null, null, gameState);
+
 		for(int i = 0; i < iterationCount; i++) {
 			performIteration();
 		}

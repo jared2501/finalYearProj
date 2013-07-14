@@ -2,42 +2,56 @@ package com.jnew528.finalYearProject;
 
 import java.util.Scanner;
 import java.util.Vector;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class Main {
 
 	public static void main(String[] args) throws Exception{
+		int cores = Runtime.getRuntime().availableProcessors();
+		ExecutorService executor = Executors.newFixedThreadPool(cores);
+		Vector<Future<GameState>> futures = new Vector<Future<GameState>>();
+
 		long startTime = System.nanoTime();
+		int extendedPlayerWins = 0;
+		int iterations = 200;
 
-		for(int i = 0; i < 20; i ++) {
-			GameState gameState = new TicTacToeState();
+		for(int i = 0; i < iterations; i++) {
+			StdMctsTree player1;
+			StdMctsTree player2;
 
-			while(!gameState.isFinalState(false)) {
-				Move move = null;
-
-				if(gameState.getPlayerToMove() == 1) {
-//					System.out.println(gameState);
-//					move = getMoveFromUserAlt(gameState);
-
-					StdMctsTree mctsTree = new ExtendedMctsTree(gameState);
-					move = mctsTree.performSearch(50);
-				} else {
-//					System.out.println(gameState);
-//					move = getMoveFromUser(gameState);
-
-					StdMctsTree mctsTree = new StdMctsTree(gameState);
-					move = mctsTree.performSearch(50);
-				}
-
-				gameState = gameState.createChildStateFromMove(move);
+			if(i < iterations / 2) {
+				player1 = new ExtendedMctsTree();
+				player2 = new StdMctsTree();
+			} else {
+				player1 = new StdMctsTree();
+				player2 = new ExtendedMctsTree();
 			}
 
-//			System.out.println(gameState);
-			System.out.println("Player " + gameState.getWinner(false) + " has won!");
+			GameState gameState = new HexState(7);
+
+			Callable game = new Game(gameState, player1, player2, 10000);
+			futures.add(executor.submit(game));
+		}
+
+		executor.shutdown();
+
+		for(int i = 0; i < iterations; i++) {
+			Future<GameState> future = futures.get(i);
+			GameState gameState = future.get();
+			int extendedPlayerNum = i < iterations / 2 ? 1 : 2;
+
+			if(gameState.getWinner(false) == extendedPlayerNum) {
+				extendedPlayerWins++;
+			}
 		}
 
 		long endTime = System.nanoTime();
 		long duration = endTime - startTime;
 		System.out.println("Duration: " + duration/1000000000);
+		System.out.println("Extended Player wins: " + extendedPlayerWins);
 	}
 
 

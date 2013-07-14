@@ -12,7 +12,7 @@ public class HexMove implements Move {
 	protected int boardSize;
 
 	HexMove(Integer boardIndex) throws Exception{
-		this(boardIndex, 7);
+		this(boardIndex, 11);
 	}
 
 	HexMove(Integer boardIndex, Integer boardSize) throws Exception {

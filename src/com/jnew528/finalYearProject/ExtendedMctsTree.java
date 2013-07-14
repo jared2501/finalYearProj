@@ -11,12 +11,19 @@ import java.util.*;
  */
 public class ExtendedMctsTree extends StdMctsTree {
 	private HashMap<GameState, StdMctsNode> encounteredGameStates;
-	private int collisions = 0;
+	private int collisions;
 
-	ExtendedMctsTree(GameState gameState) {
-		super(gameState);
-		encounteredGameStates = new HashMap();
-		encounteredGameStates.put(gameState, root);
+	ExtendedMctsTree() {
+		super();
+	}
+
+	@Override
+	public Move performSearch(GameState gameState, int iterationCount) {
+		// We want to start a-fresh!
+		this.collisions = 0;
+		this.encounteredGameStates = new HashMap();
+		this.encounteredGameStates.put(gameState, root);
+		return super.performSearch(gameState, iterationCount);
 	}
 
 	public void performIteration() {
@@ -41,7 +48,7 @@ public class ExtendedMctsTree extends StdMctsTree {
 				StdMctsNode transposition = newGameState.getTransposition(encounteredGameStates);
 
 				if(transposition != null) { // If there are...
-	//				System.out.println(collisions++);
+//					System.out.println(collisions++);
 					// Only add a reference to the current node if the transposition is NOT in the current nodes children already!
 					if(!node.getChildren().contains(transposition)) {
 						node.addChild(transposition);

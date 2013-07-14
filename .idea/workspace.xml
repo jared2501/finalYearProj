@@ -6,17 +6,20 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934318513" ignored="false" />
     <file path="/sample.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934307701" ignored="false" />
-    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373526489495" ignored="false" />
+    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373805841707" ignored="false" />
     <file path="/GameState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373522236481" ignored="false" />
     <file path="/TicTacToeState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373526420600" ignored="false" />
     <file path="/Move.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372995774304" ignored="false" />
     <file path="/TicTacToeMove.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372998746118" ignored="false" />
     <file path="/fragment.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373526567107" ignored="false" />
-    <file path="/StdMctsTree.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373510263626" ignored="false" />
-    <file path="/HexState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373512954405" ignored="false" />
+    <file path="/StdMctsTree.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373802741160" ignored="false" />
+    <file path="/HexState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373799592221" ignored="false" />
     <file path="/HexMove.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373511233422" ignored="false" />
-    <file path="/ExtendedMctsTree.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373525412560" ignored="false" />
-    <file path="/StdMctsNode.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373522154285" ignored="false" />
+    <file path="/ExtendedMctsTree.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373806367852" ignored="false" />
+    <file path="/StdMctsNode.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373797284865" ignored="false" />
+    <file path="/Game.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373807800672" ignored="false" />
+    <file path="/LeftRightState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373809522292" ignored="false" />
+    <file path="/LeftRightMove.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373809316169" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,7 +71,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,30 +83,50 @@
       <file leaf-file-name="StdMctsTree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdMctsNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
+      <file leaf-file-name="ExtendedMctsTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+            <state line="72" column="46" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2704#2717#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtendedMctsTree.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.4778157">
+            <state line="48" column="0" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HexState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="339" column="4" selection-start="8347" selection-end="8955" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2530#2543#0" expanded="true" />
+                <element signature="e#5127#5136#0" expanded="true" />
+                <element signature="e#6387#6396#0" expanded="true" />
+                <element signature="e#6440#6449#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HexMove.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexMove.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,31 +140,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeState.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="25" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToeMove.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeMove.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="56" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
+            <state line="24" column="36" selection-start="733" selection-end="733" vertical-scroll-proportion="0.8412371">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#500#519#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftRightState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="43" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2409#2424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftRightMove.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightMove.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="26" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,14 +185,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/Move.java" />
         <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeMove.java" />
-        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexMove.java" />
-        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java" />
-        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java" />
         <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/GameState.java" />
-        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java" />
-        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java" />
         <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeState.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexMove.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java" />
         <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightMove.java" />
+        <option value="$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java" />
       </list>
     </option>
   </component>
@@ -186,7 +216,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -258,9 +288,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="ExtendedMctsTree" type="Application" factoryName="Application" temporary="true">
@@ -389,26 +419,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.49884793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1735" y="286" width="1619" height="448" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.49884793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1735" y="286" width="1619" height="448" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29493088" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38479263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48963133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41129032" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.05529954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.7050691" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29493088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1756426" sideWeight="0.58870965" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09447005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -481,27 +511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/untitled.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="17" selection-start="6203" selection-end="6248" vertical-scroll-proportion="0.33227345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="22" selection-start="3310" selection-end="3310" vertical-scroll-proportion="0.5435685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="13" selection-start="3164" selection-end="3164" vertical-scroll-proportion="0.33254156">
@@ -513,24 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="299" column="0" selection-start="11657" selection-end="11657" vertical-scroll-proportion="0.33246753">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="0" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4704#4713#0" expanded="true" />
-            <element signature="e#5964#5973#0" expanded="true" />
-            <element signature="e#6017#6026#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,28 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="165" column="8" selection-start="4211" selection-end="4211" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="56" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +553,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/TicTacToeState.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="25" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.0">
+        <state line="12" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="46" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2704#2717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -594,11 +599,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightMove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.4778157">
+        <state line="21" column="26" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="4" selection-start="8347" selection-end="8955" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2530#2543#0" expanded="true" />
+            <element signature="e#5127#5136#0" expanded="true" />
+            <element signature="e#6387#6396#0" expanded="true" />
+            <element signature="e#6440#6449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="43" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2409#2424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="36" selection-start="733" selection-end="733" vertical-scroll-proportion="0.8412371">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
