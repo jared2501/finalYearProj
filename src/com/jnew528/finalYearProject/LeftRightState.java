@@ -12,11 +12,10 @@ import java.util.Vector;
  */
 public class LeftRightState implements GameState<LeftRightMove> {
 	private Integer playerJustMoved;
-	private int size;
-
-	private int player1R;
-	private int player2R;
-	private int iteration;
+	private Integer size;
+	private Integer player1R;
+	private Integer player2R;
+	private Integer iteration;
 
 	LeftRightState() {
 		this(300);
@@ -52,7 +51,7 @@ public class LeftRightState implements GameState<LeftRightMove> {
 
 	@Override
 	public boolean isFinalState(boolean quickCheck) {
-		return this.iteration == size;
+		return this.iteration >= size;
 	}
 
 	@Override
@@ -117,23 +116,30 @@ public class LeftRightState implements GameState<LeftRightMove> {
 	}
 
 	@Override
-	public Vector getChildMoves() {
+	public Vector<LeftRightMove> getChildMoves() {
 		Vector<LeftRightMove> output = new Vector<LeftRightMove>();
+
+		if(isFinalState(true)) {
+			return output;
+		}
 
 		output.add(new LeftRightMove("L"));
 		output.add(new LeftRightMove("R"));
-
 		return output;
 	}
 
 	@Override
 	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set) {
-		return null;  //To change body of implemented methods use File | Settings | File Templates.
+		if(set.containsKey(this)) {
+			return set.get(this);
+		}
+
+		return null;
 	}
 
 	@Override
 	public String toString() {
-		return null;
+		return "Size: " + size + "; Player1R: " + player1R + "; Player2R: " + player2R + "; Iteration: " + iteration;
 	}
 
 	@Override
@@ -141,19 +147,25 @@ public class LeftRightState implements GameState<LeftRightMove> {
 		if(other == null) return false;
 		if(other == this) return true;
 		if(this.getClass() != other.getClass()) return false;
-		HexState otherHexState = (HexState)other;
-		return otherHexState.size == this.size
-				&& otherHexState.playerJustMoved == this.playerJustMoved
-				&& Arrays.equals(otherHexState.board, this.board);
+		LeftRightState otherLeftRightState = (LeftRightState)other;
+		return otherLeftRightState.playerJustMoved == this.playerJustMoved
+				&& otherLeftRightState.size == this.size
+				&& otherLeftRightState.player1R == this.player1R
+				&& otherLeftRightState.player2R == this.player2R
+				&& otherLeftRightState.iteration == this.iteration;
 	}
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
+		final int prime = 17;
 		int result = 1;
 
 		// Dont need player just moved in hashcode since board implicitly has this in it
-		result = prime * result + Arrays.hashCode(board);
+		result = prime * result + playerJustMoved.hashCode();
+		result = prime * result + size.hashCode();
+		result = prime * result + player1R.hashCode();
+		result = prime * result + player2R.hashCode();
+		result = prime * result + iteration.hashCode();
 
 		return result;
 	}

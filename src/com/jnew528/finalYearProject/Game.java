@@ -15,12 +15,14 @@ public class Game implements Callable<GameState> {
 	private StdMctsTree player1;
 	private StdMctsTree player2;
 	private Integer iterations;
+	private boolean verbose;
 
-	Game(GameState gameState, StdMctsTree player1, StdMctsTree player2, Integer iterations) {
+	Game(GameState gameState, StdMctsTree player1, StdMctsTree player2, Integer iterations, boolean verbose) {
 		this.gameState = gameState;
 		this.player1 = player1;
 		this.player2 = player2;
 		this.iterations = iterations;
+		this.verbose = verbose;
 	}
 
 	@Override
@@ -31,12 +33,25 @@ public class Game implements Callable<GameState> {
 			Move move = null;
 
 			if( gameState.getPlayerToMove() ==  1) {
+				if(verbose) {
+					System.out.println(gameState);
+				}
+
 				move = player1.performSearch(gameState, this.iterations);
 			} else {
+				if(verbose) {
+					System.out.println(gameState);
+				}
+
 				move = player2.performSearch(gameState, this.iterations);
 			}
 
 			gameState = gameState.createChildStateFromMove(move);
+		}
+
+		if(verbose) {
+			System.out.println(gameState);
+			System.out.println("Winner is player " + gameState.getWinner(false));
 		}
 
 		System.out.println("Game finished");

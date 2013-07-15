@@ -10,6 +10,26 @@ import java.util.concurrent.Future;
 public class Main {
 
 	public static void main(String[] args) throws Exception{
+		concurrentRun();
+	}
+
+	public static void debugRun() throws Exception {
+		long startTime = System.nanoTime();
+
+		StdMctsTree player1;
+		StdMctsTree player2;
+		player1 = new StdMctsTree();
+		player2 = new StdMctsTree();
+		GameState gameState = new LeftRightState();
+		Callable game = new Game(gameState, player1, player2, 1000, true);
+		game.call();
+
+		long endTime = System.nanoTime();
+		long duration = endTime - startTime;
+		System.out.println("Duration: " + duration/1000000000);
+	}
+
+	public static void concurrentRun() throws Exception {
 		int cores = Runtime.getRuntime().availableProcessors();
 		ExecutorService executor = Executors.newFixedThreadPool(cores);
 		Vector<Future<GameState>> futures = new Vector<Future<GameState>>();
@@ -30,9 +50,9 @@ public class Main {
 				player2 = new ExtendedMctsTree();
 			}
 
-			GameState gameState = new HexState(7);
+			GameState gameState = new LeftRightState(200);
 
-			Callable game = new Game(gameState, player1, player2, 10000);
+			Callable game = new Game(gameState, player1, player2, 250, false);
 			futures.add(executor.submit(game));
 		}
 
@@ -53,7 +73,6 @@ public class Main {
 		System.out.println("Duration: " + duration/1000000000);
 		System.out.println("Extended Player wins: " + extendedPlayerWins);
 	}
-
 
 
 	public static HexMove getMoveFromUserAlt(GameState gameState) {
