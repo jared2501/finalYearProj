@@ -48,7 +48,7 @@ public class ExtendedMctsTree extends StdMctsTree {
 				StdMctsNode transposition = newGameState.getTransposition(encounteredGameStates);
 
 				if(transposition != null) { // If there are...
-//					System.out.println(collisions++);
+					this.collisions++;
 					// Only add a reference to the current node if the transposition is NOT in the current nodes children already!
 					if(!node.getChildren().contains(transposition)) {
 						node.addChild(transposition);
@@ -90,5 +90,10 @@ public class ExtendedMctsTree extends StdMctsTree {
 			}
 			break;
 		} while(true);
+	}
+
+	@Override
+	public Integer getCollisions() {
+		return this.collisions;
 	}
 }

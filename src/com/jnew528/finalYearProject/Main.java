@@ -1,5 +1,6 @@
 package com.jnew528.finalYearProject;
 
+import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.concurrent.Callable;
@@ -32,17 +33,18 @@ public class Main {
 	public static void concurrentRun() throws Exception {
 		int cores = Runtime.getRuntime().availableProcessors();
 		ExecutorService executor = Executors.newFixedThreadPool(cores);
-		Vector<Future<GameState>> futures = new Vector<Future<GameState>>();
+		Vector<Future<Game>> futures = new Vector<Future<Game>>();
 
-		long startTime = System.nanoTime();
-		int extendedPlayerWins = 0;
-		int iterations = 200;
+		int games = 100;
+		String gameType = "Hex";
+		int boardSize = 7;
 
-		for(int i = 0; i < iterations; i++) {
+		for(int i = 0; i < games; i++) {
 			StdMctsTree player1;
 			StdMctsTree player2;
+			GameState gameState;
 
-			if(i < iterations / 2) {
+			if(i < games / 2) {
 				player1 = new ExtendedMctsTree();
 				player2 = new StdMctsTree();
 			} else {
@@ -50,28 +52,74 @@ public class Main {
 				player2 = new ExtendedMctsTree();
 			}
 
-			GameState gameState = new LeftRightState(200);
+			if(gameType == "LeftRight") {
+				gameState = new LeftRightState(boardSize);
+			} else if(gameType == "Hex") {
+				gameState = new HexState(boardSize);
+			} else {
+				throw new Exception("Unknown game type");
+			}
 
-			Callable game = new Game(gameState, player1, player2, 250, false);
+			Callable game = new Game(gameState, player1, player2, 2000, false);
 			futures.add(executor.submit(game));
 		}
 
 		executor.shutdown();
 
-		for(int i = 0; i < iterations; i++) {
-			Future<GameState> future = futures.get(i);
-			GameState gameState = future.get();
-			int extendedPlayerNum = i < iterations / 2 ? 1 : 2;
+		// Write the results to a file as we get them
+		long unixTime = System.currentTimeMillis() / 1000L;
+		PrintWriter writer = new PrintWriter(unixTime + "_gameresults_" + games + "_" + gameType + ".txt", "UTF-8");
+		int extendedPlayerWins = 0;
 
-			if(gameState.getWinner(false) == extendedPlayerNum) {
+		for(int i = 0; i < games; i++) {
+			Future<Game> future = futures.get(i);
+			Game game = future.get();
+			GameState gameState = game.getGameState();
+			int extendedPlayerNum = i < games / 2 ? 1 : 2;
+
+			if(extendedPlayerNum == gameState.getWinner(false)) {
 				extendedPlayerWins++;
 			}
+
+			System.out.println("Game " + (i + 1) + " finished out of " + games);
+			System.out.println("Extended player wins: " + extendedPlayerWins + " out of " + (i + 1));
+
+
+			writer.println("Game " + i);
+
+			writer.println("1) Game type:");
+			writer.println(gameType);
+
+			writer.println("2) Board size:");
+	 		writer.println(boardSize);
+
+			writer.println("3) Extended player number:");
+			writer.println(extendedPlayerNum);
+
+			writer.println("4) Number of MCTS iterations per-player:");
+			writer.println(game.getIterations());
+
+			writer.println("5) Extended player collisions:");
+			if(1 == extendedPlayerNum) {
+				writer.println(game.getPlayer1Collisions());
+			} else {
+				writer.println(game.getPlayer2Collisions());
+			}
+
+			writer.println("6) Final game state:");
+			writer.println(gameState);
+
+			writer.println("7) Winning player:");
+			writer.println(gameState.getWinner(false));
+
+			writer.println("8) Duration in seconds:");
+			writer.println((double) game.getDuration() / 1e9);
+
+			writer.println();
+			writer.flush();
 		}
 
-		long endTime = System.nanoTime();
-		long duration = endTime - startTime;
-		System.out.println("Duration: " + duration/1000000000);
-		System.out.println("Extended Player wins: " + extendedPlayerWins);
+		writer.close();
 	}
 
 

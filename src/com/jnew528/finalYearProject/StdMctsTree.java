@@ -80,4 +80,8 @@ public class StdMctsTree {
 			node = node.getParents().get(0);
 		}
 	}
+
+	public Integer getCollisions() {
+		return 0;
+	}
 }
