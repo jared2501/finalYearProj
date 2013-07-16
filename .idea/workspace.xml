@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934318513" ignored="false" />
     <file path="/sample.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934307701" ignored="false" />
-    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373937775961" ignored="false" />
+    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373938281548" ignored="false" />
     <file path="/GameState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373522236481" ignored="false" />
     <file path="/TicTacToeState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373526420600" ignored="false" />
     <file path="/Move.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372995774304" ignored="false" />
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdMctsNode.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StdMctsNode.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-1.7037038">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +114,7 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="37" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
+            <state line="70" column="12" selection-start="1827" selection-end="1891" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,13 +153,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="22" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.720339">
+            <state line="64" column="47" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1066#1080#0" expanded="true" />
+                <element signature="e#1108#1122#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -423,8 +423,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,14 +435,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27534562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4642857" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41013825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.05529954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1756426" sideWeight="0.7096774" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29032257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1756426" sideWeight="0.58986175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30414745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -575,22 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="16" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="0" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
@@ -610,9 +594,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="37" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
+        <state line="70" column="12" selection-start="1827" selection-end="1891" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="47" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1108#1122#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,12 +620,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.720339">
+        <state line="84" column="16" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-1.7037038">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1066#1080#0" expanded="true" />
           </folding>
         </state>
       </provider>

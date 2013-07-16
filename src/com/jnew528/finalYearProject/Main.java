@@ -31,11 +31,12 @@ public class Main {
 	}
 
 	public static void concurrentRun() throws Exception {
+		long startTime = System.nanoTime();
 		int cores = Runtime.getRuntime().availableProcessors();
-		ExecutorService executor = Executors.newFixedThreadPool(cores);
+		ExecutorService executor = Executors.newFixedThreadPool(cores - 1);
 		Vector<Future<Game>> futures = new Vector<Future<Game>>();
 
-		int games = 100;
+		int games = 1000;
 		String gameType = "Hex";
 		int boardSize = 7;
 
@@ -60,7 +61,7 @@ public class Main {
 				throw new Exception("Unknown game type");
 			}
 
-			Callable game = new Game(gameState, player1, player2, 2000, false);
+			Callable game = new Game(gameState, player1, player2, 20000, false);
 			futures.add(executor.submit(game));
 		}
 
@@ -85,7 +86,7 @@ public class Main {
 			System.out.println("Extended player wins: " + extendedPlayerWins + " out of " + (i + 1));
 
 
-			writer.println("Game " + i);
+			writer.println("Game " + (i + 1));
 
 			writer.println("1) Game type:");
 			writer.println(gameType);
@@ -118,6 +119,14 @@ public class Main {
 			writer.println();
 			writer.flush();
 		}
+
+		long endTime = System.nanoTime();
+		long duration = endTime - startTime;
+
+		writer.println("Extended player wins:");
+		writer.println(extendedPlayerWins + " out of " + (games + 1));
+		writer.println("Total duration:");
+		writer.println((double) duration/1000000000);
 
 		writer.close();
 	}
