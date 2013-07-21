@@ -33,7 +33,7 @@ public class Main {
 	public static void concurrentRun() throws Exception {
 		long startTime = System.nanoTime();
 		int cores = Runtime.getRuntime().availableProcessors();
-		ExecutorService executor = Executors.newFixedThreadPool(cores - 1);
+		ExecutorService executor = Executors.newFixedThreadPool(cores);
 		Vector<Future<Game>> futures = new Vector<Future<Game>>();
 
 		int games = 1000;
