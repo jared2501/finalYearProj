@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934318513" ignored="false" />
     <file path="/sample.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372934307701" ignored="false" />
-    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373938281548" ignored="false" />
+    <file path="/Main.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1374492957143" ignored="false" />
     <file path="/GameState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373522236481" ignored="false" />
     <file path="/TicTacToeState.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1373526420600" ignored="false" />
     <file path="/Move.java" changelist="eeb11d57-6404-4f9e-913b-330de534c867" time="1372995774304" ignored="false" />
@@ -93,17 +93,15 @@
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="20" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2687#2700#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdMctsNode.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StdMctsNode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-1.7037038">
+            <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,9 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="70" column="12" selection-start="1827" selection-end="1891" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,11 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="352" column="29" selection-start="8780" selection-end="8780" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#5127#5136#0" expanded="true" />
-                <element signature="e#6387#6396#0" expanded="true" />
-                <element signature="e#6440#6449#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,13 +145,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="47" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
+            <state line="36" column="46" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.62023216">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1108#1122#0" expanded="true" />
+                <element signature="e#2681#2695#0" expanded="true" />
+                <element signature="e#2736#2745#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,10 +161,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="135" column="0" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2439#2454#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,7 +209,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -235,6 +224,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,9 +266,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,9 +281,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="ExtendedMctsTree" type="Application" factoryName="Application" temporary="true">
@@ -423,8 +412,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,14 +424,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27534562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41013825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41013825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.05529954" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1756426" sideWeight="0.58986175" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30414745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1756426" sideWeight="0.7246544" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27534562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -515,6 +504,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="641" column="30" selection-start="24036" selection-end="24036" vertical-scroll-proportion="-11.366734">
@@ -560,17 +556,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/HexState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="352" column="29" selection-start="8780" selection-end="8780" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#5127#5136#0" expanded="true" />
-            <element signature="e#6387#6396#0" expanded="true" />
-            <element signature="e#6440#6449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.33289817">
           <folding />
         </state>
       </provider>
@@ -578,10 +563,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/LeftRightState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="0" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2439#2454#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -595,28 +577,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="12" selection-start="1827" selection-end="1891" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="47" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1108#1122#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/ExtendedMctsTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="20" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2687#2700#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +597,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/StdMctsNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-1.7037038">
+        <state line="28" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1188" selection-end="1216" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jnew528/finalYearProject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="46" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.62023216">
+          <folding>
+            <element signature="e#2681#2695#0" expanded="true" />
+            <element signature="e#2736#2745#0" expanded="true" />
           </folding>
         </state>
       </provider>
