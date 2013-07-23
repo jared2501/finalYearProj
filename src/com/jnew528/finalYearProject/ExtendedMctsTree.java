@@ -32,9 +32,7 @@ public class ExtendedMctsTree extends StdMctsTree {
 		// Traverse the tree until we reach a node on the edge of the current tree
 		// i.e. it has untried moves or is a state with no children (i.e. terminal game state)
 		select: do {
-			while(!node.hasUntriedMoves() && node.hasChildren()) {
-				node = node.utcSelectChild();
-			}
+			node = utcSelect(node);
 
 			// Expand the node if it has untried moves
 			// if it doesnt, do nothing, because it is a terminal state and doesnt need expanding
@@ -53,6 +51,7 @@ public class ExtendedMctsTree extends StdMctsTree {
 					if(!node.getChildren().contains(transposition)) {
 						node.addChild(transposition);
 						transposition.addParent(node, move);
+						node = transposition;
 						continue select;
 					}
 
@@ -65,31 +64,50 @@ public class ExtendedMctsTree extends StdMctsTree {
 				}
 			}
 
-			// Play a random game from the current node using the default policy
-			// in this case, default policy is to select random moves until a final state is reached
 			GameState gameState = node.getGameState();
-			while(!gameState.isFinalState(true)) {
-				Vector<Move> moves = gameState.getChildMoves();
-				Move move = moves.get(random.nextInt(moves.size()));
-				gameState = gameState.createChildStateFromMove(move);
-			}
+			gameState = defaultPolicy(node, gameState);
 
 			// Back propogate the result from the perspective of the player that just moved
-			Deque<StdMctsNode> stack = new LinkedList<StdMctsNode>();
-			stack.push(node);
-			while(!stack.isEmpty()) {
-				node = stack.pop();
-
-				if(node != null) {
-					double result = gameState.getResult(node.getGameState().getPlayerJustMoved(), true);
-					node.update(result);
-					for(StdMctsNode parent : node.getParents()) {
-						stack.push(parent);
-					}
-				}
-			}
+			backpropogate(node, gameState);
 			break;
 		} while(true);
+	}
+
+	private StdMctsNode utcSelect(StdMctsNode node) {
+		while(!node.hasUntriedMoves() && node.hasChildren()) {
+			node = node.utcSelectChild();
+		}
+
+		return node;
+	}
+
+	private GameState defaultPolicy(StdMctsNode node, GameState gameState) {
+		// Play a random game from the current node using the default policy
+		// in this case, default policy is to select random moves until a final state is reached
+		while(!gameState.isFinalState(true)) {
+			Vector<Move> moves = gameState.getChildMoves();
+			Move move = moves.get(random.nextInt(moves.size()));
+			gameState = gameState.createChildStateFromMove(move);
+		}
+		return gameState;
+	}
+
+	private void backpropogate(StdMctsNode node, GameState gameState) {
+		// Play a random game from the current node using the default policy
+		// in this case, default policy is to select random moves until a final state is reached
+		Deque<StdMctsNode> stack = new LinkedList<StdMctsNode>();
+		stack.push(node);
+		while(!stack.isEmpty()) {
+			node = stack.pop();
+
+			if(node != null) {
+				double result = gameState.getResult(node.getGameState().getPlayerJustMoved(), true);
+				node.update(result);
+				for(StdMctsNode parent : node.getParents()) {
+					stack.push(parent);
+				}
+			}
+		}
 	}
 
 	@Override

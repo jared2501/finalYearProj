@@ -15,12 +15,12 @@ public class Main {
 	public static void main(String[] args) throws Exception{
 		// Game type settings
 		int numberOfGames = 200;
-		String gameType = "Hex";
-		int boardSize = 5;
+		String gameType = "LeftRight";
+		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 100;
-		int iterationsEnd = 500;
+		int iterationsStart = 400;
+		int iterationsEnd = 1500;
 		int iterationsStep = 100;
 
 		// New DIR name
@@ -71,12 +71,12 @@ public class Main {
 		System.out.println("Duration: " + duration/1000000000);
 	}
 
-	public static Vector<Integer> concurrentRun(int games, int iterations, String gameType, int boardSize, PrintWriter writer) throws Exception {
+	public static Vector<Double> concurrentRun(int games, int iterations, String gameType, int boardSize, PrintWriter writer) throws Exception {
 		long startTime = System.nanoTime();
 		int cores = Runtime.getRuntime().availableProcessors();
 		ExecutorService executor = Executors.newFixedThreadPool(cores);
 		Vector<Future<Game>> futures = new Vector<Future<Game>>();
-		Vector<Integer> output = new Vector<Integer>();
+		Vector<Double> output = new Vector<Double>();
 
 		for(int i = 0; i < games; i++) {
 			StdMctsTree player1;
@@ -106,7 +106,7 @@ public class Main {
 		executor.shutdown();
 
 		// Write the results to a file as we get them
-		int extendedPlayerWins = 0;
+		double extendedPlayerWins = 0;
 
 		writer.println("1) Game type:");
 		writer.println(gameType);
@@ -124,10 +124,13 @@ public class Main {
 			int extendedPlayerNum = i < games / 2 ? 1 : 2;
 
 			if(extendedPlayerNum == gameState.getWinner(false)) {
-				output.add(1);
-				extendedPlayerWins++;
+				output.add(1.0);
+				extendedPlayerWins += 1;
+			} else if(0 == gameState.getWinner(false)) {
+				output.add(0.5);
+				extendedPlayerWins += 0.5;
 			} else {
-				output.add(0);
+				output.add(0.0);
 			}
 
 			System.out.println("Game " + (i + 1) + " finished out of " + games);

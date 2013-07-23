@@ -1,0 +1,2411 @@
+1) Game type:
+LeftRight
+2) Board size:
+100
+3) Number of MCTS iterations per-player:
+500
+
+Game 1
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.736330395
+
+Game 2
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.788742404
+
+Game 3
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.739937755
+
+Game 4
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.764997105
+
+Game 5
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.733614523
+
+Game 6
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.733754669
+
+Game 7
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 47; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.734259339
+
+Game 8
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.737364861
+
+Game 9
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.748383005
+
+Game 10
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.744548438
+
+Game 11
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.717821838
+
+Game 12
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.638669074
+
+Game 13
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.714897162
+
+Game 14
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.738334916
+
+Game 15
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 43; Player2R: 47; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.731514801
+
+Game 16
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 45; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.72908807
+
+Game 17
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.706902788
+
+Game 18
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.690758321
+
+Game 19
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.760834467
+
+Game 20
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.72467239
+
+Game 21
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.777727798
+
+Game 22
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.741063882
+
+Game 23
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.716023997
+
+Game 24
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.690627729
+
+Game 25
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.714673494
+
+Game 26
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.729682278
+
+Game 27
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.728375658
+
+Game 28
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.738557523
+
+Game 29
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.766472537
+
+Game 30
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.731259282
+
+Game 31
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.730525988
+
+Game 32
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.690310984
+
+Game 33
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.745860012
+
+Game 34
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.77739902
+
+Game 35
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.77298794
+
+Game 36
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.70986427
+
+Game 37
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.748586147
+
+Game 38
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.665427879
+
+Game 39
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.716776401
+
+Game 40
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.67720692
+
+Game 41
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.661348409
+
+Game 42
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.744041291
+
+Game 43
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.658199003
+
+Game 44
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.706938886
+
+Game 45
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.639733622
+
+Game 46
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.70392538
+
+Game 47
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.692765319
+
+Game 48
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.663537315
+
+Game 49
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.648567107
+
+Game 50
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.684596824
+
+Game 51
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.673225836
+
+Game 52
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.706899248
+
+Game 53
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.637029429
+
+Game 54
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.651736686
+
+Game 55
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.682229195
+
+Game 56
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.707350125
+
+Game 57
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.655842699
+
+Game 58
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.665368423
+
+Game 59
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.665697555
+
+Game 60
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.717260898
+
+Game 61
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.675140819
+
+Game 62
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.621334068
+
+Game 63
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.708677625
+
+Game 64
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.664556917
+
+Game 65
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.62994884
+
+Game 66
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.723196249
+
+Game 67
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 47; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.695752283
+
+Game 68
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.700193091
+
+Game 69
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.619280708
+
+Game 70
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.662423928
+
+Game 71
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.659642584
+
+Game 72
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.687073809
+
+Game 73
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.633289355
+
+Game 74
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.637862169
+
+Game 75
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.664542054
+
+Game 76
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 46; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.705177851
+
+Game 77
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 46; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.718577781
+
+Game 78
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.615599382
+
+Game 79
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.664874724
+
+Game 80
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.6679307
+
+Game 81
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.667410812
+
+Game 82
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.678310044
+
+Game 83
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.694658007
+
+Game 84
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.651909392
+
+Game 85
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.664637608
+
+Game 86
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 46; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.638809221
+
+Game 87
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.652780708
+
+Game 88
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.68069466
+
+Game 89
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.670129515
+
+Game 90
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.650936859
+
+Game 91
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.681416982
+
+Game 92
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.659539243
+
+Game 93
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.682884274
+
+Game 94
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.620784099
+
+Game 95
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.687376398
+
+Game 96
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.658483542
+
+Game 97
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.627270836
+
+Game 98
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.671563895
+
+Game 99
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.653362882
+
+Game 100
+1) Extended player number:
+1
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.689729517
+
+Game 101
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.638903006
+
+Game 102
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.645482819
+
+Game 103
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.709484884
+
+Game 104
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.706029349
+
+Game 105
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.654146783
+
+Game 106
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.634987394
+
+Game 107
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.664043401
+
+Game 108
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.66663399
+
+Game 109
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.668796353
+
+Game 110
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.648854832
+
+Game 111
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.729923288
+
+Game 112
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.827031454
+
+Game 113
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.804239931
+
+Game 114
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.878410766
+
+Game 115
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.804782115
+
+Game 116
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.730650564
+
+Game 117
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.711358106
+
+Game 118
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.688114999
+
+Game 119
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.670842989
+
+Game 120
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.754481507
+
+Game 121
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.652113595
+
+Game 122
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.720692013
+
+Game 123
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.699157917
+
+Game 124
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.701624993
+
+Game 125
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.729344298
+
+Game 126
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.714735427
+
+Game 127
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.636130509
+
+Game 128
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.635246806
+
+Game 129
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 45; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.610279118
+
+Game 130
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.721315241
+
+Game 131
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.684775899
+
+Game 132
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.64151483
+
+Game 133
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.783451868
+
+Game 134
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 46; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.606938957
+
+Game 135
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.667792323
+
+Game 136
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.57965071
+
+Game 137
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.648155514
+
+Game 138
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.685555908
+
+Game 139
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.690068558
+
+Game 140
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.624999469
+
+Game 141
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.642798091
+
+Game 142
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.874308645
+
+Game 143
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.739825213
+
+Game 144
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.860134724
+
+Game 145
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.70680334
+
+Game 146
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.626729359
+
+Game 147
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.66519784
+
+Game 148
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.709912756
+
+Game 149
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.644852159
+
+Game 150
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.672990843
+
+Game 151
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.691722006
+
+Game 152
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.633078781
+
+Game 153
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.669257138
+
+Game 154
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.648181704
+
+Game 155
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.687438332
+
+Game 156
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.615029948
+
+Game 157
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.632931202
+
+Game 158
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 47; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.66162941
+
+Game 159
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.659406528
+
+Game 160
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.684229823
+
+Game 161
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.693687597
+
+Game 162
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.661036264
+
+Game 163
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.682340675
+
+Game 164
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 48; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.653310504
+
+Game 165
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.641096513
+
+Game 166
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 46; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.650529513
+
+Game 167
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.644309268
+
+Game 168
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.685371169
+
+Game 169
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.650631438
+
+Game 170
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 45; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.681699044
+
+Game 171
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.680142921
+
+Game 172
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.658002231
+
+Game 173
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 46; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.63738652
+
+Game 174
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.649471689
+
+Game 175
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.662012336
+
+Game 176
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 45; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.649195643
+
+Game 177
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.68531596
+
+Game 178
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.642942839
+
+Game 179
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.708603305
+
+Game 180
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.645417347
+
+Game 181
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 47; Player2R: 48; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.657505347
+
+Game 182
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.650299829
+
+Game 183
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 49; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.660019139
+
+Game 184
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.674267733
+
+Game 185
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.69643072
+
+Game 186
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.643899799
+
+Game 187
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.665478488
+
+Game 188
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.664283348
+
+Game 189
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.682973105
+
+Game 190
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.621438471
+
+Game 191
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.662658214
+
+Game 192
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.734618907
+
+Game 193
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.669550172
+
+Game 194
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 47; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.614186944
+
+Game 195
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 47; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.684727061
+
+Game 196
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.674504143
+
+Game 197
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+0.657760867
+
+Game 198
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+0.659926062
+
+Game 199
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.457396132
+
+Game 200
+1) Extended player number:
+2
+2) Extended player collisions:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+3) Final game state:
+Size: 100; Player1R: 48; Player2R: 49; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+0.389853596
+
+4) Extended player wins:
+106.0 out of 201
+5) Total duration:
+34.383056839
