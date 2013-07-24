@@ -16,6 +16,7 @@ public class GobangState implements GameState<GobangMove> {
 	int numInRow;
 	Integer playerJustMoved;
 	int[][] board;
+	Vector<GobangMove> childMoves;
 	// Stores the x and y position of the last place you moved on the board
 	int winner;
 	boolean isFinalState;
@@ -26,10 +27,12 @@ public class GobangState implements GameState<GobangMove> {
 		this.numInRow = numInRow;
 		this.playerJustMoved = 2;
 		this.board = new int[size][size];
+		this.childMoves = new Vector<GobangMove>();
 
 		for(int i = 0; i < size; i++) {
 			for(int j = 0; j < size; j++) {
 				this.board[i][j] = 0;
+				this.childMoves.add(new GobangMove(i,j));
 			}
 		}
 
@@ -58,6 +61,7 @@ public class GobangState implements GameState<GobangMove> {
 		this.numInRow = oldState.numInRow;
 		this.playerJustMoved = oldState.playerJustMoved;
 		this.board = deepCopy(oldState.board);
+		this.childMoves = (Vector)oldState.childMoves.clone();
 		this.winner = oldState.winner;
 		this.isFinalState = oldState.isFinalState;
 	}
@@ -116,37 +120,20 @@ public class GobangState implements GameState<GobangMove> {
 		GobangState newState = new GobangState(this);
 		newState.playerJustMoved = 3 - newState.playerJustMoved;
 		newState.board[move.r][move.c] = newState.playerJustMoved; // Make move
+		newState.childMoves.remove(move); // remove the move from possible moves
 		newState.determineWinner(move.r, move.c); // See if theres a winner from the last place moved
-		newState.isFinalState = newState.winner != 0 || !newState.hasChildMoves(); // If there is a winner, or theres no more moves, its a finalstate
+		newState.isFinalState = newState.winner != 0 || newState.childMoves.size() == 0; // If there is a winner, or theres no more moves, its a finalstate
 
 		return newState;
 	}
 
-	private boolean hasChildMoves() {
-		for(int i = 0; i < size; i++) {
-			for(int j = 0; j < size; j++) {
-				if(this.board[i][j] == 0) {
-					return true;
-				}
-			}
-		}
-
-		return false;
-	}
-
 	@Override
-	public Vector getChildMoves() {
-		Vector<GobangMove> childMoves = new Vector<GobangMove>();
-
-		for(int i = 0; i < size; i++) {
-			for(int j = 0; j < size; j++) {
-				if(this.board[i][j] == 0) {
-					childMoves.add(new GobangMove(i,j));
-				}
-			}
+	public Vector<GobangMove> getChildMoves() {
+		if(isFinalState) {
+			return new Vector<GobangMove>();
 		}
 
-		return childMoves;
+		return (Vector)childMoves.clone();
 	}
 
 	private int[][] rotateBoardCW90deg(int[][] input) {
@@ -331,7 +318,7 @@ public class GobangState implements GameState<GobangMove> {
 		int result = 1;
 
 		result = prime * result + playerJustMoved.hashCode();
-		result = prime * result + Arrays.deepHashCode(board);
+		result = prime * result + Arrays.hashCode(board);
 
 		return result;
 	}
