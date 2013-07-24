@@ -3,6 +3,7 @@ package com.jnew528.finalYearProject;
 import java.io.File;
 import java.io.PrintWriter;
 import java.nio.file.FileSystems;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.concurrent.Callable;
@@ -14,14 +15,14 @@ public class Main {
 
 	public static void main(String[] args) throws Exception{
 		// Game type settings
-		int numberOfGames = 200;
-		String gameType = "LeftRight";
-		int boardSize = 100;
+		int numberOfGames = 512;
+		String gameType = "Gobang";
+		int boardSize = 11;
 
 		// Iteration settings
-		int iterationsStart = 400;
-		int iterationsEnd = 1500;
-		int iterationsStep = 100;
+		int iterationsStart = 500;
+		int iterationsEnd = 5500;
+		int iterationsStep = 500;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
@@ -39,7 +40,7 @@ public class Main {
 		PrintWriter writer = new PrintWriter(newDirName + System.getProperty("file.separator") + "results.m", "UTF-8");
 
 		int i = 0;
-		for(int iterations = iterationsStart; iterations < iterationsEnd; iterations += iterationsStep) {
+		for(int iterations = iterationsStart; iterations <= iterationsEnd; iterations += iterationsStep) {
 			i++;
 			PrintWriter log = new PrintWriter(newDirName + System.getProperty("file.separator") + "iteration_" + i + ".txt", "UTF-8");
 			writer.print("results(:," + i +") = ");
@@ -55,6 +56,38 @@ public class Main {
 		writer.close();
 	}
 
+	public static void test() throws Exception {
+		Random random = new Random();
+
+		for(int i = 0; i < 1000000; i++) {
+			TicTacToeState gameState1 = new TicTacToeState();
+			GobangState gameState2 = new GobangState();
+
+			while(!gameState1.isFinalState(false)) {
+				System.out.println(gameState1);
+				System.out.println(gameState2);
+
+				// Select random move
+				Vector<TicTacToeMove> moves = gameState1.getChildMoves();
+				TicTacToeMove move = moves.get(random.nextInt(moves.size()));
+
+				gameState1 = (TicTacToeState)gameState1.createChildStateFromMove(move);
+				gameState2 = (GobangState)gameState2.createChildStateFromMove(move);
+			}
+
+			System.out.println("Winner gs1 is: " + gameState1.getWinner(false));
+			System.out.println("Winner gs2 is: " + gameState2.getWinner(false));
+			if(gameState1.getWinner(false) != gameState2.getWinner(false)) {
+				System.exit(1);
+			}
+
+			System.out.println(gameState2);
+			System.out.println(gameState1);
+		}
+
+		System.out.println("done!");
+	}
+
 	public static void debugRun() throws Exception {
 		long startTime = System.nanoTime();
 
@@ -62,8 +95,8 @@ public class Main {
 		StdMctsTree player2;
 		player1 = new StdMctsTree();
 		player2 = new StdMctsTree();
-		GameState gameState = new LeftRightState();
-		Callable game = new Game(gameState, player1, player2, 1000, true);
+		GameState gameState = new GobangState();
+		Callable game = new Game(gameState, player1, player2, 50000, true);
 		game.call();
 
 		long endTime = System.nanoTime();
@@ -95,6 +128,8 @@ public class Main {
 				gameState = new LeftRightState(boardSize);
 			} else if(gameType == "Hex") {
 				gameState = new HexState(boardSize);
+			} else if(gameType == "Gobang") {
+				gameState = new GobangState(boardSize);
 			} else {
 				throw new Exception("Unknown game type");
 			}
@@ -165,7 +200,7 @@ public class Main {
 		long duration = endTime - startTime;
 
 		writer.println("4) Extended player wins:");
-		writer.println(extendedPlayerWins + " out of " + (games + 1));
+		writer.println(extendedPlayerWins + " out of " + games);
 		writer.println("5) Total duration:");
 		writer.println((double) duration/1000000000);
 
