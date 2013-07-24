@@ -318,7 +318,7 @@ public class GobangState implements GameState<GobangMove> {
 		int result = 1;
 
 		result = prime * result + playerJustMoved.hashCode();
-		result = prime * result + Arrays.hashCode(board);
+		result = prime * result + Arrays.deepHashCode(board);
 
 		return result;
 	}
