@@ -1,0 +1,3083 @@
+1) Game type:
+LeftRight
+2) Board size:
+100
+3) Number of MCTS iterations per-player:
+1050
+
+Game 1
+1) Extended player number:
+1
+2) Extended player collisions:
+[609, 604, 538, 594, 604, 587, 561, 602, 568, 554, 587, 575, 596, 571, 533, 577, 587, 540, 546, 597, 522, 529, 545, 483, 513, 405, 430, 403, 358, 356, 336, 251, 273, 229, 237, 159, 148, 179, 138, 129, 95, 93, 61, 58, 28, 35, 17, 14, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+174.322499028
+
+Game 2
+1) Extended player number:
+1
+2) Extended player collisions:
+[571, 587, 597, 595, 585, 563, 564, 645, 568, 574, 600, 592, 590, 560, 542, 570, 574, 584, 592, 557, 553, 512, 539, 498, 459, 395, 417, 375, 302, 332, 275, 285, 250, 212, 214, 181, 164, 169, 131, 126, 83, 81, 69, 47, 42, 29, 19, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+233.358601528
+
+Game 3
+1) Extended player number:
+1
+2) Extended player collisions:
+[601, 585, 609, 600, 582, 584, 529, 584, 579, 542, 578, 575, 571, 545, 513, 535, 581, 557, 551, 522, 558, 549, 497, 460, 482, 417, 381, 451, 363, 323, 302, 273, 219, 235, 181, 196, 181, 139, 146, 119, 107, 59, 60, 62, 41, 30, 21, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+180.288508588
+
+Game 4
+1) Extended player number:
+1
+2) Extended player collisions:
+[555, 588, 626, 571, 600, 584, 592, 578, 581, 581, 609, 581, 583, 548, 571, 575, 559, 499, 572, 551, 550, 558, 538, 513, 516, 378, 406, 438, 367, 274, 325, 244, 246, 252, 222, 186, 152, 158, 115, 109, 91, 83, 70, 50, 41, 31, 21, 7, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+175.732432464
+
+Game 5
+1) Extended player number:
+1
+2) Extended player collisions:
+[585, 579, 597, 582, 574, 642, 597, 584, 579, 597, 579, 613, 561, 577, 560, 542, 569, 542, 553, 518, 588, 555, 535, 550, 453, 468, 377, 431, 387, 276, 282, 290, 235, 279, 229, 165, 171, 127, 104, 108, 108, 80, 61, 52, 42, 29, 16, 7, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+214.595344212
+
+Game 6
+1) Extended player number:
+1
+2) Extended player collisions:
+[633, 575, 597, 600, 621, 599, 582, 603, 566, 576, 549, 588, 570, 607, 559, 586, 567, 560, 563, 550, 561, 560, 511, 507, 433, 414, 438, 352, 359, 415, 276, 332, 302, 285, 215, 206, 147, 153, 146, 115, 99, 83, 64, 56, 48, 26, 21, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+157.454410228
+
+Game 7
+1) Extended player number:
+1
+2) Extended player collisions:
+[575, 575, 584, 563, 598, 570, 563, 600, 607, 560, 572, 538, 556, 530, 546, 595, 531, 540, 550, 558, 565, 557, 563, 445, 398, 434, 466, 452, 471, 379, 249, 319, 311, 233, 246, 230, 181, 139, 130, 103, 102, 84, 70, 54, 43, 33, 20, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+156.0076605
+
+Game 8
+1) Extended player number:
+1
+2) Extended player collisions:
+[575, 592, 601, 609, 600, 648, 617, 606, 567, 586, 615, 567, 597, 571, 556, 532, 592, 557, 581, 544, 526, 521, 535, 453, 477, 537, 441, 562, 367, 292, 288, 299, 224, 241, 228, 197, 181, 142, 154, 101, 93, 84, 63, 52, 40, 30, 20, 15, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+151.207705796
+
+Game 9
+1) Extended player number:
+1
+2) Extended player collisions:
+[553, 580, 594, 589, 586, 587, 615, 585, 593, 584, 575, 549, 591, 598, 560, 548, 616, 565, 544, 574, 498, 548, 543, 498, 507, 530, 420, 390, 461, 363, 281, 315, 285, 201, 205, 193, 174, 168, 148, 103, 100, 89, 66, 62, 37, 39, 22, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+186.016707944
+
+Game 10
+1) Extended player number:
+1
+2) Extended player collisions:
+[568, 591, 595, 597, 573, 579, 566, 556, 603, 598, 588, 554, 555, 571, 555, 543, 547, 591, 549, 494, 558, 528, 443, 432, 457, 517, 387, 477, 344, 349, 319, 296, 329, 234, 212, 158, 152, 138, 124, 99, 88, 84, 72, 58, 42, 35, 24, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+144.653111548
+
+Game 11
+1) Extended player number:
+1
+2) Extended player collisions:
+[581, 582, 587, 595, 577, 594, 592, 563, 568, 567, 555, 588, 575, 579, 572, 525, 536, 560, 590, 497, 556, 582, 414, 556, 504, 440, 381, 356, 353, 276, 342, 262, 221, 253, 212, 181, 154, 167, 165, 119, 106, 92, 67, 53, 36, 32, 20, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+141.063127916
+
+Game 12
+1) Extended player number:
+1
+2) Extended player collisions:
+[625, 582, 601, 613, 605, 580, 600, 599, 589, 611, 567, 567, 554, 569, 535, 586, 571, 523, 540, 550, 557, 529, 530, 553, 438, 433, 469, 372, 438, 335, 281, 332, 265, 244, 226, 190, 196, 121, 123, 137, 111, 76, 64, 44, 39, 26, 22, 11, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+167.028711128
+
+Game 13
+1) Extended player number:
+1
+2) Extended player collisions:
+[617, 571, 585, 582, 595, 627, 564, 580, 591, 549, 562, 609, 553, 558, 563, 546, 551, 544, 546, 596, 526, 455, 489, 424, 397, 411, 440, 397, 420, 416, 287, 360, 259, 230, 233, 156, 165, 148, 145, 137, 88, 79, 71, 61, 45, 33, 21, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+176.492878592
+
+Game 14
+1) Extended player number:
+1
+2) Extended player collisions:
+[607, 587, 604, 624, 595, 612, 606, 575, 571, 586, 527, 579, 570, 588, 496, 562, 573, 543, 543, 533, 552, 546, 538, 531, 464, 426, 346, 491, 309, 308, 247, 286, 253, 225, 207, 169, 178, 152, 100, 138, 91, 66, 61, 47, 37, 34, 18, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+200.420700896
+
+Game 15
+1) Extended player number:
+1
+2) Extended player collisions:
+[592, 606, 596, 593, 627, 572, 567, 576, 580, 622, 587, 589, 612, 550, 549, 598, 602, 574, 599, 562, 481, 520, 550, 554, 515, 422, 455, 446, 384, 302, 303, 331, 202, 245, 233, 193, 170, 126, 131, 127, 89, 75, 77, 50, 41, 24, 23, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+130.89180474
+
+Game 16
+1) Extended player number:
+1
+2) Extended player collisions:
+[598, 582, 575, 622, 605, 584, 599, 614, 566, 627, 551, 555, 583, 565, 570, 609, 539, 580, 571, 500, 559, 514, 460, 473, 491, 426, 406, 404, 330, 407, 372, 262, 276, 186, 188, 197, 169, 141, 120, 128, 83, 82, 56, 63, 42, 22, 17, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+194.779672152
+
+Game 17
+1) Extended player number:
+1
+2) Extended player collisions:
+[602, 569, 568, 578, 572, 559, 577, 572, 581, 594, 562, 549, 575, 562, 575, 594, 600, 598, 521, 550, 562, 555, 530, 534, 496, 481, 384, 440, 412, 322, 264, 295, 296, 215, 230, 215, 156, 129, 125, 104, 112, 95, 69, 50, 47, 28, 14, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+123.558708116
+
+Game 18
+1) Extended player number:
+1
+2) Extended player collisions:
+[596, 602, 594, 525, 580, 586, 550, 627, 582, 568, 547, 617, 577, 561, 570, 555, 516, 539, 558, 539, 601, 513, 578, 572, 514, 386, 415, 426, 303, 320, 354, 272, 231, 191, 180, 200, 154, 129, 137, 115, 99, 82, 63, 67, 34, 36, 23, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+232.921752268
+
+Game 19
+1) Extended player number:
+1
+2) Extended player collisions:
+[551, 610, 600, 636, 558, 591, 571, 568, 604, 594, 573, 578, 548, 552, 551, 583, 561, 614, 559, 616, 552, 567, 554, 507, 452, 539, 429, 383, 345, 419, 281, 287, 277, 210, 279, 198, 197, 165, 126, 107, 102, 86, 53, 47, 46, 33, 21, 10, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+137.436199764
+
+Game 20
+1) Extended player number:
+1
+2) Extended player collisions:
+[594, 603, 584, 584, 580, 617, 587, 552, 597, 592, 568, 564, 578, 580, 564, 580, 537, 549, 533, 551, 567, 540, 542, 553, 572, 550, 474, 595, 502, 514, 527, 416, 364, 405, 245, 331, 261, 160, 224, 189, 162, 121, 109, 55, 44, 33, 24, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+244.031274844
+
+Game 21
+1) Extended player number:
+1
+2) Extended player collisions:
+[597, 612, 581, 648, 575, 605, 603, 585, 583, 570, 624, 562, 570, 557, 587, 520, 543, 584, 513, 533, 527, 565, 567, 504, 438, 428, 429, 410, 416, 270, 338, 280, 265, 211, 181, 192, 169, 158, 119, 107, 104, 86, 65, 58, 46, 38, 22, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+205.047766612
+
+Game 22
+1) Extended player number:
+1
+2) Extended player collisions:
+[581, 574, 564, 555, 590, 615, 643, 618, 580, 571, 586, 595, 587, 558, 567, 575, 550, 549, 541, 555, 528, 554, 531, 571, 442, 550, 390, 455, 314, 297, 249, 254, 245, 240, 215, 205, 176, 133, 118, 93, 105, 69, 58, 53, 39, 34, 19, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+198.000789732
+
+Game 23
+1) Extended player number:
+1
+2) Extended player collisions:
+[628, 586, 612, 596, 608, 655, 604, 579, 626, 589, 544, 616, 542, 587, 588, 570, 562, 594, 555, 552, 528, 565, 580, 487, 522, 413, 481, 334, 349, 286, 259, 251, 235, 255, 214, 220, 140, 143, 145, 143, 79, 82, 74, 53, 40, 36, 24, 8, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+217.010667544
+
+Game 24
+1) Extended player number:
+1
+2) Extended player collisions:
+[580, 581, 590, 574, 576, 554, 594, 571, 568, 561, 583, 547, 593, 574, 567, 530, 549, 609, 538, 540, 582, 579, 550, 425, 527, 461, 377, 369, 348, 425, 316, 333, 261, 264, 194, 175, 142, 159, 119, 117, 82, 89, 70, 57, 40, 33, 18, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+227.87375782
+
+Game 25
+1) Extended player number:
+1
+2) Extended player collisions:
+[623, 607, 580, 577, 580, 582, 559, 581, 592, 561, 552, 565, 533, 563, 550, 520, 563, 566, 609, 590, 557, 574, 591, 487, 562, 418, 456, 424, 364, 350, 261, 295, 346, 219, 317, 210, 195, 177, 136, 107, 103, 80, 66, 53, 44, 27, 20, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+223.812568428
+
+Game 26
+1) Extended player number:
+1
+2) Extended player collisions:
+[598, 589, 588, 574, 561, 605, 583, 588, 598, 561, 582, 561, 555, 605, 594, 532, 562, 567, 531, 537, 565, 523, 459, 583, 509, 458, 379, 318, 319, 383, 291, 296, 221, 291, 197, 202, 161, 147, 125, 118, 102, 82, 57, 49, 40, 30, 23, 14, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+137.774394504
+
+Game 27
+1) Extended player number:
+1
+2) Extended player collisions:
+[598, 587, 593, 582, 579, 577, 604, 572, 563, 574, 565, 560, 544, 543, 574, 572, 558, 539, 581, 542, 553, 547, 481, 415, 496, 464, 448, 410, 545, 303, 321, 264, 237, 197, 196, 260, 163, 151, 122, 102, 79, 87, 70, 47, 37, 24, 21, 6, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+206.06265494
+
+Game 28
+1) Extended player number:
+1
+2) Extended player collisions:
+[586, 636, 591, 569, 628, 580, 578, 550, 596, 572, 566, 580, 598, 580, 566, 584, 566, 602, 560, 567, 526, 546, 479, 520, 514, 415, 434, 352, 271, 322, 292, 324, 246, 216, 232, 215, 185, 175, 140, 89, 92, 105, 77, 48, 55, 29, 20, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+203.771661916
+
+Game 29
+1) Extended player number:
+1
+2) Extended player collisions:
+[569, 590, 595, 562, 583, 539, 575, 582, 576, 587, 576, 582, 587, 545, 571, 596, 582, 576, 561, 571, 580, 544, 579, 557, 514, 543, 548, 578, 539, 439, 387, 427, 443, 351, 280, 243, 279, 234, 220, 199, 183, 93, 131, 60, 44, 39, 23, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+290.604191136
+
+Game 30
+1) Extended player number:
+1
+2) Extended player collisions:
+[590, 580, 622, 586, 642, 607, 634, 567, 570, 592, 602, 598, 557, 586, 536, 575, 554, 565, 573, 518, 531, 543, 494, 482, 557, 422, 430, 351, 411, 328, 319, 288, 241, 213, 264, 177, 215, 130, 125, 118, 94, 74, 68, 42, 47, 29, 22, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+201.888901952
+
+Game 31
+1) Extended player number:
+1
+2) Extended player collisions:
+[607, 606, 554, 581, 588, 560, 575, 562, 565, 594, 669, 586, 577, 547, 544, 573, 590, 568, 548, 581, 531, 538, 596, 446, 516, 482, 426, 494, 370, 347, 233, 301, 310, 200, 209, 191, 189, 169, 130, 97, 91, 72, 61, 48, 36, 28, 18, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+229.242885004
+
+Game 32
+1) Extended player number:
+1
+2) Extended player collisions:
+[566, 616, 595, 580, 567, 588, 592, 590, 591, 534, 575, 570, 546, 534, 554, 576, 566, 557, 569, 499, 551, 449, 523, 530, 470, 409, 397, 326, 401, 379, 320, 310, 245, 297, 217, 153, 160, 140, 115, 121, 121, 79, 78, 53, 44, 33, 17, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+127.673907372
+
+Game 33
+1) Extended player number:
+1
+2) Extended player collisions:
+[601, 628, 553, 557, 571, 546, 580, 636, 596, 576, 603, 582, 576, 583, 572, 548, 554, 581, 545, 543, 537, 533, 549, 402, 456, 413, 426, 430, 428, 460, 311, 267, 275, 266, 235, 176, 220, 125, 106, 134, 96, 85, 51, 56, 43, 30, 19, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.561150592
+
+Game 34
+1) Extended player number:
+1
+2) Extended player collisions:
+[578, 588, 594, 586, 600, 597, 611, 559, 551, 621, 612, 577, 584, 588, 597, 558, 566, 570, 535, 512, 597, 518, 581, 460, 361, 434, 360, 354, 324, 336, 295, 216, 261, 243, 203, 173, 175, 130, 122, 108, 103, 85, 65, 52, 39, 32, 22, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+185.895378688
+
+Game 35
+1) Extended player number:
+1
+2) Extended player collisions:
+[615, 602, 543, 622, 588, 616, 602, 580, 572, 565, 561, 534, 578, 565, 560, 569, 575, 550, 542, 582, 546, 529, 557, 537, 531, 517, 364, 354, 273, 355, 263, 314, 305, 231, 200, 215, 165, 169, 124, 123, 98, 79, 63, 56, 52, 33, 23, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+172.192287208
+
+Game 36
+1) Extended player number:
+1
+2) Extended player collisions:
+[631, 612, 622, 609, 596, 597, 558, 589, 597, 543, 621, 606, 603, 543, 572, 571, 588, 534, 568, 575, 553, 578, 529, 549, 515, 493, 532, 539, 467, 563, 519, 552, 412, 377, 288, 398, 152, 292, 260, 149, 197, 85, 124, 66, 50, 32, 23, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+264.123404008
+
+Game 37
+1) Extended player number:
+1
+2) Extended player collisions:
+[580, 626, 556, 564, 609, 607, 577, 540, 561, 554, 572, 583, 581, 582, 556, 577, 551, 548, 590, 553, 555, 523, 535, 562, 519, 426, 382, 327, 284, 307, 286, 303, 242, 234, 222, 205, 167, 132, 149, 121, 92, 74, 64, 45, 43, 35, 22, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+154.171265552
+
+Game 38
+1) Extended player number:
+1
+2) Extended player collisions:
+[589, 589, 578, 577, 601, 603, 577, 591, 599, 563, 564, 512, 553, 571, 580, 538, 525, 567, 547, 536, 534, 484, 474, 447, 452, 484, 403, 351, 322, 328, 281, 269, 261, 224, 155, 166, 154, 140, 139, 147, 93, 84, 78, 43, 42, 28, 22, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+236.381547052
+
+Game 39
+1) Extended player number:
+1
+2) Extended player collisions:
+[581, 582, 564, 597, 602, 585, 605, 578, 565, 599, 569, 592, 552, 573, 551, 571, 581, 593, 582, 543, 547, 543, 514, 484, 399, 588, 508, 344, 439, 313, 408, 261, 236, 230, 202, 169, 183, 143, 119, 115, 94, 74, 65, 49, 40, 31, 21, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+155.929528012
+
+Game 40
+1) Extended player number:
+1
+2) Extended player collisions:
+[625, 594, 553, 564, 572, 659, 596, 574, 584, 545, 584, 596, 533, 573, 532, 540, 509, 554, 519, 578, 476, 528, 563, 497, 460, 612, 385, 338, 420, 328, 312, 274, 319, 243, 203, 176, 166, 134, 136, 113, 87, 84, 66, 63, 41, 28, 19, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+141.744060612
+
+Game 41
+1) Extended player number:
+1
+2) Extended player collisions:
+[587, 602, 575, 583, 597, 570, 574, 610, 569, 595, 541, 627, 562, 580, 543, 531, 598, 537, 534, 494, 571, 557, 542, 532, 498, 603, 391, 392, 496, 340, 283, 277, 263, 188, 209, 170, 186, 147, 130, 111, 92, 83, 71, 57, 36, 32, 20, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+166.259812112
+
+Game 42
+1) Extended player number:
+1
+2) Extended player collisions:
+[603, 598, 595, 601, 576, 602, 579, 578, 548, 579, 551, 569, 594, 571, 546, 573, 529, 568, 592, 575, 547, 436, 561, 507, 560, 482, 436, 341, 407, 365, 416, 259, 248, 237, 155, 238, 165, 159, 136, 129, 100, 83, 63, 49, 48, 24, 16, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+149.3639821
+
+Game 43
+1) Extended player number:
+1
+2) Extended player collisions:
+[571, 605, 566, 608, 598, 566, 586, 603, 608, 567, 558, 565, 573, 584, 584, 633, 547, 571, 581, 553, 542, 578, 498, 440, 474, 403, 387, 360, 461, 278, 346, 240, 304, 234, 226, 183, 135, 125, 177, 122, 109, 76, 63, 55, 40, 31, 20, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+147.783113864
+
+Game 44
+1) Extended player number:
+1
+2) Extended player collisions:
+[642, 584, 559, 622, 604, 573, 564, 586, 581, 590, 606, 616, 548, 535, 569, 577, 545, 586, 506, 550, 586, 585, 606, 507, 474, 478, 468, 399, 313, 290, 309, 267, 287, 261, 197, 175, 225, 159, 115, 120, 90, 97, 73, 59, 43, 30, 24, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+184.91363578
+
+Game 45
+1) Extended player number:
+1
+2) Extended player collisions:
+[604, 578, 566, 574, 611, 605, 599, 603, 584, 552, 574, 629, 551, 567, 554, 523, 577, 571, 539, 528, 556, 596, 539, 405, 511, 459, 334, 413, 449, 436, 310, 251, 251, 215, 209, 195, 145, 149, 137, 122, 102, 72, 65, 52, 48, 31, 25, 10, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+278.557332504
+
+Game 46
+1) Extended player number:
+1
+2) Extended player collisions:
+[636, 603, 582, 583, 600, 596, 618, 588, 548, 610, 576, 569, 583, 562, 552, 605, 576, 568, 571, 593, 505, 595, 447, 447, 491, 553, 394, 359, 331, 387, 269, 291, 248, 222, 181, 164, 218, 158, 136, 92, 98, 98, 61, 47, 46, 32, 19, 14, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+186.170600392
+
+Game 47
+1) Extended player number:
+1
+2) Extended player collisions:
+[599, 575, 594, 565, 589, 618, 560, 616, 545, 592, 577, 576, 545, 551, 584, 533, 572, 557, 542, 485, 567, 575, 446, 554, 431, 432, 336, 407, 412, 283, 256, 267, 321, 213, 206, 148, 142, 175, 136, 105, 78, 96, 63, 65, 44, 32, 17, 8, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+136.15485272
+
+Game 48
+1) Extended player number:
+1
+2) Extended player collisions:
+[569, 587, 587, 599, 607, 609, 569, 586, 607, 587, 581, 569, 611, 547, 588, 556, 577, 584, 564, 538, 543, 531, 501, 500, 381, 567, 325, 331, 329, 325, 261, 422, 225, 216, 206, 285, 199, 160, 153, 102, 86, 101, 76, 54, 41, 26, 18, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+167.73250108
+
+Game 49
+1) Extended player number:
+1
+2) Extended player collisions:
+[577, 577, 611, 622, 561, 607, 565, 552, 595, 586, 566, 586, 564, 558, 569, 594, 568, 571, 529, 543, 582, 545, 482, 550, 450, 437, 368, 392, 342, 337, 281, 226, 316, 243, 225, 160, 168, 175, 152, 134, 79, 89, 68, 53, 39, 31, 25, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+209.784439852
+
+Game 50
+1) Extended player number:
+1
+2) Extended player collisions:
+[622, 593, 579, 584, 615, 568, 564, 604, 593, 547, 546, 583, 585, 589, 595, 585, 552, 575, 559, 540, 503, 493, 446, 501, 583, 429, 359, 382, 275, 450, 320, 276, 241, 264, 188, 190, 180, 143, 157, 118, 89, 84, 70, 53, 41, 36, 24, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+122.478291036
+
+Game 51
+1) Extended player number:
+1
+2) Extended player collisions:
+[604, 585, 572, 556, 603, 601, 594, 585, 572, 580, 569, 559, 579, 550, 550, 611, 596, 573, 547, 545, 534, 561, 536, 584, 448, 360, 402, 321, 369, 354, 328, 304, 273, 206, 229, 213, 149, 169, 132, 106, 81, 66, 66, 56, 34, 27, 22, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+160.810157928
+
+Game 52
+1) Extended player number:
+1
+2) Extended player collisions:
+[641, 615, 578, 605, 557, 600, 579, 590, 564, 571, 569, 588, 584, 543, 579, 527, 523, 538, 528, 593, 547, 507, 502, 387, 519, 544, 399, 418, 336, 390, 284, 328, 243, 260, 209, 171, 176, 141, 115, 118, 90, 79, 76, 54, 35, 29, 21, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+147.966871236
+
+Game 53
+1) Extended player number:
+1
+2) Extended player collisions:
+[600, 619, 578, 589, 581, 603, 573, 585, 596, 611, 563, 567, 567, 566, 590, 576, 556, 558, 546, 551, 574, 466, 459, 475, 400, 513, 484, 371, 377, 342, 298, 236, 240, 213, 254, 234, 193, 151, 168, 127, 91, 73, 69, 56, 45, 36, 21, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+175.071863932
+
+Game 54
+1) Extended player number:
+1
+2) Extended player collisions:
+[577, 599, 625, 585, 624, 599, 579, 631, 611, 557, 618, 595, 603, 576, 597, 559, 516, 540, 543, 548, 542, 490, 469, 490, 458, 365, 384, 403, 401, 333, 272, 263, 231, 304, 188, 167, 165, 128, 130, 159, 86, 68, 65, 51, 43, 27, 14, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.892578484
+
+Game 55
+1) Extended player number:
+1
+2) Extended player collisions:
+[606, 594, 604, 618, 572, 599, 588, 585, 591, 571, 605, 543, 536, 541, 545, 580, 546, 564, 592, 631, 573, 591, 492, 552, 386, 566, 424, 369, 326, 398, 352, 266, 276, 261, 222, 150, 208, 149, 132, 111, 88, 80, 63, 62, 37, 23, 18, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+180.477379732
+
+Game 56
+1) Extended player number:
+1
+2) Extended player collisions:
+[575, 568, 604, 552, 550, 563, 574, 613, 575, 574, 611, 533, 579, 547, 612, 537, 593, 593, 547, 546, 542, 547, 480, 528, 529, 538, 577, 568, 431, 389, 356, 400, 430, 463, 360, 370, 254, 275, 256, 215, 191, 161, 70, 63, 47, 39, 31, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+242.523130552
+
+Game 57
+1) Extended player number:
+1
+2) Extended player collisions:
+[541, 602, 559, 593, 572, 571, 578, 585, 583, 567, 614, 601, 562, 556, 560, 571, 538, 557, 564, 569, 552, 536, 549, 446, 452, 394, 521, 374, 314, 308, 299, 337, 235, 251, 173, 158, 170, 128, 138, 133, 86, 78, 70, 55, 43, 28, 22, 9, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+183.733966628
+
+Game 58
+1) Extended player number:
+1
+2) Extended player collisions:
+[580, 583, 590, 580, 596, 570, 599, 612, 560, 559, 589, 575, 558, 656, 571, 577, 578, 536, 549, 447, 566, 447, 578, 500, 514, 471, 346, 377, 363, 316, 302, 281, 291, 262, 220, 201, 160, 129, 135, 106, 80, 90, 73, 49, 47, 34, 21, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+207.700708628
+
+Game 59
+1) Extended player number:
+1
+2) Extended player collisions:
+[585, 614, 594, 576, 577, 592, 582, 610, 578, 565, 578, 577, 551, 563, 587, 521, 592, 556, 558, 623, 560, 493, 509, 559, 442, 559, 415, 500, 397, 310, 315, 358, 267, 222, 181, 182, 166, 130, 127, 87, 91, 95, 70, 52, 47, 31, 20, 14, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+176.937353384
+
+Game 60
+1) Extended player number:
+1
+2) Extended player collisions:
+[607, 630, 592, 593, 573, 564, 616, 561, 594, 535, 562, 572, 535, 526, 561, 571, 593, 575, 537, 527, 562, 449, 469, 429, 418, 562, 403, 412, 449, 329, 255, 291, 318, 239, 193, 160, 182, 169, 123, 101, 105, 82, 64, 33, 43, 30, 21, 7, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+116.984225676
+
+Game 61
+1) Extended player number:
+1
+2) Extended player collisions:
+[625, 575, 589, 650, 591, 589, 592, 575, 589, 548, 603, 597, 593, 560, 580, 546, 527, 563, 565, 566, 541, 581, 548, 497, 436, 536, 396, 318, 336, 289, 244, 302, 296, 237, 208, 222, 165, 167, 142, 110, 107, 93, 61, 49, 48, 29, 19, 13, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+174.092089188
+
+Game 62
+1) Extended player number:
+1
+2) Extended player collisions:
+[617, 573, 561, 593, 590, 577, 568, 606, 579, 562, 560, 561, 584, 591, 567, 566, 578, 563, 569, 600, 553, 587, 551, 551, 579, 422, 549, 552, 397, 331, 445, 365, 463, 393, 380, 352, 284, 276, 272, 171, 132, 170, 119, 119, 50, 58, 33, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+172.439913596
+
+Game 63
+1) Extended player number:
+1
+2) Extended player collisions:
+[575, 575, 570, 592, 592, 569, 578, 611, 586, 591, 523, 552, 581, 551, 529, 560, 543, 566, 566, 578, 505, 553, 491, 573, 531, 484, 421, 412, 342, 373, 344, 274, 230, 182, 224, 179, 153, 136, 119, 119, 103, 91, 60, 49, 42, 27, 24, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+179.63359108
+
+Game 64
+1) Extended player number:
+1
+2) Extended player collisions:
+[596, 568, 624, 625, 600, 598, 604, 597, 594, 590, 583, 565, 542, 571, 578, 592, 555, 538, 536, 553, 586, 543, 555, 500, 422, 476, 539, 414, 329, 301, 362, 283, 328, 201, 183, 216, 158, 160, 128, 106, 106, 85, 75, 64, 45, 26, 22, 13, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.903117124
+
+Game 65
+1) Extended player number:
+1
+2) Extended player collisions:
+[627, 566, 565, 621, 601, 582, 587, 578, 610, 603, 587, 582, 540, 559, 553, 610, 541, 527, 579, 513, 556, 558, 490, 509, 467, 447, 601, 342, 463, 324, 284, 316, 293, 239, 190, 175, 160, 173, 139, 89, 86, 78, 55, 38, 32, 24, 19, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+200.212282644
+
+Game 66
+1) Extended player number:
+1
+2) Extended player collisions:
+[569, 571, 590, 628, 603, 578, 594, 551, 621, 606, 591, 552, 567, 570, 571, 571, 537, 554, 555, 569, 559, 520, 532, 498, 591, 538, 409, 424, 340, 300, 258, 303, 229, 193, 198, 177, 167, 139, 115, 103, 114, 97, 70, 68, 30, 29, 21, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+182.43501566
+
+Game 67
+1) Extended player number:
+1
+2) Extended player collisions:
+[610, 588, 593, 573, 610, 567, 591, 572, 562, 616, 589, 563, 535, 608, 551, 564, 539, 541, 616, 554, 569, 524, 569, 576, 474, 533, 366, 425, 309, 313, 274, 275, 288, 219, 193, 204, 195, 157, 145, 79, 96, 80, 70, 50, 30, 34, 21, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+156.292695064
+
+Game 68
+1) Extended player number:
+1
+2) Extended player collisions:
+[582, 618, 556, 577, 572, 577, 599, 578, 587, 606, 573, 559, 562, 560, 549, 555, 527, 544, 526, 557, 479, 466, 515, 407, 519, 421, 415, 325, 390, 354, 351, 292, 322, 232, 199, 185, 171, 133, 147, 98, 98, 73, 62, 57, 31, 31, 19, 12, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+172.879540084
+
+Game 69
+1) Extended player number:
+1
+2) Extended player collisions:
+[610, 589, 575, 574, 543, 573, 597, 584, 583, 572, 602, 586, 603, 555, 558, 585, 590, 571, 586, 530, 558, 554, 570, 488, 552, 453, 407, 348, 425, 297, 307, 259, 277, 312, 238, 191, 150, 155, 137, 97, 101, 84, 72, 52, 39, 28, 16, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+144.207806052
+
+Game 70
+1) Extended player number:
+1
+2) Extended player collisions:
+[592, 591, 564, 591, 593, 577, 564, 553, 571, 574, 600, 557, 570, 581, 554, 564, 562, 549, 535, 555, 543, 584, 522, 553, 452, 568, 366, 354, 338, 380, 379, 244, 258, 225, 234, 174, 157, 147, 145, 101, 99, 89, 73, 57, 44, 37, 20, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+225.737648824
+
+Game 71
+1) Extended player number:
+1
+2) Extended player collisions:
+[576, 568, 595, 552, 640, 589, 571, 591, 571, 576, 579, 557, 573, 549, 565, 557, 568, 528, 593, 540, 566, 549, 556, 600, 394, 541, 546, 395, 363, 340, 344, 285, 298, 209, 186, 179, 163, 146, 139, 90, 100, 88, 72, 55, 47, 32, 19, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+197.584751284
+
+Game 72
+1) Extended player number:
+1
+2) Extended player collisions:
+[577, 561, 579, 568, 584, 608, 577, 570, 577, 593, 562, 575, 567, 561, 581, 548, 557, 544, 518, 546, 527, 461, 547, 471, 546, 438, 424, 424, 403, 320, 297, 229, 267, 487, 301, 439, 218, 248, 225, 179, 157, 170, 82, 99, 58, 32, 27, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+184.042109928
+
+Game 73
+1) Extended player number:
+1
+2) Extended player collisions:
+[588, 613, 572, 584, 593, 576, 597, 555, 637, 575, 579, 594, 617, 578, 593, 584, 572, 568, 565, 565, 547, 556, 510, 537, 532, 462, 441, 540, 566, 414, 538, 365, 529, 424, 308, 298, 332, 330, 244, 211, 136, 148, 128, 57, 47, 31, 21, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+237.304468096
+
+Game 74
+1) Extended player number:
+1
+2) Extended player collisions:
+[591, 588, 556, 576, 615, 593, 574, 566, 573, 592, 590, 615, 557, 605, 566, 573, 589, 521, 517, 537, 531, 467, 584, 520, 535, 520, 415, 350, 330, 302, 293, 243, 282, 213, 244, 221, 166, 158, 116, 101, 98, 98, 68, 52, 44, 28, 21, 17, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+203.998113104
+
+Game 75
+1) Extended player number:
+1
+2) Extended player collisions:
+[612, 601, 578, 580, 604, 583, 582, 567, 564, 568, 552, 563, 618, 553, 583, 567, 566, 522, 558, 536, 546, 574, 496, 558, 478, 462, 374, 418, 398, 310, 268, 231, 246, 257, 186, 166, 169, 138, 114, 113, 107, 86, 73, 51, 40, 31, 20, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+265.481829008
+
+Game 76
+1) Extended player number:
+1
+2) Extended player collisions:
+[573, 588, 578, 617, 596, 593, 579, 594, 570, 546, 537, 585, 592, 553, 534, 649, 597, 576, 556, 530, 569, 569, 526, 464, 506, 411, 355, 388, 339, 352, 313, 275, 244, 258, 230, 197, 160, 162, 120, 119, 102, 95, 52, 55, 44, 32, 23, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+251.799481064
+
+Game 77
+1) Extended player number:
+1
+2) Extended player collisions:
+[599, 637, 591, 607, 582, 578, 581, 578, 595, 548, 601, 565, 621, 561, 544, 589, 616, 560, 593, 520, 554, 507, 567, 471, 494, 407, 425, 551, 314, 340, 270, 328, 265, 289, 179, 218, 172, 201, 146, 102, 115, 83, 71, 47, 46, 24, 18, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+156.3247653
+
+Game 78
+1) Extended player number:
+1
+2) Extended player collisions:
+[620, 557, 559, 600, 600, 603, 572, 555, 575, 586, 587, 587, 588, 548, 570, 543, 530, 556, 540, 558, 469, 576, 493, 560, 492, 449, 412, 301, 303, 315, 376, 318, 226, 213, 184, 205, 176, 172, 120, 118, 83, 89, 60, 48, 40, 35, 22, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+182.401563476
+
+Game 79
+1) Extended player number:
+1
+2) Extended player collisions:
+[613, 587, 580, 611, 579, 659, 566, 569, 602, 564, 592, 594, 573, 558, 587, 583, 579, 568, 542, 532, 480, 505, 564, 425, 476, 385, 381, 519, 378, 340, 331, 267, 241, 208, 180, 176, 182, 153, 118, 107, 96, 92, 73, 49, 42, 33, 23, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.426319616
+
+Game 80
+1) Extended player number:
+1
+2) Extended player collisions:
+[625, 571, 598, 591, 584, 660, 567, 600, 585, 577, 595, 596, 604, 588, 551, 565, 521, 552, 553, 453, 520, 571, 566, 473, 409, 557, 360, 326, 367, 387, 368, 325, 291, 226, 179, 203, 184, 165, 107, 111, 92, 82, 60, 57, 52, 29, 18, 9, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+239.649571244
+
+Game 81
+1) Extended player number:
+1
+2) Extended player collisions:
+[598, 574, 569, 585, 556, 559, 592, 569, 573, 552, 579, 574, 534, 563, 540, 566, 589, 558, 553, 563, 569, 555, 448, 556, 437, 482, 479, 445, 317, 373, 280, 291, 227, 235, 196, 169, 172, 164, 150, 125, 102, 80, 61, 53, 43, 38, 19, 9, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+222.089118788
+
+Game 82
+1) Extended player number:
+1
+2) Extended player collisions:
+[550, 574, 577, 621, 579, 559, 589, 573, 567, 580, 578, 587, 571, 571, 577, 523, 564, 529, 538, 567, 547, 552, 458, 499, 542, 393, 486, 384, 350, 373, 330, 452, 265, 199, 261, 182, 182, 133, 129, 97, 87, 87, 70, 51, 37, 31, 19, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+161.869466424
+
+Game 83
+1) Extended player number:
+1
+2) Extended player collisions:
+[600, 600, 581, 585, 586, 595, 550, 563, 567, 537, 597, 618, 567, 602, 586, 551, 577, 504, 557, 611, 564, 575, 515, 453, 529, 557, 392, 401, 389, 372, 261, 288, 214, 203, 205, 194, 199, 144, 142, 112, 99, 74, 71, 50, 44, 23, 20, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+146.672512772
+
+Game 84
+1) Extended player number:
+1
+2) Extended player collisions:
+[613, 619, 600, 586, 594, 581, 565, 570, 593, 607, 552, 551, 607, 587, 563, 543, 520, 588, 577, 458, 554, 555, 555, 532, 440, 439, 452, 380, 394, 299, 291, 257, 239, 203, 309, 248, 153, 164, 136, 135, 93, 92, 64, 51, 41, 32, 22, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+172.867074244
+
+Game 85
+1) Extended player number:
+1
+2) Extended player collisions:
+[576, 601, 586, 594, 585, 640, 616, 542, 591, 610, 565, 581, 598, 578, 592, 571, 534, 576, 584, 556, 557, 570, 533, 555, 543, 538, 552, 489, 530, 461, 360, 477, 308, 411, 292, 316, 386, 276, 198, 298, 123, 157, 137, 66, 88, 32, 24, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+255.979840688
+
+Game 86
+1) Extended player number:
+1
+2) Extended player collisions:
+[611, 576, 580, 575, 570, 581, 556, 537, 629, 564, 567, 564, 582, 588, 572, 520, 542, 560, 524, 539, 541, 446, 391, 575, 488, 437, 470, 416, 449, 370, 265, 252, 239, 269, 207, 209, 178, 138, 130, 136, 89, 111, 80, 52, 42, 26, 18, 12, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+166.9324671
+
+Game 87
+1) Extended player number:
+1
+2) Extended player collisions:
+[576, 598, 562, 605, 551, 582, 556, 570, 577, 578, 579, 574, 584, 537, 567, 568, 563, 549, 556, 562, 537, 528, 534, 409, 434, 422, 459, 419, 399, 398, 347, 290, 271, 246, 200, 169, 143, 158, 135, 109, 88, 96, 63, 57, 29, 29, 21, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+161.667719756
+
+Game 88
+1) Extended player number:
+1
+2) Extended player collisions:
+[622, 595, 584, 583, 571, 567, 582, 576, 612, 575, 589, 579, 553, 562, 539, 617, 575, 570, 556, 567, 564, 566, 567, 534, 507, 436, 385, 399, 361, 358, 305, 261, 268, 212, 230, 246, 166, 130, 136, 107, 84, 97, 64, 57, 39, 32, 19, 8, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+253.914264304
+
+Game 89
+1) Extended player number:
+1
+2) Extended player collisions:
+[603, 595, 592, 577, 594, 603, 575, 612, 561, 564, 596, 592, 586, 548, 552, 555, 573, 581, 558, 569, 554, 518, 539, 492, 563, 539, 558, 536, 414, 412, 389, 406, 365, 321, 307, 242, 276, 341, 167, 222, 231, 89, 78, 58, 68, 40, 24, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+194.288255444
+
+Game 90
+1) Extended player number:
+1
+2) Extended player collisions:
+[564, 593, 606, 587, 583, 581, 596, 563, 591, 613, 556, 561, 592, 581, 531, 570, 536, 556, 535, 524, 540, 572, 469, 428, 465, 432, 441, 379, 377, 347, 391, 253, 225, 224, 156, 247, 144, 150, 114, 108, 97, 89, 64, 56, 42, 25, 21, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+185.077525948
+
+Game 91
+1) Extended player number:
+1
+2) Extended player collisions:
+[613, 578, 614, 592, 626, 570, 577, 565, 573, 554, 575, 633, 597, 539, 536, 569, 575, 532, 631, 512, 541, 454, 544, 411, 399, 469, 483, 341, 500, 336, 299, 278, 217, 217, 213, 183, 167, 142, 124, 122, 94, 76, 62, 60, 38, 30, 27, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+203.536840108
+
+Game 92
+1) Extended player number:
+1
+2) Extended player collisions:
+[601, 569, 625, 639, 572, 616, 581, 575, 600, 613, 594, 573, 565, 569, 550, 566, 571, 531, 551, 521, 533, 610, 545, 525, 487, 446, 472, 327, 348, 444, 329, 249, 211, 309, 188, 163, 164, 167, 172, 97, 99, 87, 87, 54, 38, 33, 21, 8, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+194.596362108
+
+Game 93
+1) Extended player number:
+1
+2) Extended player collisions:
+[626, 588, 583, 575, 603, 581, 572, 570, 591, 543, 576, 581, 609, 568, 556, 538, 528, 534, 619, 555, 562, 527, 520, 582, 499, 367, 509, 423, 292, 372, 311, 280, 281, 222, 184, 172, 161, 128, 134, 115, 101, 80, 69, 47, 43, 31, 22, 14, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+201.403076992
+
+Game 94
+1) Extended player number:
+1
+2) Extended player collisions:
+[579, 571, 612, 602, 608, 526, 571, 574, 592, 559, 584, 557, 633, 592, 569, 564, 555, 510, 534, 538, 558, 571, 413, 494, 493, 394, 430, 401, 428, 412, 271, 341, 260, 226, 194, 203, 155, 179, 108, 96, 92, 67, 77, 49, 43, 35, 25, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+124.130674136
+
+Game 95
+1) Extended player number:
+1
+2) Extended player collisions:
+[587, 565, 556, 570, 593, 574, 583, 579, 615, 581, 600, 539, 592, 534, 550, 556, 575, 556, 533, 516, 554, 476, 491, 489, 520, 538, 401, 368, 364, 384, 367, 328, 229, 203, 185, 164, 139, 131, 124, 110, 95, 79, 64, 57, 46, 29, 18, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+126.681849328
+
+Game 96
+1) Extended player number:
+1
+2) Extended player collisions:
+[549, 595, 634, 587, 580, 605, 595, 589, 581, 576, 583, 584, 560, 589, 552, 542, 586, 586, 572, 581, 582, 537, 543, 560, 439, 450, 365, 428, 395, 337, 326, 280, 199, 272, 178, 206, 176, 137, 156, 107, 89, 90, 68, 49, 48, 30, 21, 13, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+316.169146836
+
+Game 97
+1) Extended player number:
+1
+2) Extended player collisions:
+[594, 569, 559, 595, 580, 598, 609, 579, 634, 595, 613, 570, 529, 541, 554, 556, 554, 556, 546, 536, 578, 600, 538, 538, 562, 401, 503, 383, 421, 273, 306, 234, 283, 230, 174, 183, 147, 149, 130, 111, 98, 82, 81, 62, 46, 33, 20, 10, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.597853636
+
+Game 98
+1) Extended player number:
+1
+2) Extended player collisions:
+[571, 614, 566, 613, 575, 621, 611, 575, 574, 597, 549, 562, 569, 592, 573, 551, 538, 537, 565, 543, 571, 538, 533, 553, 580, 325, 422, 420, 340, 383, 325, 297, 291, 222, 212, 208, 164, 165, 123, 125, 91, 84, 77, 56, 46, 18, 13, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+262.010001384
+
+Game 99
+1) Extended player number:
+1
+2) Extended player collisions:
+[576, 611, 594, 609, 575, 566, 580, 560, 585, 568, 591, 583, 585, 573, 547, 530, 604, 535, 509, 519, 576, 572, 529, 579, 465, 384, 479, 342, 370, 298, 280, 309, 263, 199, 205, 237, 159, 175, 105, 120, 98, 74, 58, 35, 40, 24, 16, 11, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+173.272228988
+
+Game 100
+1) Extended player number:
+1
+2) Extended player collisions:
+[593, 603, 600, 543, 562, 574, 586, 596, 578, 569, 580, 582, 574, 624, 550, 558, 555, 519, 541, 587, 503, 508, 464, 556, 578, 433, 415, 336, 353, 361, 311, 356, 244, 198, 248, 197, 160, 167, 127, 102, 93, 77, 70, 50, 46, 32, 24, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+165.7723817
+
+Game 101
+1) Extended player number:
+1
+2) Extended player collisions:
+[590, 586, 600, 584, 622, 576, 572, 621, 610, 586, 566, 593, 556, 559, 566, 578, 565, 543, 551, 515, 560, 593, 562, 533, 453, 428, 391, 470, 410, 312, 329, 271, 236, 221, 178, 212, 159, 163, 149, 118, 138, 88, 63, 54, 39, 30, 18, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+153.559511504
+
+Game 102
+1) Extended player number:
+1
+2) Extended player collisions:
+[608, 601, 602, 609, 582, 621, 567, 577, 575, 567, 582, 570, 581, 588, 623, 570, 578, 541, 558, 541, 524, 528, 493, 477, 483, 375, 388, 373, 384, 337, 346, 309, 232, 202, 253, 142, 178, 153, 124, 109, 103, 88, 65, 53, 35, 31, 15, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+146.862647944
+
+Game 103
+1) Extended player number:
+1
+2) Extended player collisions:
+[574, 559, 590, 582, 555, 619, 548, 559, 592, 595, 565, 561, 566, 584, 570, 576, 549, 564, 561, 530, 539, 584, 524, 565, 492, 404, 430, 311, 389, 346, 343, 293, 208, 257, 209, 183, 155, 140, 111, 99, 95, 89, 70, 55, 45, 31, 21, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+167.825998868
+
+Game 104
+1) Extended player number:
+1
+2) Extended player collisions:
+[552, 582, 636, 562, 579, 601, 575, 610, 614, 543, 569, 580, 588, 552, 568, 565, 581, 547, 584, 535, 530, 513, 577, 543, 520, 368, 378, 452, 407, 320, 347, 316, 252, 259, 214, 176, 165, 161, 126, 106, 105, 90, 71, 59, 43, 34, 21, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+175.034200616
+
+Game 105
+1) Extended player number:
+1
+2) Extended player collisions:
+[608, 598, 590, 573, 549, 572, 597, 596, 575, 561, 617, 522, 600, 573, 564, 562, 554, 518, 560, 611, 575, 510, 459, 485, 525, 459, 307, 441, 379, 267, 321, 242, 328, 208, 185, 150, 147, 160, 128, 124, 132, 80, 79, 62, 36, 31, 19, 11, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+139.404412304
+
+Game 106
+1) Extended player number:
+1
+2) Extended player collisions:
+[596, 581, 575, 595, 624, 562, 634, 597, 607, 581, 546, 584, 581, 555, 589, 555, 596, 538, 538, 528, 546, 566, 575, 553, 454, 487, 350, 403, 313, 311, 263, 279, 255, 212, 232, 179, 158, 172, 127, 101, 91, 73, 62, 47, 39, 29, 17, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+193.815999476
+
+Game 107
+1) Extended player number:
+1
+2) Extended player collisions:
+[586, 572, 582, 591, 604, 576, 578, 592, 542, 547, 592, 593, 568, 576, 577, 547, 585, 580, 582, 547, 578, 562, 546, 529, 565, 537, 498, 509, 504, 480, 503, 351, 302, 413, 314, 337, 300, 244, 274, 240, 109, 170, 80, 58, 58, 45, 20, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+211.41079378
+
+Game 108
+1) Extended player number:
+1
+2) Extended player collisions:
+[593, 614, 589, 568, 604, 602, 578, 590, 569, 591, 643, 559, 581, 563, 550, 544, 579, 556, 528, 530, 507, 515, 489, 538, 467, 504, 350, 506, 327, 331, 302, 266, 282, 219, 211, 159, 188, 167, 103, 124, 108, 79, 66, 59, 40, 24, 18, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+188.166138124
+
+Game 109
+1) Extended player number:
+1
+2) Extended player collisions:
+[588, 565, 589, 568, 579, 558, 584, 606, 577, 586, 601, 550, 610, 571, 584, 540, 557, 557, 558, 552, 570, 531, 528, 499, 482, 407, 441, 367, 338, 354, 317, 308, 254, 200, 214, 199, 129, 178, 131, 129, 87, 79, 53, 49, 38, 33, 18, 8, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+157.093021816
+
+Game 110
+1) Extended player number:
+1
+2) Extended player collisions:
+[600, 603, 578, 593, 560, 584, 628, 576, 557, 572, 619, 549, 606, 538, 568, 540, 561, 508, 529, 538, 495, 503, 465, 451, 434, 431, 419, 373, 387, 301, 268, 244, 229, 253, 210, 197, 211, 156, 133, 101, 107, 79, 57, 40, 38, 28, 14, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+215.731850908
+
+Game 111
+1) Extended player number:
+1
+2) Extended player collisions:
+[550, 563, 600, 599, 603, 579, 573, 584, 587, 573, 590, 575, 583, 542, 553, 539, 552, 603, 556, 550, 513, 531, 520, 493, 401, 445, 393, 356, 384, 428, 329, 225, 283, 226, 205, 166, 198, 153, 115, 114, 95, 75, 64, 58, 27, 30, 21, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+180.068104124
+
+Game 112
+1) Extended player number:
+1
+2) Extended player collisions:
+[598, 634, 616, 591, 573, 580, 561, 566, 591, 575, 592, 568, 583, 539, 560, 608, 574, 563, 538, 530, 565, 510, 478, 428, 503, 430, 419, 417, 352, 344, 291, 281, 315, 249, 217, 168, 155, 118, 149, 100, 98, 85, 52, 59, 38, 34, 16, 9, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+134.818103212
+
+Game 113
+1) Extended player number:
+1
+2) Extended player collisions:
+[575, 610, 564, 572, 578, 567, 591, 559, 567, 594, 603, 568, 549, 596, 556, 558, 548, 606, 529, 574, 554, 473, 534, 515, 538, 384, 353, 409, 391, 341, 277, 247, 283, 228, 204, 223, 152, 156, 123, 101, 109, 94, 57, 51, 41, 34, 19, 11, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+177.966876556
+
+Game 114
+1) Extended player number:
+1
+2) Extended player collisions:
+[544, 571, 577, 592, 623, 561, 600, 575, 551, 609, 559, 597, 580, 568, 565, 529, 571, 534, 555, 541, 536, 508, 508, 464, 446, 420, 467, 370, 290, 374, 284, 333, 238, 249, 200, 210, 187, 126, 108, 143, 91, 89, 62, 50, 43, 33, 26, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+143.013534692
+
+Game 115
+1) Extended player number:
+1
+2) Extended player collisions:
+[581, 564, 566, 590, 626, 580, 615, 552, 595, 570, 598, 567, 598, 586, 575, 584, 576, 582, 570, 559, 537, 529, 505, 558, 590, 561, 490, 416, 366, 345, 263, 301, 214, 294, 217, 284, 134, 157, 126, 105, 99, 88, 60, 59, 44, 29, 20, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+167.612974452
+
+Game 116
+1) Extended player number:
+1
+2) Extended player collisions:
+[608, 576, 572, 625, 621, 584, 613, 595, 535, 578, 588, 580, 578, 550, 554, 574, 547, 570, 578, 648, 544, 544, 505, 509, 443, 559, 490, 427, 342, 345, 345, 309, 240, 230, 169, 172, 192, 170, 162, 151, 99, 77, 70, 52, 41, 35, 20, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+177.087302168
+
+Game 117
+1) Extended player number:
+1
+2) Extended player collisions:
+[582, 576, 567, 605, 563, 591, 614, 591, 554, 582, 543, 601, 545, 567, 574, 606, 535, 588, 550, 543, 516, 495, 545, 442, 403, 468, 407, 351, 300, 253, 378, 317, 232, 237, 192, 203, 174, 151, 156, 114, 104, 73, 63, 51, 49, 23, 24, 9, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+201.03967578
+
+Game 118
+1) Extended player number:
+1
+2) Extended player collisions:
+[618, 617, 616, 572, 570, 586, 572, 588, 594, 613, 581, 575, 590, 569, 537, 571, 569, 556, 579, 517, 537, 577, 563, 572, 533, 439, 552, 544, 490, 567, 519, 378, 446, 403, 331, 339, 343, 203, 251, 250, 164, 137, 130, 52, 87, 36, 27, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+257.77149804
+
+Game 119
+1) Extended player number:
+1
+2) Extended player collisions:
+[605, 600, 620, 589, 592, 567, 554, 588, 578, 571, 596, 565, 542, 591, 521, 567, 568, 585, 503, 531, 568, 545, 571, 543, 591, 390, 456, 391, 319, 272, 277, 298, 262, 229, 222, 153, 198, 150, 102, 114, 108, 76, 72, 53, 41, 27, 22, 11, 3, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+163.271025236
+
+Game 120
+1) Extended player number:
+1
+2) Extended player collisions:
+[592, 584, 582, 590, 603, 596, 631, 606, 577, 558, 581, 591, 600, 569, 584, 604, 540, 537, 566, 556, 523, 568, 514, 434, 521, 532, 442, 370, 330, 316, 250, 290, 305, 308, 201, 153, 194, 159, 152, 101, 97, 98, 79, 52, 43, 28, 14, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+206.197356012
+
+Game 121
+1) Extended player number:
+1
+2) Extended player collisions:
+[553, 588, 628, 599, 611, 579, 598, 578, 539, 572, 582, 580, 576, 560, 596, 562, 568, 558, 560, 534, 590, 525, 531, 421, 499, 503, 395, 438, 304, 290, 348, 247, 238, 309, 231, 219, 156, 129, 109, 131, 92, 83, 58, 59, 44, 29, 22, 10, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+163.77157032
+
+Game 122
+1) Extended player number:
+1
+2) Extended player collisions:
+[622, 594, 594, 619, 599, 550, 594, 592, 576, 576, 563, 582, 582, 595, 579, 621, 586, 600, 531, 482, 535, 553, 504, 571, 400, 425, 423, 349, 343, 358, 218, 251, 241, 273, 255, 156, 142, 166, 140, 103, 93, 75, 64, 53, 42, 32, 18, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+150.664907892
+
+Game 123
+1) Extended player number:
+1
+2) Extended player collisions:
+[633, 563, 570, 594, 591, 572, 574, 583, 615, 566, 599, 562, 575, 564, 532, 593, 568, 579, 561, 550, 531, 472, 575, 482, 409, 360, 412, 396, 324, 300, 254, 252, 208, 251, 229, 194, 197, 133, 139, 99, 88, 74, 62, 46, 46, 29, 16, 13, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+207.651106736
+
+Game 124
+1) Extended player number:
+1
+2) Extended player collisions:
+[612, 561, 608, 567, 569, 578, 561, 610, 594, 566, 585, 604, 574, 591, 558, 568, 593, 585, 548, 539, 578, 510, 576, 598, 556, 571, 419, 571, 574, 411, 406, 517, 433, 444, 423, 234, 198, 312, 187, 131, 172, 145, 96, 110, 39, 40, 29, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 49; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+243.61497626
+
+Game 125
+1) Extended player number:
+1
+2) Extended player collisions:
+[596, 610, 610, 579, 619, 605, 602, 547, 592, 557, 600, 578, 572, 582, 567, 529, 560, 616, 588, 575, 518, 613, 517, 485, 566, 365, 388, 346, 331, 410, 298, 284, 268, 220, 225, 173, 175, 173, 152, 109, 87, 72, 60, 51, 43, 27, 16, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+259.73013788
+
+Game 126
+1) Extended player number:
+1
+2) Extended player collisions:
+[628, 604, 586, 569, 610, 654, 587, 572, 615, 555, 581, 598, 573, 537, 594, 571, 547, 576, 585, 538, 585, 582, 528, 526, 490, 386, 374, 411, 321, 314, 272, 298, 321, 205, 219, 174, 143, 128, 124, 131, 92, 66, 68, 55, 42, 33, 23, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+233.828027984
+
+Game 127
+1) Extended player number:
+1
+2) Extended player collisions:
+[593, 579, 554, 607, 567, 585, 585, 561, 565, 580, 620, 561, 574, 594, 514, 564, 588, 538, 558, 546, 511, 533, 530, 460, 508, 406, 397, 353, 332, 304, 295, 345, 240, 201, 205, 235, 143, 137, 126, 108, 126, 68, 54, 62, 43, 33, 24, 10, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+166.6420996
+
+Game 128
+1) Extended player number:
+1
+2) Extended player collisions:
+[516, 575, 573, 571, 599, 600, 580, 615, 577, 562, 559, 585, 598, 551, 594, 560, 614, 521, 567, 564, 564, 534, 481, 538, 414, 387, 523, 453, 370, 396, 284, 370, 205, 208, 212, 176, 194, 150, 105, 114, 93, 104, 69, 49, 45, 35, 22, 12, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+184.598457508
+
+Game 129
+1) Extended player number:
+2
+2) Extended player collisions:
+[589, 622, 564, 555, 573, 609, 586, 563, 562, 571, 575, 544, 532, 544, 556, 562, 516, 556, 573, 450, 565, 539, 454, 501, 455, 458, 423, 429, 304, 337, 323, 241, 281, 228, 260, 184, 147, 154, 104, 96, 100, 62, 60, 47, 31, 22, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+165.828676492
+
+Game 130
+1) Extended player number:
+2
+2) Extended player collisions:
+[581, 605, 597, 583, 595, 551, 580, 579, 592, 575, 583, 560, 594, 610, 562, 567, 588, 570, 586, 613, 520, 549, 411, 444, 466, 477, 341, 374, 407, 290, 278, 259, 294, 270, 232, 161, 184, 137, 109, 101, 79, 69, 57, 46, 35, 23, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+122.499960196
+
+Game 131
+1) Extended player number:
+2
+2) Extended player collisions:
+[576, 563, 603, 594, 581, 558, 577, 575, 602, 612, 552, 577, 521, 552, 556, 549, 531, 549, 587, 492, 542, 558, 554, 442, 548, 408, 408, 371, 363, 323, 342, 280, 279, 216, 241, 167, 139, 138, 133, 110, 69, 71, 54, 60, 41, 25, 18, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+159.856184204
+
+Game 132
+1) Extended player number:
+2
+2) Extended player collisions:
+[562, 595, 569, 600, 605, 580, 580, 571, 565, 596, 572, 539, 540, 583, 536, 543, 572, 563, 556, 558, 572, 540, 554, 489, 458, 463, 454, 395, 366, 350, 269, 219, 217, 232, 187, 182, 158, 144, 131, 130, 79, 71, 55, 48, 34, 26, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+140.315089008
+
+Game 133
+1) Extended player number:
+2
+2) Extended player collisions:
+[632, 576, 554, 573, 596, 596, 603, 596, 560, 626, 608, 593, 542, 608, 555, 551, 623, 587, 597, 538, 571, 544, 535, 507, 564, 362, 376, 435, 384, 287, 319, 288, 198, 261, 236, 188, 177, 124, 105, 104, 102, 77, 67, 44, 37, 26, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+166.622605116
+
+Game 134
+1) Extended player number:
+2
+2) Extended player collisions:
+[589, 642, 579, 604, 594, 575, 609, 568, 596, 582, 560, 601, 555, 570, 581, 572, 564, 592, 535, 590, 574, 547, 505, 439, 404, 426, 379, 394, 399, 314, 328, 238, 228, 211, 185, 186, 192, 138, 160, 93, 88, 74, 66, 57, 32, 25, 16, 9, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+195.803601924
+
+Game 135
+1) Extended player number:
+2
+2) Extended player collisions:
+[630, 570, 550, 564, 583, 545, 627, 561, 629, 621, 580, 590, 580, 532, 609, 567, 560, 560, 530, 543, 568, 540, 526, 373, 554, 382, 427, 385, 283, 281, 232, 280, 194, 209, 201, 202, 156, 154, 100, 96, 96, 63, 60, 61, 39, 28, 19, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+168.569960216
+
+Game 136
+1) Extended player number:
+2
+2) Extended player collisions:
+[596, 571, 597, 603, 597, 573, 601, 571, 600, 596, 592, 581, 576, 541, 619, 532, 555, 568, 558, 549, 535, 548, 506, 552, 389, 555, 360, 425, 391, 335, 264, 285, 228, 243, 223, 133, 154, 142, 158, 99, 79, 77, 66, 38, 31, 26, 17, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+282.84298926
+
+Game 137
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 571, 584, 556, 610, 554, 566, 597, 595, 567, 582, 540, 587, 554, 596, 551, 560, 533, 531, 559, 547, 534, 480, 445, 406, 397, 395, 360, 356, 296, 282, 249, 185, 267, 230, 226, 183, 164, 145, 132, 81, 69, 69, 45, 24, 28, 13, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+158.181429148
+
+Game 138
+1) Extended player number:
+2
+2) Extended player collisions:
+[595, 599, 599, 592, 580, 554, 548, 563, 564, 617, 589, 555, 565, 589, 595, 571, 548, 553, 614, 533, 484, 528, 557, 360, 570, 510, 432, 415, 387, 334, 330, 346, 227, 240, 209, 173, 147, 144, 119, 106, 105, 76, 57, 45, 35, 27, 17, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+142.402456464
+
+Game 139
+1) Extended player number:
+2
+2) Extended player collisions:
+[562, 598, 569, 597, 588, 571, 571, 579, 546, 565, 555, 544, 571, 570, 560, 560, 581, 561, 551, 528, 549, 547, 477, 493, 493, 359, 352, 406, 314, 375, 310, 254, 236, 216, 245, 173, 163, 142, 128, 88, 91, 71, 51, 36, 33, 32, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+165.034858784
+
+Game 140
+1) Extended player number:
+2
+2) Extended player collisions:
+[599, 618, 584, 620, 581, 560, 575, 565, 559, 575, 584, 577, 553, 573, 604, 564, 586, 525, 537, 533, 529, 534, 540, 472, 494, 425, 406, 320, 322, 307, 313, 314, 248, 193, 178, 181, 191, 151, 136, 122, 97, 71, 56, 49, 36, 24, 16, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+184.92057716
+
+Game 141
+1) Extended player number:
+2
+2) Extended player collisions:
+[596, 593, 588, 602, 584, 559, 576, 568, 547, 549, 540, 557, 539, 566, 603, 545, 574, 556, 581, 570, 560, 580, 552, 588, 481, 535, 558, 561, 438, 560, 515, 385, 432, 455, 310, 282, 316, 268, 218, 194, 182, 144, 115, 92, 62, 32, 19, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+259.844145376
+
+Game 142
+1) Extended player number:
+2
+2) Extended player collisions:
+[590, 635, 623, 599, 589, 577, 586, 560, 560, 583, 580, 607, 541, 583, 570, 566, 584, 576, 560, 542, 524, 537, 547, 571, 404, 390, 334, 366, 380, 253, 384, 292, 250, 203, 179, 167, 147, 161, 137, 111, 98, 68, 60, 48, 31, 19, 21, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+239.69040148
+
+Game 143
+1) Extended player number:
+2
+2) Extended player collisions:
+[597, 606, 585, 584, 577, 571, 585, 570, 575, 530, 597, 584, 552, 579, 525, 544, 557, 571, 601, 586, 551, 560, 451, 511, 602, 406, 361, 390, 323, 341, 308, 277, 260, 189, 201, 204, 161, 107, 113, 105, 87, 75, 64, 36, 26, 27, 18, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+195.620364156
+
+Game 144
+1) Extended player number:
+2
+2) Extended player collisions:
+[585, 580, 587, 612, 602, 567, 597, 570, 575, 586, 584, 566, 548, 584, 551, 559, 551, 545, 547, 512, 529, 547, 547, 502, 419, 367, 435, 370, 390, 288, 290, 254, 202, 215, 191, 172, 148, 137, 114, 96, 89, 72, 56, 47, 39, 26, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+176.566019212
+
+Game 145
+1) Extended player number:
+2
+2) Extended player collisions:
+[633, 635, 576, 595, 569, 562, 554, 604, 543, 569, 550, 576, 599, 546, 573, 541, 513, 567, 591, 539, 558, 473, 583, 523, 476, 372, 414, 360, 367, 338, 354, 322, 255, 189, 183, 214, 164, 153, 109, 93, 102, 84, 56, 51, 32, 22, 13, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+162.422858924
+
+Game 146
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 575, 571, 570, 545, 557, 558, 572, 583, 550, 550, 567, 544, 593, 566, 562, 534, 550, 567, 523, 477, 512, 539, 522, 402, 426, 461, 413, 278, 316, 308, 266, 223, 242, 208, 182, 138, 146, 119, 92, 84, 70, 58, 47, 28, 29, 11, 6, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+161.877773428
+
+Game 147
+1) Extended player number:
+2
+2) Extended player collisions:
+[572, 582, 570, 550, 597, 562, 591, 573, 548, 561, 600, 585, 579, 560, 580, 603, 576, 559, 540, 550, 519, 442, 565, 514, 533, 501, 363, 337, 364, 335, 283, 244, 215, 193, 218, 184, 135, 156, 106, 116, 95, 60, 63, 44, 34, 24, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+205.610841408
+
+Game 148
+1) Extended player number:
+2
+2) Extended player collisions:
+[603, 607, 608, 581, 560, 567, 569, 571, 599, 600, 606, 617, 587, 592, 544, 573, 597, 596, 561, 522, 525, 569, 538, 451, 441, 536, 409, 402, 320, 374, 294, 266, 255, 276, 260, 231, 141, 169, 116, 136, 111, 61, 55, 46, 37, 26, 16, 5, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+179.086102084
+
+Game 149
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 552, 621, 604, 570, 605, 607, 559, 592, 575, 619, 548, 616, 558, 550, 532, 574, 550, 534, 565, 532, 504, 474, 521, 510, 402, 506, 362, 335, 331, 304, 259, 283, 232, 199, 175, 170, 190, 138, 98, 78, 78, 68, 42, 41, 24, 11, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+119.922834112
+
+Game 150
+1) Extended player number:
+2
+2) Extended player collisions:
+[593, 619, 562, 580, 570, 558, 595, 578, 565, 549, 566, 572, 562, 577, 577, 557, 578, 585, 570, 464, 527, 444, 538, 464, 393, 435, 553, 351, 365, 244, 318, 213, 251, 197, 186, 161, 171, 119, 111, 123, 98, 73, 72, 48, 40, 26, 16, 11, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+185.092733032
+
+Game 151
+1) Extended player number:
+2
+2) Extended player collisions:
+[582, 611, 637, 582, 552, 573, 592, 623, 564, 562, 540, 583, 568, 547, 553, 563, 554, 568, 566, 545, 530, 547, 518, 416, 473, 468, 399, 386, 325, 364, 316, 295, 205, 214, 213, 193, 182, 131, 112, 121, 84, 71, 61, 46, 34, 22, 16, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+140.422515516
+
+Game 152
+1) Extended player number:
+2
+2) Extended player collisions:
+[619, 596, 597, 613, 584, 554, 552, 583, 599, 579, 566, 577, 609, 621, 560, 580, 584, 559, 506, 538, 554, 527, 452, 410, 547, 424, 334, 370, 312, 352, 238, 289, 228, 258, 166, 221, 156, 140, 127, 110, 91, 73, 62, 40, 36, 19, 17, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+201.903677696
+
+Game 153
+1) Extended player number:
+2
+2) Extended player collisions:
+[590, 556, 587, 625, 585, 612, 603, 609, 637, 576, 567, 591, 612, 535, 591, 573, 561, 589, 555, 589, 552, 511, 546, 410, 479, 472, 370, 349, 412, 306, 268, 348, 249, 208, 198, 196, 142, 144, 160, 99, 94, 76, 64, 51, 32, 22, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+255.406623624
+
+Game 154
+1) Extended player number:
+2
+2) Extended player collisions:
+[608, 616, 555, 566, 573, 587, 572, 551, 575, 593, 558, 561, 542, 568, 566, 571, 572, 607, 533, 559, 534, 498, 467, 526, 444, 470, 371, 304, 494, 270, 310, 238, 207, 234, 208, 176, 181, 159, 95, 101, 96, 70, 53, 58, 40, 25, 15, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+188.740625556
+
+Game 155
+1) Extended player number:
+2
+2) Extended player collisions:
+[557, 559, 597, 618, 607, 566, 578, 584, 580, 552, 598, 570, 554, 544, 569, 579, 555, 547, 545, 536, 539, 570, 560, 377, 487, 448, 393, 406, 313, 288, 248, 275, 209, 175, 264, 159, 168, 140, 141, 112, 99, 67, 55, 44, 39, 18, 16, 9, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+167.382293484
+
+Game 156
+1) Extended player number:
+2
+2) Extended player collisions:
+[612, 594, 594, 593, 576, 616, 543, 600, 588, 585, 552, 601, 580, 574, 544, 578, 556, 572, 551, 550, 527, 564, 521, 411, 571, 557, 354, 397, 401, 317, 315, 247, 281, 206, 260, 181, 153, 146, 114, 105, 84, 69, 62, 49, 39, 25, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+192.279700296
+
+Game 157
+1) Extended player number:
+2
+2) Extended player collisions:
+[558, 599, 575, 617, 583, 576, 577, 567, 547, 594, 569, 558, 618, 558, 571, 561, 611, 527, 549, 595, 535, 548, 573, 501, 489, 318, 391, 274, 378, 364, 307, 292, 239, 203, 190, 200, 163, 170, 109, 103, 96, 64, 53, 44, 39, 26, 12, 9, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+229.210080324
+
+Game 158
+1) Extended player number:
+2
+2) Extended player collisions:
+[634, 621, 580, 607, 580, 544, 603, 572, 589, 586, 593, 569, 556, 574, 536, 557, 584, 519, 550, 592, 568, 530, 589, 498, 424, 382, 349, 315, 329, 282, 313, 242, 240, 250, 244, 186, 174, 130, 117, 105, 74, 76, 40, 43, 38, 21, 14, 5, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+141.20768448
+
+Game 159
+1) Extended player number:
+2
+2) Extended player collisions:
+[615, 540, 615, 610, 595, 598, 552, 576, 576, 576, 586, 595, 553, 552, 567, 573, 555, 549, 555, 533, 567, 547, 588, 468, 471, 440, 389, 404, 348, 359, 246, 360, 299, 228, 191, 208, 153, 116, 150, 96, 84, 66, 53, 49, 33, 25, 12, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+186.923961248
+
+Game 160
+1) Extended player number:
+2
+2) Extended player collisions:
+[582, 602, 629, 614, 594, 568, 552, 559, 596, 578, 562, 554, 613, 559, 575, 534, 583, 544, 560, 577, 568, 577, 511, 508, 443, 432, 472, 325, 358, 332, 369, 301, 246, 250, 172, 196, 150, 141, 107, 105, 82, 78, 72, 46, 32, 20, 13, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+203.41186196
+
+Game 161
+1) Extended player number:
+2
+2) Extended player collisions:
+[597, 584, 580, 547, 629, 599, 570, 584, 564, 596, 575, 568, 591, 589, 544, 552, 614, 557, 520, 569, 562, 547, 572, 503, 509, 420, 376, 386, 343, 338, 291, 316, 268, 218, 192, 176, 223, 149, 121, 125, 97, 70, 55, 39, 38, 27, 14, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+164.270882676
+
+Game 162
+1) Extended player number:
+2
+2) Extended player collisions:
+[568, 582, 545, 580, 582, 580, 559, 584, 565, 569, 550, 584, 562, 561, 552, 605, 567, 525, 569, 529, 571, 555, 442, 551, 447, 410, 443, 326, 344, 282, 266, 281, 228, 206, 209, 180, 192, 133, 109, 103, 111, 81, 65, 43, 33, 26, 17, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+144.463747108
+
+Game 163
+1) Extended player number:
+2
+2) Extended player collisions:
+[583, 543, 591, 579, 577, 598, 567, 557, 563, 615, 556, 604, 574, 593, 541, 601, 573, 536, 546, 568, 530, 537, 459, 452, 535, 586, 480, 374, 392, 259, 365, 291, 243, 236, 205, 178, 151, 136, 106, 96, 97, 70, 68, 46, 38, 28, 10, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+162.91683168
+
+Game 164
+1) Extended player number:
+2
+2) Extended player collisions:
+[575, 560, 587, 609, 574, 555, 617, 596, 583, 545, 548, 600, 608, 534, 571, 562, 547, 559, 558, 544, 562, 598, 483, 500, 427, 443, 328, 339, 355, 480, 269, 290, 238, 218, 269, 183, 166, 130, 133, 99, 94, 80, 49, 49, 29, 22, 16, 3, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+169.43030958
+
+Game 165
+1) Extended player number:
+2
+2) Extended player collisions:
+[612, 568, 581, 574, 561, 600, 611, 577, 617, 591, 595, 593, 554, 556, 590, 561, 588, 563, 590, 542, 577, 506, 525, 417, 441, 529, 370, 467, 287, 305, 297, 234, 268, 208, 210, 176, 169, 149, 124, 131, 92, 70, 62, 52, 31, 22, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+141.204731396
+
+Game 166
+1) Extended player number:
+2
+2) Extended player collisions:
+[580, 559, 614, 600, 581, 585, 598, 607, 611, 585, 583, 577, 578, 580, 540, 579, 545, 562, 539, 521, 463, 494, 521, 441, 479, 422, 511, 293, 386, 303, 324, 221, 269, 246, 213, 181, 176, 135, 123, 104, 107, 64, 54, 50, 34, 21, 11, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+191.930063272
+
+Game 167
+1) Extended player number:
+2
+2) Extended player collisions:
+[593, 598, 561, 582, 607, 580, 578, 592, 583, 558, 567, 582, 548, 592, 602, 532, 557, 561, 534, 539, 548, 486, 559, 472, 591, 420, 358, 362, 444, 264, 308, 242, 235, 226, 232, 205, 160, 149, 112, 109, 95, 79, 58, 46, 36, 24, 15, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+235.542371228
+
+Game 168
+1) Extended player number:
+2
+2) Extended player collisions:
+[585, 564, 601, 544, 584, 589, 578, 592, 549, 595, 544, 570, 576, 561, 570, 564, 567, 572, 580, 537, 572, 495, 576, 577, 490, 405, 355, 358, 367, 296, 302, 272, 220, 216, 210, 182, 134, 174, 135, 100, 76, 74, 52, 41, 37, 23, 18, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+228.150588636
+
+Game 169
+1) Extended player number:
+2
+2) Extended player collisions:
+[576, 580, 569, 582, 621, 604, 597, 568, 583, 603, 581, 555, 594, 590, 579, 591, 534, 590, 538, 512, 538, 551, 521, 533, 392, 458, 368, 321, 306, 332, 294, 259, 249, 232, 166, 198, 141, 151, 118, 93, 87, 67, 58, 50, 31, 30, 18, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+205.94348172
+
+Game 170
+1) Extended player number:
+2
+2) Extended player collisions:
+[630, 573, 625, 587, 586, 560, 585, 593, 551, 575, 590, 555, 559, 605, 574, 556, 567, 567, 534, 525, 483, 531, 530, 435, 462, 430, 403, 305, 322, 322, 308, 257, 256, 210, 220, 196, 167, 127, 129, 111, 102, 72, 67, 47, 42, 25, 15, 8, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+185.061627728
+
+Game 171
+1) Extended player number:
+2
+2) Extended player collisions:
+[575, 575, 599, 588, 568, 573, 610, 550, 599, 600, 550, 565, 570, 585, 577, 558, 578, 554, 539, 552, 551, 543, 544, 549, 493, 549, 541, 510, 443, 315, 492, 404, 331, 443, 377, 241, 285, 268, 267, 188, 123, 125, 93, 93, 66, 31, 23, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+324.336978004
+
+Game 172
+1) Extended player number:
+2
+2) Extended player collisions:
+[608, 616, 566, 578, 605, 598, 594, 553, 592, 601, 606, 572, 620, 554, 564, 576, 547, 566, 554, 579, 551, 460, 551, 463, 527, 506, 447, 379, 382, 359, 269, 297, 284, 233, 205, 194, 159, 134, 124, 104, 86, 79, 66, 53, 37, 28, 18, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+185.721206016
+
+Game 173
+1) Extended player number:
+2
+2) Extended player collisions:
+[588, 633, 583, 594, 591, 589, 575, 606, 580, 576, 559, 599, 559, 617, 605, 565, 549, 519, 574, 569, 570, 549, 466, 475, 529, 576, 325, 359, 358, 310, 330, 249, 241, 184, 173, 214, 156, 113, 123, 126, 105, 67, 55, 49, 27, 23, 18, 8, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+192.112095624
+
+Game 174
+1) Extended player number:
+2
+2) Extended player collisions:
+[586, 562, 586, 589, 572, 581, 583, 569, 589, 588, 564, 553, 584, 567, 588, 563, 555, 546, 541, 571, 543, 551, 528, 521, 513, 507, 506, 460, 478, 424, 456, 488, 267, 288, 361, 286, 309, 213, 264, 149, 187, 138, 124, 104, 63, 39, 22, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+201.943791144
+
+Game 175
+1) Extended player number:
+2
+2) Extended player collisions:
+[579, 531, 562, 592, 567, 575, 609, 609, 598, 559, 589, 537, 590, 564, 561, 637, 573, 562, 577, 538, 510, 502, 497, 514, 438, 461, 358, 342, 362, 341, 389, 271, 248, 223, 214, 175, 170, 185, 106, 110, 90, 70, 55, 49, 31, 21, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+184.63178346
+
+Game 176
+1) Extended player number:
+2
+2) Extended player collisions:
+[557, 604, 587, 582, 594, 608, 592, 579, 591, 582, 600, 555, 570, 584, 558, 559, 555, 516, 587, 543, 512, 485, 445, 530, 500, 438, 414, 296, 446, 360, 341, 292, 266, 231, 176, 182, 141, 143, 115, 104, 79, 82, 57, 51, 37, 27, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+174.179191844
+
+Game 177
+1) Extended player number:
+2
+2) Extended player collisions:
+[583, 626, 600, 604, 602, 567, 567, 570, 586, 581, 570, 626, 591, 560, 608, 528, 573, 524, 530, 561, 576, 559, 490, 461, 559, 432, 377, 428, 341, 312, 301, 272, 229, 255, 189, 204, 183, 145, 123, 101, 100, 86, 67, 47, 38, 24, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+164.080383776
+
+Game 178
+1) Extended player number:
+2
+2) Extended player collisions:
+[589, 579, 594, 572, 595, 601, 592, 570, 573, 559, 566, 576, 595, 559, 558, 566, 573, 515, 558, 558, 533, 622, 437, 405, 515, 495, 371, 424, 356, 431, 302, 287, 270, 232, 209, 172, 135, 156, 113, 106, 85, 76, 49, 48, 30, 22, 19, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+162.592117004
+
+Game 179
+1) Extended player number:
+2
+2) Extended player collisions:
+[608, 555, 618, 565, 550, 586, 604, 594, 549, 592, 530, 596, 555, 572, 535, 604, 626, 559, 629, 552, 543, 583, 496, 455, 460, 533, 356, 446, 270, 286, 369, 271, 235, 237, 190, 175, 140, 154, 114, 125, 92, 67, 59, 49, 33, 27, 11, 6, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+153.85875658
+
+Game 180
+1) Extended player number:
+2
+2) Extended player collisions:
+[603, 609, 620, 554, 570, 540, 599, 597, 593, 547, 549, 580, 574, 552, 567, 570, 581, 545, 540, 547, 520, 553, 548, 451, 472, 365, 405, 338, 373, 331, 281, 304, 229, 209, 186, 180, 160, 140, 134, 128, 98, 86, 56, 42, 32, 24, 16, 7, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+147.835868348
+
+Game 181
+1) Extended player number:
+2
+2) Extended player collisions:
+[597, 589, 582, 596, 582, 561, 593, 568, 600, 590, 545, 594, 583, 594, 538, 605, 562, 537, 557, 529, 552, 507, 460, 436, 505, 434, 352, 497, 360, 341, 309, 293, 263, 236, 225, 155, 155, 119, 114, 135, 107, 76, 65, 43, 28, 27, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+207.664927212
+
+Game 182
+1) Extended player number:
+2
+2) Extended player collisions:
+[645, 583, 566, 585, 599, 601, 589, 588, 572, 570, 585, 576, 592, 584, 570, 585, 566, 558, 594, 538, 518, 547, 479, 480, 420, 415, 330, 376, 318, 342, 265, 237, 264, 281, 164, 213, 179, 145, 111, 105, 91, 83, 62, 48, 35, 24, 17, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+175.527348668
+
+Game 183
+1) Extended player number:
+2
+2) Extended player collisions:
+[571, 645, 590, 567, 588, 574, 576, 584, 584, 567, 613, 608, 574, 565, 584, 552, 524, 536, 539, 538, 568, 578, 554, 445, 468, 359, 367, 333, 288, 337, 314, 281, 212, 240, 173, 220, 143, 136, 112, 94, 75, 65, 59, 36, 30, 21, 19, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+175.49404104
+
+Game 184
+1) Extended player number:
+2
+2) Extended player collisions:
+[564, 573, 576, 581, 584, 575, 581, 590, 605, 580, 545, 635, 580, 511, 586, 589, 563, 564, 519, 542, 561, 536, 518, 571, 540, 477, 377, 335, 395, 305, 297, 249, 250, 231, 235, 187, 186, 151, 130, 101, 78, 74, 75, 38, 33, 28, 17, 5, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+159.816775888
+
+Game 185
+1) Extended player number:
+2
+2) Extended player collisions:
+[567, 576, 563, 595, 592, 606, 591, 576, 569, 574, 577, 600, 559, 570, 549, 573, 521, 585, 535, 544, 538, 481, 551, 452, 458, 427, 370, 344, 297, 292, 246, 269, 299, 225, 172, 167, 172, 146, 127, 124, 92, 72, 60, 42, 37, 29, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+197.22440774
+
+Game 186
+1) Extended player number:
+2
+2) Extended player collisions:
+[603, 573, 592, 601, 593, 605, 599, 616, 566, 564, 551, 549, 542, 574, 561, 567, 559, 532, 609, 554, 552, 480, 513, 503, 516, 586, 548, 526, 468, 440, 417, 349, 309, 363, 342, 248, 263, 316, 263, 178, 157, 156, 123, 90, 59, 45, 16, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+232.616280264
+
+Game 187
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 593, 593, 565, 570, 609, 574, 553, 594, 613, 591, 564, 595, 554, 573, 557, 586, 532, 562, 549, 549, 488, 538, 434, 540, 371, 344, 313, 327, 322, 280, 277, 267, 249, 169, 150, 175, 131, 124, 99, 85, 68, 57, 44, 40, 25, 13, 10, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+164.908173272
+
+Game 188
+1) Extended player number:
+2
+2) Extended player collisions:
+[595, 577, 574, 590, 613, 586, 571, 595, 562, 592, 566, 559, 559, 605, 548, 561, 583, 586, 489, 567, 581, 517, 466, 524, 412, 389, 409, 373, 334, 284, 274, 271, 243, 214, 207, 196, 137, 129, 118, 87, 99, 72, 60, 41, 26, 22, 13, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.308087676
+
+Game 189
+1) Extended player number:
+2
+2) Extended player collisions:
+[608, 585, 580, 610, 561, 591, 569, 574, 554, 565, 607, 564, 550, 559, 559, 567, 608, 537, 544, 555, 555, 553, 571, 458, 434, 577, 431, 564, 462, 329, 229, 343, 264, 221, 227, 164, 150, 144, 118, 102, 82, 71, 56, 58, 41, 27, 10, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+257.59044694
+
+Game 190
+1) Extended player number:
+2
+2) Extended player collisions:
+[609, 590, 618, 603, 585, 598, 548, 583, 580, 552, 562, 578, 570, 546, 552, 519, 604, 513, 473, 509, 559, 567, 462, 586, 461, 421, 369, 373, 367, 295, 354, 323, 347, 195, 186, 174, 175, 122, 139, 103, 86, 84, 68, 48, 30, 24, 14, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+137.726342768
+
+Game 191
+1) Extended player number:
+2
+2) Extended player collisions:
+[542, 621, 589, 592, 595, 606, 587, 580, 614, 563, 577, 610, 578, 533, 584, 578, 615, 553, 545, 572, 543, 560, 539, 388, 419, 492, 364, 462, 377, 309, 295, 231, 260, 267, 214, 186, 145, 142, 145, 95, 97, 71, 63, 42, 41, 24, 13, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+161.40948278
+
+Game 192
+1) Extended player number:
+2
+2) Extended player collisions:
+[588, 556, 585, 568, 631, 578, 575, 602, 579, 574, 600, 569, 533, 582, 565, 520, 531, 573, 565, 530, 480, 540, 451, 453, 340, 527, 389, 294, 362, 336, 273, 245, 206, 228, 202, 181, 185, 144, 124, 114, 68, 68, 69, 48, 33, 23, 13, 7, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+146.397742388
+
+Game 193
+1) Extended player number:
+2
+2) Extended player collisions:
+[613, 605, 598, 601, 597, 591, 577, 615, 563, 555, 584, 586, 571, 590, 557, 585, 564, 550, 597, 548, 490, 554, 583, 507, 431, 406, 400, 381, 358, 368, 268, 295, 208, 264, 184, 153, 153, 147, 99, 100, 89, 71, 58, 53, 33, 20, 14, 5, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+204.99732004
+
+Game 194
+1) Extended player number:
+2
+2) Extended player collisions:
+[592, 598, 606, 558, 599, 587, 578, 571, 595, 583, 574, 590, 559, 556, 547, 525, 529, 558, 533, 596, 555, 520, 539, 481, 462, 387, 493, 312, 433, 300, 276, 284, 304, 204, 187, 244, 139, 128, 148, 141, 83, 75, 47, 48, 33, 30, 17, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+172.734003264
+
+Game 195
+1) Extended player number:
+2
+2) Extended player collisions:
+[591, 580, 591, 622, 604, 614, 608, 592, 585, 630, 559, 576, 574, 606, 579, 598, 584, 540, 562, 615, 534, 581, 562, 528, 553, 339, 394, 326, 325, 275, 318, 261, 265, 235, 181, 164, 188, 124, 127, 101, 81, 70, 61, 58, 31, 24, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+176.427054392
+
+Game 196
+1) Extended player number:
+2
+2) Extended player collisions:
+[553, 564, 585, 607, 582, 619, 593, 585, 559, 563, 592, 562, 602, 541, 553, 564, 533, 544, 537, 580, 560, 536, 514, 523, 361, 357, 356, 313, 321, 396, 272, 313, 211, 250, 211, 184, 178, 145, 130, 106, 93, 54, 56, 45, 38, 24, 17, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+173.758242472
+
+Game 197
+1) Extended player number:
+2
+2) Extended player collisions:
+[587, 567, 584, 560, 560, 584, 575, 565, 592, 574, 540, 603, 540, 600, 590, 560, 525, 542, 511, 554, 529, 556, 579, 426, 448, 356, 379, 457, 331, 367, 281, 285, 247, 238, 210, 177, 171, 163, 119, 112, 86, 85, 77, 42, 40, 25, 15, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+204.329560984
+
+Game 198
+1) Extended player number:
+2
+2) Extended player collisions:
+[609, 637, 559, 592, 606, 572, 614, 538, 584, 584, 581, 552, 555, 546, 566, 567, 557, 546, 522, 497, 521, 520, 542, 590, 342, 399, 426, 447, 329, 322, 238, 228, 235, 277, 191, 189, 158, 147, 106, 98, 78, 72, 67, 65, 37, 27, 17, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+190.456397044
+
+Game 199
+1) Extended player number:
+2
+2) Extended player collisions:
+[569, 576, 642, 565, 593, 611, 594, 565, 623, 578, 577, 565, 619, 586, 588, 587, 526, 537, 573, 580, 572, 560, 530, 560, 494, 430, 477, 400, 367, 318, 261, 306, 251, 263, 231, 184, 148, 127, 123, 93, 85, 72, 49, 39, 38, 24, 13, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+186.179702792
+
+Game 200
+1) Extended player number:
+2
+2) Extended player collisions:
+[557, 579, 607, 586, 594, 614, 538, 592, 575, 561, 586, 564, 544, 576, 546, 570, 522, 568, 526, 567, 551, 562, 549, 518, 462, 536, 445, 349, 458, 490, 452, 476, 371, 283, 269, 328, 226, 255, 235, 210, 154, 159, 110, 96, 71, 35, 25, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+240.957834448
+
+Game 201
+1) Extended player number:
+2
+2) Extended player collisions:
+[615, 599, 613, 612, 560, 619, 579, 574, 541, 586, 587, 544, 580, 555, 553, 576, 573, 545, 526, 572, 550, 483, 567, 574, 537, 474, 551, 457, 412, 461, 504, 480, 406, 388, 408, 240, 261, 190, 191, 217, 205, 168, 111, 68, 40, 38, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+230.946779204
+
+Game 202
+1) Extended player number:
+2
+2) Extended player collisions:
+[538, 602, 590, 593, 602, 568, 564, 582, 589, 557, 575, 608, 549, 576, 601, 560, 549, 575, 573, 580, 529, 482, 538, 477, 504, 458, 495, 302, 335, 281, 226, 267, 238, 219, 206, 217, 139, 142, 134, 90, 115, 73, 64, 47, 40, 21, 12, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+168.134098524
+
+Game 203
+1) Extended player number:
+2
+2) Extended player collisions:
+[570, 594, 637, 537, 554, 590, 587, 571, 577, 603, 555, 566, 577, 550, 555, 550, 561, 543, 534, 531, 569, 543, 586, 494, 400, 411, 360, 359, 325, 343, 315, 266, 233, 204, 209, 251, 152, 132, 138, 113, 102, 87, 58, 49, 37, 29, 19, 10, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+141.686410852
+
+Game 204
+1) Extended player number:
+2
+2) Extended player collisions:
+[586, 600, 578, 612, 592, 555, 619, 578, 542, 556, 567, 594, 580, 613, 544, 586, 557, 548, 549, 528, 578, 550, 554, 534, 461, 393, 500, 499, 298, 299, 275, 307, 236, 202, 239, 199, 178, 128, 112, 97, 101, 74, 69, 57, 34, 24, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+207.922785816
+
+Game 205
+1) Extended player number:
+2
+2) Extended player collisions:
+[581, 582, 577, 630, 580, 578, 598, 555, 520, 593, 562, 551, 545, 603, 586, 543, 556, 589, 577, 549, 533, 555, 487, 518, 440, 576, 437, 376, 336, 375, 286, 230, 246, 256, 172, 189, 164, 130, 96, 114, 103, 91, 66, 44, 32, 23, 13, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+207.100291944
+
+Game 206
+1) Extended player number:
+2
+2) Extended player collisions:
+[585, 636, 627, 568, 605, 568, 600, 601, 562, 586, 559, 595, 577, 590, 533, 554, 579, 549, 497, 526, 552, 524, 427, 468, 460, 346, 347, 332, 336, 283, 308, 373, 218, 205, 209, 195, 154, 120, 112, 121, 85, 75, 58, 47, 35, 26, 20, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+154.37375066
+
+Game 207
+1) Extended player number:
+2
+2) Extended player collisions:
+[589, 571, 601, 559, 595, 627, 558, 618, 585, 563, 605, 581, 546, 573, 563, 547, 582, 528, 538, 542, 545, 540, 457, 478, 479, 420, 465, 387, 305, 231, 264, 326, 217, 201, 278, 180, 152, 154, 141, 115, 78, 94, 60, 46, 27, 23, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+159.945500512
+
+Game 208
+1) Extended player number:
+2
+2) Extended player collisions:
+[600, 560, 579, 557, 566, 549, 567, 593, 569, 598, 566, 567, 547, 556, 542, 556, 598, 594, 585, 561, 549, 583, 550, 425, 524, 374, 343, 390, 320, 346, 346, 273, 203, 228, 231, 185, 172, 134, 157, 105, 87, 71, 50, 51, 34, 22, 9, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+223.428060292
+
+Game 209
+1) Extended player number:
+2
+2) Extended player collisions:
+[609, 596, 595, 608, 606, 560, 578, 561, 545, 563, 560, 568, 584, 563, 556, 595, 547, 551, 556, 539, 533, 482, 538, 484, 467, 507, 458, 278, 361, 367, 299, 258, 199, 222, 229, 176, 150, 125, 116, 111, 90, 86, 68, 48, 36, 29, 13, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+206.883531708
+
+Game 210
+1) Extended player number:
+2
+2) Extended player collisions:
+[602, 597, 547, 595, 579, 558, 593, 582, 553, 558, 590, 590, 562, 620, 570, 578, 582, 566, 489, 526, 569, 530, 537, 507, 540, 366, 349, 370, 486, 322, 313, 282, 237, 223, 186, 168, 160, 149, 120, 90, 87, 69, 57, 56, 36, 24, 15, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+158.587123808
+
+Game 211
+1) Extended player number:
+2
+2) Extended player collisions:
+[622, 580, 594, 596, 563, 569, 552, 605, 614, 611, 586, 574, 566, 606, 584, 538, 545, 557, 534, 523, 557, 574, 453, 390, 451, 413, 336, 371, 397, 335, 307, 271, 243, 273, 224, 181, 148, 130, 164, 107, 84, 78, 68, 56, 43, 22, 13, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+160.758169864
+
+Game 212
+1) Extended player number:
+2
+2) Extended player collisions:
+[593, 546, 563, 585, 612, 578, 586, 561, 580, 544, 585, 580, 559, 553, 523, 545, 574, 562, 561, 583, 564, 555, 578, 500, 477, 401, 430, 365, 461, 318, 316, 237, 243, 195, 209, 184, 176, 175, 125, 103, 71, 67, 65, 45, 40, 27, 17, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+160.988917776
+
+Game 213
+1) Extended player number:
+2
+2) Extended player collisions:
+[633, 595, 627, 586, 574, 594, 557, 560, 558, 575, 601, 564, 542, 582, 532, 595, 538, 579, 565, 548, 567, 564, 502, 492, 447, 456, 391, 362, 348, 323, 263, 237, 255, 194, 186, 165, 157, 123, 97, 113, 85, 68, 68, 47, 40, 31, 17, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+191.044391188
+
+Game 214
+1) Extended player number:
+2
+2) Extended player collisions:
+[593, 587, 615, 597, 578, 551, 574, 590, 573, 547, 575, 563, 578, 550, 579, 576, 610, 547, 555, 548, 507, 570, 528, 548, 540, 337, 451, 388, 399, 338, 281, 265, 332, 197, 210, 178, 139, 131, 96, 113, 80, 74, 59, 46, 38, 26, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+178.8453428
+
+Game 215
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 582, 633, 592, 558, 554, 586, 583, 523, 576, 584, 590, 571, 631, 595, 604, 553, 571, 575, 553, 591, 514, 563, 531, 447, 551, 523, 549, 556, 393, 394, 407, 368, 389, 332, 347, 211, 200, 160, 218, 225, 106, 130, 95, 69, 42, 19, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+204.969144836
+
+Game 216
+1) Extended player number:
+2
+2) Extended player collisions:
+[571, 547, 631, 561, 612, 590, 566, 589, 578, 577, 558, 586, 548, 536, 541, 531, 557, 581, 579, 561, 531, 549, 546, 388, 395, 430, 499, 377, 385, 254, 270, 271, 247, 243, 244, 201, 183, 129, 97, 98, 95, 63, 48, 39, 33, 15, 19, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+190.6744413
+
+Game 217
+1) Extended player number:
+2
+2) Extended player collisions:
+[565, 578, 547, 594, 598, 540, 554, 611, 600, 557, 625, 587, 568, 546, 561, 553, 590, 552, 588, 530, 584, 564, 427, 532, 390, 481, 368, 415, 399, 356, 295, 230, 250, 191, 204, 163, 167, 119, 117, 108, 85, 73, 59, 47, 39, 31, 11, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+131.8834581
+
+Game 218
+1) Extended player number:
+2
+2) Extended player collisions:
+[545, 571, 597, 580, 568, 571, 563, 561, 618, 545, 586, 603, 546, 542, 544, 555, 573, 539, 529, 572, 561, 554, 546, 456, 398, 373, 413, 369, 275, 267, 383, 239, 272, 238, 287, 211, 167, 113, 113, 99, 79, 59, 53, 43, 31, 22, 14, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+155.324423896
+
+Game 219
+1) Extended player number:
+2
+2) Extended player collisions:
+[585, 602, 583, 603, 622, 595, 561, 600, 571, 591, 590, 544, 579, 571, 587, 541, 582, 553, 564, 558, 479, 560, 567, 582, 447, 531, 499, 482, 499, 482, 489, 412, 287, 447, 395, 347, 253, 284, 215, 198, 141, 131, 124, 80, 68, 40, 23, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+161.652183252
+
+Game 220
+1) Extended player number:
+2
+2) Extended player collisions:
+[636, 588, 548, 587, 571, 603, 645, 638, 583, 580, 617, 581, 559, 603, 558, 581, 590, 522, 538, 593, 517, 577, 485, 520, 414, 445, 513, 324, 495, 311, 274, 224, 234, 234, 213, 204, 160, 136, 110, 106, 93, 73, 57, 41, 40, 16, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+151.595522076
+
+Game 221
+1) Extended player number:
+2
+2) Extended player collisions:
+[599, 608, 585, 568, 647, 627, 592, 550, 531, 602, 581, 565, 586, 590, 566, 520, 539, 516, 540, 548, 560, 538, 542, 483, 478, 439, 504, 351, 324, 318, 264, 282, 252, 198, 173, 206, 170, 166, 123, 98, 94, 73, 58, 47, 37, 14, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+163.792758184
+
+Game 222
+1) Extended player number:
+2
+2) Extended player collisions:
+[604, 582, 581, 560, 585, 584, 573, 575, 560, 539, 582, 573, 561, 566, 595, 569, 572, 539, 629, 519, 463, 543, 490, 466, 496, 410, 457, 307, 309, 289, 246, 247, 270, 225, 190, 185, 189, 146, 123, 94, 89, 69, 62, 60, 28, 21, 14, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+157.803885044
+
+Game 223
+1) Extended player number:
+2
+2) Extended player collisions:
+[602, 599, 568, 590, 603, 582, 586, 540, 568, 604, 559, 575, 589, 552, 584, 525, 543, 592, 579, 537, 502, 512, 498, 545, 509, 533, 388, 391, 358, 261, 286, 280, 271, 258, 160, 141, 181, 114, 138, 111, 78, 82, 61, 47, 36, 24, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+198.84180316
+
+Game 224
+1) Extended player number:
+2
+2) Extended player collisions:
+[589, 594, 603, 584, 583, 610, 588, 582, 628, 579, 538, 589, 574, 580, 563, 550, 561, 564, 570, 541, 503, 532, 550, 511, 546, 466, 294, 380, 258, 416, 268, 237, 197, 205, 160, 178, 147, 129, 115, 103, 83, 79, 68, 45, 27, 23, 16, 7, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+183.690366504
+
+Game 225
+1) Extended player number:
+2
+2) Extended player collisions:
+[568, 590, 591, 579, 574, 583, 551, 617, 573, 602, 587, 582, 555, 580, 586, 564, 546, 594, 542, 567, 545, 467, 430, 536, 443, 501, 296, 304, 284, 284, 197, 350, 280, 237, 210, 208, 172, 115, 140, 115, 70, 75, 67, 49, 36, 25, 11, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+148.823412504
+
+Game 226
+1) Extended player number:
+2
+2) Extended player collisions:
+[579, 560, 569, 575, 584, 582, 568, 594, 573, 640, 552, 546, 556, 557, 562, 581, 578, 540, 549, 569, 566, 522, 452, 475, 496, 447, 426, 431, 492, 289, 282, 331, 230, 225, 192, 180, 184, 121, 100, 107, 99, 72, 54, 43, 41, 27, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+144.920147156
+
+Game 227
+1) Extended player number:
+2
+2) Extended player collisions:
+[549, 635, 573, 558, 572, 609, 604, 576, 574, 544, 591, 590, 552, 567, 572, 557, 593, 606, 521, 582, 527, 521, 578, 528, 557, 568, 497, 523, 552, 506, 472, 446, 389, 418, 377, 222, 327, 236, 225, 176, 199, 139, 109, 93, 62, 41, 21, 10, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+270.482685688
+
+Game 228
+1) Extended player number:
+2
+2) Extended player collisions:
+[610, 577, 609, 553, 568, 605, 570, 565, 627, 598, 587, 577, 600, 565, 551, 556, 585, 567, 540, 580, 566, 559, 544, 578, 484, 466, 534, 573, 539, 438, 529, 484, 421, 418, 345, 313, 241, 246, 286, 228, 161, 128, 76, 85, 56, 44, 19, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+238.064194772
+
+Game 229
+1) Extended player number:
+2
+2) Extended player collisions:
+[575, 571, 579, 582, 592, 578, 559, 580, 586, 550, 612, 542, 602, 601, 592, 560, 545, 540, 535, 528, 540, 544, 483, 536, 403, 429, 337, 377, 374, 394, 286, 310, 207, 257, 170, 222, 166, 120, 115, 107, 94, 64, 65, 46, 41, 27, 13, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+173.039719412
+
+Game 230
+1) Extended player number:
+2
+2) Extended player collisions:
+[609, 576, 608, 551, 589, 565, 577, 600, 587, 574, 580, 554, 600, 565, 592, 560, 514, 560, 579, 526, 553, 486, 432, 508, 555, 442, 343, 462, 305, 259, 323, 443, 217, 240, 252, 172, 135, 151, 103, 114, 89, 60, 50, 46, 35, 26, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+130.938156104
+
+Game 231
+1) Extended player number:
+2
+2) Extended player collisions:
+[597, 608, 582, 588, 561, 559, 553, 558, 572, 602, 584, 609, 585, 595, 578, 606, 579, 545, 574, 564, 534, 534, 506, 532, 439, 445, 360, 411, 405, 305, 328, 276, 251, 216, 221, 212, 177, 149, 119, 103, 96, 64, 60, 42, 33, 27, 16, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+158.895699448
+
+Game 232
+1) Extended player number:
+2
+2) Extended player collisions:
+[628, 592, 589, 596, 557, 599, 550, 580, 584, 580, 594, 553, 583, 575, 564, 533, 550, 572, 558, 562, 533, 581, 477, 400, 482, 380, 360, 383, 338, 305, 279, 229, 213, 229, 197, 167, 155, 154, 125, 107, 102, 73, 57, 55, 34, 25, 14, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+250.797249428
+
+Game 233
+1) Extended player number:
+2
+2) Extended player collisions:
+[587, 590, 594, 618, 611, 581, 604, 584, 592, 598, 559, 601, 582, 584, 574, 562, 586, 596, 557, 561, 568, 554, 543, 434, 503, 433, 437, 363, 322, 363, 264, 304, 263, 231, 196, 189, 160, 143, 151, 100, 76, 62, 60, 56, 36, 29, 15, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+201.786621852
+
+Game 234
+1) Extended player number:
+2
+2) Extended player collisions:
+[558, 568, 526, 601, 555, 567, 585, 575, 552, 549, 603, 562, 572, 535, 579, 576, 564, 562, 560, 559, 516, 519, 523, 417, 494, 422, 413, 368, 313, 260, 348, 264, 276, 290, 209, 162, 142, 125, 125, 119, 74, 70, 46, 44, 26, 23, 20, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+209.607692808
+
+Game 235
+1) Extended player number:
+2
+2) Extended player collisions:
+[579, 601, 591, 607, 553, 578, 565, 551, 551, 558, 574, 571, 577, 580, 568, 578, 541, 609, 567, 501, 594, 536, 458, 476, 557, 368, 320, 328, 325, 355, 268, 237, 218, 196, 232, 204, 181, 118, 128, 109, 94, 77, 58, 39, 35, 24, 15, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+163.9030585
+
+Game 236
+1) Extended player number:
+2
+2) Extended player collisions:
+[592, 621, 606, 592, 608, 577, 631, 560, 576, 578, 567, 565, 562, 581, 603, 563, 538, 553, 542, 545, 580, 455, 534, 558, 468, 595, 330, 397, 333, 385, 299, 308, 263, 219, 219, 182, 179, 134, 137, 106, 81, 64, 56, 48, 38, 27, 13, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+168.376427284
+
+Game 237
+1) Extended player number:
+2
+2) Extended player collisions:
+[545, 611, 585, 601, 582, 562, 596, 564, 600, 573, 582, 601, 589, 582, 521, 591, 540, 563, 552, 551, 622, 551, 560, 455, 422, 415, 335, 351, 322, 361, 328, 251, 271, 245, 210, 182, 134, 121, 119, 134, 96, 67, 67, 44, 37, 25, 18, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+221.681095232
+
+Game 238
+1) Extended player number:
+2
+2) Extended player collisions:
+[599, 587, 594, 585, 607, 576, 579, 584, 564, 587, 592, 607, 539, 616, 596, 565, 544, 545, 526, 563, 532, 540, 543, 535, 394, 382, 379, 403, 422, 360, 274, 279, 208, 212, 217, 187, 154, 153, 143, 98, 88, 92, 66, 56, 40, 26, 18, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+134.852340464
+
+Game 239
+1) Extended player number:
+2
+2) Extended player collisions:
+[620, 624, 606, 588, 623, 551, 581, 575, 573, 589, 628, 511, 635, 601, 543, 550, 549, 569, 559, 542, 507, 542, 578, 448, 538, 360, 422, 463, 259, 336, 292, 265, 229, 194, 213, 196, 159, 147, 109, 104, 90, 59, 56, 47, 31, 28, 15, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+218.19541716
+
+Game 240
+1) Extended player number:
+2
+2) Extended player collisions:
+[621, 613, 651, 598, 585, 564, 604, 565, 564, 584, 593, 540, 581, 580, 594, 586, 583, 566, 591, 516, 528, 536, 410, 404, 502, 508, 388, 392, 443, 285, 306, 243, 296, 220, 255, 175, 205, 164, 127, 101, 90, 87, 68, 42, 36, 23, 12, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+184.0969768
+
+Game 241
+1) Extended player number:
+2
+2) Extended player collisions:
+[593, 587, 585, 572, 574, 620, 606, 546, 592, 593, 611, 601, 528, 595, 577, 588, 550, 607, 544, 562, 574, 565, 556, 601, 561, 434, 365, 346, 378, 354, 329, 230, 239, 234, 182, 210, 164, 128, 140, 85, 91, 94, 58, 55, 32, 26, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+230.626639376
+
+Game 242
+1) Extended player number:
+2
+2) Extended player collisions:
+[651, 562, 606, 581, 560, 603, 544, 562, 547, 598, 616, 541, 618, 549, 554, 586, 606, 584, 561, 563, 481, 479, 478, 504, 442, 359, 427, 315, 354, 385, 386, 257, 292, 220, 245, 176, 142, 167, 121, 108, 92, 86, 61, 50, 33, 21, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+139.806130328
+
+Game 243
+1) Extended player number:
+2
+2) Extended player collisions:
+[566, 564, 565, 585, 587, 588, 587, 582, 586, 605, 551, 561, 563, 625, 579, 560, 560, 552, 594, 567, 588, 615, 489, 521, 629, 550, 504, 549, 365, 444, 383, 321, 310, 367, 390, 278, 301, 255, 258, 197, 160, 79, 102, 49, 59, 28, 17, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+232.212086792
+
+Game 244
+1) Extended player number:
+2
+2) Extended player collisions:
+[581, 567, 591, 584, 557, 545, 549, 566, 557, 588, 600, 590, 559, 548, 584, 562, 543, 570, 576, 554, 533, 529, 479, 408, 383, 367, 413, 393, 334, 362, 283, 317, 273, 203, 208, 140, 160, 125, 123, 127, 79, 71, 59, 39, 45, 23, 18, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+125.745510836
+
+Game 245
+1) Extended player number:
+2
+2) Extended player collisions:
+[561, 601, 595, 579, 593, 588, 560, 585, 565, 590, 578, 522, 572, 555, 608, 554, 548, 584, 576, 547, 578, 550, 498, 425, 364, 408, 338, 362, 376, 287, 270, 229, 243, 172, 210, 172, 167, 142, 119, 118, 111, 75, 69, 47, 29, 20, 14, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+163.820413784
+
+Game 246
+1) Extended player number:
+2
+2) Extended player collisions:
+[615, 588, 573, 577, 606, 597, 631, 546, 573, 567, 613, 577, 577, 541, 543, 554, 545, 561, 545, 574, 548, 509, 503, 476, 407, 437, 347, 370, 296, 387, 376, 291, 246, 207, 198, 178, 139, 135, 122, 117, 82, 69, 56, 40, 37, 24, 11, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+159.95542462
+
+Game 247
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 600, 613, 579, 615, 574, 608, 582, 590, 564, 554, 550, 558, 572, 551, 546, 530, 503, 544, 463, 487, 559, 570, 484, 509, 344, 368, 319, 342, 276, 258, 288, 252, 191, 231, 158, 138, 139, 122, 105, 95, 85, 63, 44, 42, 28, 13, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+176.019878856
+
+Game 248
+1) Extended player number:
+2
+2) Extended player collisions:
+[584, 590, 564, 616, 615, 598, 583, 622, 567, 601, 548, 577, 545, 548, 561, 522, 537, 605, 558, 549, 576, 477, 425, 450, 438, 423, 317, 368, 342, 298, 319, 233, 217, 207, 174, 205, 186, 149, 115, 99, 89, 70, 61, 50, 28, 33, 14, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+128.40369352
+
+Game 249
+1) Extended player number:
+2
+2) Extended player collisions:
+[608, 556, 585, 579, 558, 596, 580, 574, 566, 599, 585, 565, 598, 568, 546, 568, 540, 577, 534, 614, 566, 551, 569, 508, 446, 498, 390, 388, 327, 313, 400, 258, 272, 261, 280, 159, 129, 159, 113, 106, 82, 67, 65, 43, 34, 18, 14, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+186.159787296
+
+Game 250
+1) Extended player number:
+2
+2) Extended player collisions:
+[577, 592, 602, 564, 580, 557, 557, 577, 572, 538, 585, 630, 552, 534, 569, 544, 593, 575, 555, 578, 560, 448, 490, 556, 428, 400, 355, 400, 331, 252, 275, 342, 235, 208, 188, 190, 167, 156, 107, 119, 106, 82, 50, 44, 34, 22, 12, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+170.486326252
+
+Game 251
+1) Extended player number:
+2
+2) Extended player collisions:
+[611, 588, 615, 633, 577, 593, 598, 580, 593, 613, 566, 556, 613, 562, 614, 571, 558, 572, 558, 555, 567, 556, 550, 522, 473, 516, 517, 477, 351, 517, 522, 358, 445, 391, 396, 274, 238, 266, 163, 195, 202, 131, 106, 108, 49, 39, 18, 8, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 49; Player2R: 50; Iteration: 100
+4) Winning player:
+2
+5) Duration in seconds:
+211.568020356
+
+Game 252
+1) Extended player number:
+2
+2) Extended player collisions:
+[633, 596, 610, 588, 585, 559, 592, 613, 625, 570, 577, 575, 568, 550, 608, 562, 583, 527, 547, 571, 562, 442, 487, 523, 425, 366, 461, 505, 396, 295, 358, 248, 291, 227, 193, 159, 165, 132, 116, 131, 92, 62, 72, 41, 43, 25, 12, 7, 1, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+146.388799532
+
+Game 253
+1) Extended player number:
+2
+2) Extended player collisions:
+[588, 593, 601, 615, 565, 575, 582, 585, 580, 586, 599, 586, 573, 568, 537, 552, 582, 541, 566, 565, 537, 577, 547, 444, 428, 421, 458, 399, 309, 334, 282, 341, 230, 224, 225, 164, 185, 109, 121, 135, 64, 82, 50, 52, 35, 27, 15, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+170.216805532
+
+Game 254
+1) Extended player number:
+2
+2) Extended player collisions:
+[632, 574, 571, 554, 584, 650, 576, 603, 601, 589, 607, 590, 561, 573, 561, 561, 597, 550, 522, 572, 541, 512, 517, 539, 501, 367, 369, 429, 338, 277, 324, 240, 298, 173, 168, 182, 159, 136, 143, 103, 75, 69, 61, 48, 36, 28, 9, 9, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+145.01511882
+
+Game 255
+1) Extended player number:
+2
+2) Extended player collisions:
+[641, 608, 600, 557, 600, 565, 579, 580, 551, 572, 588, 583, 567, 553, 527, 600, 572, 539, 551, 517, 561, 463, 529, 576, 418, 405, 354, 347, 282, 336, 303, 329, 278, 212, 227, 203, 156, 135, 115, 99, 88, 82, 86, 41, 34, 22, 18, 7, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+158.366583784
+
+Game 256
+1) Extended player number:
+2
+2) Extended player collisions:
+[607, 585, 560, 625, 563, 576, 607, 591, 599, 576, 519, 553, 564, 592, 577, 588, 549, 518, 560, 547, 541, 534, 519, 501, 444, 458, 388, 417, 304, 254, 285, 290, 270, 234, 201, 146, 178, 136, 108, 136, 83, 81, 56, 48, 29, 31, 12, 6, 2, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+122.068335284
+
+4) Extended player wins:
+140.0 out of 257
+5) Total duration:
+5939.16735786
