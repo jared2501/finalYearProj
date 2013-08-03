@@ -89,6 +89,8 @@
   
   <!-- Modules -->
   
+  <import file="${basedir}/module_untitled.xml"/>
+  
   <target name="clean">
         <delete dir="build"/>
     </target>
@@ -111,5 +113,5 @@
         <java jar="build/jar/Main.jar" fork="true"/>
     </target>
 
-
+  <property name="build.sysclasspath" value="last"/>
 </project>
