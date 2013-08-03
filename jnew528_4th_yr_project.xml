@@ -89,17 +89,27 @@
   
   <!-- Modules -->
   
-  <import file="${basedir}/module_untitled.xml"/>
-  
-  <target name="init" description="Build initialization">
-    <!-- Perform any build initialization in this target -->
-  </target>
-  
-  <target name="clean" depends="clean.module.untitled" description="cleanup all"/>
-  
-  <target name="build.modules" depends="init, clean, compile.module.untitled" description="build all modules"/>
-  
-  <target name="all" depends="build.modules" description="build all"/>
+  <target name="clean">
+        <delete dir="build"/>
+    </target>
 
-  <property name="build.sysclasspath" value="last"/>
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/Main.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="com.jnew528.finalYearProj.Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="build/jar/Main.jar" fork="true"/>
+    </target>
+
+
 </project>
