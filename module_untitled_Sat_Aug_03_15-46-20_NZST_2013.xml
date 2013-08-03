@@ -51,15 +51,15 @@
   
   <target name="compile.module.untitled" depends="compile.module.untitled.production,compile.module.untitled.tests" description="Compile module untitled"/>
   
-  <target name="compile.module.untitled.production" description="Compile module untitled; production classes">
+  <target name="compile.module.untitled.production" depends="register.custom.compilers" description="Compile module untitled; production classes">
     <mkdir dir="${untitled.output.dir}"/>
-    <javac destdir="${untitled.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.untitled}/javac">
+    <javac2 destdir="${untitled.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.untitled}/javac">
       <compilerarg line="${compiler.args.untitled}"/>
       <bootclasspath refid="untitled.module.bootclasspath"/>
       <classpath refid="untitled.module.production.classpath"/>
       <src refid="untitled.module.sourcepath"/>
       <patternset refid="excluded.from.compilation.untitled"/>
-    </javac>
+    </javac2>
     
     <copy todir="${untitled.output.dir}">
       <fileset dir="${module.untitled.basedir}/src">
@@ -69,7 +69,7 @@
     </copy>
   </target>
   
-  <target name="compile.module.untitled.tests" depends="compile.module.untitled.production" description="compile module untitled; test classes" unless="skip.tests"/>
+  <target name="compile.module.untitled.tests" depends="register.custom.compilers,compile.module.untitled.production" description="compile module untitled; test classes" unless="skip.tests"/>
   
   <target name="clean.module.untitled" description="cleanup module">
     <delete dir="${untitled.output.dir}"/>
