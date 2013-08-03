@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="finalyearproj" default="all">
-		<target name="compile">
-			<javac target="1.7" srcdir="/usr/lib/jvm/java-1.7.0-openjdk.x86_64"/>
-		</target>
-	
 		<target name="clean">
 			<delete dir="build"/>
 		</target>
