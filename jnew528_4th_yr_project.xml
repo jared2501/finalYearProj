@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="finalyearproj" default="all">
-    <target name="clean">
-        <delete dir="build"/>
-    </target>
+		<target name="compile">
+			<javac target="1.7" srcdir="/usr/lib/jvm/java-1.7.0-openjdk.x86_64"/>
+		</target>
+	
+		<target name="clean">
+			<delete dir="build"/>
+		</target>
 
-    <target name="compile">
-        <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
-    </target>
+		<target name="compile">
+			<mkdir dir="build/classes"/>
+			<javac srcdir="src" destdir="build/classes"/>
+		</target>
 
-    <target name="jar">
-        <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/Main.jar" basedir="build/classes">
-            <manifest>
-                <attribute name="Main-Class" value="com.jnew528.finalYearProject.Main"/>
-            </manifest>
-        </jar>
-    </target>
+		<target name="jar">
+			<mkdir dir="build/jar"/>
+			<jar destfile="build/jar/Main.jar" basedir="build/classes">
+				<manifest>
+					<attribute name="Main-Class" value="com.jnew528.finalYearProject.Main"/>
+				</manifest>
+			</jar>
+		</target>
 
-    <target name="run">
-        <java jar="build/jar/Main.jar" fork="true"/>
-    </target>
+		<target name="run">
+			<java jar="build/jar/Main.jar" fork="true"/>
+		</target>
 
-  <property name="build.sysclasspath" value="last"/>
+	<property name="build.sysclasspath" value="last"/>
 </project>
