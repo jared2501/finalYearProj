@@ -218,10 +218,10 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 			}
 
 			if(i == 2 || i == 5) {
-				sb.append(System.lineSeparator());
+				sb.append(System.getProperty("line.separator"));
 			}
 		}
-		sb.append(System.lineSeparator());
+		sb.append(System.getProperty("line.separator"));
 		return sb.toString();
 	}
 

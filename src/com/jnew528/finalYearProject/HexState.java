@@ -325,7 +325,7 @@ public class HexState implements GameState<HexMove> {
 
 			// Make a new line
 			if((i+1) % size == 0) {
-				sb.append(System.lineSeparator());
+				sb.append(System.getProperty("line.separator"));
 
 				// And push each line across to make it look like a rhombus
 				for(int j = 0; j < 2*((i+1)/size); j++) {

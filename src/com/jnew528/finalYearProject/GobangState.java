@@ -304,10 +304,10 @@ public class GobangState implements GameState<GobangMove> {
 					sb.append('_');
 				}
 			}
-			sb.append(System.lineSeparator());
+			sb.append(System.getProperty("line.separator"));
 		}
 
-		sb.append(System.lineSeparator());
+		sb.append(System.getProperty("line.separator"));
 		return sb.toString();
 	}
 
