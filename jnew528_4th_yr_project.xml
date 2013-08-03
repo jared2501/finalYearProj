@@ -88,10 +88,7 @@
   <property name="project.jdk.classpath" value="jdk.classpath.1.7"/>
   
   <!-- Modules -->
-  
-  <import file="${basedir}/module_untitled.xml"/>
-  
-  <target name="clean">
+    <target name="clean">
         <delete dir="build"/>
     </target>
 
