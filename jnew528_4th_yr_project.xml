@@ -100,4 +100,6 @@
   <target name="build.modules" depends="init, clean, compile.module.untitled" description="build all modules"/>
   
   <target name="all" depends="build.modules" description="build all"/>
+
+  <property name="build.sysclasspath" value="last"/>
 </project>
