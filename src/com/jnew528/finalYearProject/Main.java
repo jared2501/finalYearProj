@@ -15,7 +15,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception{
 		// Game type settings
-		int numberOfGames = 256;
+		int numberOfGames = 6144;
 		String gameType = "Gobang";
 		int boardSize = 7;
 
