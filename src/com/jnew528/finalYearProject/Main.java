@@ -17,12 +17,12 @@ public class Main {
 		// Game type settings
 		int numberOfGames = 256;
 		String gameType = "Gobang";
-		int boardSize = 5;
+		int boardSize = 7;
 
 		// Iteration settings
-		int iterationsStart = 70000;
-		int iterationsEnd = 100000;
-		int iterationsStep = 10000;
+		int iterationsStart = 50;
+		int iterationsEnd = 1000;
+		int iterationsStep = 50;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;

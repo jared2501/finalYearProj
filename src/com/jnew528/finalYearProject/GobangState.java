@@ -45,7 +45,7 @@ public class GobangState implements GameState<GobangMove> {
 	}
 
 	GobangState(int boardSize) {
-		this(boardSize, 4);
+		this(boardSize, 5);
 	}
 
 	private int[][] deepCopy(int[][] input) {
