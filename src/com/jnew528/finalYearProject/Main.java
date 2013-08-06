@@ -15,14 +15,14 @@ public class Main {
 
 	public static void main(String[] args) throws Exception{
 		// Game type settings
-		int numberOfGames = 6144;
+		int numberOfGames = 3072;
 		String gameType = "Gobang";
-		int boardSize = 8;
+		int boardSize = 6;
 
 		// Iteration settings
-		int iterationsStart = 3500;
-		int iterationsEnd = 6000;
-		int iterationsStep = 500;
+		int iterationsStart = 21000;
+		int iterationsEnd = 25000;
+		int iterationsStep = 1000;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
