@@ -1,0 +1,10251 @@
+1) Game type:
+Gobang
+2) Board size:
+7
+3) Number of MCTS iterations per-player:
+24000
+
+Game 1
+1) Extended player number:
+1
+2) Extended player collisions:
+[6186, 5228, 2843, 3129, 3296, 4624, 5443, 6337, 7217, 8376, 8178, 7418, 7497, 7322, 6606, 7555, 10621, 11642, 13180, 21738, 12950, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXXO
+OOXOOOO
+XXXOXOX
+OOOXOXO
+XXXXOXO
+XXOOXXO
+OXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+45.853974778
+
+Game 2
+1) Extended player number:
+1
+2) Extended player collisions:
+[5477, 2462, 2648, 3281, 3823, 4450, 4853, 4866, 4356, 6026, 8033, 7385, 8265, 6532, 6979, 8646, 10587, 11630, 13230, 21749, 13000, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOOX
+OXXOOOO
+XOXOXOX
+OXXOXOO
+XOOXOXO
+OXXXXOO
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+45.347300208
+
+Game 3
+1) Extended player number:
+1
+2) Extended player collisions:
+[5635, 2653, 2909, 3136, 3478, 4358, 3031, 3793, 4462, 6580, 6415, 7705, 7429, 6996, 7721, 8358, 10620, 11682, 13274, 21731, 12967, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXO
+XOXXOXO
+XOOOXOO
+OOXXOXO
+OXXXOXX
+XOXOXXO
+XOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+44.67414109
+
+Game 4
+1) Extended player number:
+1
+2) Extended player collisions:
+[5446, 2659, 2710, 2667, 3710, 3790, 3127, 5001, 5612, 5608, 7917, 7254, 7239, 6694, 7000, 8541, 10633, 11627, 13250, 21646, 12980, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXOO
+XXOOXOX
+XXXOXOX
+OXXXOXO
+XOXOOXO
+XXXOOXO
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+45.307406505
+
+Game 5
+1) Extended player number:
+1
+2) Extended player collisions:
+[5949, 5350, 2931, 3299, 2900, 4534, 5093, 6060, 6321, 7451, 6711, 8079, 6970, 6799, 7966, 9556, 10578, 11650, 13326, 21827, 12970, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXXO
+XXOXOOO
+OXXOOOO
+OOOXXOX
+XXXXOXO
+OXXXOOX
+OOOOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+44.257896037
+
+Game 6
+1) Extended player number:
+1
+2) Extended player collisions:
+[6382, 2669, 3077, 3489, 3749, 4467, 4972, 4996, 4227, 5723, 5783, 7117, 7690, 6542, 7055, 9081, 10615, 11634, 13217, 21711, 12980, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXX
+XOXOOOO
+OXOOXXO
+XOXXOXX
+XXOXOXX
+OXXOOOO
+OOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.928718925
+
+Game 7
+1) Extended player number:
+1
+2) Extended player collisions:
+[5931, 5245, 2461, 3163, 3778, 3501, 4572, 3231, 223]
+3) Final game state:
+___O___
+O__X___
+_XXXO__
+__XXO__
+__OXO__
+__OOX__
+_____X_
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+16.740432176
+
+Game 8
+1) Extended player number:
+1
+2) Extended player collisions:
+[5708, 2738, 2693, 2790, 2082, 38]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.038506292
+
+Game 9
+1) Extended player number:
+1
+2) Extended player collisions:
+[6308, 2628, 2861, 3438, 3736, 4444, 5184, 4669, 4987, 7061, 8375, 7692, 7239, 7030, 8422, 7634, 10636, 11665, 13239, 21726, 12997, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXOO
+OXOOXXX
+XOOOXOO
+OOXXOXX
+XXOXXXX
+OOXOXXO
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.675117995
+
+Game 10
+1) Extended player number:
+1
+2) Extended player collisions:
+[6011, 2715, 2729, 2944, 3838, 4491, 5233, 3831, 4046, 6227, 7861, 7873, 7067, 6900, 7211, 7660, 10605, 11673, 13319, 21774, 13022, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXOX
+OXOOOXO
+OXOXOOO
+XXOXXXX
+OOXOOXO
+XXXXOXO
+XXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.33224387
+
+Game 11
+1) Extended player number:
+1
+2) Extended player collisions:
+[5868, 5438, 2808, 2925, 2068, 24]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.576615153
+
+Game 12
+1) Extended player number:
+1
+2) Extended player collisions:
+[6550, 5380, 2716, 2932, 1984, 31]
+3) Final game state:
+_______
+__X____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.52695406
+
+Game 13
+1) Extended player number:
+1
+2) Extended player collisions:
+[6045, 2659, 2961, 3453, 3795, 4409, 5340, 3928, 3984, 6493, 7165, 7662, 7063, 6859, 7373, 7535, 10610, 11704, 13222, 21782, 12995, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOO
+XXXXOXO
+OXXXOOO
+XXOXXOX
+XOXOOOO
+OOOXXXX
+XXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.141662744
+
+Game 14
+1) Extended player number:
+1
+2) Extended player collisions:
+[6376, 2660, 2866, 3468, 3698, 4391, 5290, 4109, 3917, 6707, 8729, 7892, 7330, 6810, 7237, 7611, 10584, 11693, 13287, 21725, 12988, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXO
+OXOXXOX
+XOOXXXO
+OOXXOOO
+XOOOXXX
+OOXXOXO
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.90454987
+
+Game 15
+1) Extended player number:
+1
+2) Extended player collisions:
+[5847, 5256, 2851, 3128, 3494, 4489, 5353, 3968, 7003, 5897, 6800, 7485, 7026, 7012, 7865, 8474, 10669, 11646, 13255, 21853, 12981, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOOO
+XXOXXXO
+OOXOXOO
+XXOXXOX
+XXXXOXO
+OOXXOXO
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.41543688
+
+Game 16
+1) Extended player number:
+1
+2) Extended player collisions:
+[5987, 2607, 2939, 2477, 2464, 67]
+3) Final game state:
+_______
+_______
+_O_OO__
+XXXXXO_
+___XO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.425648711
+
+Game 17
+1) Extended player number:
+1
+2) Extended player collisions:
+[5757, 2481, 2843, 3460, 3835, 4613, 5079, 3801, 4216, 5641, 7449, 7485, 6932, 6751, 7093, 8622, 10637, 11697, 13259, 21770, 12961, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXO
+XXOXXXO
+OOXOOOO
+XXOXXOO
+OXOXOOX
+XOXXOXX
+OOXXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.898545413
+
+Game 18
+1) Extended player number:
+1
+2) Extended player collisions:
+[6147, 2617, 2892, 3318, 3819, 3272, 5341, 5846, 4539, 5202, 5984, 7856, 7007, 6942, 7077, 8561, 10650, 11689, 13227, 21793, 13002, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXOO
+OOXOXOX
+OOOXOXX
+XOXXOXO
+OOXOOOX
+XXOOXXX
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.880464082
+
+Game 19
+1) Extended player number:
+1
+2) Extended player collisions:
+[6149, 5316, 2582, 2748, 1887, 36]
+3) Final game state:
+_______
+__X____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.120354866
+
+Game 20
+1) Extended player number:
+1
+2) Extended player collisions:
+[6070, 5471, 2833, 2831, 2002, 28]
+3) Final game state:
+_______
+_______
+OXXXXX_
+__OX___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.174594106
+
+Game 21
+1) Extended player number:
+1
+2) Extended player collisions:
+[5870, 5005, 2852, 3058, 2956, 4176, 4701, 5933, 4862, 7457, 7658, 7720, 7149, 6811, 7896, 7939, 10653, 11660, 13309, 21763, 12972, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOOO
+XOXXXOX
+OOOXOXX
+OXXXXOO
+OOXOXOX
+XXOOXXO
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.637457059
+
+Game 22
+1) Extended player number:
+1
+2) Extended player collisions:
+[6068, 2644, 2644, 2567, 3546, 3912, 5187, 4751, 5086, 5365, 7383, 7715, 7296, 7022, 6877, 7623, 10575, 11613, 13239, 21812, 12986, 1120, 80, 3, 0]
+3) Final game state:
+OXXOXXX
+OXOOOXX
+OOOXXOO
+XXOOXOO
+XXOXXXX
+OXXOOXO
+XOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.670791694
+
+Game 23
+1) Extended player number:
+1
+2) Extended player collisions:
+[5990, 5343, 2888, 2677, 3707, 4592, 5416, 6035, 6228, 5274, 8220, 7682, 7003, 7741, 7378, 7635, 10703, 11691, 13277, 21735, 12985, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOOO
+XXXOOOO
+OOXOXXX
+XXOXXOO
+XXOXOXX
+XOOOXOO
+XXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.858452117
+
+Game 24
+1) Extended player number:
+1
+2) Extended player collisions:
+[5806, 2634, 2817, 3393, 3728, 4536, 5266, 4399, 4223, 4956, 8426, 7818, 7029, 6789, 7198, 7973, 10691, 11677, 13195, 21736, 12970, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOXX
+OXXXOXX
+OOXOOXX
+OOOXXOX
+XXOXOXO
+OXOOOOX
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.070145158
+
+Game 25
+1) Extended player number:
+1
+2) Extended player collisions:
+[6581, 5572, 2836, 2745, 2891, 3150]
+3) Final game state:
+_____X_
+____O__
+__XOX__
+__OXX__
+_OO_X__
+O______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.954540063
+
+Game 26
+1) Extended player number:
+1
+2) Extended player collisions:
+[6529, 2686, 2824, 3201, 3948, 3180, 5413, 5831, 7005, 7075, 7824, 8157, 7453, 6908, 6840, 7637, 10610, 11672, 13298, 21746, 12960, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXX
+OOXOXOO
+XOXOOXO
+XXXXOXO
+OOOXOOX
+XOOOXOX
+XXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.452929845
+
+Game 27
+1) Extended player number:
+1
+2) Extended player collisions:
+[5962, 2619, 2840, 3352, 3899, 4512, 5302, 4850, 4693, 7760, 8531, 7614, 7060, 6961, 7320, 7628, 10626, 11666, 13305, 21777, 12935, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXOX
+XXOXXXO
+OXXOXOX
+XOOXXOO
+XOOXOXO
+XOXOOXO
+OOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.059941194
+
+Game 28
+1) Extended player number:
+1
+2) Extended player collisions:
+[6586, 2714, 2891, 3433, 3799, 4458, 5275, 4151, 4990, 8233, 8699, 8254, 6771, 6858, 8064, 8952, 10598, 11721, 13243, 21790, 12962, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXXX
+OXXOOOO
+OOOOXOO
+XOXXOOX
+XXOXOXO
+OOXXXOX
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.111820111
+
+Game 29
+1) Extended player number:
+1
+2) Extended player collisions:
+[5850, 2480, 2886, 2859, 3199, 4617, 5305, 3576, 5727, 5954, 8607, 7358, 7187, 6774, 7153, 7574, 10617, 11673, 13254, 21800, 13011, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOOO
+OOXXOXX
+XOXOXOX
+OOOXOXO
+OXXXOOO
+OOOXXOX
+XXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.073067181
+
+Game 30
+1) Extended player number:
+1
+2) Extended player collisions:
+[6309, 5173, 2858, 2943, 2979, 4069, 4799, 5190, 4191, 6607, 8186, 7419, 7239, 7544, 6918, 8375, 9561, 11689, 13328, 21750, 12968, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOOO
+OOXXXOX
+OOXXOOX
+OXOXXXO
+XXXXOOX
+XXXOOXO
+OXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.966751134
+
+Game 31
+1) Extended player number:
+1
+2) Extended player collisions:
+[6373, 5447, 2809, 3215, 3186, 4578, 5529, 6425, 5126, 4949, 6614, 5974, 7436, 6513, 7572, 8378, 7998, 11684, 13255, 21772, 12988, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXXO
+OXOXXOO
+XOXOXXX
+OOOXXOX
+XXXXOOX
+XXOOXOX
+OOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.856334135
+
+Game 32
+1) Extended player number:
+1
+2) Extended player collisions:
+[5823, 5140, 2763, 2832, 1858, 20]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.114276849
+
+Game 33
+1) Extended player number:
+1
+2) Extended player collisions:
+[6369, 2614, 2726, 3003, 3054, 4568, 5356, 6203, 6749, 8487, 8475, 7982, 7279, 7270, 9271, 7540, 10623, 11673, 13293, 21785, 12998, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOX
+OOOXOOX
+OXXOOXO
+XOOXXOX
+XXXOXOX
+OXOXXXX
+OXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.179256445
+
+Game 34
+1) Extended player number:
+1
+2) Extended player collisions:
+[5760, 5447, 2693, 2913, 3899, 4608, 4780, 6484, 7697, 8400, 7510, 7207, 7360, 7145, 6683, 7645, 10625, 11687, 13273, 21771, 12949, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXOX
+OXOXXOO
+OOXOOOX
+XOOOXXO
+XXXXOXO
+OOOOXOX
+OXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.232034878
+
+Game 35
+1) Extended player number:
+1
+2) Extended player collisions:
+[6048, 2684, 2842, 3196, 2776, 4195, 4386, 4988, 5400, 7010, 7150, 7752, 7377, 6714, 8012, 7653, 10636, 11751, 13247, 21770, 13010, 1120, 80, 3, 0]
+3) Final game state:
+XXOXOOO
+OOOOXXX
+OOOOXOX
+OXXXOXX
+XXXXOXO
+XOXOXOO
+XXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.440827661
+
+Game 36
+1) Extended player number:
+1
+2) Extended player collisions:
+[5917, 5392, 2937, 2435, 2994, 3071, 3780, 3093, 5245, 4387, 5798, 7906, 7155, 6757, 6995, 8298, 10603, 11645, 13310, 21789, 12966, 1120, 80, 3, 0]
+3) Final game state:
+XXOOXXX
+XOXOXOO
+OOXXOXX
+XOXXOXX
+OOXOOOO
+OXOOOOX
+XXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.653838316
+
+Game 37
+1) Extended player number:
+1
+2) Extended player collisions:
+[6048, 2571, 2922, 3531, 3679, 4416, 5277, 5213, 4775, 5266, 6518, 6654, 6915, 7761, 6800, 8322, 10343, 11718, 13293, 21796, 12987, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOOX
+OOXOXXO
+OXOXOOX
+XXOXXOO
+XXXOXOX
+OOXOOXX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.687787902
+
+Game 38
+1) Extended player number:
+1
+2) Extended player collisions:
+[5939, 5333, 2870, 3363, 3077, 4265, 3344, 6735, 6612, 6519, 7476, 7408, 7255, 7251, 6927, 7314, 8252, 10113, 13297, 21713, 12985, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOO
+XOXXXOX
+XOXOOXO
+OXOXXOO
+OOXOOXX
+XOXXXOX
+XXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.40605657
+
+Game 39
+1) Extended player number:
+1
+2) Extended player collisions:
+[5868, 5186, 2596, 3059, 40]
+3) Final game state:
+_______
+_______
+__OOO__
+OXXXXX_
+_______
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.385713609
+
+Game 40
+1) Extended player number:
+1
+2) Extended player collisions:
+[5992, 2673, 2791, 3395, 3812, 4536, 5282, 5002, 4206, 5421, 7125, 6847, 6933, 7512, 7536, 8189, 9708, 11660, 13303, 21710, 13000, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXXO
+XOXXXOX
+XXXOOXX
+OOOXXOO
+XXXXOOO
+OXOOOXO
+XXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.848707138
+
+Game 41
+1) Extended player number:
+1
+2) Extended player collisions:
+[6239, 5342, 2847, 2857, 1924, 24]
+3) Final game state:
+_______
+_______
+_OXXXXX
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.835026017
+
+Game 42
+1) Extended player number:
+1
+2) Extended player collisions:
+[6107, 5522, 2665, 2756, 1978, 23]
+3) Final game state:
+_______
+____O__
+__O_X__
+__OXX__
+__OOX__
+____X__
+____X__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.187137936
+
+Game 43
+1) Extended player number:
+1
+2) Extended player collisions:
+[6124, 5270, 2842, 2982, 3234, 4542, 5431, 6151, 7084, 8673, 8037, 7836, 7014, 7826, 7216, 7591, 10631, 11726, 13261, 21770, 13004, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXXO
+XOOXXOX
+XXXXOXO
+XOOXXOX
+OXXOXOX
+OOOXXXO
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.898835504
+
+Game 44
+1) Extended player number:
+1
+2) Extended player collisions:
+[6053, 5125, 2878, 2435, 3054, 3196]
+3) Final game state:
+_____O_
+____O__
+__OOX__
+__OXX__
+_OX_X__
+X______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.730726955
+
+Game 45
+1) Extended player number:
+1
+2) Extended player collisions:
+[5849, 5587, 2600, 3118, 3780, 4372, 5091, 5597, 5801, 6809, 6907, 7744, 7184, 7638, 7463, 7547, 10611, 11695, 13281, 21884, 12996, 1120, 80, 3, 0]
+3) Final game state:
+OOXXOOX
+XXXXOOO
+OOXXOXX
+XXXXOOO
+OXOOXOX
+XOOXOOX
+XOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.960962211
+
+Game 46
+1) Extended player number:
+1
+2) Extended player collisions:
+[6129, 2625, 3001, 3393, 3830, 4283, 5113, 4075, 7150, 6559, 5946, 7331, 7018, 6533, 6859, 8352, 8133, 11725, 13329, 21778, 12997, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOO
+XXOOOXO
+OOXOOOO
+XXOXXXX
+XXOXOXO
+XOXXXOX
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.182908998
+
+Game 47
+1) Extended player number:
+1
+2) Extended player collisions:
+[6095, 2682, 2845, 3035, 3392, 3774, 2880, 99]
+3) Final game state:
+_O_____
+__X____
+__OX___
+_OXXXXO
+_OOO_X_
+______X
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+14.58400915
+
+Game 48
+1) Extended player number:
+1
+2) Extended player collisions:
+[5955, 5472, 2804, 3301, 3863, 4529, 4788, 5286, 7086, 6373, 6270, 8161, 7226, 6611, 7132, 8970, 10606, 11674, 13314, 21739, 12996, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOOX
+OXOOXXO
+OOXOXOX
+XXOXXOO
+OXOXOOX
+OOXOOOX
+XXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.004253501
+
+Game 49
+1) Extended player number:
+1
+2) Extended player collisions:
+[5927, 5276, 2781, 2893, 2042, 8]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.734764297
+
+Game 50
+1) Extended player number:
+1
+2) Extended player collisions:
+[6559, 2675, 2908, 3045, 2732, 4356, 3755, 5953, 5520, 7648, 7453, 7610, 7378, 6803, 7251, 7488, 10604, 11710, 13194, 21804, 12962, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXOO
+XOXOOXO
+OOXXOXX
+XOXXOXX
+OXXOXOO
+XXOOXOX
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.708932726
+
+Game 51
+1) Extended player number:
+1
+2) Extended player collisions:
+[5658, 2640, 2889, 3130, 3789, 4552, 5216, 4043, 3962, 7130, 8598, 7824, 7088, 6850, 7223, 7605, 10566, 11662, 13314, 21774, 13007, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOXX
+XXOOOOX
+OOOXOOO
+OXXXOXO
+XXXOXOX
+XOXXOOO
+XOOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.488806401
+
+Game 52
+1) Extended player number:
+1
+2) Extended player collisions:
+[6358, 2641, 2865, 3051, 3652, 4101, 4732, 4980, 3982, 7748, 8011, 7224, 7332, 7019, 7338, 7539, 10603, 11658, 13321, 21759, 13004, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXX
+OXOOXOX
+OOOXOOO
+OXXXOXX
+XOOXXXX
+OOXXXXO
+OOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.752698844
+
+Game 53
+1) Extended player number:
+1
+2) Extended player collisions:
+[5958, 2671, 2890, 3452, 3805, 4667, 5145, 4294, 7723, 8011, 8373, 7485, 7463, 7850, 6593, 7577, 10623, 11703, 13277, 21759, 12964, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXX
+XOXOXXX
+OOOXOXO
+XOOXXXX
+OXXOOOO
+XXXOXOX
+OOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.130813572
+
+Game 54
+1) Extended player number:
+1
+2) Extended player collisions:
+[5997, 2638, 2577, 2888, 1976, 37]
+3) Final game state:
+_______
+__X____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.154360978
+
+Game 55
+1) Extended player number:
+1
+2) Extended player collisions:
+[6369, 2615, 2950, 3344, 3844, 4507, 5304, 3697, 3862, 7474, 8403, 8192, 7026, 6912, 7898, 7979, 10667, 11671, 13256, 21835, 12976, 1120, 80, 3, 0]
+3) Final game state:
+XXOOXXO
+OOXXXXO
+OOOOXXX
+XOXXOOX
+XOOXOXO
+XXOXXXO
+OOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.486499591
+
+Game 56
+1) Extended player number:
+1
+2) Extended player collisions:
+[5560, 3066, 2731, 2248, 2590, 72]
+3) Final game state:
+_______
+_______
+__OOO__
+__XO___
+_OXXXXX
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.461392055
+
+Game 57
+1) Extended player number:
+1
+2) Extended player collisions:
+[6249, 2707, 2894, 3142, 2927, 4507, 5413, 6447, 5479, 4582, 8658, 8169, 7270, 8048, 6941, 8665, 10609, 11618, 13146, 21811, 12988, 1120, 80, 3, 0]
+3) Final game state:
+OOOXOXX
+XOXXXOO
+OXXOOOO
+OOOXXOX
+XOXXOXO
+OOXXOXX
+XXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.522191958
+
+Game 58
+1) Extended player number:
+1
+2) Extended player collisions:
+[6162, 5363, 2798, 4193, 2704, 31]
+3) Final game state:
+_______
+_______
+__OOO__
+___X___
+XXXXXO_
+___O___
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.074068423
+
+Game 59
+1) Extended player number:
+1
+2) Extended player collisions:
+[6106, 5137, 2688, 2795, 2513, 55]
+3) Final game state:
+_______
+_____O_
+__O_X__
+__OX___
+__XOX__
+_X__O__
+X______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.418664495
+
+Game 60
+1) Extended player number:
+1
+2) Extended player collisions:
+[5926, 2649, 2588, 2786, 42]
+3) Final game state:
+_______
+___O___
+__OX___
+__OX___
+__OX___
+___X___
+___X___
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.612708378
+
+Game 61
+1) Extended player number:
+1
+2) Extended player collisions:
+[5981, 2604, 2892, 3265, 3739, 3544, 5090, 3848, 7467, 8335, 8061, 7765, 7641, 7025, 6633, 7546, 10598, 11699, 13261, 21752, 12945, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXX
+OOXXOOO
+XXOXXOX
+OOXXOOO
+OXOOXXX
+OOXOOOX
+XXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.449360404
+
+Game 62
+1) Extended player number:
+1
+2) Extended player collisions:
+[6333, 5321, 2768, 3340, 3683, 3068, 5002, 6101, 6511, 7393, 8148, 7526, 7524, 7080, 7031, 7606, 10600, 11706, 13282, 21771, 12969, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOOO
+XOXXOOO
+XXXOOOO
+OXOXXXO
+XXXOXXX
+XXOXXXO
+OOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.60683633
+
+Game 63
+1) Extended player number:
+1
+2) Extended player collisions:
+[6268, 2679, 2827, 3220, 3439, 2363, 5161, 5615, 6663, 7205, 8143, 7128, 7353, 7033, 7144, 7567, 10662, 11629, 13270, 21716, 13005, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOXX
+OOOXOXO
+OOOOXOO
+XXXOXOX
+XOXXOXX
+XOOXXXX
+OOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.626156963
+
+Game 64
+1) Extended player number:
+1
+2) Extended player collisions:
+[5928, 2722, 2791, 3276, 3893, 4111, 4486, 3328, 88]
+3) Final game state:
+O___O_X
+_XO__X_
+__XOXX_
+___XO__
+__XOX__
+_O___O_
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+17.50045529
+
+Game 65
+1) Extended player number:
+1
+2) Extended player collisions:
+[5822, 5064, 2772, 2618, 2329, 66]
+3) Final game state:
+______O
+__O__X_
+__XOX__
+___XO__
+__X_O__
+_X_____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.847197648
+
+Game 66
+1) Extended player number:
+1
+2) Extended player collisions:
+[6384, 2688, 2893, 3093, 2665, 4305, 5038, 5988, 7450, 6985, 5449, 7046, 7874, 6660, 7137, 8593, 9052, 11676, 13308, 21832, 12962, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXX
+XXOOOOX
+OOOXXOO
+XXXXOOX
+XXOOXOX
+XXXXOXO
+OXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.304937229
+
+Game 67
+1) Extended player number:
+1
+2) Extended player collisions:
+[5644, 2649, 3537, 4571, 6130, 4333, 5027, 3559, 15]
+3) Final game state:
+_______
+__OOO_O
+__OXOX_
+_O_XX__
+X__X___
+__XX___
+_X_O___
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+15.699623958
+
+Game 68
+1) Extended player number:
+1
+2) Extended player collisions:
+[6499, 5434, 2918, 2804, 3377, 3196, 3712]
+3) Final game state:
+_____O_
+____O__
+__XOX__
+__OXX__
+_OO_X__
+X___X__
+____O__
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+13.658093313
+
+Game 69
+1) Extended player number:
+1
+2) Extended player collisions:
+[6238, 2628, 2833, 2951, 3812, 4588, 5075, 4998, 5344, 5171, 7461, 7138, 7082, 6766, 6841, 7544, 8179, 11666, 13281, 21767, 12999, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOX
+XOXXXXO
+XXOOXOX
+XOXXOXO
+OOOXXOX
+OXOOOXO
+XXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.192618342
+
+Game 70
+1) Extended player number:
+1
+2) Extended player collisions:
+[5846, 2659, 3045, 3400, 3756, 4483, 3742, 4856, 3976, 5842, 4470, 152]
+3) Final game state:
+_____X_
+O__O_O_
+_XXO_O_
+OXXXXO_
+__OXOO_
+__XOXX_
+_____X_
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+21.759653013
+
+Game 71
+1) Extended player number:
+1
+2) Extended player collisions:
+[6342, 5436, 2908, 2469, 2521, 60]
+3) Final game state:
+X______
+_X_____
+__XOO__
+__OX___
+_OX_X__
+_____O_
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.488546084
+
+Game 72
+1) Extended player number:
+1
+2) Extended player collisions:
+[6045, 5412, 2782, 3182, 1848, 19]
+3) Final game state:
+_______
+_______
+_XXXXXO
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.052380516
+
+Game 73
+1) Extended player number:
+1
+2) Extended player collisions:
+[6250, 5282, 2913, 2125, 3805, 3671, 5244, 5109, 6820, 7957, 8203, 8202, 7165, 7177, 6691, 7593, 10572, 11704, 13282, 21658, 13004, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXOO
+OXOXXOX
+OXXOOXO
+XXOOXOX
+OOXXXOX
+OXOXOXX
+OXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.786427306
+
+Game 74
+1) Extended player number:
+1
+2) Extended player collisions:
+[6126, 2613, 2900, 3474, 3892, 4635, 5136, 5206, 4897, 5385, 6904, 6651, 7088, 7779, 7162, 8108, 9830, 11668, 13300, 21785, 12962, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXXX
+OXOOOXO
+XOOXOXO
+OOOXXOO
+XXXOOXX
+OOXXXOX
+XOXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.579959262
+
+Game 75
+1) Extended player number:
+1
+2) Extended player collisions:
+[5809, 5396, 2802, 3013, 3145, 4525, 5417, 6404, 6813, 8026, 7946, 7270, 7110, 7046, 6622, 7515, 10602, 11659, 13250, 21790, 12973, 1120, 80, 3, 0]
+3) Final game state:
+OOXOOXX
+XXXOOOO
+XXXOXOO
+OXXXOOX
+OOOXXXX
+OOXXOOX
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.182093669
+
+Game 76
+1) Extended player number:
+1
+2) Extended player collisions:
+[6273, 2646, 2948, 3467, 3793, 4491, 5382, 4863, 4286, 5304, 8122, 7866, 6867, 6815, 7304, 8957, 10607, 11747, 13363, 21784, 13005, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOX
+OXOOXXX
+XOOXXXO
+OOXXOXO
+XOOOXOX
+OOXOXXX
+OXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.604695286
+
+Game 77
+1) Extended player number:
+1
+2) Extended player collisions:
+[6155, 2672, 2908, 3431, 3811, 4609, 5364, 6048, 6389, 8782, 8648, 7820, 7133, 7363, 7372, 7565, 10574, 11698, 13288, 21746, 13001, 1120, 80, 3, 0]
+3) Final game state:
+XXOXOXX
+OOXXOXO
+OXOXOXX
+XXOXXOX
+OOXOXOO
+OOOOXXO
+OXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.795370292
+
+Game 78
+1) Extended player number:
+1
+2) Extended player collisions:
+[5774, 5190, 2870, 3317, 3653, 3074, 5324, 5991, 5463, 6880, 7702, 6768, 7881, 6720, 6890, 8334, 9684, 11671, 13213, 21736, 12974, 1120, 80, 3, 0]
+3) Final game state:
+OOOXOOO
+OXXXOXX
+OXOXOOO
+XXOXOOO
+OXXOXXX
+XOXOXOX
+OXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.30131094
+
+Game 79
+1) Extended player number:
+1
+2) Extended player collisions:
+[5351, 2676, 2951, 3425, 3852, 4055, 5039, 4442, 7089, 6013, 5992, 6545, 6294, 6230, 6849, 7520, 9621, 10422, 13230, 21802, 12979, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOXO
+XXOOXOO
+XOOXOXX
+OOOXXXX
+XOXOOXO
+XXXOXOO
+OOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.438986242
+
+Game 80
+1) Extended player number:
+1
+2) Extended player collisions:
+[5375, 5355, 2874, 3330, 3837, 4526, 5187, 3155, 72]
+3) Final game state:
+_______
+OXXXXX_
+___OX__
+__XXO__
+_OOX___
+__OOO__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+17.6361675
+
+Game 81
+1) Extended player number:
+1
+2) Extended player collisions:
+[5943, 5130, 2591, 3187, 3704, 2794, 4414, 5612, 4708, 7393, 7677, 6520, 7052, 7075, 6984, 8359, 10167, 11665, 13291, 21756, 12963, 1120, 80, 3, 0]
+3) Final game state:
+OXOOOXO
+OXOXOOO
+XOXOXXX
+XOOXOXO
+OXXOXXO
+XOXXXOO
+XXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.690778212
+
+Game 82
+1) Extended player number:
+1
+2) Extended player collisions:
+[6136, 5394, 2786, 3089, 3256, 4681, 3684, 5662, 7305, 7225, 7871, 8004, 7408, 6943, 8557, 7671, 10642, 11659, 13281, 21771, 12961, 1120, 80, 3, 0]
+3) Final game state:
+OOXOOOO
+XXOOXXX
+XOXOXXO
+OXOXXXX
+OOXOOOO
+XOXXXOO
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.995719971
+
+Game 83
+1) Extended player number:
+1
+2) Extended player collisions:
+[5691, 2598, 3005, 3494, 3823, 4422, 5280, 4211, 7513, 7256, 8933, 8084, 7105, 7250, 8023, 7553, 10609, 11624, 13259, 21759, 12984, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXO
+XXXXOOO
+OOXOXXO
+XXXXOOX
+OXOXOOO
+OXOXXXO
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.067495373
+
+Game 84
+1) Extended player number:
+1
+2) Extended player collisions:
+[5941, 2651, 3072, 3355, 3920, 4449, 5317, 3699, 5672, 5340, 8036, 7416, 7030, 6754, 8140, 8892, 10622, 11717, 13302, 21818, 13000, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOOO
+XXOOOXX
+XOOXOOO
+OXXXOOO
+XXXOXXX
+XXXXOXO
+XOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.38772869
+
+Game 85
+1) Extended player number:
+1
+2) Extended player collisions:
+[5914, 2713, 2766, 2926, 2050, 25]
+3) Final game state:
+_______
+_______
+_OXXXXX
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.098533398
+
+Game 86
+1) Extended player number:
+1
+2) Extended player collisions:
+[6004, 2638, 2887, 3175, 3753, 3388, 5282, 5985, 5140, 5085, 7231, 6961, 7383, 7312, 6694, 7624, 10565, 11665, 13316, 21840, 12962, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOOX
+OXXOXOX
+XXXOOXX
+OOOXXOO
+XOXXOXX
+XXOOXOO
+OOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.952525876
+
+Game 87
+1) Extended player number:
+1
+2) Extended player collisions:
+[5902, 2697, 2996, 3506, 3733, 4526, 5357, 3741, 4035, 6274, 7356, 7908, 7142, 6812, 7128, 7486, 10648, 11710, 13326, 21725, 12947, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOOX
+XXOOOXO
+OXOXOOO
+XXOXXXO
+OOXOXXX
+XOOXXXX
+OXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.571915967
+
+Game 88
+1) Extended player number:
+1
+2) Extended player collisions:
+[5799, 5333, 2924, 2498, 3104, 3204]
+3) Final game state:
+_O_____
+__O____
+__XOO__
+___XO__
+__XXXO_
+______X
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.709246537
+
+Game 89
+1) Extended player number:
+1
+2) Extended player collisions:
+[5839, 5449, 2797, 2766, 2688, 63]
+3) Final game state:
+_______
+_X_____
+__X_XO_
+___XO__
+__OOX__
+_____X_
+______O
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.44037252
+
+Game 90
+1) Extended player number:
+1
+2) Extended player collisions:
+[6008, 5213, 2557, 3124, 1979, 26]
+3) Final game state:
+_______
+_______
+_OXXXXX
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.483675834
+
+Game 91
+1) Extended player number:
+1
+2) Extended player collisions:
+[6210, 5015, 2795, 3076, 3188, 4545, 5416, 6189, 7650, 8568, 7336, 7167, 7192, 6799, 7165, 7574, 10621, 11682, 13333, 21740, 13015, 1120, 80, 3, 0]
+3) Final game state:
+OOXXOOX
+OOOOXOO
+XXXOXOX
+OXXXOOO
+XXOXXXX
+OXOXOXX
+XOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.276220779
+
+Game 92
+1) Extended player number:
+1
+2) Extended player collisions:
+[6573, 5282, 2793, 3045, 2970, 4569, 4095, 3920, 5027, 6235, 6026, 6047, 7207, 6729, 7540, 8954, 10669, 11711, 13278, 21791, 12976, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXO
+XXXXOXO
+OXXXOOO
+XOOXXXX
+XXXOXOX
+OOOXOOO
+XOOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.753256434
+
+Game 93
+1) Extended player number:
+1
+2) Extended player collisions:
+[5896, 2476, 2926, 2851, 2389, 54]
+3) Final game state:
+_______
+_______
+__OOO__
+_OXXXXX
+__O_X__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.606611874
+
+Game 94
+1) Extended player number:
+1
+2) Extended player collisions:
+[6451, 5294, 2840, 2953, 1915, 24]
+3) Final game state:
+_______
+_______
+_OXXXXX
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.05570046
+
+Game 95
+1) Extended player number:
+1
+2) Extended player collisions:
+[5754, 5264, 2681, 2730, 2289, 48]
+3) Final game state:
+______X
+_____X_
+__O_X__
+__OX___
+__XOX__
+_O__O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.652424221
+
+Game 96
+1) Extended player number:
+1
+2) Extended player collisions:
+[6788, 2675, 2975, 3504, 3993, 3379, 5609, 6406, 6814, 7150, 8632, 7746, 7441, 7201, 6718, 7607, 10585, 11703, 13329, 21733, 12957, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOXO
+OXXOOOO
+OXOXOOO
+XXOXOXX
+XOXXXOX
+XXXOOXX
+OOOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.557414132
+
+Game 97
+1) Extended player number:
+1
+2) Extended player collisions:
+[6050, 2705, 2880, 3060, 3873, 4582, 5169, 4148, 5297, 7763, 8558, 7773, 7047, 6725, 8088, 8013, 10617, 11642, 13349, 21771, 12964, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOX
+XOXOXXX
+OXXOXOO
+XOOXXOX
+OXOXOOX
+OOXXOXO
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.742802124
+
+Game 98
+1) Extended player number:
+1
+2) Extended player collisions:
+[6800, 2624, 2785, 3404, 3809, 4538, 5222, 4049, 3949, 6999, 8947, 7935, 6935, 6755, 7193, 7984, 10667, 11673, 13310, 21784, 12994, 1120, 80, 3, 0]
+3) Final game state:
+OXXOXXO
+XOOXOXX
+XOOOXXO
+OOXXOOX
+OOOXXXO
+XXOXXXO
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.428057108
+
+Game 99
+1) Extended player number:
+1
+2) Extended player collisions:
+[5694, 5386, 2942, 2487, 2640, 3189]
+3) Final game state:
+_O_____
+__O____
+__XOO__
+__XXO__
+__X_XO_
+______X
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.245197188
+
+Game 100
+1) Extended player number:
+1
+2) Extended player collisions:
+[6184, 2703, 2944, 3262, 3695, 4362, 3069, 3883, 3166, 4372, 6324, 7344, 7062, 6859, 6979, 8218, 8072, 11684, 13278, 21753, 12998, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOOX
+XOXXXOX
+XOXOOXO
+OOXXXOO
+XXOXXXX
+OOOOXOO
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.200770763
+
+Game 101
+1) Extended player number:
+1
+2) Extended player collisions:
+[5793, 5256, 2568, 2641, 2351, 64]
+3) Final game state:
+_______
+_____O_
+__OOX__
+___XO__
+__X_XO_
+_X_____
+X______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.000730169
+
+Game 102
+1) Extended player number:
+1
+2) Extended player collisions:
+[5599, 5497, 2871, 3250, 3140, 4591, 5517, 6384, 7669, 7734, 8370, 7361, 7241, 7117, 6684, 7567, 10629, 11699, 13266, 21824, 12993, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXXO
+OXXOOXX
+XOXOXXO
+XXOXOOO
+OXOXXXX
+XXOXOOO
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.190658855
+
+Game 103
+1) Extended player number:
+1
+2) Extended player collisions:
+[5802, 2679, 3000, 3023, 2162, 42]
+3) Final game state:
+_______
+_______
+__O_X__
+XXXXXO_
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.753757916
+
+Game 104
+1) Extended player number:
+1
+2) Extended player collisions:
+[5900, 2596, 3019, 3476, 3927, 3132, 5657, 6228, 6974, 7217, 8340, 7662, 7326, 7214, 6672, 7574, 10636, 11612, 13262, 21788, 12975, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOOO
+XXOOXOO
+OOXXXOX
+OXOXOXO
+XOOXOXX
+XOXOOXX
+OXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.832763939
+
+Game 105
+1) Extended player number:
+1
+2) Extended player collisions:
+[6439, 5327, 2765, 2739, 2332, 66]
+3) Final game state:
+_______
+_X_____
+__X_XO_
+___XO__
+__OOX__
+_____X_
+______O
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.407468312
+
+Game 106
+1) Extended player number:
+1
+2) Extended player collisions:
+[5527, 2675, 2801, 2922, 3712, 4542, 5031, 3448, 5167, 7005, 8611, 8040, 7280, 7496, 7099, 7984, 10616, 11688, 13327, 21835, 13009, 1120, 80, 3, 0]
+3) Final game state:
+XXOOOOX
+XXOXXXX
+XOXOXXO
+OOXXOOX
+XOOXOXO
+OXOXXOX
+XOOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.098192443
+
+Game 107
+1) Extended player number:
+1
+2) Extended player collisions:
+[5707, 5415, 2943, 3128, 3608, 3880, 3852, 4468, 5472, 4807, 6286, 7832, 7308, 7974, 6794, 8997, 10556, 11717, 13180, 21807, 12973, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOOX
+XXOOXOX
+OOOXXXX
+XXOXOOO
+OXXXXOX
+XXOOXOO
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.872198256
+
+Game 108
+1) Extended player number:
+1
+2) Extended player collisions:
+[6083, 2656, 2772, 2956, 3890, 4449, 5277, 3884, 3831, 6591, 8378, 7744, 6946, 6978, 7501, 7575, 10624, 11628, 13261, 21798, 12959, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOX
+XXOOOOX
+XOOXOOX
+XXXXOXO
+OXXOXOO
+OXXOXXX
+XOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.147375446
+
+Game 109
+1) Extended player number:
+1
+2) Extended player collisions:
+[6218, 2630, 2843, 3479, 3903, 4555, 5228, 3739, 5619, 5224, 8668, 8010, 7207, 7811, 7041, 8616, 10617, 11697, 13300, 21707, 13010, 1120, 80, 3, 0]
+3) Final game state:
+OXXOXOO
+OXOOOXO
+OOOXOXO
+OXXXOOX
+XXOOXXX
+XXXXOXX
+OOOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.208597443
+
+Game 110
+1) Extended player number:
+1
+2) Extended player collisions:
+[6038, 3056, 2773, 2870, 3723, 4489, 5115, 4129, 6207, 7706, 8717, 7847, 7128, 7825, 7429, 7549, 10641, 11667, 13308, 21825, 12986, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXXO
+XXOXOXX
+XOOOXXX
+OOXOOOO
+XXOXXXO
+OOOXXOX
+XXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.079969475
+
+Game 111
+1) Extended player number:
+1
+2) Extended player collisions:
+[6139, 2722, 2946, 2729, 2472, 49]
+3) Final game state:
+_______
+_______
+__O_X__
+_OXXXXX
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.488816218
+
+Game 112
+1) Extended player number:
+1
+2) Extended player collisions:
+[5629, 5048, 2835, 3330, 3854, 4623, 5283, 5932, 6302, 8490, 8636, 7872, 7219, 7776, 7069, 9011, 10720, 11688, 13251, 21709, 12978, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXOX
+XXOOXOO
+OXXOOOX
+XOOXXOO
+OXXXOXX
+XOXXOXX
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.520712105
+
+Game 113
+1) Extended player number:
+1
+2) Extended player collisions:
+[6440, 5249, 2880, 3292, 2846, 4612, 5164, 5251, 4968, 7437, 6200, 8004, 7140, 6866, 7098, 9027, 10596, 11705, 13334, 21747, 12965, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOOO
+OOXXXOX
+OOXOXXO
+XOXXOXX
+XXOXXOO
+XXOXOOO
+OXOOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.928329984
+
+Game 114
+1) Extended player number:
+1
+2) Extended player collisions:
+[6093, 5225, 2854, 2679, 1981, 24]
+3) Final game state:
+_______
+_______
+XXXXXO_
+__OX___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.022372469
+
+Game 115
+1) Extended player number:
+1
+2) Extended player collisions:
+[6110, 2656, 2896, 3583, 3692, 4543, 5222, 5409, 4971, 5545, 7909, 7661, 7006, 6881, 7181, 7966, 10629, 11662, 13273, 21751, 12998, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOX
+XXOOOXO
+XOXOXOX
+OXOXXOO
+XXOXOOX
+XOXOXXO
+XOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.617168489
+
+Game 116
+1) Extended player number:
+1
+2) Extended player collisions:
+[5459, 2468, 2916, 3388, 3786, 4532, 5232, 5714, 6967, 7400, 8406, 7737, 7378, 7231, 6644, 7504, 10658, 11690, 13223, 21833, 12976, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXXX
+XOOXOXO
+OXOXOOO
+OOOXXOX
+XOXOOXO
+XOOXXXX
+XXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.766447494
+
+Game 117
+1) Extended player number:
+1
+2) Extended player collisions:
+[5895, 5220, 2882, 2913, 2935, 3199]
+3) Final game state:
+_______
+______O
+__XXXO_
+___XO__
+__OOX__
+__O____
+_X_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.550101461
+
+Game 118
+1) Extended player number:
+1
+2) Extended player collisions:
+[5921, 5343, 2930, 2503, 3058, 2322, 39]
+3) Final game state:
+_______
+_______
+_XXXXXO
+__XXO__
+__OOO__
+__O____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.423022596
+
+Game 119
+1) Extended player number:
+1
+2) Extended player collisions:
+[6203, 2665, 2890, 3127, 2378, 4419, 5436, 5870, 5589, 4527, 7535, 7904, 6949, 7009, 7262, 7576, 10630, 11691, 13279, 21846, 12965, 1120, 80, 3, 0]
+3) Final game state:
+OXXOXOX
+XOOOXOX
+OXXXOOO
+OXOXXXO
+XXXOOXX
+XXXXOOO
+XOOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.176220452
+
+Game 120
+1) Extended player number:
+1
+2) Extended player collisions:
+[6370, 2790, 2903, 3323, 2313, 23]
+3) Final game state:
+_______
+_______
+__OOO__
+___X___
+XXXXXO_
+____O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.771612596
+
+Game 121
+1) Extended player number:
+1
+2) Extended player collisions:
+[6791, 2820, 2896, 3286, 3947, 4575, 5082, 3648, 7514, 8070, 7584, 6775, 7153, 7002, 7773, 7558, 10621, 11704, 13279, 21821, 12947, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOXX
+OOXOOOX
+OOOXOXO
+XXXXOXX
+OOXOXXX
+OXXOOOX
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.178908764
+
+Game 122
+1) Extended player number:
+1
+2) Extended player collisions:
+[6171, 4960, 2869, 2904, 3168, 4579, 5405, 5710, 7124, 7223, 8283, 7846, 7015, 7585, 7344, 7626, 10625, 11643, 13270, 21698, 12925, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXOO
+OXXOXXO
+OOXOXOO
+XOXXOXX
+XOOXXXO
+OXOXXOX
+OXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.314658946
+
+Game 123
+1) Extended player number:
+1
+2) Extended player collisions:
+[6122, 2376, 2942, 2879, 3104, 4059, 4396, 3201, 5299, 7091, 6187, 6972, 6927, 6423, 6799, 8637, 10620, 11643, 13315, 21816, 12966, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOXO
+OOXOXXO
+OXOXXOO
+XXOOOOX
+OXXXXOX
+OOXXOXO
+XXXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.915212243
+
+Game 124
+1) Extended player number:
+1
+2) Extended player collisions:
+[5583, 3078, 2691, 2911, 3916, 4519, 5437, 5392, 7717, 8176, 8834, 8099, 7965, 6915, 6668, 7589, 10648, 11719, 13343, 21710, 12964, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOO
+XXOXOXO
+XXOXOXO
+OOOOXOX
+OXXOXXO
+OOOXXXX
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.086427348
+
+Game 125
+1) Extended player number:
+1
+2) Extended player collisions:
+[5861, 5491, 2828, 2887, 3431, 4567, 4882, 5731, 4385, 6171, 7126, 7086, 7547, 7374, 7282, 8495, 9342, 10819, 13295, 21816, 12957, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXO
+OOOOXXO
+OOOXXXO
+XOOXOXO
+XXXOXOX
+XOOXXOX
+XXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.463487691
+
+Game 126
+1) Extended player number:
+1
+2) Extended player collisions:
+[6271, 2687, 2840, 3282, 3841, 3120, 5392, 5129, 7537, 7743, 8515, 7437, 7517, 7254, 6699, 7510, 10619, 11680, 13285, 21776, 13003, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOXO
+OXOXOOX
+XOXXOOX
+OXOXXXO
+OXXOOXO
+OXOXXXX
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.729392744
+
+Game 127
+1) Extended player number:
+1
+2) Extended player collisions:
+[6240, 2689, 2869, 4802, 2006, 4287, 3191, 4275, 4745, 6928, 6468, 6015, 6941, 8038, 6798, 8387, 10606, 11662, 13289, 21773, 12973, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXOX
+XOXXOXO
+OOXOOXX
+XXOXOXO
+OXXXOOO
+XOXXXOX
+XXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.081597203
+
+Game 128
+1) Extended player number:
+1
+2) Extended player collisions:
+[5813, 2778, 2813, 3238, 3314, 3907, 2890, 5198, 5528, 5121, 6136, 6460, 6432, 5036, 6636, 8333, 9466, 9331, 13275, 21745, 12966, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXOO
+XOXOOXO
+XXOXOXO
+OXXXXOX
+OXXXXOO
+OOOXOOX
+XXOOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+39.111589232
+
+Game 129
+1) Extended player number:
+1
+2) Extended player collisions:
+[5961, 5265, 2631, 2523, 78]
+3) Final game state:
+______X
+_____X_
+____X__
+__OX___
+__XO___
+_O__O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.632400932
+
+Game 130
+1) Extended player number:
+1
+2) Extended player collisions:
+[6182, 2620, 2871, 3499, 3829, 4487, 5195, 4284, 4812, 8326, 8897, 7735, 7188, 6920, 8085, 9108, 10625, 11705, 13262, 21809, 12963, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOO
+XXOOXXX
+XOOOXXX
+OOXXOXX
+XXOXXXO
+OOOXXOX
+OOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.703158607
+
+Game 131
+1) Extended player number:
+1
+2) Extended player collisions:
+[6289, 2627, 2966, 3543, 3487, 4295, 3914, 3459, 83]
+3) Final game state:
+__O____
+__X____
+__XXO__
+_OXXXO_
+__XOOO_
+__XX___
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+15.876226504
+
+Game 132
+1) Extended player number:
+1
+2) Extended player collisions:
+[5635, 5180, 2686, 2681, 2053, 27]
+3) Final game state:
+_______
+_______
+__OOO__
+___XO__
+_OXXXXX
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.728740399
+
+Game 133
+1) Extended player number:
+1
+2) Extended player collisions:
+[6526, 5239, 2834, 2504, 3436, 4101, 3478, 4633, 5125, 5704, 8221, 8071, 7627, 6365, 7933, 8425, 10604, 11719, 13246, 21762, 12987, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXXX
+OOOXXOX
+OXXOOXO
+XOOXXOO
+OOXXXXO
+OXOXOXX
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.366674263
+
+Game 134
+1) Extended player number:
+1
+2) Extended player collisions:
+[6382, 5223, 2804, 2606, 3777, 4581, 5429, 5340, 4377, 6506, 7737, 6815, 8179, 6726, 7013, 8586, 10612, 11710, 13230, 21755, 12983, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXO
+OOXXXXO
+OXXOOOO
+OOOXXXO
+XOXXOXX
+OXOOXXX
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.549983146
+
+Game 135
+1) Extended player number:
+1
+2) Extended player collisions:
+[6359, 2655, 2947, 2889, 2383, 37]
+3) Final game state:
+___X___
+___X___
+__OXX__
+__OX___
+__OXO__
+___O___
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.498897634
+
+Game 136
+1) Extended player number:
+1
+2) Extended player collisions:
+[5907, 5419, 2847, 2523, 3400, 3656, 3638, 5533, 6521, 5667, 8367, 7829, 7045, 7902, 7883, 7907, 10618, 11652, 13287, 21791, 13004, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOO
+OOOXXOO
+XXXXOXO
+OOXXXOX
+XOXOXXX
+OOOOXXO
+OXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.533688944
+
+Game 137
+1) Extended player number:
+1
+2) Extended player collisions:
+[6156, 2625, 3087, 3454, 3788, 4589, 5219, 3959, 4067, 6861, 7968, 7981, 7071, 6856, 7305, 7601, 10595, 11680, 13252, 21800, 12980, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXOO
+XXXXOXX
+OOOOXXO
+XOXXOOO
+OOOXXXX
+XXOXXXX
+XOOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.856735043
+
+Game 138
+1) Extended player number:
+1
+2) Extended player collisions:
+[6412, 5234, 2805, 3096, 3115, 4591, 5460, 6199, 5376, 7693, 6317, 7963, 7213, 6796, 6907, 7623, 10600, 11712, 13323, 21733, 12979, 1120, 80, 3, 0]
+3) Final game state:
+XXOOXOO
+OXXXXOX
+OXXOXXX
+XOOXOOX
+OXXXOXO
+OXOXOXO
+OOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.00900599
+
+Game 139
+1) Extended player number:
+1
+2) Extended player collisions:
+[6512, 5173, 2825, 3101, 3465, 3963, 4652, 5091, 5359, 6426, 6617, 5786, 7135, 6696, 6922, 7513, 10633, 11726, 13307, 21751, 12959, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOOX
+XOXOOXX
+XOXOOXO
+XOXXXXO
+OXOXOXX
+OXOOXOX
+XOOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.674292812
+
+Game 140
+1) Extended player number:
+1
+2) Extended player collisions:
+[5935, 3081, 2700, 2937, 3837, 4465, 5206, 4374, 6963, 6852, 7988, 7784, 7403, 7246, 6598, 7580, 10613, 11643, 13212, 21791, 12973, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOXO
+XXOOXOO
+OOXOXOX
+XOXOOOO
+XXOXXXO
+XXOOXXO
+XXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.283875637
+
+Game 141
+1) Extended player number:
+1
+2) Extended player collisions:
+[5356, 3009, 2631, 3198, 3896, 4471, 4484, 5900, 7793, 8285, 8405, 8120, 7839, 6887, 6679, 7580, 10606, 11644, 13227, 21786, 12991, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXOX
+OXXOOXX
+XOXXOOX
+OOOOXXX
+XXXXOOO
+OXXOXOO
+XOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.818347669
+
+Game 142
+1) Extended player number:
+1
+2) Extended player collisions:
+[5745, 3034, 2637, 2225, 2846, 64]
+3) Final game state:
+____O__
+____X__
+__O_X__
+__OOX__
+__OXX__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.605995915
+
+Game 143
+1) Extended player number:
+1
+2) Extended player collisions:
+[6326, 5378, 2791, 2855, 2020, 27]
+3) Final game state:
+_______
+____X__
+__O_X__
+__OXX__
+__OOX__
+____X__
+____O__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.19538935
+
+Game 144
+1) Extended player number:
+1
+2) Extended player collisions:
+[5807, 2416, 2915, 3025, 2253, 34]
+3) Final game state:
+____O__
+____X__
+__XOX__
+___OX__
+__OOX__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.807573858
+
+Game 145
+1) Extended player number:
+1
+2) Extended player collisions:
+[6713, 2589, 3039, 3492, 3862, 4448, 5427, 4737, 4961, 7867, 8586, 7257, 7252, 7261, 6675, 7601, 10585, 11659, 13300, 21796, 13000, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXXX
+OOOOXXO
+XOOXOOX
+OOOXXOO
+OXXOOXX
+OXOXXXX
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.947902871
+
+Game 146
+1) Extended player number:
+1
+2) Extended player collisions:
+[6390, 5325, 2826, 3071, 3009, 4607, 5536, 4280, 6328, 5313, 8467, 7087, 7021, 6769, 7292, 7626, 10650, 11677, 13303, 21784, 12989, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOOX
+XOXOOXX
+OXXOXOO
+XOOXOOO
+OXOXXXX
+OXOXOOX
+XOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.75103749
+
+Game 147
+1) Extended player number:
+1
+2) Extended player collisions:
+[6033, 2606, 2988, 3408, 3806, 4358, 5172, 4471, 7338, 6844, 8268, 8193, 7556, 7989, 7374, 7585, 10602, 11692, 13283, 21791, 12981, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXO
+OXOXXOX
+XXOXOOO
+OXOXXXO
+OOXOOXX
+XXXOOOX
+OXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.292324821
+
+Game 148
+1) Extended player number:
+1
+2) Extended player collisions:
+[5857, 5231, 2823, 2975, 3369, 4439, 5438, 5924, 6519, 8536, 8142, 7194, 7420, 6956, 6950, 7670, 10620, 11711, 13232, 21708, 13020, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXOO
+XXXOOOO
+OXXXOOO
+XOOXOXO
+XXXOXOX
+OOXXOOX
+XXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.302349141
+
+Game 149
+1) Extended player number:
+1
+2) Extended player collisions:
+[5800, 5296, 2906, 2704, 3834, 4508, 5370, 5276, 4101, 8527, 8735, 7971, 7473, 7863, 7170, 8177, 10630, 11640, 13222, 21735, 13018, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXX
+XOXOOOX
+XXXOXOO
+OXOXXXO
+OXOXOXX
+XOXOOOX
+OOOOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.036552014
+
+Game 150
+1) Extended player number:
+1
+2) Extended player collisions:
+[6465, 2576, 2932, 3559, 3853, 4498, 5023, 4441, 7316, 7154, 8706, 7974, 7200, 7028, 8399, 7587, 10579, 11678, 13280, 21798, 12973, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXX
+XOXXOXX
+XOOOXXO
+XXXXOOX
+OOOXOOX
+OXOXXOO
+OXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.469842542
+
+Game 151
+1) Extended player number:
+1
+2) Extended player collisions:
+[5901, 2634, 2977, 3483, 3786, 4439, 4930, 6065, 6608, 5206, 8116, 7741, 7091, 6909, 7382, 7619, 10622, 11739, 13249, 21860, 12961, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXX
+XXXXOOX
+OXOXOXO
+XXOXXOX
+OOXOOOO
+OOOXXOO
+OOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.426333359
+
+Game 152
+1) Extended player number:
+1
+2) Extended player collisions:
+[6420, 2668, 3053, 3524, 3820, 4580, 5460, 5650, 7655, 8399, 8208, 7789, 7322, 7164, 6653, 7551, 10578, 11739, 13263, 21798, 12985, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOOX
+OXXXOXX
+XXOXXXX
+OOXXOOX
+OOOOXOO
+OOOXXXX
+XXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.325218157
+
+Game 153
+1) Extended player number:
+1
+2) Extended player collisions:
+[6227, 5438, 2795, 2930, 3444, 4579, 5369, 6370, 7552, 8124, 8517, 8054, 7162, 6742, 7419, 9807, 10632, 11714, 13314, 21711, 12965, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXX
+XOXOOOX
+XOXOXOO
+OXOXOOX
+OXOXXXO
+XOXOOXX
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.93250192
+
+Game 154
+1) Extended player number:
+1
+2) Extended player collisions:
+[6104, 2667, 2722, 2106, 2983, 4161, 5006, 4496, 6637, 7705, 7423, 7632, 7216, 7582, 7936, 8069, 10608, 11686, 13299, 21758, 12988, 1120, 80, 3, 0]
+3) Final game state:
+OOOXOXO
+OXXXOOX
+OXOOXOO
+XOOXXXO
+XXXOOXX
+OXOXXXX
+OXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.825671017
+
+Game 155
+1) Extended player number:
+1
+2) Extended player collisions:
+[5782, 2604, 2904, 3055, 2794, 4467, 5438, 6530, 5889, 4685, 8666, 7822, 7103, 6847, 7409, 7575, 10633, 11673, 13267, 21766, 12991, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOXO
+OOXXXOO
+OXXOOXX
+XOOXXXX
+OOXXOOO
+XOOXOOX
+XXOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.814685405
+
+Game 156
+1) Extended player number:
+1
+2) Extended player collisions:
+[5640, 2572, 2900, 3159, 3783, 3201, 5406, 6092, 6148, 5367, 5809, 7031, 7082, 6757, 7085, 8131, 10582, 11629, 13259, 21723, 13008, 1120, 80, 3, 0]
+3) Final game state:
+OOXXXOX
+XXXOOXX
+OXOXOOX
+OXOXXOO
+XOOOXOX
+OXXOOXO
+XOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.910828197
+
+Game 157
+1) Extended player number:
+1
+2) Extended player collisions:
+[6331, 5168, 2644, 2681, 3384, 3830, 3759, 6152, 5255, 5927, 6967, 8066, 7126, 6635, 7312, 7551, 10626, 11723, 13331, 21744, 12996, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXXO
+XXXXOOX
+OOOOXXX
+XOXXOOO
+OXXXXOO
+OXOXOOX
+OXOOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.847311708
+
+Game 158
+1) Extended player number:
+1
+2) Extended player collisions:
+[5488, 5215, 2535, 2695, 2210, 25]
+3) Final game state:
+_______
+__X____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.235971771
+
+Game 159
+1) Extended player number:
+1
+2) Extended player collisions:
+[6116, 5240, 2917, 2979, 3152, 3209]
+3) Final game state:
+_X_____
+__O____
+__OOX__
+___XO__
+__XXXO_
+______O
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.901523937
+
+Game 160
+1) Extended player number:
+1
+2) Extended player collisions:
+[6303, 2713, 2954, 3269, 3887, 4579, 4300, 5774, 4346, 6784, 7379, 7552, 6921, 6912, 8455, 7607, 10564, 11690, 13257, 21767, 12980, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXO
+XXXOOOO
+OXOXOXX
+XXOXXXX
+OOXOXOO
+XOOXXXO
+OOOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.036784499
+
+Game 161
+1) Extended player number:
+1
+2) Extended player collisions:
+[5966, 2650, 2933, 3417, 3948, 4616, 5010, 6527, 7546, 8745, 7810, 7940, 7527, 7313, 6668, 7673, 10646, 11754, 13263, 21766, 12989, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXXO
+OXOXOOX
+OXOXOOO
+XXOXXXX
+OOXOXOX
+XOXXOXX
+XXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.261817808
+
+Game 162
+1) Extended player number:
+1
+2) Extended player collisions:
+[5995, 2690, 2937, 2646, 3043, 3683, 5486, 6448, 7004, 7981, 7189, 7940, 7085, 6625, 6821, 7560, 7971, 11613, 13223, 21817, 12981, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXOX
+XOXXOXX
+XOXOXXO
+OXXXOOO
+OOOXXOX
+XXOOXXO
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.347425655
+
+Game 163
+1) Extended player number:
+1
+2) Extended player collisions:
+[5822, 5347, 2640, 2582, 2738, 63]
+3) Final game state:
+_______
+_______
+_OXXXXX
+__XO___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.858637184
+
+Game 164
+1) Extended player number:
+1
+2) Extended player collisions:
+[5661, 2670, 3066, 3556, 3856, 2821, 5068, 4194, 3775, 6381, 8356, 8243, 7180, 6641, 6938, 8994, 9106, 11667, 13343, 21756, 12985, 1120, 80, 3, 0]
+3) Final game state:
+OOXXOOX
+OXOXXOX
+XOXXOOX
+OOOXXXX
+XOXOOXO
+OXOXXOX
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.860511247
+
+Game 165
+1) Extended player number:
+1
+2) Extended player collisions:
+[6039, 3114, 2689, 3001, 3869, 4433, 3535, 4760, 4130, 7114, 6258, 7918, 7300, 7047, 6682, 7588, 10604, 11604, 13293, 21786, 13017, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOXX
+OXOOOXX
+OXOXOOX
+XOOOXXO
+XXXOXOX
+OOOXOXO
+XXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.370257605
+
+Game 166
+1) Extended player number:
+1
+2) Extended player collisions:
+[6067, 2600, 2870, 3226, 3884, 4691, 4593, 6132, 6591, 5440, 8166, 7853, 7477, 7265, 6698, 7668, 10591, 11656, 13265, 21759, 12987, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOO
+XXOOXXO
+XOXOXXO
+OXXXOOX
+XOOXOXX
+OXOXXXO
+XOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.711174641
+
+Game 167
+1) Extended player number:
+1
+2) Extended player collisions:
+[5869, 2685, 2896, 3194, 3880, 3556, 5314, 6401, 7532, 7585, 7592, 8080, 7124, 6953, 8071, 7541, 10647, 11736, 13294, 21796, 12968, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOXX
+XOXOOOX
+OXOOOXX
+OOOXXXO
+XXXXOOO
+OOOOXXX
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.10571576
+
+Game 168
+1) Extended player number:
+1
+2) Extended player collisions:
+[5986, 5395, 2839, 2847, 2915, 4243, 4877, 5416, 5182, 6849, 7936, 6947, 6966, 6418, 6256, 7996, 8486, 10566, 13716, 21733, 12989, 1120, 80, 3, 0]
+3) Final game state:
+OOXXXXO
+OXXXXOX
+OOXOXXO
+OOXXXXO
+XOOXOXO
+XXOXXOX
+OOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.023019596
+
+Game 169
+1) Extended player number:
+1
+2) Extended player collisions:
+[6341, 2648, 2911, 3119, 3239, 4616, 5412, 5412, 6099, 7796, 6662, 7448, 7012, 6943, 8268, 7510, 10609, 11704, 13226, 21767, 12981, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXXX
+XXXOOOX
+XXXOXOO
+XOXXOOX
+OXOXXXX
+OOOXOOO
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.200607224
+
+Game 170
+1) Extended player number:
+1
+2) Extended player collisions:
+[5950, 5028, 2852, 2529, 3673, 3881, 5465, 6282, 4755, 7712, 7861, 6753, 6969, 6665, 8065, 8065, 10610, 11638, 13303, 21859, 12962, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXOX
+XOOXXOX
+XXXOXOX
+OOOXOOO
+OXOXXXO
+XOOXXXX
+OOOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.023865866
+
+Game 171
+1) Extended player number:
+1
+2) Extended player collisions:
+[5674, 2669, 3017, 3392, 3902, 4632, 5179, 3972, 3759, 6454, 7162, 7884, 7292, 6710, 7565, 7393, 9778, 11754, 13286, 21739, 12947, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXXX
+XXXXOOO
+OOXOXXO
+XXOXXXX
+OXOXOOX
+OXOOOXO
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.857976949
+
+Game 172
+1) Extended player number:
+1
+2) Extended player collisions:
+[6383, 5278, 2866, 2685, 3288, 3340, 3722]
+3) Final game state:
+_______
+______O
+OXXXXO_
+___XO__
+__OOX__
+__O____
+_X_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.142956565
+
+Game 173
+1) Extended player number:
+1
+2) Extended player collisions:
+[6452, 2690, 2953, 3018, 3555, 4128, 2813, 5860, 5735, 6865, 4435, 5786, 7059, 6450, 6893, 8374, 7955, 11665, 13292, 21788, 12981, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXX
+OXOOXOX
+OOOXOOO
+XOXXXXO
+OOOXXXX
+OOXOOOO
+XXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.529187048
+
+Game 174
+1) Extended player number:
+1
+2) Extended player collisions:
+[6195, 2644, 2851, 3460, 3874, 4574, 5124, 4759, 5574, 4543, 6811, 6425, 7641, 6474, 7063, 9054, 10624, 11674, 13285, 21814, 13014, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOXX
+OOXOOOO
+XXXOOXO
+OXOXXOX
+OXOXOXX
+XOOOXXX
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.453858801
+
+Game 175
+1) Extended player number:
+1
+2) Extended player collisions:
+[5941, 3083, 2754, 3313, 3407, 4237, 5005, 5038, 4176, 5418, 6911, 7654, 6926, 6947, 7502, 7553, 10684, 11677, 13198, 21844, 12979, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXX
+OXXXOXX
+OXXOXXX
+XOXOXOX
+XOXOOOO
+OXOOOXO
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.416637676
+
+Game 176
+1) Extended player number:
+1
+2) Extended player collisions:
+[6188, 5372, 2950, 2383, 3045, 3178]
+3) Final game state:
+_X_____
+__O____
+__XOO__
+__XXO__
+__X_XO_
+______O
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.749142629
+
+Game 177
+1) Extended player number:
+1
+2) Extended player collisions:
+[6080, 2634, 2737, 2958, 3772, 4660, 5261, 6242, 7131, 7781, 7878, 7747, 6933, 7012, 7373, 7523, 10595, 11697, 13254, 21768, 12963, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXX
+XXXOXOX
+OOXOOXO
+XXOXXXX
+OXOXOXO
+OOOXOXO
+OOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.773028616
+
+Game 178
+1) Extended player number:
+1
+2) Extended player collisions:
+[5824, 5495, 2842, 3153, 3124, 4614, 5202, 6126, 7626, 8322, 8000, 7088, 6965, 6888, 7060, 7587, 10572, 11670, 13319, 21805, 12986, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOXX
+OOXOXOO
+XOXOXOX
+XXXXOOX
+OXOOXOO
+OOXOXXX
+OXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.251493507
+
+Game 179
+1) Extended player number:
+1
+2) Extended player collisions:
+[5809, 2650, 2644, 2666, 2168, 49]
+3) Final game state:
+_______
+_O__O__
+__XOX__
+__OX___
+__O_X__
+_____X_
+______X
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.390887314
+
+Game 180
+1) Extended player number:
+1
+2) Extended player collisions:
+[6141, 5145, 2804, 2705, 1969, 25]
+3) Final game state:
+____O__
+____X__
+__OOX__
+__OXX__
+__O_X__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.781769648
+
+Game 181
+1) Extended player number:
+1
+2) Extended player collisions:
+[5951, 2935, 2570, 3015, 3922, 4479, 5053, 4304, 6132, 6551, 8501, 7732, 7010, 6995, 7499, 7595, 10613, 11734, 13317, 21753, 13001, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXOO
+OOOOXOX
+XXXXOOO
+OXOOXOX
+OOXOXXX
+XXOXXOX
+XXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.905628036
+
+Game 182
+1) Extended player number:
+1
+2) Extended player collisions:
+[5339, 3040, 4538, 3217, 2478, 4333, 4534, 5499, 6863, 7181, 8499, 7665, 7028, 6889, 7359, 7600, 10627, 11619, 13306, 21801, 12977, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXXO
+OXOXOXO
+OXXXOXO
+XOXOOOX
+OXXOXXX
+OXOOXOX
+OOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.766374826
+
+Game 183
+1) Extended player number:
+1
+2) Extended player collisions:
+[5928, 5467, 2716, 3032, 1786, 19]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.359127927
+
+Game 184
+1) Extended player number:
+1
+2) Extended player collisions:
+[6016, 2676, 2858, 3007, 3705, 4599, 5383, 6559, 7741, 7538, 7384, 7926, 7123, 7886, 7332, 7640, 10637, 11701, 13245, 21762, 12984, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXO
+OOXOXXX
+XOXOOXO
+OOOXXXO
+XXOXOOX
+XXOXOXX
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.431119216
+
+Game 185
+1) Extended player number:
+1
+2) Extended player collisions:
+[6151, 5202, 2773, 2970, 3186, 3043, 3837, 3040, 5176, 4392, 5377, 6231, 6743, 6644, 6385, 7380, 8340, 9475, 13199, 21770, 12963, 1120, 80, 3, 0]
+3) Final game state:
+XXOXOXX
+XOXOOXO
+OXOOOOX
+XXOXOOX
+OXXXXOX
+XOOXOXO
+OXOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+39.443173077
+
+Game 186
+1) Extended player number:
+1
+2) Extended player collisions:
+[5890, 2608, 2776, 3014, 3134, 2342, 5211, 3994, 4533, 5814, 8146, 7539, 7277, 6439, 6662, 8402, 10036, 11669, 13260, 21740, 12978, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOXO
+OXOOOXX
+XXXOXXX
+XOXOOOX
+OOOOXXO
+OOXXXOX
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.016166079
+
+Game 187
+1) Extended player number:
+1
+2) Extended player collisions:
+[5980, 5333, 2911, 2551, 3063, 3149]
+3) Final game state:
+_______
+______X
+__XXXO_
+___XO__
+__XOO__
+__O____
+_O_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.480975487
+
+Game 188
+1) Extended player number:
+1
+2) Extended player collisions:
+[6760, 5562, 2662, 3137, 3954, 4576, 5429, 6109, 7694, 7100, 7011, 7921, 7844, 6874, 6693, 7649, 10587, 11637, 13292, 21744, 12976, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXOX
+OOOXXOO
+OXXXOOX
+XOOOXXO
+OXXXOOX
+OXOXXXX
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.98662174
+
+Game 189
+1) Extended player number:
+1
+2) Extended player collisions:
+[6210, 2640, 3076, 3487, 3871, 4585, 5480, 6163, 6855, 6615, 6546, 5608, 7296, 7034, 6884, 7614, 10652, 11729, 13337, 21797, 12961, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXX
+XOXOOOO
+XOOXOOX
+OXXXOOO
+OXOOXOX
+XXXXOXO
+XXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.692231101
+
+Game 190
+1) Extended player number:
+1
+2) Extended player collisions:
+[5899, 2596, 2975, 3313, 3685, 4559, 5196, 3884, 3994, 6620, 7554, 8238, 7471, 6594, 6770, 8638, 10628, 11643, 13242, 21800, 13002, 1120, 80, 3, 0]
+3) Final game state:
+OXXOOXO
+XXOXXXX
+XOOXOXO
+OOXXOOX
+OOXOXOX
+OXXXOOO
+XOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.555950836
+
+Game 191
+1) Extended player number:
+1
+2) Extended player collisions:
+[6272, 5531, 2920, 3278, 3641, 4574, 4663, 4418, 4444, 7122, 6663, 6538, 7381, 6719, 6748, 8711, 9520, 11601, 13234, 21773, 12985, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXOO
+OXOOOXX
+OOOXOXO
+XOXXOOX
+XXOOXXX
+XOXXXOO
+OOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.064543578
+
+Game 192
+1) Extended player number:
+1
+2) Extended player collisions:
+[6101, 5345, 2839, 2587, 3080, 3697, 3749]
+3) Final game state:
+_____X_
+____O__
+__XOX__
+__OXX__
+_OO_X__
+O___O__
+____X__
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+13.065695411
+
+Game 193
+1) Extended player number:
+1
+2) Extended player collisions:
+[6370, 5219, 2604, 2578, 3538, 3846, 4726, 6386, 7227, 7475, 8423, 8073, 7266, 6743, 8866, 7606, 10629, 11631, 13232, 21808, 12987, 1120, 80, 3, 0]
+3) Final game state:
+OXXOXOX
+XXOXXXO
+OXXOOXX
+XOOXOXO
+XXXOXXO
+OOXOOOX
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.362792467
+
+Game 194
+1) Extended player number:
+1
+2) Extended player collisions:
+[6619, 5466, 2794, 2983, 3112, 4624, 5367, 4267, 4574, 6497, 8898, 8165, 7094, 7002, 6893, 7583, 10611, 11711, 13238, 21711, 12971, 1120, 80, 3, 0]
+3) Final game state:
+XOXXOOO
+OOOXXOX
+XXXOXOO
+XXOXOXX
+OXOXXXO
+XOOOXOX
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.347602837
+
+Game 195
+1) Extended player number:
+1
+2) Extended player collisions:
+[6045, 2651, 2827, 3274, 3859, 3244, 5352, 6043, 5326, 5395, 7045, 6928, 7394, 7180, 6705, 7554, 10616, 11726, 13206, 21781, 12992, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOOO
+XXXOOXO
+XOOOXOX
+OOOXXOX
+XXOXOXO
+OOXOOXO
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.059963076
+
+Game 196
+1) Extended player number:
+1
+2) Extended player collisions:
+[6432, 2727, 2821, 2827, 33]
+3) Final game state:
+_______
+_______
+__OOO__
+_OXXXXX
+_______
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.751404627
+
+Game 197
+1) Extended player number:
+1
+2) Extended player collisions:
+[5643, 2660, 3023, 3507, 3664, 4561, 5162, 4671, 4729, 7868, 8510, 7708, 7302, 7228, 6626, 7554, 10587, 11701, 13291, 21812, 12982, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXOX
+XOXOOOX
+XXOXOOO
+XOXXOOX
+OXOOXXO
+OXXXOXX
+XOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.429514786
+
+Game 198
+1) Extended player number:
+1
+2) Extended player collisions:
+[6132, 2619, 2928, 3215, 3886, 4005, 3768, 6005, 6679, 8633, 8309, 7297, 7770, 6847, 6600, 7559, 10603, 11688, 13270, 21725, 12973, 1120, 80, 3, 0]
+3) Final game state:
+OOOXOOX
+XXXXOXX
+XOOXOXX
+OOXXOOO
+XXXOXOX
+OXOXOOO
+XOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.367704914
+
+Game 199
+1) Extended player number:
+1
+2) Extended player collisions:
+[5763, 5314, 2891, 2837, 3118, 3420, 3718]
+3) Final game state:
+_______
+O______
+_OXXXXO
+__OX___
+__XOO__
+____O__
+_____X_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+13.829708842
+
+Game 200
+1) Extended player number:
+1
+2) Extended player collisions:
+[6017, 2631, 2878, 3433, 3724, 4608, 3525, 5740, 3228, 54]
+3) Final game state:
+_____O_
+____XX_
+_OXOOX_
+_OOXXX_
+_O_XOX_
+__O__X_
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+18.134546474
+
+Game 201
+1) Extended player number:
+1
+2) Extended player collisions:
+[5581, 5169, 2553, 2718, 34]
+3) Final game state:
+_______
+_______
+_______
+XXXXXO_
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+7.665316842
+
+Game 202
+1) Extended player number:
+1
+2) Extended player collisions:
+[6027, 5206, 2657, 3045, 3610, 4411, 4302, 6217, 6883, 7774, 8650, 7592, 7027, 6739, 8024, 8826, 10563, 11670, 13242, 21808, 12978, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXXO
+OXOXXXO
+OXOOXXO
+XOXXOOX
+OOXOXXO
+XOXXXOX
+XOOOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.724416556
+
+Game 203
+1) Extended player number:
+1
+2) Extended player collisions:
+[5953, 2438, 2864, 2936, 3145, 4184, 5178, 4662, 7130, 6040, 8336, 7495, 7423, 7228, 6633, 7623, 10640, 11733, 13225, 21742, 13003, 1120, 80, 3, 0]
+3) Final game state:
+OOOOXXO
+XXOOOXX
+XXOXOOX
+XOXXXXO
+OOXOOXO
+XXOOXOO
+XXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.224788147
+
+Game 204
+1) Extended player number:
+1
+2) Extended player collisions:
+[5447, 2629, 2794, 3018, 3581, 2314, 5365, 6139, 6641, 7227, 8519, 8117, 7552, 7020, 6645, 7557, 10623, 11723, 13239, 21834, 12992, 1120, 80, 3, 0]
+3) Final game state:
+XOXOOOO
+OXXOOXX
+OXXXOOO
+OXXOXXO
+XOOOXOX
+XOXOXOX
+XXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.090059656
+
+Game 205
+1) Extended player number:
+1
+2) Extended player collisions:
+[6302, 2679, 2908, 2727, 3757, 4560, 5433, 3939, 3766, 7059, 8453, 7826, 6806, 6825, 7184, 8620, 10575, 11664, 13273, 21770, 12992, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOXO
+XXOOXOO
+XXXOOOO
+OXOXXOX
+OOOXOOO
+XXXXOXX
+OXXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.475177791
+
+Game 206
+1) Extended player number:
+1
+2) Extended player collisions:
+[6144, 2604, 2960, 3363, 3915, 4583, 4893, 5956, 5312, 5257, 6189, 7522, 7310, 6781, 7742, 8067, 10622, 11711, 13245, 21741, 12988, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXOX
+XOXXOXX
+OOOOXOX
+XXOXXOO
+OXOXOOO
+OXXOXXX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.091142111
+
+Game 207
+1) Extended player number:
+1
+2) Extended player collisions:
+[5909, 2638, 2897, 3343, 3829, 4577, 5193, 4544, 4443, 6960, 7159, 7680, 7069, 6750, 7072, 8419, 9019, 11704, 13308, 21703, 12985, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXOO
+XXOOXXO
+OXOOXOX
+OXXXOXO
+XOOXXXX
+OOXOOXO
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.9425402
+
+Game 208
+1) Extended player number:
+1
+2) Extended player collisions:
+[6347, 2699, 2877, 3019, 2440, 4458, 5508, 5820, 7449, 6358, 5729, 8020, 7307, 7901, 6718, 7591, 10630, 11718, 13224, 21771, 12974, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXXO
+OOXXOXX
+OOOOXXO
+XOXXOXX
+XXOXOOO
+OXOXXOX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.511484042
+
+Game 209
+1) Extended player number:
+1
+2) Extended player collisions:
+[5774, 2856, 2701, 2609, 22]
+3) Final game state:
+__X____
+__X____
+__XO___
+__XO___
+__XO___
+__O____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.764810888
+
+Game 210
+1) Extended player number:
+1
+2) Extended player collisions:
+[6563, 5179, 2829, 2800, 2074, 36]
+3) Final game state:
+___X___
+___X___
+__OXX__
+__OXO__
+__OX___
+___O___
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.084616592
+
+Game 211
+1) Extended player number:
+1
+2) Extended player collisions:
+[5552, 5514, 2899, 3004, 1809, 38]
+3) Final game state:
+_______
+__O____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__X____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.856785033
+
+Game 212
+1) Extended player number:
+1
+2) Extended player collisions:
+[6576, 2652, 3073, 3492, 3893, 4404, 4708, 4181, 7139, 6389, 6241, 7355, 7136, 6925, 6728, 8388, 8481, 11658, 13310, 21727, 12980, 1120, 80, 3, 0]
+3) Final game state:
+OXOXXXO
+XOXXXOO
+OXXXOXX
+OOOXXXO
+XXXOOOX
+XXOOOXO
+OOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.018088496
+
+Game 213
+1) Extended player number:
+1
+2) Extended player collisions:
+[6103, 2657, 2783, 3532, 3788, 4562, 5073, 6486, 6684, 8408, 8326, 7820, 7501, 7955, 6672, 7577, 10635, 11718, 13220, 21794, 13006, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXO
+OOXOOXX
+XXOOXXX
+OXXXOOO
+XOOXOOX
+XOXOOXX
+XXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.56906093
+
+Game 214
+1) Extended player number:
+1
+2) Extended player collisions:
+[6077, 2580, 2990, 3437, 3806, 4516, 5460, 3718, 5209, 7796, 8711, 7932, 7147, 6868, 7456, 7599, 10621, 11658, 13329, 21776, 12977, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXXO
+XXOXXXO
+OOOXOXO
+OOXXOXO
+XOOOXOX
+XOXOOXO
+XXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.422888242
+
+Game 215
+1) Extended player number:
+1
+2) Extended player collisions:
+[6782, 4877, 2844, 2974, 2969, 3841, 4714, 5420, 5059, 7917, 6573, 7164, 7132, 6659, 6826, 7693, 10884, 11638, 13263, 21755, 12983, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOXX
+OXOOOXO
+OXXXOOO
+XOOXXXX
+XXOXOXO
+XOXXXOX
+OXOOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.553451775
+
+Game 216
+1) Extended player number:
+1
+2) Extended player collisions:
+[6239, 3185, 4441, 2987, 2340, 4530, 5431, 5287, 6832, 7375, 7924, 8111, 7860, 6737, 7318, 9689, 10573, 11647, 13230, 21798, 12995, 1120, 80, 3, 0]
+3) Final game state:
+XOOXOOO
+XXOXXXX
+XOXOOXX
+OOOOXXO
+XOXXOOX
+OXOXXOX
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.664888923
+
+Game 217
+1) Extended player number:
+1
+2) Extended player collisions:
+[5886, 2562, 2896, 3195, 3975, 4583, 5268, 5391, 5238, 4963, 5750, 7614, 7172, 6695, 7841, 8070, 10643, 11709, 13239, 21701, 12959, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXX
+OXOOXXO
+XXOOOXO
+OOOXXOO
+XXXXOXX
+XXOOOXO
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.185061548
+
+Game 218
+1) Extended player number:
+1
+2) Extended player collisions:
+[6373, 2684, 3027, 3503, 3781, 4377, 4952, 4338, 6705, 5995, 6456, 7834, 7243, 6593, 7668, 7421, 9098, 11761, 13251, 21716, 13012, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOOO
+OOXOOXO
+XXOXOXX
+XXXXOOX
+OXXOXXO
+XOXOOXO
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.242198282
+
+Game 219
+1) Extended player number:
+1
+2) Extended player collisions:
+[5872, 5345, 2869, 3197, 3343, 4675, 5066, 4774, 6474, 7751, 7130, 7664, 6859, 7248, 7576, 8298, 7962, 11747, 13246, 21754, 12970, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOX
+XOOOXOX
+OXXOXOX
+XOOXOOO
+XXOXXXX
+XXXXOXO
+OXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.350066186
+
+Game 220
+1) Extended player number:
+1
+2) Extended player collisions:
+[6063, 2658, 2854, 3262, 3744, 4363, 5228, 3921, 4038, 7006, 8843, 7996, 7254, 6694, 7958, 8175, 10610, 11742, 13249, 21796, 12958, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXOO
+OOXOXXO
+OXXOXOX
+OXXXOXO
+XOOXOXO
+XXOOOOX
+OXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.142573456
+
+Game 221
+1) Extended player number:
+1
+2) Extended player collisions:
+[6256, 2539, 2795, 3150, 3539, 2358, 4947, 5355, 7222, 7061, 8812, 8002, 7180, 6912, 7099, 9667, 10612, 11663, 13270, 21765, 12969, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXX
+OOOXXXX
+XXXOOOO
+OOXOXXO
+OOOXOOX
+XOOXOXX
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.720974744
+
+Game 222
+1) Extended player number:
+1
+2) Extended player collisions:
+[6070, 5148, 2911, 3352, 3820, 2954, 5290, 5777, 5262, 7217, 7059, 7770, 7106, 7930, 7188, 8711, 10613, 11707, 13209, 21773, 12995, 1120, 80, 3, 0]
+3) Final game state:
+XOXOXXO
+OOXOXOX
+OOXXOOO
+XXOXOXX
+XXXOXOX
+OXXXXOO
+OXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.399961406
+
+Game 223
+1) Extended player number:
+1
+2) Extended player collisions:
+[6495, 2909, 2703, 2730, 3873, 4549, 5459, 5799, 5968, 6139, 8383, 7852, 7120, 6685, 6914, 7942, 10609, 11647, 13270, 21770, 12968, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXXO
+OOXXOOO
+XOOXOXO
+OOXOOXX
+XXXOXXO
+XXOXOOX
+XXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.563302144
+
+Game 224
+1) Extended player number:
+1
+2) Extended player collisions:
+[5261, 5339, 2690, 2502, 2293, 75]
+3) Final game state:
+_______
+_O_____
+__X_XO_
+___XO__
+__OOX__
+_____X_
+______X
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.483421023
+
+Game 225
+1) Extended player number:
+1
+2) Extended player collisions:
+[5903, 2666, 2864, 3229, 3805, 4582, 4385, 6340, 7791, 8674, 8963, 7391, 7261, 7735, 7412, 7563, 10621, 11649, 13286, 21708, 12958, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXOO
+OXXOOXO
+XOOXXXO
+XXXXOOX
+OXOOOXO
+OXOXXOX
+XOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.159908883
+
+Game 226
+1) Extended player number:
+1
+2) Extended player collisions:
+[5994, 5424, 2777, 3071, 1969, 26]
+3) Final game state:
+__X____
+__X____
+__XOO__
+__XXO__
+__X_O__
+__O____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.023233283
+
+Game 227
+1) Extended player number:
+1
+2) Extended player collisions:
+[6079, 5331, 2920, 2473, 2945, 3167]
+3) Final game state:
+_____O_
+____O__
+__OOX__
+__OX___
+_OXXX__
+X______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.843644862
+
+Game 228
+1) Extended player number:
+1
+2) Extended player collisions:
+[6040, 5633, 2680, 2845, 1954, 24]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+OXXXXX_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.092744062
+
+Game 229
+1) Extended player number:
+1
+2) Extended player collisions:
+[6216, 2694, 2909, 3052, 3882, 4514, 5161, 6544, 6715, 7697, 8843, 7727, 7134, 6782, 7304, 7627, 10606, 11695, 13307, 21774, 12967, 1120, 80, 3, 0]
+3) Final game state:
+XXOXOOO
+XOXXOOO
+OXOOXXO
+XXXXOXX
+XOOXOXO
+OXXXOOX
+OOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.604139182
+
+Game 230
+1) Extended player number:
+1
+2) Extended player collisions:
+[6384, 5040, 2621, 3291, 3754, 4312, 5404, 5102, 4862, 6701, 4884, 6204, 7436, 6701, 6757, 8320, 9825, 11604, 13237, 21814, 12977, 1120, 80, 3, 0]
+3) Final game state:
+OOOXXXX
+XOOOXOX
+OXXOXXX
+XOOXOOO
+XXXOXXX
+OXXOOXO
+OOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.72674738
+
+Game 231
+1) Extended player number:
+1
+2) Extended player collisions:
+[6221, 5610, 2914, 2388, 2798, 3090]
+3) Final game state:
+_______
+______O
+__X_XO_
+__XXO__
+__XOO__
+__O____
+_X_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.1481774
+
+Game 232
+1) Extended player number:
+1
+2) Extended player collisions:
+[6295, 5213, 2834, 2817, 3143, 3313, 3729]
+3) Final game state:
+____O__
+O___X__
+_OO_X__
+__OXX__
+__XOX__
+____O__
+_____X_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+13.185385576
+
+Game 233
+1) Extended player number:
+1
+2) Extended player collisions:
+[5889, 2634, 2900, 3198, 3730, 4519, 5020, 4968, 3801, 5748, 6431, 6918, 7344, 7973, 7980, 8539, 10630, 11618, 13239, 21792, 12984, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOOX
+XOXXXOX
+OXXOOXX
+XXOXXOO
+XXOXOOX
+OOOOXOO
+XXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.058416881
+
+Game 234
+1) Extended player number:
+1
+2) Extended player collisions:
+[6640, 5461, 2431, 3075, 3738, 4433, 3473, 5297, 5417, 5898, 4256, 90]
+3) Final game state:
+__X___O
+_OXXXXX
+_OOOX__
+__XXOO_
+__XXO__
+_OOOX__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+20.20440487
+
+Game 235
+1) Extended player number:
+1
+2) Extended player collisions:
+[6429, 5384, 2847, 2892, 3130, 4529, 4106, 6109, 7212, 7564, 6512, 7787, 7391, 7135, 6800, 7930, 10633, 11642, 13266, 21839, 12991, 1120, 80, 3, 0]
+3) Final game state:
+XOXXXOO
+OXOOOXX
+OOOXXOX
+XXXXOXO
+XOXOXXO
+XOXOOOX
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.129195877
+
+Game 236
+1) Extended player number:
+1
+2) Extended player collisions:
+[5492, 2616, 2900, 3226, 3755, 3859, 5271, 6004, 7651, 7988, 8592, 7637, 7186, 7441, 6895, 7550, 10629, 11655, 13252, 21736, 12972, 1120, 80, 3, 0]
+3) Final game state:
+OXOOXXX
+XOOOXXX
+XOXOOXO
+OXOXXOO
+XXOXXOX
+XXOOXXO
+OOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.577834726
+
+Game 237
+1) Extended player number:
+1
+2) Extended player collisions:
+[5617, 5248, 2947, 2512, 2806, 3270, 4386, 3153, 5425, 4333, 5770, 7534, 7139, 7032, 7056, 8192, 9630, 11811, 13246, 21826, 12937, 1120, 80, 3, 0]
+3) Final game state:
+OXOXOXO
+XXOOXXO
+XOOOOXX
+OOOXXXO
+XOXXXOX
+XXOOXXO
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.194706793
+
+Game 238
+1) Extended player number:
+1
+2) Extended player collisions:
+[5798, 3039, 2735, 2254, 2674, 55]
+3) Final game state:
+_______
+__X____
+__XXO__
+__XOO__
+__X_O__
+__X____
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.462440613
+
+Game 239
+1) Extended player number:
+1
+2) Extended player collisions:
+[6222, 2655, 3001, 2632, 2128, 45]
+3) Final game state:
+_______
+_______
+__X_O__
+XXXXXO_
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.142109156
+
+Game 240
+1) Extended player number:
+1
+2) Extended player collisions:
+[6180, 5369, 2827, 3086, 3321, 4509, 5460, 6336, 7636, 7922, 7937, 7687, 7360, 8109, 6969, 7620, 10613, 11675, 13257, 21807, 12989, 1120, 80, 3, 0]
+3) Final game state:
+XXXOOOO
+OOOXXXX
+XOXOOXO
+OOOXXXX
+OXXOXOO
+OXXOXXO
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+45.806467707
+
+Game 241
+1) Extended player number:
+1
+2) Extended player collisions:
+[5791, 5143, 2879, 2328, 2737, 3245]
+3) Final game state:
+_______
+O______
+_OX_X__
+__OXX__
+__OOX__
+____O__
+_____X_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.068155128
+
+Game 242
+1) Extended player number:
+1
+2) Extended player collisions:
+[5834, 5222, 2714, 2581, 2004, 31]
+3) Final game state:
+____O__
+____X__
+__OOX__
+__OXX__
+__O_X__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.286022456
+
+Game 243
+1) Extended player number:
+1
+2) Extended player collisions:
+[6049, 2636, 2972, 3362, 3845, 4604, 5488, 6562, 7001, 7160, 7600, 8001, 7247, 7721, 7319, 7563, 10666, 11672, 13261, 21816, 12946, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOXO
+XXOXXOX
+XXOXOOO
+OOXXOOX
+OOOOXXO
+XOXOXOX
+OXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+46.430050757
+
+Game 244
+1) Extended player number:
+1
+2) Extended player collisions:
+[6537, 5417, 2821, 2864, 3324, 3694, 3801]
+3) Final game state:
+_____X_
+____O__
+__XOO__
+__OX___
+_OXXXXO
+O______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+15.515280801
+
+Game 245
+1) Extended player number:
+1
+2) Extended player collisions:
+[6454, 5246, 2816, 3001, 3206, 4545, 5536, 6525, 6945, 7246, 8933, 8042, 7261, 7446, 7690, 8288, 9151, 11751, 13200, 21795, 12998, 1120, 80, 3, 0]
+3) Final game state:
+XXOOOXO
+OXOXXXO
+OXOXXOO
+XXOXOOX
+XOXOXXO
+XOXXXXO
+XOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.907560026
+
+Game 246
+1) Extended player number:
+1
+2) Extended player collisions:
+[6050, 2659, 3057, 3491, 3851, 4584, 5434, 4157, 4955, 8368, 8762, 8057, 7247, 6802, 7324, 9649, 10602, 11643, 13262, 21868, 12969, 1120, 80, 3, 0]
+3) Final game state:
+OOXOXOO
+XOOOXXX
+XXXOOOX
+OOOXXOO
+OXXXOXX
+XOXXXOX
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.014146393
+
+Game 247
+1) Extended player number:
+1
+2) Extended player collisions:
+[5976, 5626, 2804, 3072, 3377, 3949, 5401, 5663, 6466, 7287, 8217, 7465, 7376, 7222, 6650, 7577, 10620, 11630, 13325, 21764, 12995, 1120, 80, 3, 0]
+3) Final game state:
+XXOXXXX
+OXXXOOX
+XXOXXXO
+XXOOXOX
+OOOOXOX
+OOXOOOX
+XOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.81560321
+
+Game 248
+1) Extended player number:
+1
+2) Extended player collisions:
+[5529, 2618, 3093, 3507, 3712, 4457, 5209, 4744, 4419, 7865, 8382, 7739, 7330, 7282, 6715, 7640, 10571, 11652, 13239, 21838, 12936, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOXO
+OXXOXOX
+XXOXOXO
+OOXXOOX
+XOOOXXX
+XXXOXXO
+OOOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.412042034
+
+Game 249
+1) Extended player number:
+1
+2) Extended player collisions:
+[5625, 5150, 2869, 3314, 3878, 4602, 3769, 4463, 4756, 6565, 6339, 7371, 7052, 6971, 7231, 8016, 10608, 11671, 13229, 21675, 13005, 1120, 80, 3, 0]
+3) Final game state:
+XXXOXXX
+OXXOXOO
+OOXOXXO
+OXOXXXX
+XXOXOXO
+OXXOOOO
+OOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.99556129
+
+Game 250
+1) Extended player number:
+1
+2) Extended player collisions:
+[5970, 2613, 2839, 3278, 3771, 3551, 3649, 4201, 4795, 4948, 5735, 7191, 6522, 6788, 6949, 8273, 10903, 8981, 13227, 21739, 13004, 1120, 80, 3, 0]
+3) Final game state:
+XOOXXXX
+XOXOOOO
+XOOXXXX
+XXOOXOO
+OOXXXOX
+OXOOOOX
+OOXXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.593477505
+
+Game 251
+1) Extended player number:
+1
+2) Extended player collisions:
+[6107, 2647, 2922, 3394, 3856, 4523, 5018, 5457, 5180, 5468, 6596, 6575, 7329, 6685, 7007, 8576, 9611, 11690, 13258, 21849, 13006, 1120, 80, 3, 0]
+3) Final game state:
+XOXXXXO
+OXXOXOX
+XOOXOXX
+OOXXOXO
+XOOOXXX
+OXXOOOX
+OOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.705816308
+
+Game 252
+1) Extended player number:
+1
+2) Extended player collisions:
+[6549, 2588, 2959, 3276, 3816, 3384, 5445, 6135, 4723, 6835, 7318, 7646, 7193, 6896, 7088, 7960, 10624, 11683, 13270, 21745, 12965, 1120, 80, 3, 0]
+3) Final game state:
+XXXXOXO
+XOOOXOO
+XXXXOXO
+OXOXXXX
+XOXOOXO
+OXXOOOO
+XXOOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.251528312
+
+Game 253
+1) Extended player number:
+1
+2) Extended player collisions:
+[6534, 5119, 2670, 2954, 2024, 22]
+3) Final game state:
+_______
+_______
+_XXXXXO
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.411541879
+
+Game 254
+1) Extended player number:
+1
+2) Extended player collisions:
+[5911, 3024, 2632, 2981, 3800, 4396, 5161, 5476, 5303, 5048, 7392, 6594, 7179, 7976, 7240, 8631, 7954, 11710, 13270, 21776, 12982, 1120, 80, 3, 0]
+3) Final game state:
+XXOXOOO
+OOOOXOX
+XXXXOXX
+XXOOXXX
+XOXXOOX
+OXOOOXO
+XXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.246940837
+
+Game 255
+1) Extended player number:
+1
+2) Extended player collisions:
+[5794, 2621, 2991, 3456, 3932, 4539, 4699, 6358, 5017, 5133, 8178, 7717, 7276, 7262, 6652, 7547, 10638, 11694, 13280, 21703, 13018, 1120, 80, 3, 0]
+3) Final game state:
+XOOOXOO
+XXXOXXO
+XXXOXOO
+XOXXXOO
+OOOXOXX
+OOXOOXX
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.022910562
+
+Game 256
+1) Extended player number:
+1
+2) Extended player collisions:
+[5791, 5418, 2536, 2792, 3653, 3812, 5324, 6315, 4940, 5426, 8367, 7764, 7055, 6853, 7224, 8953, 10629, 11703, 13245, 21799, 12942, 1120, 80, 3, 0]
+3) Final game state:
+OXXXOOX
+XOOOXOO
+XXXOXXX
+OOOXXOO
+XXXOOOO
+OOOXOXX
+XXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.959421464
+
+Game 257
+1) Extended player number:
+2
+2) Extended player collisions:
+[4788, 2640, 3248, 3285, 2158, 4189, 4526, 4559, 5986, 7710, 6359, 6322, 6824, 6526, 7723, 8936, 12717, 11421, 18209, 35254, 3878, 310, 18, 0]
+3) Final game state:
+OOXXXOX
+OOXXOXX
+XXXOXXX
+XOXOXOO
+OOOOXXO
+OXOOOXX
+OXOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.572299381
+
+Game 258
+1) Extended player number:
+2
+2) Extended player collisions:
+[5021, 2654, 3066, 3581, 4196, 4468, 4703, 5273, 4658, 5590, 7420, 7389, 6855, 6828, 6900, 8681, 12766, 11366, 18175, 35451, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXO
+OOXXXXO
+XOOOXXX
+OXXOOOX
+OXOXXOO
+XXOOOXO
+XOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.279730856
+
+Game 259
+1) Extended player number:
+2
+2) Extended player collisions:
+[6618, 2525, 3088, 3464, 2964, 4969, 5925, 7160, 6974, 8287, 7829, 7707, 7612, 6677, 6911, 8767, 12778, 11431, 18224, 35560, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+XXXOOXX
+XXXXOOO
+XOOXXXX
+OXXOOOX
+OOOOXOO
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.870751029
+
+Game 260
+1) Extended player number:
+2
+2) Extended player collisions:
+[5717, 2642, 3127, 3208, 3061]
+3) Final game state:
+_______
+_______
+__X_O__
+OXXXXX_
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.215728598
+
+Game 261
+1) Extended player number:
+2
+2) Extended player collisions:
+[2454, 2671, 2962, 3425, 2896, 5019, 5149, 6697, 8111, 8479, 7303, 7538, 7458, 6664, 6885, 8655, 12784, 11363, 18222, 35743, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOO
+XOXOXXO
+XOXOXXX
+OOXOOOX
+XXOXOXO
+XXXOXOO
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.726540152
+
+Game 262
+1) Extended player number:
+2
+2) Extended player collisions:
+[6588, 2681, 2955, 3369, 2152, 4519, 5825, 4923, 5377, 6059, 7638, 7562, 6836, 6810, 7798, 8864, 12762, 11406, 18200, 35471, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOX
+XXOOOOX
+OOXXOXO
+OXOXXXO
+XOXOXOX
+XXOXXOX
+OOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.401596126
+
+Game 263
+1) Extended player number:
+2
+2) Extended player collisions:
+[2426, 2891, 2909, 3189, 2143, 5043, 5829, 6171, 7077, 5853, 6023, 7311, 6918, 6908, 7737, 9585, 12690, 11424, 18168, 35718, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOO
+OOOXXXO
+XXXOXOO
+OXOXOOX
+XXOXXXX
+OOXOXXX
+OXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.511579406
+
+Game 264
+1) Extended player number:
+2
+2) Extended player collisions:
+[6277, 2821, 2967, 3539, 4214, 4861, 3894, 4177, 7541, 8027, 8681, 7535, 7362, 7547, 8089, 8713, 12759, 11459, 18248, 35538, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXOO
+OOXXXOX
+XXXOOOO
+OOOXXXX
+XOOXOOO
+XOXOOXO
+XXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.070655751
+
+Game 265
+1) Extended player number:
+2
+2) Extended player collisions:
+[4944, 2652, 2978, 3592, 4264, 4714, 5571, 6609, 5703, 5661, 8472, 7535, 7754, 7257, 7979, 8684, 12736, 11393, 18243, 35426, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXX
+OXXOOOX
+OXOXOXO
+XXXOOXX
+OOXOXXX
+OXXOXOX
+XOXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.228968572
+
+Game 266
+1) Extended player number:
+2
+2) Extended player collisions:
+[2480, 2673, 3065, 2888, 3096]
+3) Final game state:
+_______
+____X__
+__O_X__
+__OXX__
+__OOX__
+____X__
+____O__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.146762405
+
+Game 267
+1) Extended player number:
+2
+2) Extended player collisions:
+[5060, 2647, 2932, 3432, 3960, 2724, 4121, 3601, 4433, 6052, 7961, 7688, 6914, 6754, 9560, 8730, 12754, 11425, 18195, 35490, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOXX
+XXXOOOX
+XOOXXXX
+OXXXXOO
+OXXOOOO
+OXOOOOX
+OXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.022027891
+
+Game 268
+1) Extended player number:
+2
+2) Extended player collisions:
+[4577, 2611, 2944, 3632, 4186, 5297, 5573, 7207, 7891, 8386, 8153, 7693, 7158, 7457, 6926, 8677, 12745, 11387, 18154, 35465, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXXX
+XOXOXXO
+XOXXOOX
+OOOOXXO
+OXXXXOX
+OOXOOOO
+XXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.971800081
+
+Game 269
+1) Extended player number:
+2
+2) Extended player collisions:
+[5049, 2614, 3084, 3621, 3089, 4945, 4653, 4009, 6566, 6358, 6484, 7301, 6925, 6568, 7590, 9181, 12790, 11386, 18189, 35466, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOOO
+OOOXXXX
+OXXOXOX
+XXOOXOX
+OOXXOOO
+XOXXOXO
+XOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.063197996
+
+Game 270
+1) Extended player number:
+2
+2) Extended player collisions:
+[5005, 2673, 2640, 2919, 3867, 3349, 4539, 5142, 4954, 7697, 8509, 7708, 6978, 6609, 7505, 9284, 8533, 11378, 18193, 35578, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOOX
+OXXOOXO
+OOOXXXO
+XXXXOXX
+XXOOOXO
+OOXXXOX
+OXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.241255256
+
+Game 271
+1) Extended player number:
+2
+2) Extended player collisions:
+[4738, 2774, 2964, 3493, 3056]
+3) Final game state:
+_______
+____X__
+__O_X__
+__OOX__
+__OXX__
+____X__
+____O__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.156946907
+
+Game 272
+1) Extended player number:
+2
+2) Extended player collisions:
+[4960, 2684, 2587, 2664, 3029, 4867, 4224, 4440, 6723, 6563, 8096, 7425, 7727, 7193, 6900, 8718, 12750, 11409, 18235, 35595, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOXX
+OOXOOOO
+OOOXOXO
+OXXOXXX
+XXOOXOO
+OXOXXXX
+XOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.588115343
+
+Game 273
+1) Extended player number:
+2
+2) Extended player collisions:
+[4883, 2695, 3138, 3183, 3671, 4255, 3114, 6541, 5794, 6589, 7236, 7095, 6700, 7932, 8296, 8671, 12682, 11363, 18140, 35598, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXOX
+OXXOOXX
+OOXXOOX
+OXXXOXO
+XOOOXXO
+OXXXXOX
+OOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.733001791
+
+Game 274
+1) Extended player number:
+2
+2) Extended player collisions:
+[6316, 2568, 3168, 3522, 3630, 3469, 5323, 4766, 5437]
+3) Final game state:
+___OO__
+O___X__
+_XXXO__
+__XXOX_
+_OOXO__
+___OX__
+_____X_
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+17.829445804
+
+Game 275
+1) Extended player number:
+2
+2) Extended player collisions:
+[2488, 4705, 6157, 3036, 4244, 4531, 3972]
+3) Final game state:
+_______
+_______
+XXXXXO_
+__OOX__
+__XOX__
+__OOO__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+14.40799036
+
+Game 276
+1) Extended player number:
+2
+2) Extended player collisions:
+[2451, 2589, 2868, 3619, 4260, 5315, 4823, 4510, 6986, 8693, 7305, 7458, 7044, 7214, 6888, 8775, 12714, 11362, 18237, 35515, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXOX
+OOOOXOO
+XOOXXOX
+OXXOOXO
+OOOXXXX
+OXXOOXX
+OOOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.161542979
+
+Game 277
+1) Extended player number:
+2
+2) Extended player collisions:
+[6353, 2512, 3098, 2968, 3368, 4799, 5866, 6347, 4537, 6301, 8632, 7684, 6930, 6901, 7380, 8776, 12755, 11490, 18131, 35599, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXX
+XXOXOOO
+OXXOOXX
+XOOXXXX
+OXXXOXO
+XOOOOXX
+OOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.028006523
+
+Game 278
+1) Extended player number:
+2
+2) Extended player collisions:
+[2401, 2768, 2988, 2956, 3009]
+3) Final game state:
+_______
+_______
+XXXXXO_
+__OX___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.16872526
+
+Game 279
+1) Extended player number:
+2
+2) Extended player collisions:
+[4848, 2762, 3049, 3629, 3977, 3401, 5493, 4783, 5374, 6754, 6190, 6964, 6864, 6636, 7995, 8724, 12751, 11480, 18270, 35529, 3878, 310, 18, 0]
+3) Final game state:
+OXXXOOO
+OOOXOOO
+OOXXOOX
+XXOOXXX
+OXXXOXO
+XXXXOXO
+XXOOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.720115599
+
+Game 280
+1) Extended player number:
+2
+2) Extended player collisions:
+[5020, 2808, 3030, 3685, 4016, 3587, 5701, 4898, 6482, 6281, 8141, 7558, 7067, 7538, 6938, 8724, 12732, 11428, 18186, 35554, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOOX
+XOXXOXX
+OOXXOXX
+OXXOXOO
+XOXXOOX
+OOOOXXX
+XOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.481756237
+
+Game 281
+1) Extended player number:
+2
+2) Extended player collisions:
+[2352, 4588, 5384, 3187, 4228, 4397, 3134, 6619, 7815, 8852, 8879, 7674, 7503, 7922, 7785, 9333, 12728, 11383, 18166, 35400, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXXX
+XXOXOOO
+OOXXOXX
+OOXOOXO
+XXXOXOO
+XXOOXOO
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.97611277
+
+Game 282
+1) Extended player number:
+2
+2) Extended player collisions:
+[2416, 4553, 5122, 3272, 4288, 4357, 3054, 6710, 7956, 8550, 8632, 7613, 6823, 8394, 8522, 8717, 12711, 11373, 18202, 35413, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXX
+XOOXOOX
+OXOXXXX
+OOOOXOO
+XXXOXOX
+OXXOOOO
+OXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.05935865
+
+Game 283
+1) Extended player number:
+2
+2) Extended player collisions:
+[2414, 2564, 3167, 3563, 2812, 5017, 4852, 6859, 7827, 7433, 8113, 7370, 7091, 7437, 6942, 8712, 12709, 11402, 18218, 35604, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXXO
+OOXXXOO
+XXOXOOO
+OOXXOXX
+XOOOXOX
+XXXOOXX
+XOXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.970807728
+
+Game 284
+1) Extended player number:
+2
+2) Extended player collisions:
+[6067, 2845, 2805, 2619, 2599, 2435, 3791, 4883, 3057, 33]
+3) Final game state:
+__O____
+__XXX__
+__X_OX_
+__XXO__
+__XOO__
+_OOOOOX
+____X__
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+17.699583837
+
+Game 285
+1) Extended player number:
+2
+2) Extended player collisions:
+[6199, 2804, 2865, 2662, 1897, 9]
+3) Final game state:
+_______
+______O
+__X_XO_
+__XXO__
+__XOO__
+__O____
+_X_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.145416374
+
+Game 286
+1) Extended player number:
+2
+2) Extended player collisions:
+[2516, 2694, 2925, 3010, 3112]
+3) Final game state:
+_______
+_______
+__OOO__
+__OX___
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.005992437
+
+Game 287
+1) Extended player number:
+2
+2) Extended player collisions:
+[6421, 2551, 3151, 3562, 3028, 5012, 5900, 7152, 7819, 7161, 7780, 7376, 7016, 8448, 9014, 8683, 12734, 11402, 18290, 35466, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXXX
+OOXXOOO
+OXOXOXX
+OOXXOOO
+XXXOXOX
+XOOXOXX
+XOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.379994425
+
+Game 288
+1) Extended player number:
+2
+2) Extended player collisions:
+[6601, 2735, 2945, 3529, 4163, 5036, 4864, 6741, 6781, 8312, 8194, 7707, 7601, 6610, 6964, 8712, 12743, 11448, 18172, 35719, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOXO
+XOXOOOO
+OOOOXXO
+OXXXOXX
+XXOXXOO
+XXXXOOX
+XOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.4171964
+
+Game 289
+1) Extended player number:
+2
+2) Extended player collisions:
+[6088, 2692, 3092, 3513, 4262, 5052, 5641, 4241, 5204, 8183, 8053, 7048, 6877, 6948, 8356, 8714, 12759, 11376, 18255, 35643, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OOOXOXX
+OOOXOOO
+XOXXOOX
+OXOOXXO
+OXXXXOX
+XXOOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.234323007
+
+Game 290
+1) Extended player number:
+2
+2) Extended player collisions:
+[6119, 2846, 2830, 3333, 3159, 4851, 4980, 4163, 5585, 7572, 7014, 7457, 6896, 7053, 7508, 9465, 12776, 11334, 18221, 35444, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXOX
+XOXXXXO
+OOOXOXO
+XOXXOOX
+OOOOXOO
+XXXXOOO
+XXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.887912383
+
+Game 291
+1) Extended player number:
+2
+2) Extended player collisions:
+[2486, 2628, 3150, 3392, 2996, 4937, 4811, 6865, 7887, 7600, 8216, 7107, 7167, 7514, 6980, 8695, 12735, 11440, 18188, 35360, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXXX
+XXOOXXX
+OXXOOOO
+XOOXXOX
+OOOXOXX
+OOXXOOO
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.271124247
+
+Game 292
+1) Extended player number:
+2
+2) Extended player collisions:
+[4878, 2557, 3028, 3523, 3674, 5007, 4976, 4361, 6144, 5743, 6433, 7520, 6786, 6750, 7687, 9447, 12743, 11377, 18225, 35612, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXXX
+XOXXOXX
+OXOOXXX
+XXXOOOX
+OXOXXOO
+OOXXOOX
+XOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.557511118
+
+Game 293
+1) Extended player number:
+2
+2) Extended player collisions:
+[4961, 2782, 2828, 3231, 2120, 4406, 5433, 6297, 5538, 8340, 7659, 7055, 6984, 8249, 7579, 8787, 12757, 11441, 18251, 35519, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOX
+OXXOXOX
+OXXXXOO
+OOXOXXO
+XXOXOOX
+OOXOOXO
+OOOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.540734042
+
+Game 294
+1) Extended player number:
+2
+2) Extended player collisions:
+[6672, 2864, 2961, 2391, 3955, 4745, 5299, 5385, 4361, 7932, 7278, 7299, 7038, 7067, 6933, 8736, 12748, 11437, 18272, 35565, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOX
+OXOOOXX
+OXXXOOO
+XOOXXXX
+XOXOOXX
+XOOXOXX
+OOOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.179597025
+
+Game 295
+1) Extended player number:
+2
+2) Extended player collisions:
+[6004, 2808, 3004, 2771, 1792, 16]
+3) Final game state:
+_____X_
+____O__
+__OOX__
+__OX___
+_OXXX__
+O______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.233860798
+
+Game 296
+1) Extended player number:
+2
+2) Extended player collisions:
+[2466, 2685, 3056, 3550, 3219]
+3) Final game state:
+X______
+_X__O__
+__XOX__
+__OX___
+__O_X__
+_____O_
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.801004489
+
+Game 297
+1) Extended player number:
+2
+2) Extended player collisions:
+[6075, 2602, 2209, 2784, 4188, 3268, 5612, 4735, 4293, 5936, 7102, 7598, 7774, 7716, 8096, 9700, 12732, 11417, 18177, 35492, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXOX
+XXXOXOO
+XOOOOXX
+XOOXOOX
+OOOXXOX
+OOXXOXO
+XXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.73301364
+
+Game 298
+1) Extended player number:
+2
+2) Extended player collisions:
+[6166, 2911, 2878, 2535, 4070, 4884, 5406, 5925, 8285, 8670, 8450, 7334, 7126, 7483, 6979, 8702, 12729, 11425, 18167, 35327, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXO
+XXOXOXO
+XOOXXXX
+OXXXOOX
+OXOOOXO
+OXOXOOX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.520486152
+
+Game 299
+1) Extended player number:
+2
+2) Extended player collisions:
+[2490, 2672, 2993, 3612, 4194, 5062, 5903, 6409, 7323, 6832, 6697, 7642, 7534, 6631, 7018, 8652, 12728, 11419, 18319, 35609, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXO
+XXXXOOO
+OXOOOXO
+XOXXOXX
+XOXXXOO
+OOOXOXX
+XXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.457902074
+
+Game 300
+1) Extended player number:
+2
+2) Extended player collisions:
+[6983, 2507, 3068, 3556, 3171, 4847, 5729, 6107, 5478, 8138, 8226, 7343, 7066, 6603, 6926, 8674, 12751, 11393, 18213, 35506, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOO
+OXXXOXO
+OOXXOOO
+XXOXXXX
+XOXOOOO
+OOOOXXX
+XOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.008421929
+
+Game 301
+1) Extended player number:
+2
+2) Extended player collisions:
+[5025, 2728, 2831, 3461, 2278, 3825, 5022, 6058, 7076, 7593, 7189, 7371, 7119, 6991, 8563, 8727, 12721, 11348, 18173, 35517, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOOO
+XOXXOXX
+OXOXOXX
+OXXOOOO
+XOXXXXO
+XOOXOOO
+OXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.913630941
+
+Game 302
+1) Extended player number:
+2
+2) Extended player collisions:
+[2427, 2839, 2754, 3337, 3435, 3414]
+3) Final game state:
+_______
+__O____
+__XOX__
+__OOO__
+_OXXXXX
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+12.526618183
+
+Game 303
+1) Extended player number:
+2
+2) Extended player collisions:
+[2501, 5023, 5668, 3119, 4209, 3511, 5525, 7049, 7005, 7473, 7995, 7456, 7997, 7179, 6951, 8755, 12722, 11374, 18240, 35474, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOOX
+OXXOXOX
+XXOXXXO
+XXXOOXX
+OOXOXOX
+OOOOXOO
+OXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.960023398
+
+Game 304
+1) Extended player number:
+2
+2) Extended player collisions:
+[4866, 2628, 2649, 3541, 4147, 4484, 3537, 5012, 4574, 6960, 7540, 7384, 7392, 6699, 6951, 8819, 12754, 11372, 18255, 35412, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOX
+XXXOXXX
+XXOXOXO
+OOXOXOX
+OOXXXOX
+OXOXOXO
+OOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.544114105
+
+Game 305
+1) Extended player number:
+2
+2) Extended player collisions:
+[2405, 2556, 3061, 3504, 3090, 3558]
+3) Final game state:
+_____O_
+__O_X__
+__OXO__
+__XOX__
+_XO_X__
+X______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+13.205004187
+
+Game 306
+1) Extended player number:
+2
+2) Extended player collisions:
+[6702, 2548, 3010, 3519, 4136, 4759, 5067, 3864, 4866, 7280, 7264, 7367, 7489, 7347, 7451, 8961, 12736, 11453, 18263, 35450, 3878, 310, 18, 0]
+3) Final game state:
+OXOXOOO
+XOXXXOX
+XXOOXOX
+OXXXOXO
+OOOXXOO
+XOOOOXX
+OXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.739042525
+
+Game 307
+1) Extended player number:
+2
+2) Extended player collisions:
+[5120, 2919, 2855, 3338, 4197, 4329, 3059, 4470, 7205, 8224, 8020, 7233, 6812, 6945, 8644, 8729, 12711, 11419, 18238, 35499, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOOX
+XOOXXOX
+XOOOXXO
+XXXXOXX
+OOOXOXO
+OOXOXOX
+XOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.371714249
+
+Game 308
+1) Extended player number:
+2
+2) Extended player collisions:
+[2513, 2618, 3046, 2952, 3076]
+3) Final game state:
+_______
+_______
+___OX__
+__OOO__
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.796660938
+
+Game 309
+1) Extended player number:
+2
+2) Extended player collisions:
+[2508, 4418, 5383, 3082, 4233, 4113, 3997]
+3) Final game state:
+_____X_
+____X__
+___X_X_
+__XOO__
+_XXOX__
+O_OOO__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+14.641345889
+
+Game 310
+1) Extended player number:
+2
+2) Extended player collisions:
+[6379, 2664, 3165, 3495, 3191, 4800, 5025, 4283, 5678, 7280, 7267, 7598, 6827, 6605, 8048, 8736, 12641, 11395, 18184, 35366, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXXX
+XXOOXOX
+OOXOOXX
+OXOXXXO
+XXOXOOX
+OXOOOOX
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.158019631
+
+Game 311
+1) Extended player number:
+2
+2) Extended player collisions:
+[5001, 2730, 2846, 3517, 3160]
+3) Final game state:
+_______
+_______
+_XXXXXO
+__XO___
+_OO_O__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.745088401
+
+Game 312
+1) Extended player number:
+2
+2) Extended player collisions:
+[6668, 2724, 2982, 2707, 1924, 8]
+3) Final game state:
+_____X_
+____O__
+__XOX__
+__OXX__
+_OO_X__
+O______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.062040445
+
+Game 313
+1) Extended player number:
+2
+2) Extended player collisions:
+[5151, 2826, 3055, 3536, 3750, 4477, 5897, 6983, 7018, 8869, 7457, 7398, 7183, 7444, 6909, 8789, 12787, 11384, 18245, 35590, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXX
+OOXOXOO
+XXXOOOO
+OOOXXXX
+XOXOOXX
+OXXOXXX
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.299729861
+
+Game 314
+1) Extended player number:
+2
+2) Extended player collisions:
+[4872, 2718, 3048, 3474, 3172]
+3) Final game state:
+_______
+_______
+OXXXXX_
+___OX__
+__O_OO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.050962512
+
+Game 315
+1) Extended player number:
+2
+2) Extended player collisions:
+[2516, 5127, 5448, 2854, 2732, 3215, 3436, 5640, 5752, 7125, 8337, 7624, 7347, 6663, 7804, 9539, 12726, 11388, 18140, 35503, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXXX
+OXOOOXO
+XXOXXXO
+XOXOXOX
+OXOOXXX
+OOXOOOX
+XOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.380359078
+
+Game 316
+1) Extended player number:
+2
+2) Extended player collisions:
+[2510, 2719, 2998, 3517, 4153, 4932, 5906, 6201, 7112, 8651, 8440, 7424, 7100, 7534, 6887, 8710, 12703, 11455, 18266, 35274, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXXX
+OXXOOOX
+OOXOXXO
+XXOXOOX
+XXOXOOO
+XXOXXXO
+XXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.761563757
+
+Game 317
+1) Extended player number:
+2
+2) Extended player collisions:
+[6075, 2688, 3121, 3391, 3101, 4952, 5493, 6930, 7874, 8696, 7376, 7742, 7599, 6656, 6972, 8692, 12709, 11486, 18260, 35574, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOX
+OOOXOXX
+OXOXXXO
+XOXXOXX
+OXOOXOO
+XXXOXOX
+XXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.041496313
+
+Game 318
+1) Extended player number:
+2
+2) Extended player collisions:
+[2435, 2608, 2810, 3559, 4231, 4829, 5711, 6638, 8166, 8601, 7615, 7625, 6622, 7273, 6980, 8741, 12709, 11351, 18230, 35610, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXOX
+OOXOOXO
+XOXOXXX
+XOXOXXO
+OXOXOOX
+XOOXOXO
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.297891743
+
+Game 319
+1) Extended player number:
+2
+2) Extended player collisions:
+[5175, 2733, 3047, 3329, 3935, 2551, 4092, 5626, 5760, 6334, 7950, 7471, 6917, 6961, 7904, 8693, 12757, 11460, 18243, 35450, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOXO
+XOOXOOO
+XOXXOXO
+XOOXXOO
+OXOOXXX
+OXOOXXO
+XXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.780628243
+
+Game 320
+1) Extended player number:
+2
+2) Extended player collisions:
+[4848, 2798, 3074, 3508, 2983, 4908, 5007, 4250, 5951, 6505, 6461, 7401, 6984, 6930, 8734, 8741, 12724, 11420, 18262, 35543, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXOX
+OOOXXXX
+XXOOXOO
+XXXXOXX
+OOOXOXX
+OXOOOXX
+XOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.900420985
+
+Game 321
+1) Extended player number:
+2
+2) Extended player collisions:
+[5783, 2880, 3018, 3281, 3099, 4970, 5023, 6005, 8147, 8207, 7842, 7169, 6537, 6669, 7990, 9634, 12759, 11412, 18219, 35283, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXOO
+XOOOXXO
+XXXOOOO
+XXOXXOX
+OXOXOXX
+OOXXOOX
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.87872477
+
+Game 322
+1) Extended player number:
+2
+2) Extended player collisions:
+[6455, 2566, 2911, 3032, 3076]
+3) Final game state:
+____O__
+____X__
+__OOX__
+__OXX__
+__O_X__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.638666584
+
+Game 323
+1) Extended player number:
+2
+2) Extended player collisions:
+[2517, 2595, 2965, 3585, 4130, 5070, 5838, 6647, 6720, 8744, 7353, 7114, 6764, 7033, 8630, 8706, 12767, 11351, 18199, 35630, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOXO
+XXOXOXO
+OXOXOXO
+XXXOXXX
+XOXOXOO
+OOXOOOX
+XXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.821812466
+
+Game 324
+1) Extended player number:
+2
+2) Extended player collisions:
+[2488, 4770, 5113, 3314, 4387, 4400, 3179, 6665, 5675, 5503, 7112, 6832, 6839, 7195, 7427, 9407, 9950, 11432, 18182, 35501, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOX
+OXOOOXO
+OXXOXOO
+XOXOOXX
+XXXXOXO
+XXOXOOO
+XOXXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.154285104
+
+Game 325
+1) Extended player number:
+2
+2) Extended player collisions:
+[4937, 2752, 2705, 3449, 3220]
+3) Final game state:
+_______
+_______
+XXXXXO_
+___OX__
+__O_OO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.585978391
+
+Game 326
+1) Extended player number:
+2
+2) Extended player collisions:
+[6902, 2822, 3004, 3299, 3049, 5012, 4610, 4203, 7748, 7983, 8293, 7406, 7034, 7039, 8503, 8743, 12764, 11414, 18237, 35638, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXO
+OXXOOOO
+XXOOXOX
+OXXXOOO
+XOOXXXX
+XXOOOXX
+OXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.265243708
+
+Game 327
+1) Extended player number:
+2
+2) Extended player collisions:
+[2434, 2626, 3115, 2791]
+3) Final game state:
+_______
+_______
+_______
+__OOO__
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.694884706
+
+Game 328
+1) Extended player number:
+2
+2) Extended player collisions:
+[4908, 2738, 2947, 3606, 3156]
+3) Final game state:
+__X____
+__X____
+__X_O__
+__XO___
+__XXO__
+__O_O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.797265395
+
+Game 329
+1) Extended player number:
+2
+2) Extended player collisions:
+[2493, 2655, 2964, 3581, 3318, 3439, 4061, 3507, 6714, 5619, 7916, 7463, 6836, 8238, 8439, 8748, 12744, 11441, 18238, 35349, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXOO
+OOOOXOX
+XXXXOXX
+XXXOOOO
+OOXXXOX
+OXOXOOX
+XOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.238387356
+
+Game 330
+1) Extended player number:
+2
+2) Extended player collisions:
+[2472, 2588, 2993, 3533, 4163, 4553, 3652, 6913, 6945, 8563, 8200, 7343, 7006, 7504, 6921, 8751, 12769, 11470, 18243, 35421, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOOO
+OOXOXOO
+XOXXXOX
+OOOOXXX
+XXXXOOO
+XXOOXOO
+XXOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.164359599
+
+Game 331
+1) Extended player number:
+2
+2) Extended player collisions:
+[4813, 2682, 3027, 3437, 3811, 3194, 5454, 4631, 7947, 8332, 7726, 7605, 7361, 7794, 6913, 8721, 12712, 11474, 18258, 35391, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOXO
+OXXOOXX
+XXOXXXX
+OXXOXXO
+XOOOXOO
+OOXOOOX
+OXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.829710332
+
+Game 332
+1) Extended player number:
+2
+2) Extended player collisions:
+[4665, 2783, 2839, 2826, 4082, 4848, 5879, 5508, 5785, 5378, 8062, 7222, 6807, 6986, 7379, 8712, 12732, 11400, 18178, 35494, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOX
+OOXXOOO
+XOXOXOX
+OXXOOXO
+XXOXXOX
+OOXXOXX
+OOOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.125970668
+
+Game 333
+1) Extended player number:
+2
+2) Extended player collisions:
+[5797, 2693, 3068, 3496, 3018, 5005, 5192, 6863, 6608, 5780, 8220, 7610, 7658, 6811, 7723, 9663, 12716, 11413, 18282, 35511, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOXO
+XXOOXOX
+OOXOXOO
+XOXXOXX
+XXOXOXO
+OOOXXXO
+XOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.789597386
+
+Game 334
+1) Extended player number:
+2
+2) Extended player collisions:
+[4845, 2624, 3079, 3185, 4236, 4840, 5031, 5388, 4504, 5502, 7612, 7434, 6954, 7401, 6904, 8706, 12786, 11431, 18173, 35452, 3878, 310, 18, 0]
+3) Final game state:
+OXXXOOO
+XOXXXOO
+OXOOXOO
+XOXOOXX
+OXOXXOO
+XXXXOXO
+OOOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.101146791
+
+Game 335
+1) Extended player number:
+2
+2) Extended player collisions:
+[4991, 2877, 4301, 2005, 4151, 3968, 3710, 4047, 5554, 7350, 7979, 7433, 7545, 7220, 6945, 8724, 12725, 11431, 18213, 35380, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXXX
+XOOXXXO
+XXXOOXO
+OXXXXOX
+OXOXOXX
+OOOXOOX
+OOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.656000869
+
+Game 336
+1) Extended player number:
+2
+2) Extended player collisions:
+[4864, 2725, 3094, 3648, 4274, 4876, 3808, 4044, 6369, 8678, 7562, 7720, 6884, 6828, 7413, 9409, 8559, 11403, 18168, 35621, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOX
+XOXXOXO
+OOOXXOX
+XXXOOOO
+OOOOXXX
+OOXXXXO
+XXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.52716951
+
+Game 337
+1) Extended player number:
+2
+2) Extended player collisions:
+[2495, 2572, 2973, 3564, 4109, 4616, 5493, 6955, 6889, 8702, 8276, 7453, 7103, 7422, 6971, 8716, 12789, 11511, 18254, 35491, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXOO
+XOOXOXX
+OXXXOXO
+OOOOXOX
+XXXOXOO
+OXOXXXO
+OOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.605230369
+
+Game 338
+1) Extended player number:
+2
+2) Extended player collisions:
+[6391, 2763, 3042, 3607, 3993, 2649, 4477, 3644, 6005, 6066]
+3) Final game state:
+_O____O
+__XO_X_
+__OXX__
+__OXX__
+_OXXXXO
+_O_OO_X
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+18.087079661
+
+Game 339
+1) Extended player number:
+2
+2) Extended player collisions:
+[5078, 2690, 3012, 3003, 4023, 3401, 4949, 3780, 5132, 5070, 5619, 7351, 6917, 6806, 7351, 8740, 12728, 11387, 18204, 35599, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOOX
+OOXXXOX
+XXOXOXX
+XOXXXOO
+XOOOXOO
+OXXOXOX
+XOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.969479105
+
+Game 340
+1) Extended player number:
+2
+2) Extended player collisions:
+[5877, 2559, 3100, 2939, 3167]
+3) Final game state:
+___X___
+___X___
+__OXO__
+___XO__
+__XXO__
+___O___
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.57504468
+
+Game 341
+1) Extended player number:
+2
+2) Extended player collisions:
+[4686, 2785, 3066, 3627, 3484, 4173, 5708, 4575, 4702, 6563, 6063, 7232, 7046, 6614, 7938, 9456, 12746, 11389, 18185, 35517, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXOX
+OOXXXXO
+OXOXXOX
+XOXOOXX
+OOOXXOO
+XXXOOXO
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.125833781
+
+Game 342
+1) Extended player number:
+2
+2) Extended player collisions:
+[2468, 2656, 3012, 3608, 4000, 5085, 6018, 6884, 4818, 8828, 8464, 7622, 7204, 6966, 6956, 8743, 12777, 11386, 18186, 35433, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXOO
+XXXXOXO
+OOOXXXO
+OOXOOOX
+XXXOXOX
+OXXOXXO
+XOOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.773949307
+
+Game 343
+1) Extended player number:
+2
+2) Extended player collisions:
+[6515, 2801, 3102, 2646, 3015]
+3) Final game state:
+_______
+_______
+OXXXXX_
+__OX___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.909592879
+
+Game 344
+1) Extended player number:
+2
+2) Extended player collisions:
+[4733, 2791, 2720, 3554, 3157]
+3) Final game state:
+_______
+__O_X__
+__OXX__
+___OX__
+__O_X__
+____X__
+____O__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.010083362
+
+Game 345
+1) Extended player number:
+2
+2) Extended player collisions:
+[6350, 2607, 3110, 3540, 2934, 4932, 5009, 3872, 6657, 8755, 7691, 7198, 6819, 6595, 7652, 9190, 12735, 11378, 18223, 35489, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXOX
+XOXOXXO
+OXXOOXX
+XOOXXXO
+OOOXOOO
+XOOOOXX
+XOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.556858198
+
+Game 346
+1) Extended player number:
+2
+2) Extended player collisions:
+[2490, 4427, 5378, 3152, 4140, 3563, 5599, 5233, 5769, 5701, 6427, 7091, 7053, 7011, 7278, 8665, 12695, 11399, 18255, 35528, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXX
+XOXXXOX
+OOXXOOO
+XXOOXXX
+XOXOXOO
+OXOXXXO
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.541935166
+
+Game 347
+1) Extended player number:
+2
+2) Extended player collisions:
+[5040, 2746, 2864, 2249, 1977, 15]
+3) Final game state:
+_______
+__X____
+__OXX__
+__OX_X_
+__OXO__
+__O____
+__O____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.461235824
+
+Game 348
+1) Extended player number:
+2
+2) Extended player collisions:
+[4960, 2862, 2986, 5099, 2368, 4086, 5172, 3608, 129]
+3) Final game state:
+_X_____
+_O_____
+_XXO_X_
+_XXXO__
+_X_O___
+OOOOOX_
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+17.738696681
+
+Game 349
+1) Extended player number:
+2
+2) Extended player collisions:
+[2485, 4419, 5592, 3234, 4258, 4637, 3069, 6511, 7268, 8755, 7640, 7402, 6982, 7104, 8444, 8724, 12737, 11440, 18259, 35253, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXOX
+XXOXOXO
+OOXXXOX
+XOOOXOX
+OXXOOXO
+OOOXXXO
+OOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.141522672
+
+Game 350
+1) Extended player number:
+2
+2) Extended player collisions:
+[5190, 2834, 3108, 3400, 2463, 4155, 3972, 4982, 5542, 5362, 6197, 6949, 6465, 6904, 7217, 8511, 9697, 12133, 18294, 35463, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXOO
+OOXOOXO
+XXOXOOO
+OXXXXOX
+XXXOOOX
+XOOOOXX
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.289570037
+
+Game 351
+1) Extended player number:
+2
+2) Extended player collisions:
+[5192, 2717, 3016, 3611, 2303, 4069, 4360, 4764, 4323, 5646, 6226, 7556, 6874, 6631, 8043, 8699, 12741, 11431, 18158, 35349, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOOX
+OOOOXOX
+XXOXOXO
+OXOOXXX
+OOXXXXO
+OXOXOOO
+XXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.728856034
+
+Game 352
+1) Extended player number:
+2
+2) Extended player collisions:
+[6303, 2681, 3038, 3560, 3215, 4887, 5355, 4227, 5940, 7272, 7684, 7801, 7383, 7522, 8269, 8789, 12753, 11395, 18153, 35351, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOXX
+OXXOXOX
+XXOXOOO
+OOOXXOX
+XXXOOOX
+OOOXXXX
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.146563023
+
+Game 353
+1) Extended player number:
+2
+2) Extended player collisions:
+[2463, 2627, 3037, 3646, 3336, 4760, 5552, 4941, 5210, 7483, 8343, 7323, 7136, 6682, 6964, 8727, 12823, 11497, 18226, 35539, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXO
+XOXOXOX
+OOOXOXO
+OXXOXXX
+XOXOXOO
+XOXXOOX
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.044429166
+
+Game 354
+1) Extended player number:
+2
+2) Extended player collisions:
+[2485, 4270, 5670, 3229, 4294, 4956, 5430, 4607, 5952, 5512, 6418, 6910, 6798, 6943, 7995, 8765, 12744, 11464, 18226, 35550, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXO
+XOXXXOX
+OOXXOXO
+XXOOXXO
+OXXOXOX
+OXOXXOX
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.562485094
+
+Game 355
+1) Extended player number:
+2
+2) Extended player collisions:
+[6279, 2799, 2951, 3468, 2180, 4927, 5778, 6433, 7717, 7864, 8179, 7499, 6926, 6670, 7662, 8735, 12728, 11470, 18169, 35611, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOOO
+OXOOXXX
+OOXOXOX
+XOOXXXO
+OXXOOXX
+OOOXXXO
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.198853523
+
+Game 356
+1) Extended player number:
+2
+2) Extended player collisions:
+[5012, 2742, 2870, 3409, 3153]
+3) Final game state:
+_______
+_______
+_XXXXXO
+__XO___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.991136477
+
+Game 357
+1) Extended player number:
+2
+2) Extended player collisions:
+[2553, 4619, 5647, 3362, 3805, 4659, 3550, 3955, 4243, 5599, 6942, 7286, 6876, 6662, 7623, 8371, 12737, 11343, 18211, 35572, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOO
+XXXXOXX
+OOOXXXX
+XXOXOOO
+XOXXXOX
+OOXOOXX
+OOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.018957938
+
+Game 358
+1) Extended player number:
+2
+2) Extended player collisions:
+[4614, 2714, 3223, 3475, 3163, 4822, 5822, 7025, 8191, 7487, 7160, 7245, 7182, 7491, 6963, 8705, 12769, 11433, 18218, 35425, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOXO
+OXOXOOX
+XXXXOXO
+XOXOOXO
+OXXOXOX
+XXOOXOO
+XXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.869416071
+
+Game 359
+1) Extended player number:
+2
+2) Extended player collisions:
+[5733, 2779, 2967, 2489, 4115, 4950, 4960, 4670, 5975, 4989, 7758, 7414, 6706, 6890, 8418, 8714, 12683, 11378, 18225, 35532, 3878, 310, 18, 0]
+3) Final game state:
+OOXOOOO
+XXOXOXX
+XXOOOOX
+XXXXOXO
+OOOXXXO
+XXOOOXX
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.817376356
+
+Game 360
+1) Extended player number:
+2
+2) Extended player collisions:
+[6460, 2715, 2815, 2506, 1950, 12]
+3) Final game state:
+_______
+______O
+__X_OO_
+__XXO__
+__XOX__
+__O____
+_X_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.507103171
+
+Game 361
+1) Extended player number:
+2
+2) Extended player collisions:
+[2432, 2403, 2966, 3560, 4172, 4463, 5856, 5967, 5180, 5970, 5731, 6779, 6958, 6647, 7394, 9451, 12733, 11430, 18256, 35480, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOXO
+XOXXXOX
+OOXOXXO
+XOXOXXX
+OXOXOOO
+XXOXOOO
+XOOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.140238964
+
+Game 362
+1) Extended player number:
+2
+2) Extended player collisions:
+[6166, 2862, 2924, 3388, 3762, 4845, 5804, 5334, 6840, 7532, 7974, 7229, 7066, 7475, 6966, 8755, 12775, 11405, 18164, 35467, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOOX
+XOOOXOX
+XXXOXOO
+OOXXOXX
+XXOOOXX
+OXXOXXX
+OOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.350197501
+
+Game 363
+1) Extended player number:
+2
+2) Extended player collisions:
+[4766, 2803, 3102, 3447, 3219]
+3) Final game state:
+_______
+_______
+__OOO__
+__XO___
+_XXXXXO
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.556534052
+
+Game 364
+1) Extended player number:
+2
+2) Extended player collisions:
+[4820, 2707, 3005, 3501, 3134]
+3) Final game state:
+_______
+_______
+_XXXXXO
+__XO___
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.651810669
+
+Game 365
+1) Extended player number:
+2
+2) Extended player collisions:
+[2486, 2740, 3102, 3600, 4156, 5024, 4803, 6388, 8260, 8373, 8185, 7453, 7875, 6889, 7928, 8790, 12769, 11527, 18164, 35494, 3878, 310, 18, 0]
+3) Final game state:
+OOXOOXO
+OXXOXXX
+OXXOXOO
+XOOXOXO
+XOXXOOX
+OOXXOOX
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.096140273
+
+Game 366
+1) Extended player number:
+2
+2) Extended player collisions:
+[6507, 2625, 2910, 2806, 2084, 2284, 52]
+3) Final game state:
+_______
+______X
+OXXXXO_
+___XO__
+__OOX__
+__O____
+_O_____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.826823556
+
+Game 367
+1) Extended player number:
+2
+2) Extended player collisions:
+[2491, 2630, 3000, 3084, 3992, 5030, 5454, 5250, 4002, 6320, 6734, 7430, 7516, 6878, 7404, 9450, 12741, 11380, 18167, 35534, 3878, 310, 18, 0]
+3) Final game state:
+OXOXOOX
+OXOXXXO
+OOXOXXX
+OXOOXOO
+XOXXOOO
+OXOOOXX
+XXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.696558815
+
+Game 368
+1) Extended player number:
+2
+2) Extended player collisions:
+[6189, 2873, 3098, 2273, 3212, 4772, 3896, 6065, 6587, 7856, 7941, 7489, 7406, 6654, 7700, 8799, 12722, 11413, 18208, 35504, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOO
+XOXXOOX
+XXOOOXO
+XOOXOXX
+OXOXXOO
+OXOOXXO
+XXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.646224654
+
+Game 369
+1) Extended player number:
+2
+2) Extended player collisions:
+[6222, 2679, 3051, 3335, 2080, 4603, 5993, 5839, 7155, 5970, 7326, 7424, 6921, 6856, 8923, 8717, 12710, 11447, 18140, 35514, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOOO
+XXOXOOX
+XXXOXXX
+OXXXOOO
+XOOOXXO
+XXOXXOO
+OOOXXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.691065619
+
+Game 370
+1) Extended player number:
+2
+2) Extended player collisions:
+[2459, 2814, 3053, 3441, 2127, 4843, 5667, 7046, 7960, 8353, 8184, 7309, 7266, 7135, 6975, 8742, 12777, 11338, 18240, 35475, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOXO
+XOXOOOO
+OOXOXOO
+OXXXOOX
+XXOOXXX
+OOXXOXX
+XOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.73583444
+
+Game 371
+1) Extended player number:
+2
+2) Extended player collisions:
+[4908, 2772, 2987, 3549, 2876, 4910, 6141, 7252, 6726, 7774, 7549, 7635, 6748, 6687, 8075, 8141, 12777, 11452, 18267, 35476, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXOX
+OXXXOOO
+XXXXOOX
+XOOOXXO
+OOXXOOO
+XOOOXOX
+XXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.520524696
+
+Game 372
+1) Extended player number:
+2
+2) Extended player collisions:
+[4999, 2498, 3008, 3574, 4277, 4590, 4240, 4820, 4515, 5806, 7585, 6988, 6425, 6877, 6931, 8681, 9307, 11411, 18202, 35723, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXX
+OOXOOXX
+XXXXOOX
+XXOOXOX
+XOXXXOO
+OXOOXXO
+OXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.736422273
+
+Game 373
+1) Extended player number:
+2
+2) Extended player collisions:
+[4901, 2637, 3004, 3591, 4249, 4612, 4121, 6712, 8247, 7316, 8069, 7426, 7528, 7339, 6948, 8639, 12744, 11439, 18206, 35409, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXOX
+OOXOOOX
+OOXOXOX
+XXXOXOX
+XOOXXXO
+XOXXOOO
+OXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.518339966
+
+Game 374
+1) Extended player number:
+2
+2) Extended player collisions:
+[5810, 2839, 3002, 2745, 1960, 17]
+3) Final game state:
+_____O_
+____O__
+__XOO__
+__OX___
+_OXXX__
+X______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.880134613
+
+Game 375
+1) Extended player number:
+2
+2) Extended player collisions:
+[4910, 2771, 2995, 3378, 2354, 3961, 3955, 5807, 4877, 6484, 6027]
+3) Final game state:
+_______
+XXXXXO_
+_OXXXXO
+___OXX_
+__OXOO_
+__OOO__
+__O____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+18.534507113
+
+Game 376
+1) Extended player number:
+2
+2) Extended player collisions:
+[2474, 2631, 2902, 2102, 3375, 4974, 5788, 7022, 8008, 8714, 7519, 7249, 6864, 7111, 8267, 8747, 12765, 11360, 18327, 35426, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOOO
+XOXOXXO
+XXOXXXO
+OXOOXXX
+OOXOOOO
+XXOOXXX
+XOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.764711179
+
+Game 377
+1) Extended player number:
+2
+2) Extended player collisions:
+[2495, 2637, 3045, 3385, 2315, 3521, 4325, 6472, 7402, 7446, 7876, 7411, 7162, 6643, 6991, 8784, 12770, 11368, 18219, 35601, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXXX
+OXOOXXO
+XOXXXOX
+OOOOXXX
+OXOOOXO
+XOOXXOO
+XOOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.927655229
+
+Game 378
+1) Extended player number:
+2
+2) Extended player collisions:
+[6205, 2786, 2160, 2990, 4174, 4311, 4379, 4719]
+3) Final game state:
+_____X_
+__O_X__
+__XXO__
+__XXXO_
+_XOOOXO
+O______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+16.93495974
+
+Game 379
+1) Extended player number:
+2
+2) Extended player collisions:
+[2456, 2568, 3088, 3556, 3094, 5007, 4875, 6115, 7698, 7140, 7581, 7515, 6711, 7884, 8534, 8742, 12739, 11312, 18175, 35570, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXO
+OXOOXOX
+OXXOOXX
+XXOXXXO
+XOOXOOO
+XOOOXOX
+XXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.985670234
+
+Game 380
+1) Extended player number:
+2
+2) Extended player collisions:
+[7009, 2928, 2773, 3479, 3980, 4799, 5869, 6318, 4659, 8631, 8295, 7657, 6695, 9166, 8021, 8707, 12728, 11364, 18200, 35408, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXX
+OOXXXOX
+XXOXXOO
+XOXXOOO
+OOOOXXX
+XOXXOOX
+XOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.088902198
+
+Game 381
+1) Extended player number:
+2
+2) Extended player collisions:
+[5694, 2663, 3143, 3173, 2199, 5011, 5821, 6206, 8159, 8794, 7928, 7180, 7257, 6677, 6940, 8752, 12714, 11377, 18237, 35604, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXXO
+OXOXOOO
+XXOXXOX
+OOOXOOX
+XXXOXXO
+OXXOOXX
+OXOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.110925334
+
+Game 382
+1) Extended player number:
+2
+2) Extended player collisions:
+[4747, 2615, 2851, 3604, 4321, 4581, 3536, 6026, 7550, 8742, 8285, 7448, 7148, 7577, 6996, 8788, 12742, 11439, 18228, 35530, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXXX
+OOOOXXO
+XXXOXXO
+OXXOXXX
+OOOXOOX
+XXOXOOX
+OOXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.456727302
+
+Game 383
+1) Extended player number:
+2
+2) Extended player collisions:
+[2460, 2728, 2982, 3267, 2137, 4971, 4278, 5229, 4739, 5227, 7903, 7342, 6803, 6568, 7556, 10077, 12750, 11393, 18123, 35540, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXOO
+XXXOXOX
+OOXOXOX
+OXOXXOO
+XXXOOXO
+XXOXXOX
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.52198965
+
+Game 384
+1) Extended player number:
+2
+2) Extended player collisions:
+[5226, 2695, 2891, 2865, 2143, 4810, 4364, 4739, 5119, 6856, 6937, 6765, 6252, 6947, 8370, 8570, 10406, 11469, 18183, 35483, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXOX
+OOXXXXO
+XXXOXOO
+OXXXXOX
+OXOXOOX
+XOXOOXX
+OOXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.661984192
+
+Game 385
+1) Extended player number:
+2
+2) Extended player collisions:
+[2446, 2651, 2993, 2990, 3134]
+3) Final game state:
+_______
+__O____
+__X_O__
+__XXO__
+__XOO__
+__X____
+__X____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.491101004
+
+Game 386
+1) Extended player number:
+2
+2) Extended player collisions:
+[4917, 2802, 3096, 3612, 4062, 4412, 5324, 4375, 5755, 5769, 8086, 7203, 6909, 7238, 6975, 8754, 12760, 11475, 18163, 35469, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOO
+XOXOOXO
+XOOXOOX
+XXOOXXX
+OXXXXOO
+XOXXXOO
+OXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.816761273
+
+Game 387
+1) Extended player number:
+2
+2) Extended player collisions:
+[2489, 2707, 3197, 1952, 4076, 3720, 2993, 4006, 6082, 5976, 6743, 7295, 8057, 8068, 7433, 9407, 12756, 11370, 18242, 35446, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXO
+OXOXOXX
+XOXXXXO
+OOXOXXX
+OXOXXOO
+OXOOOXO
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.752701278
+
+Game 388
+1) Extended player number:
+2
+2) Extended player collisions:
+[5034, 2658, 3028, 3140, 3232, 4957, 4858, 4410, 6748, 8617, 7855, 6949, 6885, 7155, 6928, 8752, 12676, 11405, 18179, 35611, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOX
+XXXXOXO
+OXOXOXO
+XXXOXXO
+XOXOOOX
+XXOXOOO
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.704799645
+
+Game 389
+1) Extended player number:
+2
+2) Extended player collisions:
+[5048, 2910, 3082, 2382, 4170, 4424, 5723, 5819, 6411, 5874, 5994, 7131, 7201, 8644, 8325, 9141, 12721, 11390, 18235, 35452, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXXX
+OXXOXXO
+XOOXOXO
+OOOXXOO
+OOXOXOX
+XXXOXXO
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.316033142
+
+Game 390
+1) Extended player number:
+2
+2) Extended player collisions:
+[4932, 2604, 2950, 3596, 4254, 4538, 5859, 5808, 5414, 7890, 7555, 7416, 6659, 6959, 8607, 8753, 12732, 11396, 18239, 35567, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOO
+XXOXXOX
+XOXXOXO
+OXOOXXX
+XOXXOOO
+XOOXOXX
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.327977841
+
+Game 391
+1) Extended player number:
+2
+2) Extended player collisions:
+[6861, 2892, 3206, 3515, 3263, 4840, 5159, 5056, 6232, 7239, 8507, 8046, 6777, 7792, 8767, 9332, 12757, 11419, 18243, 35422, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OXXOXOO
+XOOXXXX
+OOXXOOX
+XOOOXXO
+XOXOOXO
+XXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.244724122
+
+Game 392
+1) Extended player number:
+2
+2) Extended player collisions:
+[6714, 2704, 3071, 3510, 2350, 3643, 3729, 6772, 6400, 6666, 8652, 7532, 6976, 6744, 9278, 9758, 12770, 11376, 18184, 35616, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXOX
+XOOOXOO
+XXXXOOX
+XOOXOOO
+OXXOXXX
+XOXOXXO
+XOXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.246792043
+
+Game 393
+1) Extended player number:
+2
+2) Extended player collisions:
+[4746, 2517, 3036, 3617, 4230, 4309, 5244, 5478, 5455, 7356, 6108, 6329, 6685, 7608, 8391, 8292, 12734, 11335, 18196, 35559, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OXOOOOX
+OXOXOXO
+OOXOOOX
+XXXOXXO
+XOXXXOO
+OXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.485108042
+
+Game 394
+1) Extended player number:
+2
+2) Extended player collisions:
+[5990, 2813, 2942, 3390, 4231, 4955, 4258, 6682, 8065, 8612, 7771, 7650, 7105, 7177, 8973, 8741, 12716, 11430, 18230, 35646, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXX
+OOXXOXO
+OXOXOXO
+XOXXOXX
+XOOOXOO
+XXOXXOO
+XXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.104208266
+
+Game 395
+1) Extended player number:
+2
+2) Extended player collisions:
+[6187, 2849, 2948, 3234, 4277, 5009, 4377, 4074, 7561, 8677, 8664, 7639, 6775, 6884, 8002, 8717, 12700, 11370, 18196, 35384, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXOX
+OOXOOOO
+OXOOXXX
+XXXXOXO
+OOOXXXO
+XOOXOXO
+XXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.380062702
+
+Game 396
+1) Extended player number:
+2
+2) Extended player collisions:
+[5056, 2622, 3097, 3687, 3297, 4974, 5571, 5450, 8118, 7441, 7785, 7330, 7076, 7482, 6927, 8692, 12754, 11406, 18223, 35450, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOOX
+OXOOXXX
+OOXOXXO
+OXXOXOX
+XOOXOXO
+OXOOXXX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.282965803
+
+Game 397
+1) Extended player number:
+2
+2) Extended player collisions:
+[5993, 2815, 2951, 3294, 3161, 3605]
+3) Final game state:
+_______
+_______
+_XXXXXO
+__XXO__
+__OOO__
+__O____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+12.997459553
+
+Game 398
+1) Extended player number:
+2
+2) Extended player collisions:
+[5849, 2814, 3111, 3511, 4267, 3887, 3562, 5652, 6505, 8282, 7820, 7473, 8114, 7463, 6875, 8756, 12713, 11408, 18244, 35446, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOOX
+XXXOXOO
+OXOXOXX
+XOOXOOO
+XXOOXOO
+XXXOOXX
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.725033505
+
+Game 399
+1) Extended player number:
+2
+2) Extended player collisions:
+[6214, 2785, 2801, 3420, 4156, 3506, 5620, 4740, 6092, 8365, 8259, 7185, 6599, 6842, 8575, 8729, 12701, 11444, 18262, 35490, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXOX
+XOXXOXO
+XOOOXXO
+OOXXOOO
+OXOXOOX
+XXOXXOX
+XXXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.806091425
+
+Game 400
+1) Extended player number:
+2
+2) Extended player collisions:
+[4804, 2645, 2996, 3598, 4104, 4892, 5800, 7074, 7043, 6730, 7554, 7538, 6891, 7197, 6955, 8683, 12733, 11414, 18122, 35693, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXXO
+XOXOOXX
+XXOXXXX
+OOXOOOO
+XOOOXXX
+XOXXOOO
+XOOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.218571852
+
+Game 401
+1) Extended player number:
+2
+2) Extended player collisions:
+[4857, 2689, 3200, 3280, 3136]
+3) Final game state:
+____O__
+____X__
+___OX__
+__XOX__
+__OOX__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.88757134
+
+Game 402
+1) Extended player number:
+2
+2) Extended player collisions:
+[7019, 2826, 3141, 3507, 4249, 4734, 5687, 7074, 8241, 7561, 8275, 7380, 7751, 7202, 6894, 8706, 12735, 11373, 18243, 35509, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOOO
+OOOXXXX
+XXXOOXO
+OOOXXXX
+XOXXOOX
+XOOXOXO
+XXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.707483543
+
+Game 403
+1) Extended player number:
+2
+2) Extended player collisions:
+[2474, 4340, 5625, 3115, 4191, 3583, 5589, 5589, 5009, 6256, 5216, 7425, 7907, 6984, 7341, 8726, 12735, 11411, 18215, 35359, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXXX
+XXOOOXO
+OOOXXOX
+XOXOOXO
+XXOOXXO
+OOXXOOX
+OXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.099964133
+
+Game 404
+1) Extended player number:
+2
+2) Extended player collisions:
+[6855, 2640, 2940, 2971, 2144, 2312, 43]
+3) Final game state:
+_______
+X______
+_OXXXXO
+__OX___
+__XOO__
+____O__
+_____O_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.843646102
+
+Game 405
+1) Extended player number:
+2
+2) Extended player collisions:
+[4938, 2778, 2823, 2798, 2834, 3540, 3002, 4876, 4120, 6159, 7477, 7057, 6807, 7298, 7625, 8659, 12736, 11446, 18197, 35541, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOOO
+XOXOOXO
+XXOXOXX
+OXXXXOO
+XXOOOOX
+XXOXXXO
+XOOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.510236472
+
+Game 406
+1) Extended player number:
+2
+2) Extended player collisions:
+[5771, 2871, 2811, 3250, 3157, 4690, 5756, 5881, 5136, 5950, 7895, 7175, 7082, 7446, 6937, 8701, 12753, 11371, 18167, 35626, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOOX
+OXXXOOX
+XOXOOXO
+OXOXXXX
+XXOXOOO
+XOOXOXX
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.854450036
+
+Game 407
+1) Extended player number:
+2
+2) Extended player collisions:
+[2427, 4395, 5634, 3297, 4229, 4941, 4777, 4209, 7148, 7617, 7674, 7511, 7263, 6833, 6911, 8689, 12726, 11398, 18229, 35563, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOX
+OXOXXXO
+XXXOOOX
+XOOOXXO
+OOXXOXX
+OOXXXXO
+OXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.769147411
+
+Game 408
+1) Extended player number:
+2
+2) Extended player collisions:
+[5102, 2664, 2937, 3451, 3197]
+3) Final game state:
+_______
+_O__O__
+__XO___
+__OXX__
+___OX__
+_____X_
+______X
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.502895105
+
+Game 409
+1) Extended player number:
+2
+2) Extended player collisions:
+[5955, 2610, 3130, 3522, 3037, 4950, 4810, 4399, 6034, 8651, 8261, 7448, 7632, 6999, 8512, 8688, 12753, 11410, 18223, 35177, 3878, 310, 18, 0]
+3) Final game state:
+OXOXOXX
+OXOXXXX
+OOOXOXO
+XOXXOOX
+OOOOXXO
+XXXOOOX
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.021488644
+
+Game 410
+1) Extended player number:
+2
+2) Extended player collisions:
+[4881, 2646, 2978, 3610, 3554, 4050, 3805, 5440, 4954, 5924, 6177, 6826, 7076, 6702, 7554, 9037, 12801, 11385, 18183, 35552, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOO
+OXOOXOX
+OOXXOOX
+XXOOXXO
+OOXXOXO
+XOXXXOX
+XXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.628719053
+
+Game 411
+1) Extended player number:
+2
+2) Extended player collisions:
+[5800, 2822, 3035, 2677, 1960, 11]
+3) Final game state:
+_X_____
+__O____
+__XOO__
+__XXO__
+__X_XO_
+______O
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.505906626
+
+Game 412
+1) Extended player number:
+2
+2) Extended player collisions:
+[5185, 2858, 2958, 3386, 3079, 5040, 5842, 6043, 8028, 8338, 7843, 7688, 7658, 6672, 6932, 8719, 12718, 11342, 18154, 35426, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXOX
+OXOXXXX
+XOOXXOO
+OXXXOXX
+OOOOXXO
+OXXOOXO
+XXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.993884189
+
+Game 413
+1) Extended player number:
+2
+2) Extended player collisions:
+[2338, 4543, 5671, 3363, 4220, 3544, 5701, 4725, 6475, 8161, 7397, 7318, 7013, 7039, 8501, 8694, 12748, 11374, 18237, 35405, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXXX
+OOOXOOX
+XOOXXXO
+XXXOOXO
+OXXOXOX
+XOOOOXX
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.094221153
+
+Game 414
+1) Extended player number:
+2
+2) Extended player collisions:
+[2461, 2725, 2975, 2822, 3055]
+3) Final game state:
+_______
+_______
+__OOO__
+___XO__
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.489510012
+
+Game 415
+1) Extended player number:
+2
+2) Extended player collisions:
+[2442, 2691, 2910, 3043, 3077]
+3) Final game state:
+_______
+_______
+__OOO__
+XXXXXO_
+__X_O__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.757167523
+
+Game 416
+1) Extended player number:
+2
+2) Extended player collisions:
+[6003, 2868, 3087, 3378, 2177, 4994, 5620, 6600, 7493, 5906, 7443, 7576, 6923, 6931, 7309, 8690, 12795, 11424, 18251, 35597, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXOO
+OOOXXXX
+XXXOXOO
+XXOXXXX
+OXXXOOO
+OOOXXXX
+OOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.175807041
+
+Game 417
+1) Extended player number:
+2
+2) Extended player collisions:
+[5034, 2614, 2907, 3617, 2243, 4815, 4102, 5197, 5355, 5150, 8006, 7357, 6855, 6671, 7644, 10042, 12706, 11492, 18202, 35530, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOOX
+OXOOOXO
+XXXXOOO
+OXOXXOO
+XOOOXXX
+XXXXOOX
+OXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.212966615
+
+Game 418
+1) Extended player number:
+2
+2) Extended player collisions:
+[4941, 2625, 2995, 2665, 3161, 4986, 5781, 5184, 5693, 8138, 8437, 7509, 7068, 6753, 7579, 8719, 12762, 11389, 18148, 35379, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXXX
+OOOXOOO
+OOOXXOX
+OXXOOXO
+OOOXOXX
+XXOXXXO
+OXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.261440677
+
+Game 419
+1) Extended player number:
+2
+2) Extended player collisions:
+[4839, 2679, 2871, 3386, 3115]
+3) Final game state:
+_______
+____X__
+__OXX__
+__OOX__
+__O_X__
+____X__
+____O__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.146748157
+
+Game 420
+1) Extended player number:
+2
+2) Extended player collisions:
+[6376, 2463, 3158, 3698, 4143, 4945, 6041, 7294, 6983, 7766, 8293, 7336, 7012, 7496, 6958, 8696, 12732, 11393, 18222, 35503, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOXX
+OOXOOXO
+XOOXOXO
+OXXXOXX
+XXOOXOX
+XOXOXOX
+OOXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.916939444
+
+Game 421
+1) Extended player number:
+2
+2) Extended player collisions:
+[4983, 2647, 3033, 3425, 3882, 3741, 4558, 3925, 7172, 7337, 8465, 7677, 6849, 6659, 8951, 9196, 12775, 11429, 18185, 35668, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXXO
+OOXXXOX
+XOOXOOX
+OXXXOOX
+OOOOXXO
+XXXOXXO
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.94255189
+
+Game 422
+1) Extended player number:
+2
+2) Extended player collisions:
+[5756, 2734, 2891, 2880, 1906, 17]
+3) Final game state:
+_X_____
+__O____
+__XOO__
+___XO__
+__XXXO_
+______O
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.428201965
+
+Game 423
+1) Extended player number:
+2
+2) Extended player collisions:
+[2526, 2679, 2988, 3366, 3305, 4400, 4023, 6292, 4496, 6544, 7227, 6850, 6865, 6858, 7906, 8719, 12738, 11341, 18196, 35585, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXOO
+XOOOXOO
+XOXXXXO
+OXOOXXO
+OXXOOXX
+OXOXXOX
+OXXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.169632105
+
+Game 424
+1) Extended player number:
+2
+2) Extended player collisions:
+[6005, 2442, 3004, 2685, 3064]
+3) Final game state:
+____X__
+____X__
+__OOX__
+__OXX__
+__O_X__
+____O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.953386966
+
+Game 425
+1) Extended player number:
+2
+2) Extended player collisions:
+[5835, 2723, 2802, 2626, 1870, 10]
+3) Final game state:
+_______
+O______
+_OO_X__
+__OXX__
+__XOX__
+____O__
+_____X_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+10.470646784
+
+Game 426
+1) Extended player number:
+2
+2) Extended player collisions:
+[2482, 2615, 3050, 3213, 2145, 4566, 5211, 4419, 5643, 5797]
+3) Final game state:
+_______
+__O_OOO
+__XXOX_
+_OOOXX_
+_OXXXXO
+__X____
+_X_____
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+19.085784036
+
+Game 427
+1) Extended player number:
+2
+2) Extended player collisions:
+[6299, 2833, 3104, 3397, 3031, 4959, 5095, 6104, 7412, 6026, 6116]
+3) Final game state:
+_______
+__XX_O_
+___XOX_
+__OXXO_
+__XOOO_
+XXXXXO_
+__OOO__
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+21.062483819
+
+Game 428
+1) Extended player number:
+2
+2) Extended player collisions:
+[6287, 2836, 2788, 3571, 3039, 5029, 4996, 4929, 6587, 7067, 7844, 7490, 8041, 6983, 8493, 8705, 12779, 11374, 18134, 35534, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOX
+XXXXOOX
+XOOOXOX
+OOXXOXO
+XOOXOXO
+XXOOXOO
+XXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.735623106
+
+Game 429
+1) Extended player number:
+2
+2) Extended player collisions:
+[4657, 2812, 3104, 3625, 3990, 5030, 5595, 5979, 8188, 7372, 7923, 7756, 7624, 6710, 6923, 8711, 12716, 11349, 18190, 35301, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXXX
+OOOXOOX
+XOOXXXX
+OXXOXOX
+XXOOXOO
+OOOXOXO
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.567500605
+
+Game 430
+1) Extended player number:
+2
+2) Extended player collisions:
+[2494, 2873, 2995, 3504, 2121, 4972, 4066, 5047, 4778, 5197, 7633, 7477, 6950, 6772, 7949, 8798, 12718, 11324, 18158, 35505, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXO
+OOXXOXO
+OXOOXXX
+XOOXOXO
+XXXOXOO
+XOXOOOX
+OXOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.448785187
+
+Game 431
+1) Extended player number:
+2
+2) Extended player collisions:
+[2452, 4263, 5836, 3314, 3932, 3585, 5738, 5688, 5624, 5597, 5850, 7433, 6934, 6915, 7275, 9172, 12758, 11448, 18201, 35407, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOXO
+XXXXOOX
+XXXXOXX
+OXOOXOX
+XOXOXOO
+OOXOOXO
+XOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.991733364
+
+Game 432
+1) Extended player number:
+2
+2) Extended player collisions:
+[2424, 2679, 2926, 3472, 3129]
+3) Final game state:
+____O__
+____X__
+__O_X__
+__OOX__
+__OXX__
+____X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.687309511
+
+Game 433
+1) Extended player number:
+2
+2) Extended player collisions:
+[5902, 2603, 3063, 3568, 2995, 4953, 5226, 6106, 6796, 8400, 7357, 7226, 6936, 7459, 7033, 8776, 12743, 11401, 18183, 35689, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXOO
+XOXOOXX
+OXOXOXX
+OOOXXOX
+XOXOXOO
+XXXOXOX
+XOXOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.069704222
+
+Game 434
+1) Extended player number:
+2
+2) Extended player collisions:
+[2484, 2683, 2983, 2676, 3125]
+3) Final game state:
+_______
+_______
+_XXXXXO
+___XO__
+__OOO__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.352162305
+
+Game 435
+1) Extended player number:
+2
+2) Extended player collisions:
+[2402, 4624, 5713, 3085, 4262, 3533, 5686, 6383, 5345, 6221, 7408, 7648, 6964, 6853, 7989, 8789, 12754, 11415, 18207, 35399, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXO
+OXXOOXO
+XOXOXOO
+XXOOXXO
+OXOXOXX
+XOXXOXX
+OOOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.253267094
+
+Game 436
+1) Extended player number:
+2
+2) Extended player collisions:
+[5249, 2783, 2746, 3346, 3148]
+3) Final game state:
+____X__
+____X__
+__O_X__
+___OX__
+__OXX__
+__O_O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.199328797
+
+Game 437
+1) Extended player number:
+2
+2) Extended player collisions:
+[5017, 2688, 2959, 3479, 2280, 4000, 4319, 4845, 4204, 6082, 6039, 5960, 5802, 6331, 6399, 8024, 8907, 10413, 18269, 35528, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXOX
+OOXOOXX
+OXOXOXX
+OXXOXOX
+OXXXXOO
+XOOXOOX
+OXXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.02471113
+
+Game 438
+1) Extended player number:
+2
+2) Extended player collisions:
+[6125, 2692, 2951, 3432, 3207, 4862, 4733, 4068, 7701, 8334, 8228, 7256, 6860, 6975, 8430, 8748, 12717, 11429, 18250, 35595, 3878, 310, 18, 0]
+3) Final game state:
+XXOXXOX
+OXXOOXO
+XXXOOXX
+OOOXXXX
+OXXXOOO
+XOOOOXO
+XXOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.528034572
+
+Game 439
+1) Extended player number:
+2
+2) Extended player collisions:
+[4811, 2613, 3002, 3570, 4017, 5045, 5995, 6951, 7227, 8154, 8145, 7544, 7528, 6652, 6904, 8717, 12773, 11425, 18185, 35379, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOOX
+XXXOXOX
+OOXOXXO
+OXOOXXO
+XXOXOOX
+OOOXXXX
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.394870141
+
+Game 440
+1) Extended player number:
+2
+2) Extended player collisions:
+[2451, 2680, 3018, 3468, 3214]
+3) Final game state:
+_______
+__O__O_
+__XOX__
+___XO__
+__X_O__
+_X_____
+X______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.908865425
+
+Game 441
+1) Extended player number:
+2
+2) Extended player collisions:
+[2468, 2695, 2907, 3579, 4226, 4776, 5761, 4420, 4640, 8615, 8378, 7394, 6704, 7240, 6895, 8701, 12770, 11440, 18165, 35566, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXO
+XXXXOOX
+OXXXOOO
+XOOOXXO
+OOXXXOX
+XOOXOXX
+OXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.79187795
+
+Game 442
+1) Extended player number:
+2
+2) Extended player collisions:
+[5890, 2824, 2847, 3441, 4227, 3692, 5825, 6024, 5971, 6053, 7297, 7428, 6941, 7120, 9071, 8717, 12678, 11394, 18209, 35542, 3878, 310, 18, 0]
+3) Final game state:
+OOOXOXO
+XXXXOXO
+XOXXOXO
+XXOXXOX
+OOXOOOX
+OOOOXXX
+XXXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.924579781
+
+Game 443
+1) Extended player number:
+2
+2) Extended player collisions:
+[4950, 2691, 3000, 3633, 4310, 4817, 5813, 6436, 8034, 8233, 8007, 7517, 7620, 6662, 6967, 8737, 12669, 11373, 18246, 35169, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXOX
+XOXOXXO
+XOXOXXO
+OOXOOOX
+OXOXXXO
+OOXXOOX
+XXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.743372944
+
+Game 444
+1) Extended player number:
+2
+2) Extended player collisions:
+[5057, 2833, 3010, 2465, 4120, 4650, 5481, 5904, 6075, 6286, 6240, 7376, 7492, 8316, 7929, 9691, 12724, 11407, 18197, 35542, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXX
+OXOOOXO
+OXOOOOX
+OOXXOOO
+XOOXXXX
+XOXOOOX
+OXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.325589201
+
+Game 445
+1) Extended player number:
+2
+2) Extended player collisions:
+[2471, 4736, 5678, 3305, 3775, 3601, 5833, 4327, 6239, 5813, 8238, 7651, 7475, 6712, 7954, 8811, 12700, 11446, 18202, 35400, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOOX
+XOOOXOO
+OOXOXXX
+OXXOOXX
+OOOXXXO
+XXXOXOO
+OXOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.925907112
+
+Game 446
+1) Extended player number:
+2
+2) Extended player collisions:
+[5013, 2893, 3249, 2880]
+3) Final game state:
+_______
+___O___
+___XO__
+___XO__
+___XO__
+___X___
+___X___
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.76605273
+
+Game 447
+1) Extended player number:
+2
+2) Extended player collisions:
+[2507, 2669, 2880, 2781, 1865, 18]
+3) Final game state:
+_O_____
+__O____
+__XOX__
+__XXO__
+__X_OO_
+______X
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.02920567
+
+Game 448
+1) Extended player number:
+2
+2) Extended player collisions:
+[6056, 2841, 3032, 2584, 3829, 4723, 5398, 5823, 4535, 8077, 8254, 7455, 6565, 8870, 8000, 8735, 12745, 11449, 18208, 35626, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOXX
+OOOOXXX
+OXOOXOX
+OXOXXOX
+XOOXOOO
+XXXXOXO
+XOXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.193546536
+
+Game 449
+1) Extended player number:
+2
+2) Extended player collisions:
+[6487, 2564, 3154, 3467, 4271, 5069, 4404, 4634, 7689, 7141, 7188, 7243, 8126, 6771, 7876, 9247, 12773, 11419, 18224, 35658, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOOX
+XOXXOXX
+OXOXOOO
+OXOXXOO
+XOXOOOX
+XOXXOXX
+XOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.609302431
+
+Game 450
+1) Extended player number:
+2
+2) Extended player collisions:
+[2523, 2540, 3022, 3602, 4288, 4989, 4072, 5536, 6489, 7501, 8208, 7630, 6624, 6915, 8396, 8732, 12763, 11358, 18156, 35502, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXXO
+XOOXXOX
+OXOXXXO
+XOXOOOX
+XOOOXOX
+OOXXXXO
+XOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.420003349
+
+Game 451
+1) Extended player number:
+2
+2) Extended player collisions:
+[2470, 2679, 2999, 3071, 3104]
+3) Final game state:
+_______
+_______
+__OOO__
+___XO__
+_XXXXXO
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.630144532
+
+Game 452
+1) Extended player number:
+2
+2) Extended player collisions:
+[2497, 2645, 3041, 3155, 3066, 4831, 4908, 4290, 5971, 7969, 8139, 7174, 6764, 6570, 8535, 8256, 12753, 11409, 18217, 35493, 3878, 310, 18, 0]
+3) Final game state:
+XOXOXXO
+XOOOOXX
+OOOXOXO
+XOXXOXX
+OXXOXOX
+OOXOOXO
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.034039371
+
+Game 453
+1) Extended player number:
+2
+2) Extended player collisions:
+[6542, 2657, 2832, 3562, 4194, 4903, 3837, 4156, 7629, 9003, 7493, 7722, 6737, 6721, 7414, 9619, 12764, 11454, 18272, 35396, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXO
+OXOXOOO
+XXOXOOX
+OXOXXXO
+XXXOOXX
+XOXOOXO
+XOOXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.631724912
+
+Game 454
+1) Extended player number:
+2
+2) Extended player collisions:
+[2476, 2700, 2874, 3575, 4190, 5240, 5863, 4694, 8291, 8413, 8122, 7202, 7257, 6948, 6938, 8769, 12764, 11358, 18199, 35402, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOXO
+OXOXOXO
+OXOXOXO
+XOXOXXX
+OOXOXOO
+OOOOXOX
+XOXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.239920216
+
+Game 455
+1) Extended player number:
+2
+2) Extended player collisions:
+[2475, 2661, 3007, 2606, 3462, 3068, 4194, 4491]
+3) Final game state:
+____X__
+O_OOO__
+_XXOO__
+__X_O__
+__XXOX_
+____X__
+_____X_
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+16.132580926
+
+Game 456
+1) Extended player number:
+2
+2) Extended player collisions:
+[2395, 2520, 2998, 3122, 2144, 4301, 5721, 6433, 5375, 5689]
+3) Final game state:
+_X__O__
+__XOX__
+_XOXX__
+_XOOX__
+__XOXX_
+__OOO_O
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+17.598096264
+
+Game 457
+1) Extended player number:
+2
+2) Extended player collisions:
+[4763, 2613, 2991, 3100, 3883, 2689, 4142, 4618, 5313, 5723, 7998, 7403, 6929, 6943, 7845, 8706, 12689, 11477, 18210, 35522, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXOX
+OOXOXOX
+XOOOXOO
+XXOXXXX
+OXXXOXX
+OXXXOXX
+OOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.576099402
+
+Game 458
+1) Extended player number:
+2
+2) Extended player collisions:
+[5695, 2736, 2934, 3379, 3035, 5059, 5174, 5500, 4930, 7141, 8001, 7333, 6932, 6828, 8594, 8730, 12720, 11468, 18249, 35573, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOOX
+XXOXXXO
+XXXOOXO
+OOOXXOX
+OXOXOOX
+XXOOOXO
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.784747974
+
+Game 459
+1) Extended player number:
+2
+2) Extended player collisions:
+[2522, 4483, 5052, 2949, 4264, 3954, 5043, 3594, 4894, 6754, 6053, 7096, 7761, 7235, 7582, 8692, 12779, 11414, 18267, 35630, 3878, 310, 18, 0]
+3) Final game state:
+OXOOXXO
+XOXXXOX
+OOXXXOO
+XXXOOXX
+OOOOXOX
+OOXOXXO
+XXOXXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.397024038
+
+Game 460
+1) Extended player number:
+2
+2) Extended player collisions:
+[2514, 2655, 3035, 3656, 4175, 5174, 5683, 4946, 3759, 6900, 8746, 7787, 6703, 8311, 7722, 9178, 10456, 11400, 18298, 35423, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOO
+XXOXOXO
+XOOXOXO
+OXXOXOX
+XXXOXOO
+OOXXXOX
+XXOOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.578836209
+
+Game 461
+1) Extended player number:
+2
+2) Extended player collisions:
+[2488, 2776, 2920, 3585, 4278, 4526, 5817, 7254, 7076, 8931, 8205, 7286, 7048, 7499, 6897, 8698, 12731, 11497, 18246, 35499, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXXO
+XXXXOXO
+XXXXOOO
+OOOOXXX
+OOXXOOX
+XXXOOOO
+XXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.181599729
+
+Game 462
+1) Extended player number:
+2
+2) Extended player collisions:
+[2448, 4826, 4932, 3256, 4155, 3764, 5358, 5266, 4540, 7779, 7890, 7356, 7712, 7036, 8472, 8666, 12756, 11400, 18246, 35529, 3878, 310, 18, 0]
+3) Final game state:
+OOXOOOX
+XXOXXXX
+XOOXOXO
+XOXOOOO
+OOXOXOX
+XXOXXXO
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.497357796
+
+Game 463
+1) Extended player number:
+2
+2) Extended player collisions:
+[2399, 2682, 2911, 3157, 2102, 4843, 4225, 4675, 5043, 7608, 7160, 7382, 6849, 6742, 7708, 9534, 12809, 11391, 18204, 35810, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXXO
+OXOOOXO
+XOOXXXX
+XXXXOOO
+OOOXXXO
+OOXXXXO
+OXOOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.221819784
+
+Game 464
+1) Extended player number:
+2
+2) Extended player collisions:
+[6049, 2816, 2896, 3293, 4188, 3421, 5787, 7050, 7815, 8135, 7742, 7522, 7594, 6671, 6981, 8748, 12734, 11371, 18182, 35302, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOOO
+XXOXXOX
+XOOOXOO
+XOXXOOX
+OXOXOXX
+OOXOXOX
+OXXXOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.009994681
+
+Game 465
+1) Extended player number:
+2
+2) Extended player collisions:
+[2484, 4202, 5656, 3199, 4205, 3311, 5616, 6290, 7201, 5556, 7028, 7778, 7456, 6661, 6990, 8729, 12716, 11403, 18121, 35477, 3878, 310, 18, 0]
+3) Final game state:
+XXXOXOO
+OOXOOXX
+OXXXOXX
+XXOOXOX
+OOXOXOO
+OOXXOXO
+XXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.87476389
+
+Game 466
+1) Extended player number:
+2
+2) Extended player collisions:
+[2435, 2750, 2839, 2600, 3241, 2537, 3990, 4421, 4944, 5776, 6660, 7527, 6856, 7968, 7623, 9439, 12749, 11378, 18222, 35486, 3878, 310, 18, 0]
+3) Final game state:
+OOXXXOX
+XXOOOXX
+XOXXXOX
+OOOXXXO
+XOOOOXX
+OXOOXXX
+OOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.711942197
+
+Game 467
+1) Extended player number:
+2
+2) Extended player collisions:
+[4695, 2652, 2636, 3526, 3497, 3391, 4002]
+3) Final game state:
+_____O_
+____X__
+_OOXO__
+__XOO__
+_XXXO__
+X___X__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+14.932184916
+
+Game 468
+1) Extended player number:
+2
+2) Extended player collisions:
+[6146, 2589, 3110, 3509, 3066, 4904, 4623, 5972, 7759, 8163, 7609, 7198, 6872, 7072, 8524, 8847, 12672, 11443, 18202, 35439, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOXX
+OOOOXOX
+XOOXOXX
+OOOXXXO
+XXXOOXX
+XXXOXOO
+XOOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.753493197
+
+Game 469
+1) Extended player number:
+2
+2) Extended player collisions:
+[2459, 2706, 2979, 2757, 2042, 2403, 32]
+3) Final game state:
+_X_____
+__O____
+__OOX__
+___XO__
+XOXXXO_
+______O
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+12.73536966
+
+Game 470
+1) Extended player number:
+2
+2) Extended player collisions:
+[2447, 2677, 2875, 3613, 4333, 4592, 5596, 6724, 5493, 8310, 7839, 7446, 8218, 7500, 6905, 8734, 12749, 11361, 18177, 35515, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOX
+XXOOXOX
+XOXOXXX
+OXOOXOO
+OXOXOXX
+XOOOXOO
+XXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.909135134
+
+Game 471
+1) Extended player number:
+2
+2) Extended player collisions:
+[4884, 2734, 3031, 3431, 3109]
+3) Final game state:
+_______
+_______
+__OOO__
+___OX__
+XXXXXO_
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+9.736309054
+
+Game 472
+1) Extended player number:
+2
+2) Extended player collisions:
+[2422, 2720, 2928, 3226, 3446, 2576, 4332, 6293, 8093, 7017, 8019, 7196, 7531, 6727, 6954, 8667, 12758, 11359, 18281, 35415, 3878, 310, 18, 0]
+3) Final game state:
+OXOXOXO
+OXOXOXX
+XOXXXOX
+XXOOOXO
+OXXXOXO
+OXOOXXX
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.201273683
+
+Game 473
+1) Extended player number:
+2
+2) Extended player collisions:
+[6550, 2779, 2999, 2776, 4024, 4879, 5472, 6128, 8536, 8651, 8188, 7288, 7109, 7458, 6987, 8681, 12752, 11409, 18211, 35435, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOOO
+OXXXOOO
+XXOXOXO
+XOOXXOO
+OOXOXOX
+OXXOXXX
+XOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.69263219
+
+Game 474
+1) Extended player number:
+2
+2) Extended player collisions:
+[2470, 2691, 2882, 3070, 2134, 4820, 4103, 4249, 5175, 7202, 6634, 7853, 6803, 6699, 7891, 9744, 12754, 11406, 18210, 35476, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OOXOOOO
+OXOXOXO
+OXXXXOX
+XXOOXOO
+OXXXOXX
+XOXXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.327110452
+
+Game 475
+1) Extended player number:
+2
+2) Extended player collisions:
+[6581, 2637, 3125, 3445, 2883, 5010, 5167, 4882, 6564, 5589, 6175, 7151, 6958, 6528, 7333, 9469, 9477, 11376, 18173, 35527, 3878, 310, 18, 0]
+3) Final game state:
+OOXXOOX
+OOXXXXO
+XXXOOXX
+OOOXXXO
+OXXXOOO
+XXOOOOX
+OXXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.587916422
+
+Game 476
+1) Extended player number:
+2
+2) Extended player collisions:
+[6115, 2704, 3139, 3488, 4190, 4958, 4709, 6568, 7063, 7002, 8283, 7582, 6996, 7225, 6905, 8709, 12767, 11429, 18168, 35488, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXO
+XOXXOXO
+OOXOOOO
+OXOXXXX
+XXXXOOO
+XXOOXXO
+XOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.033012169
+
+Game 477
+1) Extended player number:
+2
+2) Extended player collisions:
+[4868, 2730, 3142, 3612, 3596, 4668, 5940, 7127, 8095, 8314, 7278, 7606, 8295, 6640, 6919, 8720, 12741, 11396, 18282, 35393, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOOX
+XXXOOOO
+XOXOXXO
+XXOOXXX
+OXOXOOX
+OOOXOOO
+XOOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.838022093
+
+Game 478
+1) Extended player number:
+2
+2) Extended player collisions:
+[2463, 4381, 5404, 3594, 2439, 3752, 4396, 3790, 4370, 5856, 6175, 7520, 6872, 6973, 7912, 8739, 12749, 11386, 18203, 35365, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXOO
+OXOXOXX
+OXOOXXO
+XOXXXXO
+OOXOXOX
+XOXXOOO
+XXXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.570552733
+
+Game 479
+1) Extended player number:
+2
+2) Extended player collisions:
+[6573, 2598, 3074, 3467, 2618, 4349, 5135, 4674, 6889, 7437, 6053, 5866, 6895, 6794, 6915, 9558, 12783, 11414, 18313, 35452, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOOO
+OOXXXOX
+XXXOOXX
+OOOXXOO
+XXOXOXO
+XOOOOXX
+XOXXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.566069452
+
+Game 480
+1) Extended player number:
+2
+2) Extended player collisions:
+[6954, 2683, 3063, 3402, 2173, 4978, 5633, 5900, 6728, 8372, 7901, 7254, 7218, 6704, 6952, 8745, 12812, 11426, 18189, 35471, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOX
+XXOXXOX
+XOOXXXX
+XXXXOXO
+OOXOXOO
+XOOOXOO
+XXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.422706942
+
+Game 481
+1) Extended player number:
+2
+2) Extended player collisions:
+[2409, 2673, 2927, 3351, 4045, 4957, 5712, 4199, 6400, 5494, 8410, 7650, 6829, 6596, 8694, 9265, 12667, 11414, 18168, 35386, 3878, 310, 18, 0]
+3) Final game state:
+XOXOOXX
+OOOXXXX
+OXXXOXO
+OXOOXOO
+XXXOXOX
+XOXOOOX
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.484684023
+
+Game 482
+1) Extended player number:
+2
+2) Extended player collisions:
+[5022, 2613, 2905, 3563, 4217, 4555, 5360, 3592, 7293, 7331, 8118, 7128, 7213, 7435, 6999, 8740, 12755, 11353, 18234, 35430, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXXO
+XXXOOOX
+OXOXXXX
+XOXOOXO
+XOOXXOX
+XXOXOOO
+OOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.910427109
+
+Game 483
+1) Extended player number:
+2
+2) Extended player collisions:
+[5837, 2618, 3015, 3503, 2088, 5043, 5713, 6852, 7853, 8318, 7903, 7169, 6883, 6912, 7848, 8713, 12735, 11401, 18146, 35524, 3878, 310, 18, 0]
+3) Final game state:
+OOXOXOO
+XXXOOXX
+XOXOXXX
+XOOXOOO
+OXOXXOO
+XXOXOOO
+XXXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.685681269
+
+Game 484
+1) Extended player number:
+2
+2) Extended player collisions:
+[6381, 2632, 3039, 3492, 3071, 4962, 5411, 5343, 5172, 7237, 6429, 7039, 7561, 6419, 8156, 9423, 12775, 11374, 18275, 35494, 3878, 310, 18, 0]
+3) Final game state:
+OXOXXOX
+XOXXXOX
+OOXOOXX
+OOOXXOX
+XOXXOOO
+XXOOOXO
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.939876891
+
+Game 485
+1) Extended player number:
+2
+2) Extended player collisions:
+[2433, 4735, 2454, 2870, 3981, 4454, 4942, 5324, 5202, 6617, 7007, 7699, 7270, 6742, 7003, 7321, 9314, 11416, 18270, 35571, 3878, 310, 18, 0]
+3) Final game state:
+XOXXOOX
+OOXXOXX
+XOXOXOO
+OXOOOOX
+XXXXOOX
+XXOOXOO
+OXXXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.170393817
+
+Game 486
+1) Extended player number:
+2
+2) Extended player collisions:
+[2470, 4514, 5349, 3245, 4318, 4624, 3053, 6093, 5783, 4713, 6464, 7264, 6764, 7086, 8527, 8687, 12738, 11443, 18165, 35634, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOO
+OOXXOXX
+XOXOXOX
+OXOOXOO
+OXOXXOO
+XXXOOXO
+OXXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.790364393
+
+Game 487
+1) Extended player number:
+2
+2) Extended player collisions:
+[5240, 2871, 2767, 2697, 1930, 16]
+3) Final game state:
+_____O_
+____O__
+__OOX__
+__OX___
+_OXXX__
+X______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+10.559356974
+
+Game 488
+1) Extended player number:
+2
+2) Extended player collisions:
+[2472, 2765, 3087, 2798, 3162, 2477, 3773, 4423, 2870, 30]
+3) Final game state:
+_______
+__X__X_
+_XOOOOX
+_X_XOO_
+OXXXXO_
+_____O_
+_____O_
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+17.004475528
+
+Game 489
+1) Extended player number:
+2
+2) Extended player collisions:
+[2581, 2688, 3053, 2886, 4197, 4570, 5424, 6599, 8111, 8948, 8393, 7653, 8089, 7490, 6915, 8723, 12743, 11428, 18213, 35406, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOOO
+XOOOXOO
+OXXXOXX
+OOOOXOO
+XXXOXXX
+XXXOOOX
+OXXOOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+43.460462549
+
+Game 490
+1) Extended player number:
+2
+2) Extended player collisions:
+[2493, 2632, 3043, 3174, 3041]
+3) Final game state:
+_______
+_______
+__OOO__
+___XO__
+_OXXXXX
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.207560917
+
+Game 491
+1) Extended player number:
+2
+2) Extended player collisions:
+[2506, 2661, 2976, 3598, 4162, 4965, 5858, 5691, 5082, 8785, 8010, 7296, 6682, 7140, 8474, 8663, 12828, 11391, 18220, 35502, 3878, 310, 18, 0]
+3) Final game state:
+OXXOOOO
+XOOXXOO
+OOXXXOO
+XXXOOOX
+XOOXXXO
+XOXOXXX
+OXOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+44.545251195
+
+Game 492
+1) Extended player number:
+2
+2) Extended player collisions:
+[6644, 2546, 3143, 3552, 3866, 3922, 4502, 4051, 6461, 6692, 8117, 7365, 6854, 6897, 7540, 9519, 12759, 11343, 18194, 35395, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXX
+XOXXXOO
+OXOXOXX
+XOXXOXX
+XOOOXOO
+OXOOOXX
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.554396769
+
+Game 493
+1) Extended player number:
+2
+2) Extended player collisions:
+[6045, 2804, 2807, 2730, 1937, 14]
+3) Final game state:
+_____O_
+____O__
+__OOX__
+__OXX__
+_OX_X__
+X______
+_______
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+11.904883184
+
+Game 494
+1) Extended player number:
+2
+2) Extended player collisions:
+[2445, 4323, 5016, 3379, 3949, 3979, 4944, 4705, 4609, 8385, 7961, 7469, 7556, 6646, 6868, 8691, 12730, 11417, 18161, 35455, 3878, 310, 18, 0]
+3) Final game state:
+OOOXXOX
+XXOXXOX
+OOXOOXO
+XXXOOOO
+OOXOXXX
+XOOXXXX
+OOXOXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.640476736
+
+Game 495
+1) Extended player number:
+2
+2) Extended player collisions:
+[2493, 2867, 2930, 3631, 4213, 4929, 3670, 4058, 7987, 7710, 8087, 7281, 6826, 6694, 8400, 8774, 12793, 11386, 18163, 35432, 3878, 310, 18, 0]
+3) Final game state:
+OOOOXXX
+OOXOOOX
+XOXOXXX
+OXXOOXO
+XXOXOXO
+XXXXOXO
+OXOXOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.103659315
+
+Game 496
+1) Extended player number:
+2
+2) Extended player collisions:
+[5794, 2730, 3020, 3360, 4233, 4008, 3349, 4646, 5230, 5555, 5801, 7490, 6810, 6813, 7496, 9623, 12769, 11469, 18252, 35419, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOXO
+OXXXOXO
+XOOOXOO
+OXXXOXX
+OXXXXOX
+XOOOXXO
+OXXOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.030966821
+
+Game 497
+1) Extended player number:
+2
+2) Extended player collisions:
+[4783, 2566, 3003, 2477, 3076, 5039, 5194, 4515, 6596, 7985, 7633, 7514, 6693, 7398, 8778, 8719, 12698, 11385, 18226, 35365, 3878, 310, 18, 0]
+3) Final game state:
+XXOOXXO
+XOOXOOX
+OXOOXOX
+OOXOXOO
+XOOXOXX
+XXXOOXX
+OOXOXXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.202469653
+
+Game 498
+1) Extended player number:
+2
+2) Extended player collisions:
+[4841, 2690, 3044, 3571, 4246, 5034, 5705, 6449, 6818, 8485, 8296, 7330, 6683, 6990, 8609, 8765, 12738, 11366, 18200, 35454, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXOO
+XXXXOOO
+OXXXXOO
+XXOOXXX
+OOXXOOO
+OXOXXXX
+OXXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.082555081
+
+Game 499
+1) Extended player number:
+2
+2) Extended player collisions:
+[4931, 2732, 3055, 3562, 4233, 5055, 5659, 6768, 8019, 8504, 7393, 7667, 7522, 6650, 6975, 8705, 12735, 11442, 18210, 35553, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OXXOOXX
+OXXXOXO
+XOOOXXX
+XOXOOOX
+OOXOOXX
+OOOXXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.161896239
+
+Game 500
+1) Extended player number:
+2
+2) Extended player collisions:
+[2547, 2647, 2927, 3571, 3965, 5245, 5461, 6560, 7106, 8908, 8116, 7598, 7006, 7497, 7002, 8766, 12764, 11460, 18241, 35580, 3878, 310, 18, 0]
+3) Final game state:
+XOOOXXO
+XOXXOOX
+OOXXXOX
+XOOOXXO
+XXXXOOO
+OOOOXXX
+XXOOXXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.911732287
+
+Game 501
+1) Extended player number:
+2
+2) Extended player collisions:
+[5002, 4315, 5613, 2547, 3138, 3477, 4027]
+3) Final game state:
+_____X_
+____X__
+__OXX__
+__XOX__
+_XOOOOX
+O______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+13.746371451
+
+Game 502
+1) Extended player number:
+2
+2) Extended player collisions:
+[2445, 4637, 2749, 3004, 4353, 4473, 2917, 3505, 4233, 98]
+3) Final game state:
+_O_____
+_O_____
+_OOXXXX
+XOOOOX_
+_O__XX_
+_X_O___
+__X____
+
+
+4) Winning player:
+2
+5) Duration in seconds:
+17.247804376
+
+Game 503
+1) Extended player number:
+2
+2) Extended player collisions:
+[6687, 2634, 3065, 3510, 2156, 5047, 5437, 6619, 6844, 8400, 8187, 6987, 6700, 6800, 7866, 8708, 12757, 11448, 18177, 35427, 3878, 310, 18, 0]
+3) Final game state:
+XOOXXXO
+XOOOXXX
+XXXOXOX
+OOOXXOX
+OXXOOXO
+XOXXOXX
+OOOXOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.270326462
+
+Game 504
+1) Extended player number:
+2
+2) Extended player collisions:
+[2447, 2672, 2913, 3596, 4186, 5184, 5650, 4187, 8298, 8117, 7517, 7162, 6762, 7002, 8483, 8799, 12710, 11431, 18259, 35400, 3878, 310, 18, 0]
+3) Final game state:
+XXXOOOX
+OXXOXOO
+OOXXOOO
+XXOOXXO
+OXXXXOX
+XOOXXXO
+XOOXOXO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.364891203
+
+Game 505
+1) Extended player number:
+2
+2) Extended player collisions:
+[4742, 2675, 3067, 3530, 3619, 4129, 3674, 6046, 7681, 7931, 7507, 7347, 7149, 7477, 6991, 8674, 12729, 11403, 18184, 35502, 3878, 310, 18, 0]
+3) Final game state:
+XOOXOOO
+XXOXXXX
+XXOXOOX
+XXXOXXO
+OOXOXXO
+OXXOOXO
+OXXOOOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+42.696822783
+
+Game 506
+1) Extended player number:
+2
+2) Extended player collisions:
+[2545, 2756, 3140, 3615, 3140, 4605, 4359, 5176, 5234, 5824, 8078, 7799, 6765, 6807, 7639, 8199, 12746, 11395, 18153, 35612, 3878, 310, 18, 0]
+3) Final game state:
+XXXXOOO
+OXOXOXO
+XXXXOOX
+XOOOXXO
+XOXXOXX
+OXXOOXO
+OXOOXOO
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+41.808342608
+
+Game 507
+1) Extended player number:
+2
+2) Extended player collisions:
+[6499, 2635, 3140, 3179, 3102]
+3) Final game state:
+_______
+_______
+__OOO__
+_OXXXXX
+__X_O__
+_______
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+10.676328262
+
+Game 508
+1) Extended player number:
+2
+2) Extended player collisions:
+[6648, 2685, 2986, 3042, 3166]
+3) Final game state:
+____X__
+____X__
+__OOX__
+__OXX__
+__O_X__
+____O__
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+8.936479234
+
+Game 509
+1) Extended player number:
+2
+2) Extended player collisions:
+[2460, 4459, 5353, 3246, 4192, 3579, 5620, 7070, 7222, 8524, 8049, 7698, 7678, 6671, 6900, 8702, 12756, 11419, 18296, 35480, 3878, 310, 18, 0]
+3) Final game state:
+XXOXOOX
+XXOXXOX
+OXXOOXX
+XOOOXOX
+OOXXOOO
+OXOXOXX
+XOXOOOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.704585056
+
+Game 510
+1) Extended player number:
+2
+2) Extended player collisions:
+[5995, 2773, 3076, 3450, 3173, 5050, 5272, 7015, 6786, 8163, 8028, 7180, 7081, 7425, 6977, 8697, 12735, 11439, 18188, 35521, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOO
+OXOXOXX
+XXOXOXO
+OOXXOOX
+OXOOXOX
+XXOOXOX
+OXOXXOX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+40.185791932
+
+Game 511
+1) Extended player number:
+2
+2) Extended player collisions:
+[4860, 2842, 3155, 5099, 2447, 4136, 4910, 3352, 5057, 7591, 7018, 7201, 7256, 6573, 7803, 9039, 12751, 11387, 18214, 35626, 3878, 310, 18, 0]
+3) Final game state:
+OXXOXOX
+OXOOOXO
+OXXXOOO
+OOOXXOO
+XXXXOXX
+OOXXXOX
+OXXOOXX
+
+
+4) Winning player:
+0
+5) Duration in seconds:
+37.915568603
+
+Game 512
+1) Extended player number:
+2
+2) Extended player collisions:
+[6381, 2701, 3111, 3496, 3191]
+3) Final game state:
+______O
+_____X_
+_OX_X__
+__OX___
+__XOO__
+_X_____
+_______
+
+
+4) Winning player:
+1
+5) Duration in seconds:
+11.371126213
+
+4) Extended player wins:
+263.0 out of 512
+5) Total duration:
+4259.586391305
