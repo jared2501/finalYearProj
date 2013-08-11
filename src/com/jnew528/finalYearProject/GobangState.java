@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+
 import java.util.HashMap;
 import java.util.Vector;
 import java.util.Arrays;
@@ -171,7 +173,7 @@ public class GobangState implements GameState<GobangMove> {
 	}
 
 	@Override
-	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> encounteredGamestates) {
+	public Node getTransposition(HashMap<GameState, Node> encounteredGamestates) {
 		if(encounteredGamestates.containsKey(this)) {
 			return encounteredGamestates.get(this);
 		}

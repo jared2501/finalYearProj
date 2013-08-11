@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+
 import java.util.HashMap;
 import java.util.Vector;
 
@@ -129,7 +131,7 @@ public class LeftRightState implements GameState<LeftRightMove> {
 	}
 
 	@Override
-	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set) {
+	public Node getTransposition(HashMap<GameState, Node> set) {
 		if(set.containsKey(this)) {
 			return set.get(this);
 		}

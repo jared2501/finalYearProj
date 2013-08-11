@@ -5,11 +5,11 @@ import java.util.*;
 /**
  * Created with IntelliJ IDEA.
  * User: Jared
- * Date: 11/08/13
- * Time: 4:53 PM
+ * Date: 5/07/13
+ * Time: 4:49 PM
  * To change this template use File | Settings | File Templates.
  */
-public class LearningMctsTree implements MctsTree {
+public class MctsTreeUpdateAll implements MctsTree {
 	@Override
 	public Move search(GameState gameState, int iterationCount) {
 		return null;  //To change body of implemented methods use File | Settings | File Templates.
@@ -20,32 +20,25 @@ public class LearningMctsTree implements MctsTree {
 		return 0;  //To change body of implemented methods use File | Settings | File Templates.
 	}
 //	protected static Random random;
-//	// Stores ALL the states encountered for the lifetime of the class
-//	protected HashMap<GameState, StdMctsNode> encounteredGameStates;
 //	protected int collisions;
 //
 //	static {
 //		random = new Random();
 //	}
 //
-//	LearningMctsTree() {
-//		this.encounteredGameStates = new HashMap();
-//	}
+//	MctsTreeUpdateAll() {}
 //
 //	@Override
 //	public Move search(GameState gameState, int iterationCount) {
-//		StdMctsNode root = gameState.getTransposition(encounteredGameStates);
+//		// We want to start a-fresh!
+//		HashMap<GameState, StdMctsNode> encounteredGameStates = new HashMap();
+//		StdMctsNode root = new StdMctsNode(null, null, gameState);
 //		collisions = 0;
 //
-//		if(root == null) {
-//			root = new StdMctsNode(null, null, gameState);
-//			this.encounteredGameStates.put(gameState, root);
-//		} else {
-//			collisions++;
-//		}
+//		encounteredGameStates.put(gameState, root);
 //
 //		for(int i = 0; i < iterationCount; i++) {
-//			performIteration(root);
+//			performIteration(root, encounteredGameStates);
 //		}
 //
 //		// Select child with the selection policy
@@ -53,7 +46,6 @@ public class LearningMctsTree implements MctsTree {
 //		int highestVists = 0;
 //		StdMctsNode selectedNode = root.getChildren().get(0);
 //
-//		// Find the child with the highest number of visits
 //		for(StdMctsNode node : root.getChildren()) {
 //			if(node.getVisits() > highestVists) {
 //				selectedNode = node;
@@ -74,7 +66,7 @@ public class LearningMctsTree implements MctsTree {
 //		return null;
 //	}
 //
-//	public void performIteration(StdMctsNode root) {
+//	public void performIteration(StdMctsNode root, HashMap<GameState, StdMctsNode> encounteredGameStates) {
 //		StdMctsNode node = root;
 //
 //		// Traverse the tree until we reach a node on the edge of the current tree
@@ -94,7 +86,7 @@ public class LearningMctsTree implements MctsTree {
 //				StdMctsNode transposition = newGameState.getTransposition(encounteredGameStates);
 //
 //				if(transposition != null) { // If there are...
-//					this.collisions++;
+//					collisions++;
 //					// Only add a reference to the current node if the transposition is NOT in the current nodes children already!
 //					if(!node.getChildren().contains(transposition)) {
 //						node.addChild(transposition);
@@ -164,6 +156,6 @@ public class LearningMctsTree implements MctsTree {
 //
 //	@Override
 //	public int getCollisions() {
-//		return collisions;
+//		return this.collisions;
 //	}
 }

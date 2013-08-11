@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Vector;
@@ -37,5 +39,5 @@ public interface GameState<M extends Move> {
 	public Vector<M> getChildMoves();
 
 
-	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set);
+	public Node getTransposition(HashMap<GameState, Node> set);
 }

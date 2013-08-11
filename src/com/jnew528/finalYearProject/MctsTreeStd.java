@@ -10,14 +10,14 @@ import java.util.Vector;
  * Time: 4:49 PM
  * To change this template use File | Settings | File Templates.
  */
-public class StdMctsTree implements MctsTree {
+public class MctsTreeStd implements MctsTree {
 	protected static Random random;
 
 	static {
 		random = new Random();
 	}
 
-	StdMctsTree() {}
+	MctsTreeStd() {}
 
 	public Move search(GameState gameState, int iterationCount) {
 		StdMctsNode root = new StdMctsNode(null, null, gameState);

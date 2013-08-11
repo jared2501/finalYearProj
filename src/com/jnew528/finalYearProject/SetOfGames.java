@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.MctsTreeLearner;
+
 import java.io.PrintWriter;
 import java.util.Vector;
 import java.util.concurrent.Callable;
@@ -34,8 +36,8 @@ public class SetOfGames implements Callable<Vector<Double>> {
 		long startTime = System.nanoTime();
 		Vector<Double> output = new Vector<Double>();
 
-		MctsTree playerControl = new ExtendedMctsTree();
-		MctsTree playerTesting = new LearningMctsTree();
+		MctsTree playerControl = new MctsTreeUpdatePath();
+		MctsTree playerTesting = new MctsTreeLearner();
 
 		// Write the results to a file as we get them
 		double extendedPlayerWins = 0;

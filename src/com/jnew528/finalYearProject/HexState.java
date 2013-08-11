@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+
 import java.util.*;
 
 public class HexState implements GameState<HexMove> {
@@ -182,7 +184,7 @@ public class HexState implements GameState<HexMove> {
 	}
 
 	@Override
-	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> set) {
+	public Node getTransposition(HashMap<GameState, Node> set) {
 		if(set.containsKey(this)) {
 			return set.get(this);
 		}

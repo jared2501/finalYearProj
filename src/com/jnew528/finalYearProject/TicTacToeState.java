@@ -1,5 +1,7 @@
 package com.jnew528.finalYearProject;
 
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+
 import java.util.*;
 
 public final class TicTacToeState implements GameState<TicTacToeMove> {
@@ -138,7 +140,7 @@ public final class TicTacToeState implements GameState<TicTacToeMove> {
 	}
 
 	@Override
-	public StdMctsNode getTransposition(HashMap<GameState, StdMctsNode> encounteredGamestates) {
+	public Node getTransposition(HashMap<GameState, Node> encounteredGamestates) {
 		int[] newBoard = this.board;
 
 		// Flip the board 4 times...

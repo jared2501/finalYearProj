@@ -56,7 +56,7 @@ public class Main {
 		for(int iterations = iterationsStart; iterations <= iterationsEnd; iterations += iterationsStep) {
             Future<Vector<Double>> future = futures.get(i);
 			Vector<Double> results = future.get();
-			resultsWriter.print("results(:," + i +") = ");
+			resultsWriter.print("results(:," + (i+1) +") = ");
 			resultsWriter.print(results);
 			resultsWriter.println(";");
 			resultsWriter.flush();
@@ -105,10 +105,10 @@ public class Main {
 	public static void debugRun() throws Exception {
 		long startTime = System.nanoTime();
 
-		StdMctsTree player1;
-		StdMctsTree player2;
-		player1 = new StdMctsTree();
-		player2 = new StdMctsTree();
+		MctsTree player1;
+		MctsTree player2;
+		player1 = new MctsTreeStd();
+		player2 = new MctsTreeStd();
 		GameState gameState = new GobangState();
 		Callable game = new Game(gameState, player1, player2, 50000, true);
 		game.call();
