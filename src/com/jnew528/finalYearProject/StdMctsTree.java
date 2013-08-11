@@ -10,8 +10,7 @@ import java.util.Vector;
  * Time: 4:49 PM
  * To change this template use File | Settings | File Templates.
  */
-public class StdMctsTree {
-	protected StdMctsNode root;
+public class StdMctsTree implements MctsTree {
 	protected static Random random;
 
 	static {
@@ -20,11 +19,11 @@ public class StdMctsTree {
 
 	StdMctsTree() {}
 
-	public Move performSearch(GameState gameState, int iterationCount) {
-		root = new StdMctsNode(null, null, gameState);
+	public Move search(GameState gameState, int iterationCount) {
+		StdMctsNode root = new StdMctsNode(null, null, gameState);
 
 		for(int i = 0; i < iterationCount; i++) {
-			performIteration();
+			performIteration(root);
 		}
 
 		// Select child with the selection policy
@@ -42,7 +41,7 @@ public class StdMctsTree {
 		return selectedNode.getMoves().get(0);
 	}
 
-	public void performIteration() {
+	public void performIteration(StdMctsNode root) {
 		StdMctsNode node = root;
 
 		// Traverse the tree until we reach an expandable node
@@ -81,7 +80,7 @@ public class StdMctsTree {
 		}
 	}
 
-	public Integer getCollisions() {
+	public int getCollisions() {
 		return 0;
 	}
 }

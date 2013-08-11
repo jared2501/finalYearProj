@@ -5,31 +5,38 @@ import java.util.*;
 /**
  * Created with IntelliJ IDEA.
  * User: Jared
- * Date: 5/07/13
- * Time: 4:49 PM
+ * Date: 11/08/13
+ * Time: 4:53 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ExtendedMctsTree implements MctsTree {
+public class LearningMctsTree implements MctsTree {
 	protected static Random random;
+	// Stores ALL the states encountered for the lifetime of the class
+	protected HashMap<GameState, StdMctsNode> encounteredGameStates;
 	protected int collisions;
 
 	static {
 		random = new Random();
 	}
 
-	ExtendedMctsTree() {}
+	LearningMctsTree() {
+		this.encounteredGameStates = new HashMap();
+	}
 
 	@Override
 	public Move search(GameState gameState, int iterationCount) {
-		// We want to start a-fresh!
-		HashMap<GameState, StdMctsNode> encounteredGameStates = new HashMap();
-		StdMctsNode root = new StdMctsNode(null, null, gameState);
+		StdMctsNode root = gameState.getTransposition(encounteredGameStates);
 		collisions = 0;
 
-		encounteredGameStates.put(gameState, root);
+		if(root == null) {
+			root = new StdMctsNode(null, null, gameState);
+			this.encounteredGameStates.put(gameState, root);
+		} else {
+			collisions++;
+		}
 
 		for(int i = 0; i < iterationCount; i++) {
-			performIteration(root, encounteredGameStates);
+			performIteration(root);
 		}
 
 		// Select child with the selection policy
@@ -37,6 +44,7 @@ public class ExtendedMctsTree implements MctsTree {
 		int highestVists = 0;
 		StdMctsNode selectedNode = root.getChildren().get(0);
 
+		// Find the child with the highest number of visits
 		for(StdMctsNode node : root.getChildren()) {
 			if(node.getVisits() > highestVists) {
 				selectedNode = node;
@@ -57,7 +65,7 @@ public class ExtendedMctsTree implements MctsTree {
 		return null;
 	}
 
-	public void performIteration(StdMctsNode root, HashMap<GameState, StdMctsNode> encounteredGameStates) {
+	public void performIteration(StdMctsNode root) {
 		StdMctsNode node = root;
 
 		// Traverse the tree until we reach a node on the edge of the current tree
@@ -77,7 +85,7 @@ public class ExtendedMctsTree implements MctsTree {
 				StdMctsNode transposition = newGameState.getTransposition(encounteredGameStates);
 
 				if(transposition != null) { // If there are...
-					collisions++;
+					this.collisions++;
 					// Only add a reference to the current node if the transposition is NOT in the current nodes children already!
 					if(!node.getChildren().contains(transposition)) {
 						node.addChild(transposition);
@@ -147,6 +155,6 @@ public class ExtendedMctsTree implements MctsTree {
 
 	@Override
 	public int getCollisions() {
-		return this.collisions;
+		return collisions;
 	}
 }

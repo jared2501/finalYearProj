@@ -13,15 +13,15 @@ import java.util.concurrent.Callable;
 public class Game implements Callable<Game> {
 
 	private GameState gameState;
-	private StdMctsTree player1;
-	private StdMctsTree player2;
+	private MctsTree player1;
+	private MctsTree player2;
 	private Integer iterations;
 	private boolean verbose;
 	private long duration;
 	private Vector<Integer> collisionsPlayer1;
 	private Vector<Integer> collisionsPlayer2;
 
-	Game(GameState gameState, StdMctsTree player1, StdMctsTree player2, Integer iterations, boolean verbose) {
+	Game(GameState gameState, MctsTree player1, MctsTree player2, Integer iterations, boolean verbose) {
 		this.gameState = gameState;
 		this.player1 = player1;
 		this.player2 = player2;
@@ -47,14 +47,14 @@ public class Game implements Callable<Game> {
 					System.out.println(gameState);
 				}
 
-				move = player1.performSearch(gameState, this.iterations);
+				move = player1.search(gameState, this.iterations);
 				collisionsPlayer1.add(player1.getCollisions());
 			} else {
 				if(verbose) {
 					System.out.println(gameState);
 				}
 
-				move = player2.performSearch(gameState, this.iterations);
+				move = player2.search(gameState, this.iterations);
 				collisionsPlayer2.add(player2.getCollisions());
 			}
 
