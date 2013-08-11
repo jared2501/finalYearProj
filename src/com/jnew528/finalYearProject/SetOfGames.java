@@ -97,7 +97,7 @@ public class SetOfGames implements Callable<Vector<Double>> {
 				writer.println(finishedGame.getPlayer2Collisions());
 			}
 			writer.println("3) Final game state:");
-			writer.println(finishedGame);
+			writer.println(finishedGameState);
 			writer.println("4) Winning player:");
 			writer.println(finishedGameState.getWinner(false));
 			writer.println("5) Duration in seconds:");
