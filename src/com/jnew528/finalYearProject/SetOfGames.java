@@ -84,7 +84,7 @@ public class SetOfGames implements Callable<Vector<Double>> {
 				output.add(0.0);
 			}
 
-			System.out.println("Game " + (i + 1) + " finished out of " + games);
+			System.out.println(iterations + " Game " + (i + 1) + " finished out of " + games);
 			System.out.println("Extended player wins: " + extendedPlayerWins + " out of " + (i + 1));
 
 			writer.println("Game " + (i + 1));

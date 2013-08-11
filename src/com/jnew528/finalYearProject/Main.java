@@ -20,9 +20,9 @@ public class Main {
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 200;
-		int iterationsEnd = 1300;
-		int iterationsStep = 75;
+		int iterationsStart = 500;
+		int iterationsEnd = 500;
+		int iterationsStep = 25;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
@@ -52,14 +52,16 @@ public class Main {
 
 		executor.shutdown();
 
+        i = 0;
 		for(int iterations = iterationsStart; iterations <= iterationsEnd; iterations += iterationsStep) {
-			Future<Vector<Double>> future = futures.get(i);
+            Future<Vector<Double>> future = futures.get(i);
 			Vector<Double> results = future.get();
 			resultsWriter.print("results(:," + i +") = ");
 			resultsWriter.print(results);
 			resultsWriter.println(";");
 			resultsWriter.flush();
-		}
+            i++;
+        }
 
 		long endTime = System.nanoTime();
 		long duration = endTime - startTime;
