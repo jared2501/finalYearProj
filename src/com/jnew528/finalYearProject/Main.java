@@ -21,7 +21,7 @@ public class Main {
 
 		// Iteration settings
 		int iterationsStart = 200;
-		int iterationsEnd = 900;
+		int iterationsEnd = 200;
 		int iterationsStep = 100;
 
 		// New DIR name

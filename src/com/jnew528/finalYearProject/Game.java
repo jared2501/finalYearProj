@@ -20,6 +20,8 @@ public class Game implements Callable<Game> {
 	private long duration;
 	private Vector<Integer> collisionsPlayer1;
 	private Vector<Integer> collisionsPlayer2;
+	private String player1Type;
+	private String player2Type;
 
 	Game(GameState gameState, MctsTree player1, MctsTree player2, Integer iterations, boolean verbose) {
 		this.gameState = gameState;
@@ -29,6 +31,8 @@ public class Game implements Callable<Game> {
 		this.verbose = verbose;
 		this.collisionsPlayer1 = new Vector<Integer>();
 		this.collisionsPlayer2 = new Vector<Integer>();
+		this.player1Type = player1.getClass().getName();
+		this.player2Type = player2.getClass().getName();
 	}
 
 	@Override
@@ -97,5 +101,13 @@ public class Game implements Callable<Game> {
 
 	public Vector<Integer> getPlayer2Collisions() {
 		return this.collisionsPlayer2;
+	}
+
+	public String getPlayer1Type() {
+		return this.player1Type;
+	}
+
+	public String getPlayer2Type() {
+		return this.player2Type;
 	}
 }

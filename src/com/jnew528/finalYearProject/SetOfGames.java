@@ -1,13 +1,8 @@
 package com.jnew528.finalYearProject;
 
-import com.jnew528.finalYearProject.DirectedAcyclicGraph.MctsTreeLearner;
-
 import java.io.PrintWriter;
 import java.util.Vector;
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 /**
  * Created with IntelliJ IDEA.
@@ -36,8 +31,8 @@ public class SetOfGames implements Callable<Vector<Double>> {
 		long startTime = System.nanoTime();
 		Vector<Double> output = new Vector<Double>();
 
-		MctsTree playerControl = new MctsTreeUpdatePath();
-		MctsTree playerTesting = new MctsTreeLearner();
+		MctsTree playerControl = new MctsTreeStd();
+		MctsTree playerTesting = new MctsTreeUpdatePathLearner();
 
 		// Write the results to a file as we get them
 		double extendedPlayerWins = 0;
@@ -104,6 +99,10 @@ public class SetOfGames implements Callable<Vector<Double>> {
 			writer.println(finishedGameState.getWinner(false));
 			writer.println("5) Duration in seconds:");
 			writer.println((double) finishedGame.getDuration() / 1e9);
+			writer.println("6) Player 1 type:");
+			writer.println(finishedGame.getPlayer1Type());
+			writer.println("7) Player 2 type:");
+			writer.println(finishedGame.getPlayer2Type());
 			writer.println();
 			writer.flush();
 		}
