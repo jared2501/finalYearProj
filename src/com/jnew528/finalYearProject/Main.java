@@ -20,9 +20,9 @@ public class Main {
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 500;
-		int iterationsEnd = 500;
-		int iterationsStep = 25;
+		int iterationsStart = 200;
+		int iterationsEnd = 900;
+		int iterationsStep = 100;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
