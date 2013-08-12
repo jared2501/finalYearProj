@@ -24,7 +24,6 @@ public class Edge {
 		this.move = move;
 	}
 
-
 	public void update(double result) {
 		this.visits++;
 		this.wins += result;
