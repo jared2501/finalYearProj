@@ -23,7 +23,7 @@ public class Edge {
 		this.head = head;
 		this.move = move;
 	}
-	
+
 
 	public void update(double result) {
 		this.visits++;
