@@ -4,7 +4,7 @@ import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
 
 import java.util.*;
 
-public class HexState implements GameState<HexMove> {
+public class HexState implements GameState<HexState, HexMove> {
 	private int[] board;
 	private Integer playerJustMoved = 2;
 	private Integer size;
@@ -184,7 +184,7 @@ public class HexState implements GameState<HexMove> {
 	}
 
 	@Override
-	public Node getTransposition(HashMap<GameState, Node> set) {
+	public Node getTransposition(HashMap<HexState, Node> set) {
 		if(set.containsKey(this)) {
 			return set.get(this);
 		}
@@ -195,6 +195,11 @@ public class HexState implements GameState<HexMove> {
 			return set.get(test);
 		}
 
+		return null;
+	}
+
+	@Override
+	public HexMove convertMove(HexState transposition, HexMove move) {
 		return null;
 	}
 

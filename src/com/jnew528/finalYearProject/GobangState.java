@@ -13,10 +13,11 @@ import java.util.Arrays;
  * Time: 7:16 PM
  * To change this template use File | Settings | File Templates.
  */
-public class GobangState implements GameState<GobangMove> {
+public class GobangState implements GameState<GobangState, GobangMove> {
 	int size;
 	int numInRow;
 	Integer playerJustMoved;
+	// int[rows][cols] of the board
 	int[][] board;
 	Vector<GobangMove> childMoves;
 	// Stores the x and y position of the last place you moved on the board
@@ -107,11 +108,6 @@ public class GobangState implements GameState<GobangMove> {
 		return winner;
 	}
 
-	public GameState createChildStateFromMove(TicTacToeMove move) {
-		GobangMove newMove = new GobangMove(move.boardIndex/3, move.boardIndex%3);
-		return this.createChildStateFromMove(newMove);
-	}
-
 	@Override
 	public GameState createChildStateFromMove(GobangMove move) {
 		if(this.board[move.r][move.c] != 0) {
@@ -141,9 +137,9 @@ public class GobangState implements GameState<GobangMove> {
 	private int[][] rotateBoardCW90deg(int[][] input) {
 		int[][] output = new int[input.length][input.length];
 
-		for(int i = 0; i < input.length; i++) {
-			for(int j = 0; j < input.length; j++) {
-				output[i][j] = input[input.length - j - 1][i];
+		for(int r = 0; r < input.length; r++) {
+			for(int c = 0; c < input.length; c++) {
+				output[c][input.length - r - 1] = input[r][c];
 			}
 		}
 
@@ -173,7 +169,7 @@ public class GobangState implements GameState<GobangMove> {
 	}
 
 	@Override
-	public Node getTransposition(HashMap<GameState, Node> encounteredGamestates) {
+	public Node getTransposition(HashMap<GobangState, Node> encounteredGamestates) {
 		if(encounteredGamestates.containsKey(this)) {
 			return encounteredGamestates.get(this);
 		}
@@ -209,6 +205,87 @@ public class GobangState implements GameState<GobangMove> {
 			return encounteredGamestates.get(test);
 		}
 
+		return null;
+	}
+
+	@Override
+	public GobangMove convertMove(GobangState transposition, GobangMove move) {
+		int[][] markedBoard = deepCopy(transposition.board);
+		if(markedBoard[move.r][move.c] != 0) {
+			return null;
+		}
+		markedBoard[move.r][move.c] = 3; // mark the board
+
+//		System.out.println();
+//		System.out.println("-----------------------");
+//		System.out.println("-----------------------");
+//		System.out.println("We want transposition board to look like This board:");
+//		System.out.println(printBoard(this.board, this.size));
+//		System.out.println("transposition board:");
+//		System.out.println(printBoard(markedBoard, this.size));
+//		System.out.println("=======================");
+
+		// If the transposition board == this board, then the move doesnt need to be converted
+		if(Arrays.deepEquals(transposition.board, this.board)) {
+			return move;
+		}
+
+		// Flip the board three times, and record how much its flipped by. If we find one that matches up flip the move
+		// the opposite direction. Ie CCW instead of CW!
+		int[][] newBoard = deepCopy(transposition.board);
+
+		for(int i = 0; i < 3; i++) {
+			// Rotate the move 90 degrees CCW
+			newBoard = rotateBoardCW90deg(newBoard);
+			markedBoard = rotateBoardCW90deg(markedBoard);
+
+//			System.out.println("Flipped transposition board:");
+//			System.out.println(printBoard(markedBoard, transposition.size));
+//			System.out.println("This board:");
+//			System.out.println(printBoard(this.board, this.size));
+
+			if(Arrays.deepEquals(newBoard, this.board)) {
+				return findMarker(markedBoard);
+			}
+		}
+
+//		System.out.println("=======================");
+
+		// Reflect the board and try now
+		newBoard = reflectBoardHorizontal(transposition.board);
+		if(Arrays.deepEquals(newBoard, this.board)) {
+//			System.out.println("Reflected H trans board:");
+//			System.out.println(printBoard(newBoard, transposition.size));
+//			System.out.println("This board:");
+//			System.out.println(printBoard(this.board, this.size));
+
+			return new GobangMove(this.board.length - move.r - 1, move.c);
+		}
+
+//		System.out.println("=======================");
+
+		newBoard = reflectBoardVertical(transposition.board);
+		if(Arrays.deepEquals(newBoard, this.board)) {
+//			System.out.println("Reflected V trans board:");
+//			System.out.println(printBoard(newBoard, transposition.size));
+//			System.out.println("This board:");
+//			System.out.println(printBoard(this.board, this.size));
+
+			return new GobangMove(move.r, this.board.length - move.c - 1);
+		}
+
+		// We should never ever get to here!!! retun null if we do so we can error quickly
+		return null;
+	}
+
+	private GobangMove findMarker(int[][] markedBoard) {
+		for(int r = 0; r < markedBoard.length; r++) {
+			for(int c = 0; c < markedBoard.length; c++) {
+				if(markedBoard[r][c] == 3) {
+					return new GobangMove(r,c);
+				}
+			}
+		}
 		return null;
 	}
 
@@ -294,16 +371,22 @@ public class GobangState implements GameState<GobangMove> {
 
 	@Override
 	public String toString() {
+		return printBoard(this.board, size);
+	}
+
+	private String printBoard(int[][] board, int size) {
 		StringBuilder sb = new StringBuilder(); // default size is 16 chars which shouild be enough
 
 		for(int i = 0; i < size; i++) { // rows
 			for(int j = 0; j < size; j++) { // cols
 				if(board[i][j] == 1) {
-					sb.append('X');
+					sb.append("X ");
 				} else if(board[i][j] == 2) {
-					sb.append('O');
+					sb.append("O ");
+				} else if(board[i][j] == 3) {
+					sb.append("M ");
 				} else {
-					sb.append('_');
+					sb.append("_ ");
 				}
 			}
 			sb.append(System.getProperty("line.separator"));

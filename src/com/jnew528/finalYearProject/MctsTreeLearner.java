@@ -5,11 +5,11 @@ import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
 
 import java.util.HashMap;
 
-public class MctsTreeUpdatePathLearner extends MctsTreeUpdatePath {
+public class MctsTreeLearner<T> extends MctsTreeUpdatePath {
 
 	protected HashMap<GameState, Node> encounteredGameStates;
 
-	public MctsTreeUpdatePathLearner() {
+	public MctsTreeLearner() {
 		super();
 		encounteredGameStates = new HashMap();
 	}
@@ -19,6 +19,10 @@ public class MctsTreeUpdatePathLearner extends MctsTreeUpdatePath {
 		collisions = 0;
 		Node root = gameState.getTransposition(encounteredGameStates);
 
+		// NOTE!! In games like GoBang where rotating the board is a transposition, but the child moves change then we
+		// neeed a way to change the transposition back into a normal board.
+		// Transpositions dont matter when we're simulating since it just means we can never reach certain board stats
+		// ever since theyre transposition is already in the tree so we consider them!
 		if(root == null) {
 			root = new Node(gameState);
 			encounteredGameStates.put(gameState, root);
@@ -42,6 +46,6 @@ public class MctsTreeUpdatePathLearner extends MctsTreeUpdatePath {
 			}
 		}
 
-		return selectedEdge.getMove();
+		return gameState.convertMove(root.getGameState(), selectedEdge.getMove());
 	}
 }

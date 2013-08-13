@@ -15,19 +15,26 @@ public class Main {
 
 	public static void main(String[] args) throws Exception{
 		// Game type settings
-		int numberOfGames = 1000;
+		int numberOfGames = 500;
 		String gameType = "LeftRight";
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 200;
-		int iterationsEnd = 200;
-		int iterationsStep = 100;
+		int iterationsStart = 6000;
+		int iterationsEnd = 10000;
+		int iterationsStep = 1000;
+		int maxNum = 100;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
-		String newDirName = "data" + System.getProperty("file.separator") + unixTime + "_LEARNING_" + gameType + "_boardsize_" + boardSize +
-				"_numberOfGames_" + numberOfGames + "_iterStart_" + iterationsStart + "_iterEnd_" + iterationsEnd + "_iterStep_" + iterationsStep;
+		String newDirName = "data" + System.getProperty("file.separator") + unixTime +
+				"_LEARNING_" + gameType +
+				"_boardsize_" + boardSize +
+				"_numberOfGames_" + numberOfGames +
+				"_maxNum_" + maxNum +
+				"_iterStart_" + iterationsStart +
+				"_iterEnd_" + iterationsEnd +
+				"_iterStep_" + iterationsStep;
 
 		// Start timer
 		long startTime = System.nanoTime();
@@ -43,7 +50,7 @@ public class Main {
 		Vector<Future<Vector<Double>>> futures = new Vector();
 
 		int i = 0;
-		for(int iterations = iterationsStart; iterations <= iterationsEnd; iterations += iterationsStep) {
+		for(int iterations = iterationsStart; iterations <= iterationsEnd && i < maxNum; iterations += iterationsStep) {
 			i++;
 			PrintWriter iterationWriter = new PrintWriter(newDirName + System.getProperty("file.separator") + "iteration_" + i + ".txt", "UTF-8");
 			SetOfGames setOfGames = new SetOfGames(numberOfGames, iterations, gameType, boardSize, iterationWriter);
@@ -53,7 +60,7 @@ public class Main {
 		executor.shutdown();
 
         i = 0;
-		for(int iterations = iterationsStart; iterations <= iterationsEnd; iterations += iterationsStep) {
+		for(int iterations = iterationsStart; iterations <= iterationsEnd && i < maxNum; iterations += iterationsStep) {
             Future<Vector<Double>> future = futures.get(i);
 			Vector<Double> results = future.get();
 			resultsWriter.print("results(:," + (i+1) +") = ");
@@ -68,38 +75,6 @@ public class Main {
 		resultsWriter.println();
 		resultsWriter.println("% duration: " + (double) duration/1000000000);
 		resultsWriter.close();
-	}
-
-	public static void test() throws Exception {
-		Random random = new Random();
-
-		for(int i = 0; i < 1000000; i++) {
-			TicTacToeState gameState1 = new TicTacToeState();
-			GobangState gameState2 = new GobangState();
-
-			while(!gameState1.isFinalState(false)) {
-				System.out.println(gameState1);
-				System.out.println(gameState2);
-
-				// Select random move
-				Vector<TicTacToeMove> moves = gameState1.getChildMoves();
-				TicTacToeMove move = moves.get(random.nextInt(moves.size()));
-
-				gameState1 = (TicTacToeState)gameState1.createChildStateFromMove(move);
-				gameState2 = (GobangState)gameState2.createChildStateFromMove(move);
-			}
-
-			System.out.println("Winner gs1 is: " + gameState1.getWinner(false));
-			System.out.println("Winner gs2 is: " + gameState2.getWinner(false));
-			if(gameState1.getWinner(false) != gameState2.getWinner(false)) {
-				System.exit(1);
-			}
-
-			System.out.println(gameState2);
-			System.out.println(gameState1);
-		}
-
-		System.out.println("done!");
 	}
 
 	public static void debugRun() throws Exception {

@@ -32,7 +32,7 @@ public class SetOfGames implements Callable<Vector<Double>> {
 		Vector<Double> output = new Vector<Double>();
 
 		MctsTree playerControl = new MctsTreeStd();
-		MctsTree playerTesting = new MctsTreeUpdatePathLearner();
+		MctsTree playerTesting = new MctsTreeUpdatePath();
 
 		// Write the results to a file as we get them
 		double extendedPlayerWins = 0;
@@ -103,6 +103,10 @@ public class SetOfGames implements Callable<Vector<Double>> {
 			writer.println(finishedGame.getPlayer1Type());
 			writer.println("7) Player 2 type:");
 			writer.println(finishedGame.getPlayer2Type());
+			writer.println("6) Player 1 time per move (ms):");
+			writer.println(finishedGame.getTimePerPlayer1Move());
+			writer.println("7) Player 2 time per move (ms):");
+			writer.println(finishedGame.getTimePerPlayer2Move());
 			writer.println();
 			writer.flush();
 		}

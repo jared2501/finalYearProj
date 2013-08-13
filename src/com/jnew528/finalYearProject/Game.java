@@ -22,6 +22,8 @@ public class Game implements Callable<Game> {
 	private Vector<Integer> collisionsPlayer2;
 	private String player1Type;
 	private String player2Type;
+	private Vector<Long> timePerPlayer1Move;
+	private Vector<Long> timePerPlayer2Move;
 
 	Game(GameState gameState, MctsTree player1, MctsTree player2, Integer iterations, boolean verbose) {
 		this.gameState = gameState;
@@ -29,10 +31,12 @@ public class Game implements Callable<Game> {
 		this.player2 = player2;
 		this.iterations = iterations;
 		this.verbose = verbose;
-		this.collisionsPlayer1 = new Vector<Integer>();
-		this.collisionsPlayer2 = new Vector<Integer>();
+		this.collisionsPlayer1 = new Vector();
+		this.collisionsPlayer2 = new Vector();
 		this.player1Type = player1.getClass().getName();
 		this.player2Type = player2.getClass().getName();
+		this.timePerPlayer1Move = new Vector();
+		this.timePerPlayer2Move = new Vector();
 	}
 
 	@Override
@@ -44,6 +48,7 @@ public class Game implements Callable<Game> {
 		long startTime = System.nanoTime();
 
 		while(!gameState.isFinalState(false)) {
+			long startMoveTime = System.nanoTime();
 			Move move = null;
 
 			if( gameState.getPlayerToMove() ==  1) {
@@ -60,6 +65,14 @@ public class Game implements Callable<Game> {
 
 				move = player2.search(gameState, this.iterations);
 				collisionsPlayer2.add(player2.getCollisions());
+			}
+
+			long endMoveTime = System.nanoTime();
+			long duration = (endMoveTime - startMoveTime)/1000000;
+			if( gameState.getPlayerToMove() ==  1) {
+				timePerPlayer1Move.add(duration);
+			} else {
+				timePerPlayer2Move.add(duration);
 			}
 
 			gameState = gameState.createChildStateFromMove(move);
@@ -109,5 +122,13 @@ public class Game implements Callable<Game> {
 
 	public String getPlayer2Type() {
 		return this.player2Type;
+	}
+
+	public Vector<Long> getTimePerPlayer1Move() {
+		return this.timePerPlayer1Move;
+	}
+
+	public Vector<Long> getTimePerPlayer2Move() {
+		return this.timePerPlayer2Move;
 	}
 }

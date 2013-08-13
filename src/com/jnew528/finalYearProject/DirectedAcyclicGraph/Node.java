@@ -48,6 +48,10 @@ public class Node {
 		return childEdges;
 	}
 
+	public Vector<Edge> getParentEdges() {
+		return parentEdges;
+	}
+
 	public int getVisits() {
 		return visits;
 	}

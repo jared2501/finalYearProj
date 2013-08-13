@@ -12,7 +12,7 @@ import java.util.Vector;
  * Time: 1:26 AM
  * To change this template use File | Settings | File Templates.
  */
-public class LeftRightState implements GameState<LeftRightMove> {
+public class LeftRightState implements GameState<LeftRightState, LeftRightMove> {
 	private Integer playerJustMoved;
 	private Integer size;
 	private Integer player1R;
@@ -131,13 +131,19 @@ public class LeftRightState implements GameState<LeftRightMove> {
 	}
 
 	@Override
-	public Node getTransposition(HashMap<GameState, Node> set) {
+	public Node getTransposition(HashMap<LeftRightState, Node> set) {
 		if(set.containsKey(this)) {
 			return set.get(this);
 		}
 
 		return null;
 	}
+
+	@Override
+	public LeftRightMove convertMove(LeftRightState transposition, LeftRightMove move) {
+		return move;  // Since transpositions dont affect the move
+	}
+
 
 	@Override
 	public String toString() {

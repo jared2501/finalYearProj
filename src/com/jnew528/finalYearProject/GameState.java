@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Vector;
 
 // All implementations of this interface should be immutable
-public interface GameState<M extends Move> {
+public interface GameState<G extends GameState, M extends Move> {
 	// Get the player number that has just moved (1 or 2)
 	public Integer getPlayerJustMoved();
 
@@ -39,5 +39,8 @@ public interface GameState<M extends Move> {
 	public Vector<M> getChildMoves();
 
 
-	public Node getTransposition(HashMap<GameState, Node> set);
+	public Node getTransposition(HashMap<G, Node> set);
+
+	// Converts the move from the transposition into a move on this board
+	public M convertMove(G transposition, M m);
 }
