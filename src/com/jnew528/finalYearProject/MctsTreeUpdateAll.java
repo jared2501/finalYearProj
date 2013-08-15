@@ -113,21 +113,37 @@ public class MctsTreeUpdateAll implements MctsTree {
 	}
 
 	protected void backpropogate(Node finalNode, GameState gameState) {
-		Deque<Node> stack = new ArrayDeque();
-		stack.push(finalNode);
+		Deque<Node> queue = new ArrayDeque();
+		HashMap<Node, Integer> numToIncNode = new HashMap();
 
-		while(stack.size() > 0) {
-			Node current = stack.pop();
+		queue.push(finalNode);
+		numToIncNode.put(finalNode, 1);
+
+		while(queue.size() > 0) {
+			Node current = queue.removeFirst();
 
 			for(Edge e : current.getParentEdges()) {
-					// Update the edges tail
-					double result = gameState.getResult(e.getTail().getGameState().getPlayerToMove(), true);
-					e.update(result);
-					e.getTail().incrementVisits();
+				if(numToIncNode.containsKey(e.getTail())) {
 
-					// And add it to the stack to have a geez at
-					stack.push(e.getTail());
+				} else {
+
+				}
 			}
+
+
+
+
+//			Node current = queue.pop();
+//
+//			for(Edge e : current.getParentEdges()) {
+//					// Update the edges tail
+//					double result = gameState.getResult(e.getTail().getGameState().getPlayerToMove(), true);
+//					e.update(result);
+//					e.getTail().incrementVisits();
+//
+//					// And add it to the stack to have a geez at
+//					stack.push(e.getTail());
+//			}
 		}
 	}
 

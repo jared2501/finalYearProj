@@ -39,5 +39,7 @@ public class MctsTreeUpdateAllOnce extends MctsTreeUpdateAll {
 				}
 			}
 		}
+
+		finalNode.incrementVisits();
 	}
 }
