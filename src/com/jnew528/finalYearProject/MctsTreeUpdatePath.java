@@ -108,7 +108,7 @@ public class MctsTreeUpdatePath implements MctsTree {
 
 	private void backpropogate(Vector<Edge> traversedEdges, Node finalNode, GameState gameState) {
 		for(Edge edge : traversedEdges) {
-			double result = gameState.getResult(edge.getTail().getGameState().getPlayerToMove(), true);
+			double result = gameState.getResult(edge.getHead().getGameState().getPlayerJustMoved(), true);
 			edge.update(result);
 			edge.getTail().incrementVisits();
 		}
