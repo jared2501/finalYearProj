@@ -20,9 +20,15 @@ public class Main {
 		int boardSize = 100;
 
 		// Iteration settings
+<<<<<<< HEAD
 		int iterationsStart = 2000;
 		int iterationsEnd = 1700;
 		int iterationsStep = 100;
+=======
+		int iterationsStart = 50;
+		int iterationsEnd = 1200;
+		int iterationsStep = 50;
+>>>>>>> fda501adaf39aac5e3469778f004f634dc6ac1a3
 		int maxNum = 100;
 
 		// New DIR name
