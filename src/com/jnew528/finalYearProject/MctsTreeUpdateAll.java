@@ -101,36 +101,41 @@ public class MctsTreeUpdateAll implements MctsTree {
 	}
 
 	protected void backpropogate(Node finalNode, GameState gameState) {
-//		Deque<Node> currentLevelQueue = new ArrayDeque();
-//		HashMap<Node, Double> currentLevelHash = new HashMap();
-//
-//		while(currentLevelQueue.size() > 0) {
-//			Deque<Node> nextLevelQueue = new ArrayDeque();
-//			HashMap<Node, Double> nextLevelHash = new HashMap();
-//
-//			for(Node current : currentLevelQueue) {
-//				Double currentVists = currentLevelHash.get(current);
-//				int numOfParents = current.getParentEdges().size();
-//				Double parentScore = currentVists/numOfParents;
-//
-//				// Update the current node
-//				current.update(gameState.getResult(current.getGameState().getPlayerToMove(), false)*currentVists, currentVists);
-//
-//				// Go through its parents and dehoover their whatsits for next round
-//				for(Edge e : current.getParentEdges()) {
-//					Node parent = e.getTail();
-//
-//					if(nextLevelHash.containsKey(parent)) {
-//						nextLevelHash.put(parent, nextLevelHash.get(parent)+parentScore);
-//					} else {
-//						nextLevelQueue.addFirst(parent);
-//						nextLevelHash.put(parent, parentScore);
-//					}
-//				}
-//			}
-//		}
-//
-//		finalNode.incrementVisits();
+		Deque<Node> currentLevelQueue = new ArrayDeque();
+		HashMap<Node, Double> currentLevelHash = new HashMap();
+
+		currentLevelQueue.addFirst(finalNode);
+		currentLevelHash.put(finalNode, 1.0);
+
+		while(currentLevelQueue.size() > 0) {
+			Deque<Node> nextLevelQueue = new ArrayDeque();
+			HashMap<Node, Double> nextLevelHash = new HashMap();
+
+			for(Node current : currentLevelQueue) {
+				Double currentVists = currentLevelHash.get(current);
+
+				// Update the current node
+				current.update(gameState.getResult(current.getGameState().getPlayerToMove(), false)*currentVists, currentVists);
+
+				int numOfParents = current.getParentEdges().size();
+				Double parentScore = currentVists/numOfParents;
+
+				// Go through its parents and dehoover their whatsits for next round
+				for(Edge e : current.getParentEdges()) {
+					Node parent = e.getTail();
+
+					if(nextLevelHash.containsKey(parent)) {
+						nextLevelHash.put(parent, nextLevelHash.get(parent)+parentScore);
+					} else {
+						nextLevelQueue.addFirst(parent);
+						nextLevelHash.put(parent, parentScore);
+					}
+				}
+			}
+
+			currentLevelHash = nextLevelHash;
+			currentLevelQueue = nextLevelQueue;
+		}
 	}
 
 	@Override

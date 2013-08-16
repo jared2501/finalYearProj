@@ -20,15 +20,15 @@ public class Main {
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 50;
-		int iterationsEnd = 1200;
-		int iterationsStep = 50;
+		int iterationsStart = 1300;
+		int iterationsEnd = 1600;
+		int iterationsStep = 100;
 		int maxNum = 100;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
 		String newDirName = "data" + System.getProperty("file.separator") + unixTime +
-				"_UpdateAllEvil_FIXED_" + gameType +
+				"_UpdateAllEvil_FIXED_WITHDOUBLE_" + gameType +
 				"_boardsize_" + boardSize +
 				"_numberOfGames_" + numberOfGames +
 				"_maxNum_" + maxNum +
