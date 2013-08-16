@@ -115,9 +115,9 @@ public class MctsTreeUpdateAll implements MctsTree {
 				Double currentVists = currentLevelHash.get(current);
 
 				// Update the current node
-				current.update(gameState.getResult(current.getGameState().getPlayerToMove(), false)*currentVists, currentVists);
+				current.update(gameState.getResult(current.getGameState().getPlayerJustMoved(), false)*currentVists, currentVists);
 
-				int numOfParents = current.getParentEdges().size();
+				double numOfParents = (double)current.getParentEdges().size();
 				Double parentScore = currentVists/numOfParents;
 
 				// Go through its parents and dehoover their whatsits for next round

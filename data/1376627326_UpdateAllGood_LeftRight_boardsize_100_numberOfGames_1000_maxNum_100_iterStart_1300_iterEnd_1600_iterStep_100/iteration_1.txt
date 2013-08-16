@@ -1,0 +1,1147 @@
+1) Game type:
+LeftRight
+2) Board size:
+100
+3) Number of MCTS iterations per-player:
+1300
+
+Game 1
+1) Extended player number:
+1
+2) Extended player collisions:
+[723, 687, 717, 719, 727, 717, 702, 737, 694, 716, 707, 685, 708, 647, 674, 685, 721, 685, 685, 689, 675, 674, 620, 574, 562, 624, 613, 632, 509, 373, 427, 526, 392, 294, 277, 429, 178, 192, 220, 168, 158, 140, 120, 93, 66, 53, 27, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+4.533899205
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[277, 121, 83, 111, 98, 103, 153, 129, 111, 98, 136, 108, 103, 118, 104, 148, 175, 116, 103, 110, 112, 90, 95, 104, 93, 94, 92, 85, 94, 83, 83, 58, 58, 49, 38, 37, 28, 37, 29, 21, 20, 17, 14, 11, 9, 7, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[33, 14, 27, 14, 15, 19, 28, 16, 14, 13, 23, 14, 13, 11, 17, 19, 20, 11, 12, 13, 12, 9, 9, 9, 12, 10, 10, 8, 9, 8, 6, 7, 5, 5, 7, 4, 4, 6, 3, 4, 3, 4, 6, 3, 2, 2, 1, 1, 0, 0]
+
+Game 2
+1) Extended player number:
+1
+2) Extended player collisions:
+[734, 740, 710, 703, 740, 700, 692, 732, 698, 695, 734, 700, 684, 703, 695, 744, 724, 740, 668, 726, 686, 720, 634, 685, 523, 583, 505, 571, 558, 543, 435, 374, 526, 314, 335, 333, 266, 217, 205, 167, 159, 119, 109, 84, 81, 55, 22, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.34127934
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[78, 78, 82, 95, 74, 89, 84, 74, 91, 86, 82, 88, 75, 78, 80, 72, 77, 75, 71, 60, 70, 59, 75, 80, 69, 71, 81, 74, 67, 56, 56, 56, 46, 48, 44, 39, 41, 84, 59, 37, 23, 23, 17, 15, 8, 9, 4, 4, 1, 1]
+7) Player 2 time per move (ms):
+[10, 12, 11, 11, 12, 10, 9, 14, 11, 23, 11, 8, 10, 10, 13, 14, 8, 7, 9, 7, 7, 11, 15, 6, 6, 5, 6, 5, 5, 5, 4, 5, 4, 7, 4, 4, 24, 4, 10, 6, 4, 4, 6, 3, 4, 2, 2, 1, 0, 0]
+
+Game 3
+1) Extended player number:
+1
+2) Extended player collisions:
+[675, 721, 727, 726, 668, 699, 704, 684, 687, 719, 680, 703, 759, 675, 702, 692, 759, 688, 682, 693, 670, 710, 725, 549, 580, 560, 689, 513, 463, 482, 402, 483, 383, 306, 293, 289, 275, 275, 197, 174, 152, 138, 148, 95, 78, 49, 32, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.144116389
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[89, 71, 64, 73, 76, 75, 72, 78, 77, 82, 81, 97, 96, 98, 89, 75, 64, 81, 72, 71, 73, 71, 62, 76, 72, 73, 66, 65, 61, 61, 56, 52, 50, 48, 40, 45, 38, 37, 26, 21, 26, 17, 12, 12, 8, 6, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[11, 9, 8, 9, 8, 9, 8, 9, 12, 11, 11, 13, 7, 10, 7, 7, 7, 6, 9, 6, 6, 9, 8, 6, 5, 7, 8, 9, 5, 5, 4, 5, 10, 5, 6, 4, 10, 5, 6, 6, 3, 4, 3, 2, 2, 2, 2, 1, 0, 0]
+
+Game 4
+1) Extended player number:
+1
+2) Extended player collisions:
+[706, 705, 721, 727, 719, 726, 672, 713, 667, 712, 737, 697, 708, 705, 684, 699, 684, 681, 677, 676, 678, 597, 621, 563, 565, 626, 679, 540, 507, 492, 478, 403, 371, 324, 271, 270, 239, 271, 180, 203, 158, 158, 157, 93, 65, 46, 26, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.280867649
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[75, 78, 81, 96, 79, 96, 78, 70, 70, 78, 77, 76, 76, 83, 85, 86, 135, 133, 83, 80, 74, 78, 74, 66, 73, 67, 49, 63, 61, 65, 58, 57, 56, 55, 39, 40, 37, 37, 26, 35, 20, 18, 11, 11, 10, 8, 3, 2, 2, 1]
+7) Player 2 time per move (ms):
+[10, 9, 8, 10, 9, 8, 10, 9, 10, 7, 8, 8, 7, 8, 8, 8, 18, 8, 6, 6, 7, 6, 5, 8, 5, 7, 6, 6, 6, 6, 7, 7, 5, 4, 5, 5, 8, 5, 7, 7, 3, 3, 3, 2, 5, 2, 2, 1, 1, 0]
+
+Game 5
+1) Extended player number:
+1
+2) Extended player collisions:
+[705, 740, 697, 703, 688, 729, 698, 722, 762, 705, 697, 703, 732, 673, 690, 702, 684, 700, 671, 669, 645, 610, 584, 609, 612, 579, 523, 417, 501, 500, 710, 528, 525, 462, 425, 281, 246, 257, 243, 189, 194, 143, 142, 93, 74, 47, 32, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+3.060350466
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[74, 82, 83, 75, 69, 70, 77, 71, 77, 75, 74, 78, 72, 83, 79, 70, 76, 77, 76, 73, 69, 75, 75, 69, 73, 65, 62, 61, 59, 59, 45, 60, 61, 46, 42, 40, 29, 35, 25, 32, 23, 20, 15, 11, 10, 6, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[11, 12, 13, 21, 8, 8, 9, 9, 12, 7, 7, 9, 7, 10, 8, 9, 7, 11, 8, 6, 6, 6, 5, 6, 6, 9, 5, 7, 4, 8, 6, 4, 5, 4, 5, 4, 5, 4, 3, 5, 3, 3, 3, 5, 3, 2, 1, 1, 0, 0]
+
+Game 6
+1) Extended player number:
+1
+2) Extended player collisions:
+[717, 706, 715, 726, 734, 728, 714, 714, 661, 700, 726, 691, 694, 660, 727, 669, 688, 681, 698, 640, 580, 673, 655, 582, 537, 605, 562, 462, 517, 443, 429, 364, 363, 375, 386, 242, 219, 288, 161, 190, 129, 130, 133, 105, 60, 47, 26, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.066567172
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[70, 80, 84, 76, 74, 66, 71, 81, 77, 85, 64, 76, 74, 84, 66, 73, 81, 69, 73, 82, 70, 72, 80, 75, 82, 69, 63, 65, 72, 57, 65, 50, 58, 44, 46, 36, 33, 27, 21, 23, 19, 20, 12, 13, 8, 8, 4, 2, 2, 1]
+7) Player 2 time per move (ms):
+[11, 12, 12, 10, 9, 9, 10, 10, 9, 7, 8, 7, 7, 7, 8, 6, 6, 7, 8, 7, 8, 9, 8, 10, 8, 7, 5, 6, 6, 8, 5, 7, 4, 4, 5, 4, 3, 3, 5, 4, 3, 3, 3, 2, 4, 2, 1, 1, 0, 0]
+
+Game 7
+1) Extended player number:
+1
+2) Extended player collisions:
+[725, 700, 726, 700, 754, 699, 703, 663, 688, 697, 671, 709, 693, 683, 744, 653, 650, 665, 673, 720, 689, 742, 708, 576, 607, 633, 554, 650, 399, 416, 453, 381, 356, 300, 413, 315, 248, 198, 178, 290, 130, 125, 120, 85, 74, 46, 28, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.3414931
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[57, 76, 71, 69, 74, 76, 83, 95, 70, 105, 78, 77, 69, 78, 67, 134, 95, 155, 99, 111, 76, 51, 95, 75, 72, 77, 76, 76, 59, 59, 54, 68, 48, 41, 43, 34, 29, 28, 30, 24, 20, 18, 16, 10, 9, 5, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[11, 9, 9, 8, 16, 10, 8, 9, 7, 7, 7, 7, 10, 6, 20, 11, 24, 10, 9, 10, 8, 7, 13, 6, 5, 5, 5, 8, 7, 8, 6, 4, 4, 5, 5, 6, 5, 3, 3, 3, 3, 3, 4, 4, 2, 3, 2, 1, 0, 0]
+
+Game 8
+1) Extended player number:
+1
+2) Extended player collisions:
+[673, 727, 752, 694, 708, 689, 692, 704, 691, 679, 715, 703, 688, 698, 708, 676, 674, 688, 735, 654, 693, 680, 649, 647, 602, 680, 507, 662, 464, 506, 516, 423, 338, 357, 294, 310, 251, 274, 208, 208, 156, 134, 115, 88, 65, 57, 31, 17, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.762122683
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[76, 67, 73, 93, 145, 103, 78, 70, 84, 114, 110, 93, 87, 81, 107, 94, 71, 79, 69, 99, 84, 74, 87, 75, 81, 92, 72, 63, 72, 92, 96, 103, 81, 70, 70, 44, 39, 33, 26, 25, 22, 18, 11, 11, 9, 7, 5, 2, 1, 1]
+7) Player 2 time per move (ms):
+[37, 11, 13, 14, 22, 10, 8, 13, 33, 10, 11, 8, 13, 7, 7, 10, 7, 8, 8, 7, 16, 6, 9, 6, 53, 7, 6, 6, 6, 5, 7, 8, 11, 8, 6, 3, 5, 3, 3, 3, 3, 3, 3, 3, 2, 2, 1, 1, 0, 0]
+
+Game 9
+1) Extended player number:
+1
+2) Extended player collisions:
+[745, 699, 709, 701, 709, 696, 697, 719, 731, 747, 691, 698, 741, 712, 742, 685, 681, 670, 679, 721, 550, 696, 575, 657, 590, 716, 507, 515, 663, 433, 377, 440, 332, 315, 332, 254, 262, 224, 183, 208, 139, 194, 109, 107, 69, 47, 33, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.176862216
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[65, 75, 73, 68, 69, 67, 74, 68, 63, 105, 88, 79, 63, 76, 65, 74, 78, 74, 85, 65, 100, 100, 91, 88, 92, 62, 64, 70, 67, 58, 62, 66, 48, 52, 46, 39, 35, 33, 29, 23, 20, 16, 17, 14, 11, 12, 10, 3, 2, 1]
+7) Player 2 time per move (ms):
+[14, 8, 9, 8, 10, 8, 9, 10, 9, 11, 8, 9, 7, 7, 6, 7, 7, 6, 6, 6, 9, 8, 8, 6, 7, 8, 5, 5, 6, 5, 5, 4, 5, 4, 6, 5, 6, 7, 4, 4, 6, 4, 5, 5, 2, 10, 5, 2, 2, 0]
+
+Game 10
+1) Extended player number:
+1
+2) Extended player collisions:
+[746, 691, 755, 686, 702, 697, 713, 702, 704, 716, 729, 680, 717, 707, 703, 758, 686, 758, 727, 698, 712, 709, 702, 626, 550, 579, 546, 546, 502, 460, 620, 359, 396, 346, 386, 368, 284, 353, 207, 195, 130, 144, 104, 99, 74, 60, 36, 12, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.386706667
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[102, 91, 75, 86, 86, 96, 71, 85, 81, 99, 94, 70, 77, 93, 82, 75, 79, 64, 92, 102, 80, 63, 90, 94, 74, 79, 80, 62, 67, 61, 55, 52, 54, 42, 41, 44, 33, 42, 32, 31, 22, 23, 21, 14, 13, 14, 5, 3, 1, 1]
+7) Player 2 time per move (ms):
+[16, 10, 15, 13, 10, 13, 10, 9, 9, 12, 7, 9, 7, 18, 7, 6, 8, 12, 9, 7, 6, 6, 10, 6, 6, 6, 7, 5, 5, 6, 4, 5, 4, 4, 4, 4, 8, 4, 6, 5, 4, 3, 6, 4, 4, 5, 1, 1, 0, 0]
+
+Game 11
+1) Extended player number:
+1
+2) Extended player collisions:
+[702, 740, 696, 707, 731, 722, 699, 720, 712, 706, 711, 712, 694, 704, 715, 685, 678, 709, 736, 605, 660, 703, 639, 546, 500, 614, 607, 445, 489, 575, 420, 448, 451, 332, 330, 339, 263, 278, 211, 210, 156, 109, 89, 83, 55, 47, 28, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.182574607
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[90, 70, 79, 68, 78, 74, 85, 69, 81, 89, 76, 69, 77, 77, 62, 80, 82, 74, 93, 89, 76, 70, 73, 75, 67, 67, 73, 63, 84, 67, 65, 57, 44, 48, 46, 42, 34, 36, 28, 27, 22, 14, 15, 12, 8, 6, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 10, 9, 9, 9, 8, 8, 48, 9, 8, 9, 8, 7, 8, 8, 7, 7, 8, 11, 7, 8, 7, 10, 8, 5, 6, 5, 10, 4, 4, 5, 5, 4, 4, 4, 4, 6, 4, 3, 3, 6, 4, 3, 3, 2, 2, 1, 1, 1, 0]
+
+Game 12
+1) Extended player number:
+1
+2) Extended player collisions:
+[711, 689, 729, 682, 719, 706, 668, 678, 758, 676, 715, 757, 674, 718, 688, 711, 706, 705, 704, 683, 639, 592, 685, 581, 626, 599, 549, 460, 545, 399, 509, 403, 471, 371, 282, 298, 214, 230, 210, 188, 146, 137, 117, 86, 78, 52, 31, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.214719855
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[79, 82, 109, 83, 91, 82, 82, 77, 67, 86, 70, 46, 78, 78, 67, 81, 79, 84, 75, 77, 81, 88, 69, 88, 71, 70, 75, 65, 59, 59, 53, 50, 48, 45, 42, 44, 35, 33, 40, 34, 22, 20, 13, 11, 16, 9, 7, 4, 2, 1]
+7) Player 2 time per move (ms):
+[9, 8, 16, 9, 10, 9, 15, 12, 8, 8, 8, 7, 7, 9, 8, 7, 9, 7, 9, 6, 6, 8, 6, 6, 5, 5, 6, 5, 6, 9, 5, 5, 9, 5, 8, 5, 8, 7, 5, 5, 4, 4, 4, 5, 4, 5, 2, 2, 1, 0]
+
+Game 13
+1) Extended player number:
+1
+2) Extended player collisions:
+[675, 709, 727, 719, 708, 683, 714, 680, 718, 696, 702, 717, 718, 732, 717, 735, 720, 642, 728, 684, 670, 650, 624, 619, 692, 600, 714, 599, 618, 479, 495, 467, 360, 371, 350, 276, 333, 228, 196, 191, 169, 122, 105, 96, 71, 45, 31, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.080287385
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[86, 69, 71, 75, 71, 74, 96, 86, 79, 75, 78, 75, 70, 73, 67, 61, 74, 76, 63, 92, 85, 83, 78, 81, 72, 68, 63, 61, 62, 52, 49, 55, 49, 50, 46, 39, 34, 34, 26, 19, 23, 17, 15, 12, 11, 5, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[9, 17, 12, 8, 8, 10, 9, 8, 8, 8, 8, 7, 7, 10, 9, 11, 6, 10, 8, 9, 8, 6, 5, 5, 9, 5, 5, 10, 5, 5, 5, 5, 4, 4, 6, 4, 3, 7, 3, 9, 3, 4, 3, 4, 3, 2, 1, 1, 0, 0]
+
+Game 14
+1) Extended player number:
+1
+2) Extended player collisions:
+[716, 729, 703, 686, 728, 695, 714, 677, 718, 690, 691, 691, 682, 666, 675, 738, 663, 672, 692, 694, 642, 712, 744, 601, 528, 524, 682, 474, 448, 669, 412, 341, 398, 272, 463, 284, 241, 272, 221, 137, 182, 127, 117, 86, 60, 55, 29, 14, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.091139194
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[74, 79, 71, 77, 65, 71, 76, 80, 80, 79, 68, 81, 72, 78, 77, 64, 87, 86, 74, 67, 77, 104, 80, 71, 72, 76, 84, 69, 59, 59, 51, 47, 47, 41, 40, 38, 33, 34, 31, 19, 19, 18, 12, 12, 8, 7, 5, 2, 1, 1]
+7) Player 2 time per move (ms):
+[14, 9, 8, 13, 9, 11, 10, 9, 10, 10, 12, 7, 9, 7, 7, 13, 10, 7, 6, 7, 8, 7, 9, 6, 6, 7, 8, 5, 4, 4, 4, 4, 4, 5, 4, 3, 4, 5, 3, 4, 4, 4, 3, 3, 2, 2, 1, 1, 0, 0]
+
+Game 15
+1) Extended player number:
+1
+2) Extended player collisions:
+[712, 736, 706, 691, 750, 701, 703, 688, 726, 704, 704, 735, 700, 760, 671, 704, 691, 724, 653, 718, 705, 583, 694, 706, 519, 484, 475, 547, 498, 440, 393, 377, 299, 323, 359, 285, 331, 226, 229, 184, 143, 155, 114, 73, 81, 48, 30, 17, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.086688123
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[67, 77, 106, 80, 65, 78, 74, 77, 66, 70, 73, 65, 73, 56, 83, 73, 72, 55, 75, 75, 71, 80, 67, 60, 68, 67, 59, 67, 62, 63, 59, 49, 47, 42, 46, 40, 43, 34, 33, 31, 30, 22, 16, 16, 9, 14, 13, 7, 4, 3]
+7) Player 2 time per move (ms):
+[9, 16, 11, 9, 12, 8, 8, 9, 11, 10, 8, 7, 7, 10, 8, 7, 8, 7, 9, 10, 8, 6, 10, 5, 5, 5, 6, 6, 5, 5, 4, 4, 4, 7, 5, 4, 5, 5, 5, 7, 5, 8, 6, 8, 7, 8, 8, 4, 3, 1]
+
+Game 16
+1) Extended player number:
+1
+2) Extended player collisions:
+[700, 710, 711, 755, 709, 732, 752, 746, 742, 701, 710, 666, 709, 727, 713, 680, 633, 687, 688, 720, 707, 604, 674, 623, 506, 616, 543, 556, 509, 388, 494, 354, 360, 295, 295, 263, 298, 213, 211, 190, 155, 146, 75, 75, 69, 52, 34, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.015110709
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[85, 76, 72, 71, 73, 73, 58, 81, 70, 73, 79, 80, 74, 65, 68, 82, 76, 80, 72, 67, 77, 72, 76, 76, 72, 60, 62, 63, 63, 59, 56, 51, 55, 43, 45, 46, 37, 32, 28, 22, 18, 16, 14, 14, 8, 8, 4, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 9, 8, 8, 17, 11, 9, 12, 8, 13, 8, 8, 9, 7, 6, 7, 7, 8, 10, 6, 6, 6, 6, 6, 5, 5, 5, 8, 7, 8, 5, 5, 5, 5, 7, 4, 4, 4, 4, 4, 3, 3, 3, 5, 4, 2, 2, 1, 0, 0]
+
+Game 17
+1) Extended player number:
+1
+2) Extended player collisions:
+[733, 659, 732, 711, 711, 721, 715, 711, 696, 721, 709, 694, 724, 685, 722, 737, 717, 647, 717, 688, 711, 545, 665, 745, 566, 620, 573, 513, 425, 452, 526, 404, 369, 255, 306, 297, 276, 197, 201, 198, 210, 158, 100, 115, 77, 54, 33, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.071693142
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[75, 86, 58, 69, 76, 80, 74, 68, 76, 80, 80, 75, 71, 80, 70, 66, 75, 84, 75, 75, 70, 81, 70, 49, 75, 67, 71, 81, 69, 70, 72, 59, 52, 40, 43, 40, 31, 26, 26, 23, 24, 18, 11, 9, 9, 10, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[14, 9, 13, 13, 10, 8, 10, 11, 16, 7, 7, 7, 7, 7, 7, 12, 7, 9, 11, 12, 6, 8, 7, 5, 6, 7, 5, 6, 6, 5, 5, 4, 5, 4, 4, 3, 3, 3, 3, 3, 4, 5, 3, 3, 4, 2, 2, 1, 0, 0]
+
+Game 18
+1) Extended player number:
+1
+2) Extended player collisions:
+[743, 738, 734, 703, 743, 688, 676, 694, 713, 693, 698, 695, 692, 688, 716, 674, 772, 699, 738, 681, 684, 647, 646, 613, 536, 602, 506, 471, 408, 424, 436, 435, 404, 505, 277, 349, 276, 421, 201, 165, 195, 121, 96, 84, 80, 52, 31, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.467334865
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[74, 74, 83, 93, 78, 73, 115, 84, 81, 75, 79, 75, 76, 101, 89, 85, 53, 73, 71, 82, 80, 138, 88, 76, 79, 116, 74, 134, 61, 57, 55, 54, 56, 45, 47, 50, 52, 41, 35, 27, 28, 14, 18, 11, 9, 9, 4, 2, 2, 1]
+7) Player 2 time per move (ms):
+[9, 9, 11, 8, 9, 19, 10, 10, 8, 12, 7, 8, 13, 7, 11, 8, 8, 7, 6, 6, 6, 15, 9, 7, 6, 6, 6, 5, 6, 4, 5, 5, 6, 6, 7, 5, 5, 8, 4, 6, 7, 4, 3, 3, 3, 2, 1, 1, 0, 0]
+
+Game 19
+1) Extended player number:
+1
+2) Extended player collisions:
+[709, 689, 702, 731, 710, 701, 701, 717, 709, 722, 698, 693, 725, 700, 732, 661, 708, 665, 764, 600, 688, 602, 708, 666, 572, 586, 566, 487, 449, 431, 543, 366, 423, 385, 412, 302, 240, 246, 211, 165, 174, 114, 113, 109, 80, 53, 27, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.081447842
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[76, 83, 75, 62, 77, 81, 75, 87, 81, 74, 74, 84, 79, 79, 75, 86, 83, 80, 59, 75, 70, 73, 56, 76, 67, 67, 74, 61, 62, 61, 56, 46, 53, 45, 50, 38, 33, 30, 27, 21, 21, 22, 15, 11, 8, 7, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 8, 11, 17, 10, 9, 9, 9, 8, 8, 8, 8, 15, 10, 10, 14, 8, 7, 6, 10, 6, 6, 12, 6, 5, 9, 5, 5, 5, 5, 4, 5, 6, 10, 4, 4, 5, 4, 3, 3, 5, 3, 3, 3, 2, 2, 2, 2, 0, 0]
+
+Game 20
+1) Extended player number:
+1
+2) Extended player collisions:
+[716, 703, 711, 727, 672, 710, 715, 700, 707, 657, 659, 682, 704, 710, 704, 683, 705, 689, 670, 682, 716, 680, 678, 645, 578, 499, 501, 471, 701, 487, 597, 460, 315, 391, 349, 363, 247, 215, 201, 213, 171, 121, 139, 96, 70, 49, 34, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.155789259
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[73, 78, 77, 73, 83, 78, 85, 68, 76, 77, 79, 79, 80, 75, 77, 87, 78, 76, 85, 76, 78, 69, 79, 75, 78, 74, 63, 72, 63, 58, 54, 54, 44, 40, 51, 51, 40, 36, 40, 21, 25, 22, 10, 14, 7, 7, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 9, 9, 14, 8, 9, 8, 8, 9, 8, 8, 11, 9, 10, 8, 8, 7, 7, 9, 7, 8, 6, 6, 7, 8, 5, 6, 6, 7, 4, 6, 4, 4, 4, 5, 4, 6, 4, 4, 7, 4, 4, 4, 3, 2, 2, 1, 1, 1, 0]
+
+Game 21
+1) Extended player number:
+1
+2) Extended player collisions:
+[733, 690, 687, 697, 746, 734, 707, 712, 701, 676, 728, 735, 715, 723, 742, 659, 664, 733, 659, 706, 685, 639, 688, 628, 763, 527, 538, 621, 508, 403, 416, 452, 282, 331, 343, 232, 226, 219, 204, 203, 138, 138, 118, 94, 67, 50, 36, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.381758005
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[75, 89, 73, 98, 102, 95, 72, 76, 84, 84, 78, 59, 74, 88, 80, 100, 84, 72, 87, 90, 81, 75, 76, 83, 65, 72, 84, 77, 72, 60, 65, 58, 48, 54, 48, 57, 39, 36, 27, 26, 15, 41, 19, 13, 8, 8, 4, 2, 1, 1]
+7) Player 2 time per move (ms):
+[14, 20, 9, 14, 10, 12, 12, 12, 9, 7, 8, 10, 7, 7, 14, 15, 6, 7, 8, 9, 8, 6, 9, 7, 10, 10, 7, 8, 6, 8, 7, 4, 5, 4, 4, 4, 5, 4, 3, 3, 3, 3, 7, 2, 4, 2, 1, 1, 0, 0]
+
+Game 22
+1) Extended player number:
+1
+2) Extended player collisions:
+[712, 688, 730, 702, 706, 715, 693, 721, 693, 697, 688, 725, 692, 752, 712, 660, 686, 689, 666, 711, 703, 591, 716, 590, 552, 562, 563, 523, 383, 448, 454, 412, 342, 313, 329, 256, 269, 257, 213, 143, 143, 134, 107, 75, 66, 49, 31, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.209404192
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[97, 120, 84, 75, 77, 85, 82, 88, 78, 86, 78, 75, 78, 63, 76, 75, 85, 71, 74, 69, 76, 77, 58, 73, 71, 65, 64, 65, 58, 62, 54, 62, 76, 59, 40, 38, 32, 33, 25, 22, 21, 17, 15, 15, 8, 5, 4, 2, 2, 1]
+7) Player 2 time per move (ms):
+[18, 18, 9, 8, 9, 8, 12, 14, 10, 10, 7, 7, 9, 7, 7, 14, 10, 6, 8, 11, 8, 7, 5, 8, 7, 5, 8, 8, 5, 6, 5, 7, 6, 5, 4, 6, 4, 4, 5, 4, 3, 7, 4, 6, 3, 2, 1, 1, 0, 0]
+
+Game 23
+1) Extended player number:
+1
+2) Extended player collisions:
+[707, 701, 702, 689, 683, 738, 696, 730, 703, 724, 665, 684, 707, 728, 705, 643, 715, 693, 680, 694, 735, 665, 749, 531, 642, 540, 498, 424, 405, 376, 424, 366, 459, 319, 392, 286, 278, 261, 205, 155, 256, 135, 91, 86, 62, 56, 34, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.108790591
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[65, 74, 73, 78, 78, 70, 76, 66, 84, 80, 88, 76, 78, 56, 75, 79, 66, 78, 78, 78, 70, 84, 62, 72, 68, 66, 63, 70, 67, 78, 66, 60, 48, 51, 38, 40, 32, 33, 33, 21, 17, 17, 16, 12, 11, 10, 7, 3, 2, 1]
+7) Player 2 time per move (ms):
+[12, 11, 12, 9, 8, 12, 8, 9, 13, 9, 10, 9, 11, 12, 17, 9, 7, 8, 6, 7, 8, 11, 6, 5, 5, 8, 5, 9, 7, 6, 8, 5, 6, 3, 4, 6, 3, 4, 4, 5, 4, 3, 3, 2, 4, 4, 2, 2, 1, 0]
+
+Game 24
+1) Extended player number:
+1
+2) Extended player collisions:
+[735, 706, 720, 690, 693, 704, 711, 691, 673, 728, 755, 679, 725, 666, 674, 715, 725, 662, 701, 678, 697, 683, 635, 631, 591, 558, 642, 475, 491, 529, 371, 462, 421, 342, 362, 279, 248, 231, 226, 168, 149, 147, 119, 92, 70, 67, 31, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.265228205
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[79, 80, 79, 115, 84, 102, 85, 75, 79, 69, 102, 74, 65, 71, 76, 59, 66, 75, 71, 73, 97, 77, 77, 75, 84, 79, 76, 70, 71, 70, 50, 58, 54, 49, 45, 39, 34, 29, 29, 23, 23, 14, 14, 13, 10, 8, 5, 4, 2, 1]
+7) Player 2 time per move (ms):
+[10, 8, 16, 15, 19, 16, 10, 8, 8, 10, 7, 10, 7, 7, 8, 15, 8, 7, 6, 7, 6, 9, 9, 12, 9, 6, 8, 5, 7, 4, 7, 5, 9, 4, 4, 4, 4, 3, 5, 5, 3, 3, 3, 3, 4, 3, 3, 2, 1, 0]
+
+Game 25
+1) Extended player number:
+1
+2) Extended player collisions:
+[715, 705, 722, 725, 752, 699, 698, 727, 696, 698, 692, 684, 677, 723, 715, 696, 678, 671, 732, 680, 626, 670, 652, 580, 559, 432, 556, 536, 511, 417, 518, 464, 358, 319, 306, 250, 257, 256, 196, 206, 144, 140, 105, 97, 81, 54, 34, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.211163812
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[80, 82, 75, 74, 71, 86, 83, 68, 81, 79, 77, 75, 87, 76, 75, 83, 90, 77, 65, 75, 78, 78, 79, 77, 75, 67, 70, 68, 66, 56, 57, 60, 52, 53, 50, 43, 45, 38, 37, 25, 21, 19, 13, 11, 11, 4, 4, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 10, 13, 14, 11, 9, 8, 10, 14, 8, 8, 12, 9, 8, 11, 7, 7, 7, 7, 6, 13, 5, 8, 6, 6, 5, 6, 5, 5, 8, 5, 6, 5, 5, 9, 9, 6, 4, 6, 4, 5, 4, 4, 3, 3, 2, 2, 2, 1, 0]
+
+Game 26
+1) Extended player number:
+1
+2) Extended player collisions:
+[677, 718, 703, 721, 716, 749, 677, 712, 689, 687, 684, 675, 684, 681, 658, 700, 700, 701, 697, 680, 661, 626, 590, 566, 570, 656, 604, 636, 442, 532, 406, 416, 431, 321, 279, 328, 305, 220, 202, 183, 152, 135, 101, 80, 74, 50, 29, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.070006781
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[70, 74, 80, 73, 81, 66, 83, 75, 77, 75, 84, 85, 77, 77, 74, 72, 70, 63, 78, 75, 70, 76, 70, 75, 66, 64, 80, 62, 53, 50, 55, 50, 61, 45, 49, 45, 34, 32, 27, 29, 23, 20, 13, 11, 9, 10, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[11, 9, 10, 11, 17, 11, 10, 8, 9, 10, 8, 7, 10, 7, 9, 6, 7, 6, 9, 10, 8, 6, 6, 8, 5, 5, 7, 5, 5, 7, 6, 4, 7, 4, 6, 4, 4, 4, 6, 4, 3, 5, 3, 4, 4, 2, 1, 1, 0, 0]
+
+Game 27
+1) Extended player number:
+1
+2) Extended player collisions:
+[746, 735, 742, 708, 714, 686, 716, 707, 680, 694, 718, 694, 765, 706, 681, 648, 733, 703, 712, 712, 629, 669, 592, 558, 543, 497, 634, 559, 568, 410, 433, 365, 405, 323, 313, 359, 234, 228, 199, 157, 178, 123, 107, 106, 73, 48, 31, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.076211454
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[72, 74, 78, 81, 75, 89, 84, 82, 83, 74, 77, 76, 68, 69, 80, 75, 72, 72, 65, 71, 77, 85, 75, 84, 68, 65, 58, 57, 69, 55, 55, 50, 56, 48, 46, 36, 36, 31, 26, 26, 23, 17, 11, 13, 7, 6, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[10, 9, 9, 9, 9, 11, 9, 11, 8, 11, 7, 8, 9, 10, 9, 9, 15, 7, 6, 15, 6, 6, 11, 5, 7, 6, 5, 5, 5, 5, 4, 4, 7, 4, 4, 8, 4, 4, 4, 4, 4, 3, 3, 3, 3, 2, 1, 1, 0, 0]
+
+Game 28
+1) Extended player number:
+1
+2) Extended player collisions:
+[717, 683, 711, 712, 706, 707, 705, 677, 704, 700, 696, 690, 690, 676, 665, 684, 687, 708, 679, 733, 716, 696, 702, 591, 493, 713, 605, 641, 446, 457, 593, 411, 317, 462, 318, 358, 277, 285, 328, 180, 161, 161, 112, 98, 66, 53, 35, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.159100047
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[76, 73, 68, 78, 76, 85, 73, 77, 79, 72, 75, 77, 78, 83, 79, 70, 78, 75, 88, 72, 77, 68, 67, 72, 76, 66, 77, 58, 67, 66, 65, 53, 47, 54, 41, 46, 54, 37, 45, 25, 20, 20, 15, 11, 9, 6, 5, 2, 1, 1]
+7) Player 2 time per move (ms):
+[9, 11, 8, 9, 8, 8, 12, 9, 8, 9, 8, 9, 11, 7, 7, 8, 8, 7, 12, 13, 6, 7, 17, 7, 8, 5, 5, 11, 5, 4, 5, 7, 4, 4, 7, 9, 4, 4, 5, 3, 3, 5, 4, 3, 2, 2, 1, 1, 0, 0]
+
+Game 29
+1) Extended player number:
+1
+2) Extended player collisions:
+[675, 673, 709, 707, 733, 714, 722, 692, 709, 675, 715, 722, 685, 688, 686, 702, 738, 671, 704, 660, 674, 571, 612, 655, 643, 531, 569, 487, 375, 545, 391, 442, 360, 309, 434, 261, 254, 239, 208, 293, 174, 155, 118, 88, 69, 48, 29, 17, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.414044462
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[92, 95, 79, 92, 96, 94, 89, 83, 68, 81, 70, 74, 74, 74, 74, 72, 66, 90, 69, 80, 216, 73, 75, 73, 109, 83, 67, 84, 60, 65, 64, 55, 50, 43, 48, 43, 38, 43, 27, 18, 19, 18, 12, 9, 8, 4, 5, 3, 1, 1]
+7) Player 2 time per move (ms):
+[10, 10, 10, 10, 12, 12, 8, 7, 9, 7, 7, 13, 7, 7, 7, 7, 10, 7, 8, 6, 6, 11, 6, 5, 7, 6, 12, 9, 5, 10, 6, 8, 8, 5, 10, 7, 9, 4, 3, 5, 4, 5, 3, 2, 2, 2, 2, 1, 1, 0]
+
+Game 30
+1) Extended player number:
+1
+2) Extended player collisions:
+[705, 700, 688, 704, 696, 698, 709, 749, 699, 706, 684, 732, 695, 747, 732, 689, 695, 674, 712, 684, 645, 699, 705, 643, 646, 595, 561, 550, 538, 367, 427, 477, 374, 262, 323, 286, 257, 264, 188, 208, 194, 141, 106, 101, 67, 45, 36, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+2.928708542
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[81, 71, 73, 74, 71, 62, 70, 57, 63, 63, 77, 67, 68, 57, 68, 80, 72, 72, 61, 75, 79, 76, 78, 73, 76, 67, 54, 68, 64, 56, 57, 57, 51, 43, 49, 37, 32, 30, 25, 28, 24, 21, 12, 10, 11, 8, 5, 3, 4, 1]
+7) Player 2 time per move (ms):
+[11, 9, 8, 8, 8, 8, 8, 8, 11, 11, 7, 7, 8, 7, 6, 6, 7, 7, 7, 7, 12, 9, 6, 6, 5, 5, 8, 5, 6, 7, 6, 5, 6, 5, 4, 4, 3, 5, 5, 3, 6, 3, 3, 4, 3, 2, 2, 1, 1, 0]
+
+Game 31
+1) Extended player number:
+1
+2) Extended player collisions:
+[725, 709, 690, 708, 690, 710, 730, 684, 723, 695, 722, 713, 690, 684, 678, 647, 685, 717, 710, 692, 715, 539, 726, 675, 589, 652, 498, 524, 546, 426, 386, 362, 475, 422, 380, 234, 466, 391, 187, 168, 146, 141, 103, 92, 72, 51, 37, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.994701325
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[85, 64, 75, 75, 72, 71, 66, 82, 71, 86, 73, 71, 82, 68, 69, 74, 64, 68, 67, 77, 65, 67, 62, 70, 70, 65, 65, 63, 66, 55, 57, 47, 48, 36, 40, 36, 38, 38, 27, 31, 20, 19, 12, 12, 9, 9, 7, 3, 2, 1]
+7) Player 2 time per move (ms):
+[18, 17, 11, 9, 8, 9, 16, 10, 13, 8, 8, 7, 7, 7, 10, 6, 6, 6, 12, 6, 6, 8, 5, 6, 8, 7, 5, 8, 5, 5, 7, 5, 4, 6, 5, 5, 5, 6, 6, 4, 4, 5, 4, 4, 11, 4, 2, 1, 1, 0]
+
+Game 32
+1) Extended player number:
+1
+2) Extended player collisions:
+[701, 689, 696, 701, 698, 707, 694, 725, 716, 708, 714, 680, 711, 731, 679, 715, 706, 734, 677, 740, 657, 680, 664, 727, 593, 552, 637, 492, 471, 496, 506, 389, 457, 278, 351, 278, 250, 207, 231, 194, 165, 136, 152, 102, 71, 38, 29, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.057295552
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[80, 86, 93, 85, 75, 68, 76, 66, 80, 81, 81, 78, 63, 64, 76, 72, 66, 74, 81, 69, 76, 67, 68, 70, 66, 67, 66, 69, 61, 67, 46, 57, 55, 45, 43, 39, 34, 26, 24, 26, 21, 15, 16, 13, 8, 7, 5, 2, 1, 1]
+7) Player 2 time per move (ms):
+[12, 16, 9, 10, 8, 9, 8, 12, 14, 11, 9, 7, 7, 16, 9, 7, 16, 6, 7, 7, 8, 6, 5, 6, 8, 9, 5, 5, 7, 5, 6, 5, 12, 4, 4, 4, 3, 3, 4, 3, 3, 3, 4, 3, 4, 2, 2, 1, 0, 0]
+
+Game 33
+1) Extended player number:
+1
+2) Extended player collisions:
+[693, 695, 719, 736, 712, 676, 707, 688, 715, 709, 724, 658, 699, 700, 683, 670, 690, 669, 686, 740, 711, 609, 611, 558, 491, 577, 477, 473, 625, 390, 381, 392, 403, 352, 363, 263, 252, 218, 219, 185, 167, 117, 123, 97, 74, 51, 39, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.035125842
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[87, 79, 79, 73, 78, 88, 83, 74, 67, 81, 61, 73, 80, 67, 79, 73, 75, 74, 77, 63, 76, 80, 71, 72, 70, 64, 61, 68, 64, 61, 54, 58, 49, 50, 38, 36, 35, 25, 29, 25, 20, 16, 13, 12, 8, 6, 5, 2, 1, 1]
+7) Player 2 time per move (ms):
+[11, 9, 10, 9, 9, 11, 9, 10, 7, 7, 7, 10, 9, 9, 7, 9, 10, 7, 9, 6, 7, 7, 5, 6, 5, 8, 5, 5, 8, 8, 6, 4, 5, 4, 4, 4, 3, 3, 3, 4, 3, 3, 3, 2, 2, 2, 2, 1, 0, 0]
+
+Game 34
+1) Extended player number:
+1
+2) Extended player collisions:
+[752, 745, 694, 687, 707, 709, 691, 710, 693, 712, 729, 725, 697, 723, 783, 680, 693, 667, 717, 686, 687, 764, 666, 673, 650, 556, 529, 602, 559, 491, 416, 387, 510, 300, 346, 417, 257, 194, 196, 216, 131, 132, 134, 87, 62, 53, 38, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.906121222
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[64, 67, 82, 70, 72, 70, 80, 71, 73, 72, 69, 74, 77, 73, 51, 67, 74, 77, 67, 71, 67, 49, 75, 72, 66, 65, 60, 61, 57, 48, 53, 49, 47, 42, 44, 44, 35, 29, 29, 24, 22, 16, 14, 13, 8, 8, 7, 5, 2, 1]
+7) Player 2 time per move (ms):
+[8, 9, 11, 10, 9, 8, 7, 10, 8, 9, 15, 12, 8, 11, 7, 6, 7, 6, 7, 9, 12, 7, 7, 8, 5, 6, 7, 5, 5, 5, 7, 5, 5, 6, 5, 5, 5, 4, 5, 4, 4, 4, 5, 3, 3, 7, 4, 2, 1, 0]
+
+Game 35
+1) Extended player number:
+1
+2) Extended player collisions:
+[682, 756, 711, 686, 693, 688, 743, 729, 663, 726, 690, 712, 705, 689, 681, 717, 663, 724, 706, 646, 703, 643, 710, 581, 546, 524, 559, 526, 428, 583, 428, 386, 359, 354, 383, 272, 226, 233, 178, 218, 149, 158, 121, 81, 79, 51, 36, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.848462209
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[80, 68, 67, 79, 78, 73, 57, 63, 84, 65, 81, 69, 75, 75, 78, 65, 66, 61, 69, 78, 63, 69, 67, 63, 66, 64, 58, 61, 51, 53, 53, 46, 39, 41, 44, 29, 34, 28, 23, 17, 22, 15, 15, 9, 8, 5, 6, 3, 2, 1]
+7) Player 2 time per move (ms):
+[13, 9, 14, 9, 9, 10, 11, 8, 8, 11, 10, 7, 7, 9, 7, 7, 11, 6, 12, 8, 6, 6, 5, 7, 6, 5, 7, 5, 5, 5, 5, 6, 4, 4, 4, 4, 4, 3, 3, 6, 4, 3, 3, 3, 3, 3, 2, 2, 1, 0]
+
+Game 36
+1) Extended player number:
+1
+2) Extended player collisions:
+[701, 686, 727, 731, 715, 674, 720, 697, 679, 711, 703, 744, 692, 702, 672, 659, 702, 644, 704, 699, 719, 666, 629, 708, 614, 548, 432, 477, 429, 361, 493, 358, 342, 357, 352, 339, 258, 260, 205, 174, 176, 144, 99, 105, 65, 50, 29, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.104988583
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[81, 71, 67, 76, 69, 81, 75, 66, 88, 79, 91, 57, 75, 71, 91, 90, 87, 98, 84, 81, 65, 75, 77, 71, 66, 68, 61, 59, 59, 51, 56, 54, 47, 52, 41, 37, 32, 27, 25, 23, 23, 22, 13, 10, 9, 4, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[19, 9, 9, 9, 14, 12, 9, 11, 10, 10, 9, 8, 11, 11, 8, 11, 10, 14, 7, 7, 9, 9, 6, 6, 7, 6, 6, 7, 5, 5, 7, 4, 5, 4, 4, 6, 7, 4, 3, 3, 4, 3, 3, 2, 2, 2, 2, 1, 1, 0]
+
+Game 37
+1) Extended player number:
+1
+2) Extended player collisions:
+[707, 731, 714, 701, 750, 708, 718, 762, 710, 761, 734, 712, 722, 698, 705, 679, 674, 632, 710, 652, 657, 593, 673, 637, 559, 554, 514, 560, 515, 533, 489, 364, 323, 339, 358, 279, 232, 207, 193, 174, 174, 152, 101, 81, 79, 50, 36, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.046667766
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[77, 67, 76, 70, 70, 71, 70, 51, 77, 68, 81, 71, 71, 73, 62, 76, 80, 75, 71, 75, 71, 78, 73, 70, 75, 73, 70, 65, 70, 60, 67, 61, 43, 48, 55, 39, 38, 32, 27, 28, 25, 14, 10, 10, 9, 7, 4, 2, 1, 0]
+7) Player 2 time per move (ms):
+[11, 8, 11, 8, 9, 10, 12, 8, 8, 8, 12, 9, 9, 9, 6, 7, 9, 7, 6, 10, 6, 8, 6, 7, 8, 11, 8, 10, 8, 7, 7, 6, 5, 8, 8, 7, 6, 4, 9, 7, 5, 3, 3, 3, 3, 2, 1, 1, 0, 0]
+
+Game 38
+1) Extended player number:
+1
+2) Extended player collisions:
+[762, 680, 717, 724, 723, 699, 730, 715, 722, 723, 695, 740, 700, 683, 708, 745, 666, 706, 682, 712, 686, 654, 600, 651, 598, 506, 555, 515, 519, 498, 389, 448, 440, 340, 289, 277, 284, 231, 141, 229, 196, 159, 107, 66, 71, 54, 33, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.007941996
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[64, 79, 71, 71, 71, 76, 68, 66, 77, 76, 68, 67, 72, 82, 71, 61, 69, 73, 74, 78, 63, 71, 68, 67, 65, 69, 68, 70, 62, 62, 57, 60, 52, 43, 41, 38, 38, 32, 21, 18, 25, 18, 14, 12, 11, 11, 6, 5, 3, 2]
+7) Player 2 time per move (ms):
+[9, 8, 11, 29, 8, 8, 12, 9, 8, 12, 17, 9, 7, 10, 10, 7, 7, 10, 6, 6, 8, 6, 6, 11, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5, 7, 7, 4, 4, 7, 5, 6, 4, 5, 4, 5, 2, 4, 2, 0]
+
+Game 39
+1) Extended player number:
+1
+2) Extended player collisions:
+[705, 726, 680, 726, 705, 715, 722, 713, 707, 725, 703, 680, 692, 657, 727, 712, 677, 730, 680, 662, 683, 753, 670, 670, 654, 689, 671, 540, 366, 545, 545, 481, 399, 390, 364, 503, 237, 255, 205, 208, 168, 152, 130, 80, 63, 53, 31, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 48; Iteration: 100
+4) Winning player:
+1
+5) Duration in seconds:
+2.973823369
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[80, 72, 77, 76, 84, 81, 69, 65, 72, 71, 73, 66, 74, 77, 62, 66, 78, 69, 85, 71, 76, 45, 71, 65, 66, 56, 64, 63, 53, 56, 65, 61, 56, 46, 42, 30, 34, 33, 29, 26, 22, 15, 17, 15, 9, 7, 7, 3, 2, 1]
+7) Player 2 time per move (ms):
+[10, 11, 10, 13, 14, 10, 8, 11, 8, 10, 9, 7, 7, 8, 8, 7, 8, 12, 6, 6, 8, 6, 8, 6, 5, 7, 5, 5, 5, 5, 9, 4, 6, 6, 4, 14, 3, 4, 4, 3, 4, 4, 4, 3, 2, 2, 2, 1, 0, 0]
+
+Game 40
+1) Extended player number:
+1
+2) Extended player collisions:
+[721, 728, 713, 714, 721, 710, 674, 710, 691, 677, 664, 709, 706, 697, 695, 748, 711, 715, 732, 649, 635, 632, 709, 703, 595, 477, 555, 518, 424, 616, 449, 318, 345, 331, 309, 291, 298, 229, 209, 152, 157, 128, 115, 99, 70, 55, 28, 13, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.971267464
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[74, 74, 76, 82, 77, 79, 81, 75, 73, 88, 82, 68, 66, 76, 72, 62, 71, 82, 62, 67, 70, 66, 70, 67, 65, 61, 66, 57, 55, 58, 56, 46, 41, 42, 44, 35, 38, 36, 35, 24, 18, 16, 11, 10, 5, 6, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[9, 10, 9, 11, 16, 8, 8, 8, 10, 8, 8, 16, 7, 7, 10, 7, 12, 13, 6, 7, 6, 7, 5, 6, 8, 7, 5, 6, 5, 7, 5, 7, 5, 5, 7, 6, 4, 9, 7, 3, 4, 4, 3, 2, 2, 2, 1, 1, 0, 0]
+
+Game 41
+1) Extended player number:
+1
+2) Extended player collisions:
+[755, 738, 776, 716, 713, 713, 679, 740, 693, 697, 699, 688, 725, 725, 697, 683, 695, 690, 691, 671, 665, 650, 682, 537, 605, 677, 584, 718, 510, 477, 529, 360, 371, 317, 358, 320, 256, 201, 190, 168, 175, 157, 122, 88, 65, 55, 25, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.886326927
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[74, 67, 53, 68, 73, 73, 71, 76, 78, 71, 69, 83, 69, 62, 70, 72, 74, 71, 74, 72, 68, 70, 69, 64, 60, 63, 66, 59, 59, 56, 57, 48, 51, 45, 44, 40, 34, 29, 22, 19, 25, 17, 11, 12, 8, 6, 3, 2, 1, 0]
+7) Player 2 time per move (ms):
+[9, 14, 8, 8, 15, 8, 10, 8, 9, 8, 11, 7, 7, 9, 7, 6, 6, 8, 9, 6, 6, 6, 6, 6, 5, 5, 5, 10, 5, 8, 5, 9, 7, 9, 4, 4, 4, 4, 4, 3, 3, 4, 4, 3, 2, 2, 2, 1, 0, 0]
+
+Game 42
+1) Extended player number:
+1
+2) Extended player collisions:
+[732, 743, 672, 736, 692, 708, 711, 739, 707, 702, 715, 694, 713, 740, 729, 664, 741, 688, 691, 646, 668, 640, 723, 659, 620, 630, 503, 496, 462, 405, 410, 377, 390, 303, 329, 341, 318, 223, 201, 181, 154, 144, 140, 85, 77, 47, 34, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.907490483
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[66, 64, 80, 61, 72, 73, 73, 67, 79, 72, 79, 67, 67, 71, 67, 89, 67, 72, 69, 77, 73, 71, 72, 66, 70, 67, 58, 62, 64, 52, 60, 47, 50, 41, 39, 33, 35, 28, 23, 24, 18, 17, 14, 9, 10, 6, 6, 5, 2, 1]
+7) Player 2 time per move (ms):
+[11, 9, 9, 9, 9, 8, 8, 8, 8, 8, 11, 8, 10, 7, 9, 10, 13, 6, 6, 8, 8, 6, 7, 5, 6, 5, 5, 5, 5, 5, 5, 4, 5, 4, 4, 4, 8, 3, 4, 4, 4, 3, 3, 2, 4, 4, 3, 2, 1, 0]
+
+Game 43
+1) Extended player number:
+1
+2) Extended player collisions:
+[669, 723, 719, 713, 734, 697, 722, 696, 720, 739, 727, 689, 708, 675, 726, 710, 720, 673, 705, 689, 709, 706, 629, 726, 441, 617, 618, 500, 613, 561, 562, 413, 425, 478, 273, 395, 306, 209, 229, 173, 149, 187, 109, 82, 74, 56, 27, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.982430355
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[78, 79, 74, 68, 65, 82, 76, 78, 85, 70, 74, 76, 71, 80, 72, 71, 74, 72, 68, 67, 74, 70, 74, 65, 71, 65, 66, 65, 57, 52, 60, 55, 60, 43, 31, 49, 24, 22, 23, 19, 18, 14, 14, 11, 9, 7, 3, 2, 1, 0]
+7) Player 2 time per move (ms):
+[9, 9, 10, 9, 9, 8, 11, 10, 12, 8, 7, 7, 11, 11, 7, 9, 7, 7, 11, 8, 6, 6, 8, 8, 6, 5, 5, 6, 6, 6, 8, 5, 5, 7, 10, 5, 4, 6, 3, 3, 4, 3, 6, 6, 2, 2, 1, 1, 0, 0]
+
+Game 44
+1) Extended player number:
+1
+2) Extended player collisions:
+[736, 688, 694, 728, 704, 700, 739, 705, 682, 690, 732, 710, 667, 695, 701, 703, 668, 682, 773, 705, 604, 741, 605, 656, 603, 687, 549, 434, 637, 502, 386, 423, 471, 272, 322, 324, 253, 223, 246, 214, 187, 133, 97, 98, 89, 53, 27, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.027462015
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[72, 75, 81, 73, 78, 82, 73, 72, 75, 68, 75, 69, 72, 75, 71, 72, 73, 78, 58, 72, 68, 70, 80, 75, 80, 57, 72, 71, 57, 66, 66, 53, 51, 36, 45, 38, 32, 30, 29, 26, 20, 18, 11, 14, 8, 6, 4, 2, 2, 1]
+7) Player 2 time per move (ms):
+[10, 12, 12, 11, 11, 17, 8, 8, 11, 8, 10, 12, 7, 8, 8, 8, 7, 7, 9, 7, 9, 6, 6, 6, 5, 6, 8, 5, 6, 6, 4, 5, 4, 4, 10, 4, 4, 5, 4, 4, 5, 3, 3, 3, 2, 2, 1, 1, 1, 0]
+
+Game 45
+1) Extended player number:
+1
+2) Extended player collisions:
+[705, 712, 693, 686, 755, 709, 684, 710, 689, 697, 711, 684, 677, 697, 718, 695, 713, 687, 696, 681, 692, 667, 707, 649, 541, 663, 572, 535, 413, 483, 409, 372, 449, 378, 278, 240, 233, 196, 202, 120, 202, 133, 107, 102, 77, 53, 27, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.060666503
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[72, 80, 78, 81, 94, 84, 89, 76, 76, 86, 80, 82, 72, 77, 60, 73, 67, 71, 73, 76, 75, 79, 67, 61, 72, 70, 56, 69, 53, 55, 64, 54, 58, 56, 40, 36, 32, 31, 21, 18, 18, 15, 10, 13, 6, 7, 3, 2, 1, 0]
+7) Player 2 time per move (ms):
+[9, 9, 8, 10, 10, 9, 11, 8, 11, 12, 11, 8, 9, 7, 10, 8, 6, 10, 7, 6, 6, 7, 6, 6, 7, 6, 5, 6, 6, 14, 8, 5, 5, 6, 6, 5, 7, 5, 3, 4, 3, 3, 3, 3, 2, 2, 1, 1, 0, 0]
+
+Game 46
+1) Extended player number:
+1
+2) Extended player collisions:
+[708, 683, 697, 737, 676, 721, 712, 723, 762, 718, 763, 704, 721, 699, 697, 648, 660, 692, 700, 690, 680, 675, 580, 633, 496, 560, 578, 552, 534, 470, 487, 460, 390, 339, 312, 322, 256, 232, 207, 198, 157, 167, 102, 91, 79, 46, 30, 15, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.975678897
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[69, 67, 72, 65, 70, 71, 78, 72, 57, 71, 65, 74, 67, 76, 75, 79, 74, 71, 75, 69, 77, 71, 71, 69, 72, 72, 74, 64, 69, 60, 59, 57, 48, 44, 42, 35, 32, 30, 19, 23, 21, 20, 13, 12, 10, 11, 4, 4, 2, 1]
+7) Player 2 time per move (ms):
+[9, 11, 11, 10, 8, 8, 8, 8, 8, 9, 11, 9, 7, 9, 9, 7, 7, 8, 12, 6, 6, 6, 6, 6, 9, 8, 5, 5, 5, 5, 7, 5, 5, 6, 5, 8, 4, 4, 4, 5, 4, 6, 4, 3, 3, 4, 3, 2, 1, 0]
+
+Game 47
+1) Extended player number:
+1
+2) Extended player collisions:
+[676, 714, 684, 719, 724, 731, 710, 700, 705, 720, 709, 694, 723, 689, 678, 710, 680, 696, 696, 670, 685, 611, 682, 722, 593, 644, 659, 447, 641, 473, 500, 357, 366, 340, 318, 301, 304, 284, 188, 158, 182, 150, 124, 90, 76, 50, 34, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.043247268
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[87, 79, 87, 73, 85, 71, 72, 75, 66, 74, 67, 77, 77, 77, 66, 71, 70, 76, 75, 74, 85, 69, 70, 58, 65, 57, 63, 68, 68, 59, 61, 49, 46, 37, 43, 32, 37, 32, 35, 29, 30, 18, 15, 16, 10, 9, 8, 3, 2, 1]
+7) Player 2 time per move (ms):
+[11, 10, 17, 10, 8, 9, 8, 8, 7, 7, 14, 7, 7, 7, 7, 7, 10, 9, 6, 6, 6, 6, 11, 5, 5, 7, 6, 8, 8, 5, 7, 5, 5, 5, 5, 4, 4, 4, 5, 7, 7, 4, 4, 6, 3, 3, 2, 1, 1, 0]
+
+Game 48
+1) Extended player number:
+1
+2) Extended player collisions:
+[697, 703, 721, 762, 679, 726, 709, 657, 686, 706, 673, 719, 713, 716, 686, 721, 662, 723, 723, 570, 673, 614, 627, 606, 666, 582, 602, 576, 588, 401, 402, 389, 409, 345, 356, 229, 255, 251, 210, 201, 191, 144, 118, 96, 61, 52, 31, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.053319069
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[71, 94, 73, 60, 83, 99, 98, 91, 84, 83, 82, 70, 64, 78, 78, 60, 79, 76, 74, 67, 58, 67, 70, 81, 69, 71, 62, 56, 55, 58, 54, 54, 54, 45, 42, 31, 29, 31, 24, 20, 19, 13, 14, 12, 8, 7, 4, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 11, 11, 11, 10, 19, 14, 10, 12, 13, 8, 8, 8, 8, 7, 7, 9, 7, 6, 6, 8, 6, 6, 6, 6, 7, 7, 5, 9, 5, 6, 5, 4, 4, 4, 6, 4, 3, 5, 3, 3, 3, 5, 3, 2, 2, 2, 2, 0, 0]
+
+Game 49
+1) Extended player number:
+1
+2) Extended player collisions:
+[737, 721, 680, 753, 694, 667, 689, 736, 665, 707, 660, 681, 732, 721, 699, 685, 670, 694, 718, 623, 693, 611, 709, 643, 597, 543, 460, 521, 458, 627, 494, 410, 396, 339, 389, 328, 176, 222, 223, 153, 174, 120, 123, 104, 79, 52, 28, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.188356364
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[69, 75, 73, 72, 73, 78, 78, 74, 73, 69, 75, 74, 68, 71, 94, 84, 83, 77, 73, 80, 70, 76, 81, 107, 103, 68, 66, 63, 58, 61, 69, 54, 52, 55, 42, 32, 26, 26, 27, 20, 21, 16, 27, 21, 9, 7, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[9, 9, 9, 14, 8, 8, 9, 19, 9, 9, 10, 13, 11, 12, 10, 8, 8, 10, 17, 7, 7, 9, 11, 13, 12, 6, 9, 7, 5, 5, 5, 4, 5, 6, 4, 3, 4, 5, 3, 3, 3, 11, 5, 2, 3, 2, 1, 1, 0, 0]
+
+Game 50
+1) Extended player number:
+1
+2) Extended player collisions:
+[719, 746, 727, 724, 686, 673, 700, 703, 699, 748, 717, 678, 707, 693, 722, 721, 679, 688, 701, 660, 709, 618, 519, 616, 589, 506, 610, 507, 453, 451, 383, 359, 352, 337, 304, 333, 285, 302, 206, 189, 160, 153, 122, 101, 80, 48, 38, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.366279942
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[84, 80, 104, 87, 73, 87, 76, 67, 72, 71, 86, 74, 73, 71, 74, 65, 78, 85, 84, 113, 93, 99, 87, 65, 118, 81, 56, 60, 63, 59, 55, 48, 50, 45, 41, 40, 27, 64, 32, 44, 45, 41, 24, 9, 7, 7, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[11, 12, 12, 11, 8, 9, 8, 8, 8, 11, 22, 9, 11, 8, 7, 10, 8, 6, 8, 6, 7, 7, 6, 7, 6, 5, 5, 5, 8, 5, 5, 9, 5, 4, 5, 5, 5, 7, 5, 10, 6, 9, 3, 3, 5, 2, 1, 1, 1, 0]
+
+Game 51
+1) Extended player number:
+1
+2) Extended player collisions:
+[696, 702, 711, 713, 702, 691, 710, 680, 710, 723, 694, 669, 690, 700, 699, 694, 707, 607, 691, 712, 650, 638, 598, 640, 741, 520, 617, 714, 513, 479, 450, 400, 406, 369, 524, 228, 263, 215, 205, 233, 181, 146, 109, 81, 76, 55, 32, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.350681198
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[119, 168, 85, 66, 69, 69, 73, 96, 72, 86, 115, 149, 87, 82, 88, 79, 70, 87, 81, 70, 84, 77, 68, 67, 54, 67, 68, 54, 51, 52, 53, 50, 51, 43, 44, 36, 37, 32, 30, 23, 18, 21, 15, 11, 7, 6, 6, 2, 4, 1]
+7) Player 2 time per move (ms):
+[18, 27, 8, 9, 8, 9, 12, 20, 11, 21, 13, 10, 8, 9, 10, 7, 7, 7, 11, 10, 8, 6, 6, 5, 6, 5, 6, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 5, 4, 4, 4, 5, 3, 3, 2, 2, 2, 2, 1, 0]
+
+Game 52
+1) Extended player number:
+1
+2) Extended player collisions:
+[703, 695, 721, 669, 698, 715, 682, 709, 739, 743, 730, 703, 727, 777, 660, 663, 710, 712, 708, 660, 649, 714, 708, 637, 550, 607, 530, 472, 455, 482, 441, 464, 415, 371, 323, 297, 269, 276, 218, 173, 152, 166, 114, 84, 66, 59, 28, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.014514024
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[93, 85, 76, 137, 93, 68, 75, 78, 64, 71, 69, 77, 69, 44, 81, 68, 74, 78, 69, 69, 63, 57, 63, 66, 76, 67, 70, 56, 53, 59, 49, 62, 53, 47, 42, 36, 33, 29, 27, 19, 19, 12, 14, 11, 8, 6, 5, 2, 2, 1]
+7) Player 2 time per move (ms):
+[9, 10, 12, 19, 13, 8, 8, 10, 9, 8, 10, 12, 8, 7, 7, 10, 7, 7, 6, 7, 6, 6, 8, 5, 6, 8, 5, 7, 5, 6, 6, 8, 6, 6, 5, 4, 3, 4, 3, 4, 3, 6, 4, 4, 2, 2, 1, 1, 1, 0]
+
+Game 53
+1) Extended player number:
+1
+2) Extended player collisions:
+[692, 702, 713, 698, 713, 747, 746, 732, 689, 677, 695, 713, 752, 740, 689, 728, 718, 692, 684, 665, 685, 593, 594, 636, 715, 553, 601, 499, 444, 486, 393, 368, 336, 294, 281, 268, 307, 204, 169, 199, 152, 143, 95, 101, 61, 60, 29, 16, 4, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+3.129488408
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[76, 74, 118, 88, 80, 79, 81, 71, 77, 74, 78, 71, 72, 66, 72, 78, 70, 63, 71, 70, 73, 75, 66, 65, 64, 67, 60, 61, 65, 72, 76, 66, 64, 60, 43, 34, 39, 27, 38, 25, 17, 17, 10, 11, 9, 9, 5, 3, 1, 1]
+7) Player 2 time per move (ms):
+[8, 9, 12, 9, 9, 11, 8, 9, 14, 8, 9, 7, 9, 7, 9, 7, 7, 14, 6, 7, 6, 5, 8, 6, 7, 9, 5, 5, 5, 5, 7, 10, 11, 8, 4, 4, 4, 3, 3, 3, 6, 3, 3, 4, 4, 3, 2, 1, 0, 0]
+
+Game 54
+1) Extended player number:
+1
+2) Extended player collisions:
+[721, 698, 724, 695, 723, 715, 690, 667, 708, 707, 700, 691, 718, 707, 686, 707, 745, 708, 679, 667, 675, 620, 593, 538, 679, 675, 653, 475, 548, 480, 558, 385, 360, 310, 447, 267, 230, 244, 193, 195, 146, 145, 123, 110, 87, 48, 34, 11, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.9701109
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[68, 74, 70, 77, 69, 67, 70, 68, 70, 73, 72, 63, 77, 69, 75, 74, 65, 73, 77, 81, 69, 73, 71, 114, 65, 62, 58, 66, 57, 57, 55, 49, 48, 38, 50, 37, 30, 29, 28, 21, 22, 20, 15, 11, 8, 6, 5, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 11, 8, 8, 10, 9, 12, 8, 12, 8, 7, 7, 7, 8, 7, 17, 10, 7, 6, 6, 6, 6, 10, 8, 6, 5, 8, 7, 4, 4, 5, 9, 4, 5, 4, 4, 9, 4, 6, 5, 4, 4, 3, 3, 2, 2, 2, 1, 1, 0]
+
+Game 55
+1) Extended player number:
+1
+2) Extended player collisions:
+[696, 719, 762, 733, 723, 726, 709, 736, 688, 661, 705, 688, 675, 684, 667, 707, 671, 634, 647, 700, 690, 691, 707, 548, 628, 614, 616, 497, 428, 420, 392, 485, 473, 337, 254, 247, 221, 247, 183, 200, 148, 181, 124, 113, 63, 48, 27, 16, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.919230241
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[87, 72, 55, 69, 71, 73, 77, 69, 72, 81, 84, 75, 79, 76, 76, 65, 68, 70, 68, 67, 67, 73, 64, 70, 67, 70, 60, 63, 54, 55, 50, 59, 45, 44, 41, 33, 31, 33, 28, 21, 19, 17, 16, 13, 8, 6, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[10, 11, 11, 8, 8, 8, 8, 8, 11, 10, 10, 10, 7, 7, 9, 6, 7, 6, 8, 6, 6, 6, 8, 6, 5, 5, 7, 5, 5, 5, 4, 5, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 7, 3, 3, 2, 2, 2, 1, 0]
+
+Game 56
+1) Extended player number:
+1
+2) Extended player collisions:
+[730, 727, 759, 711, 741, 745, 697, 692, 699, 749, 719, 725, 724, 689, 703, 751, 719, 669, 688, 680, 650, 666, 598, 582, 664, 743, 560, 486, 403, 517, 354, 343, 386, 288, 350, 414, 229, 287, 193, 171, 157, 134, 138, 110, 79, 56, 25, 15, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.866286667
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[75, 84, 63, 74, 65, 74, 73, 82, 76, 60, 73, 71, 62, 70, 70, 56, 51, 75, 59, 71, 70, 73, 70, 67, 60, 47, 62, 62, 58, 58, 48, 48, 56, 48, 42, 44, 27, 37, 20, 19, 16, 16, 20, 10, 8, 6, 3, 2, 1, 1]
+7) Player 2 time per move (ms):
+[13, 10, 9, 8, 9, 9, 8, 11, 11, 11, 8, 7, 10, 7, 8, 17, 6, 7, 8, 6, 7, 8, 6, 6, 6, 16, 6, 6, 7, 5, 10, 6, 7, 7, 6, 4, 3, 5, 3, 3, 3, 6, 4, 3, 3, 2, 2, 1, 0, 0]
+
+Game 57
+1) Extended player number:
+1
+2) Extended player collisions:
+[695, 706, 732, 727, 741, 733, 720, 752, 708, 682, 721, 693, 668, 692, 702, 694, 638, 700, 675, 750, 732, 718, 712, 695, 615, 659, 525, 572, 477, 479, 384, 383, 410, 413, 330, 273, 242, 267, 175, 226, 153, 138, 102, 71, 59, 52, 34, 14, 5, 0]
+3) Final game state:
+Size: 100; Player1R: 50; Player2R: 50; Iteration: 100
+4) Winning player:
+0
+5) Duration in seconds:
+2.906359047
+6) Player 1 type:
+com.jnew528.finalYearProject.MctsTreeUpdateAll
+7) Player 2 type:
+com.jnew528.finalYearProject.MctsTreeStd
+6) Player 1 time per move (ms):
+[79, 78, 69, 69, 67, 72, 80, 52, 74, 71, 55, 84, 90, 86, 78, 66, 77, 72, 68, 54, 63, 64, 74, 68, 71, 61, 59, 59, 58, 58, 51, 49, 52, 47, 37, 35, 32, 27, 22, 26, 24, 19, 13, 10, 8, 6, 3, 3, 2, 1]
+7) Player 2 time per move (ms):
+[9, 14, 9, 9, 13, 9, 8, 13, 8, 8, 8, 9, 12, 7, 7, 9, 7, 6, 15, 6, 6, 8, 5, 8, 5, 5, 5, 5, 5, 6, 6, 5, 4, 4, 4, 4, 5, 4, 4, 5, 3, 3, 5, 3, 2, 2, 2, 2, 1, 0]
+
