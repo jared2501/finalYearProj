@@ -20,8 +20,8 @@ public class Main {
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 1300;
-		int iterationsEnd = 1600;
+		int iterationsStart = 2000;
+		int iterationsEnd = 1700;
 		int iterationsStep = 100;
 		int maxNum = 100;
 
