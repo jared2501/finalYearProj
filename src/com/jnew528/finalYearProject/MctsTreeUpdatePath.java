@@ -38,17 +38,7 @@ public class MctsTreeUpdatePath implements MctsTree {
 
 		// Select child with the selection policy
 		// In this case, the child with the highest number of visits
-		int highestVists = 0;
-		Edge selectedEdge = root.getChildEdges().get(0);
-
-		for(Edge edge : root.getChildEdges()) {
-			if(edge.getVisits() > highestVists) {
-				selectedEdge = edge;
-				highestVists = edge.getVisits();
-			}
-		}
-
-		return selectedEdge.getMove();
+		return UpdatePath.selectRobustRootMove(root);
 	}
 
 	public void performIteration(Node root, HashMap<GameState, Node> encounteredGameStates) {

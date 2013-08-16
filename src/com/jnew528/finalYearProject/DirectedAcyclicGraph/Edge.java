@@ -29,19 +29,11 @@ public class Edge {
 		this.wins += result;
 	}
 
-	public int getVisits() {
-		return visits;
-	}
-
 	public Node getTail() {
 		return tail;
 	}
 
 	public Node getHead() {
 		return head;
-	}
-
-	public Move getMove() {
-		return move;
 	}
 }

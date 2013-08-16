@@ -17,7 +17,8 @@ public class Node {
 	protected Vector<Move> untriedMoves;
 	protected Vector<Edge> parentEdges;
 	protected Vector<Edge> childEdges;
-	protected int visits;
+	protected double visits;
+	protected double wins;
 
 	public Node(GameState gameState) {
 		this.gameState = gameState;
@@ -25,6 +26,7 @@ public class Node {
 		this.parentEdges = new Vector();
 		this.childEdges = new Vector();
 		visits = 0;
+		wins = 0;
 	}
 
 
@@ -52,11 +54,6 @@ public class Node {
 		return parentEdges;
 	}
 
-	public int getVisits() {
-		return visits;
-	}
-
-
 	// Adds a child and returns the edges between this node and the child node
 	public Edge addChild(Node child, Move move) {
 		Edge existingChildEdge = this.getChildEdge(child, move);
@@ -73,8 +70,13 @@ public class Node {
 		}
 	}
 
+	public void update(double win, double visit) {
+		this.wins += win;
+		this.visits += visit;
+	}
+
 	public void incrementVisits() {
-		visits++;
+		visits = visits + 1.0;
 	}
 
 	private void addChildEdge(Edge edge) {

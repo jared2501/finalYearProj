@@ -2,6 +2,7 @@ package com.jnew528.finalYearProject;
 
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Edge;
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.UpdatePath;
 
 import java.util.HashMap;
 
@@ -34,18 +35,6 @@ public class MctsTreeLearner<T> extends MctsTreeUpdatePath {
 			performIteration(root, encounteredGameStates);
 		}
 
-		// Select child with the selection policy
-		// In this case, the child with the highest number of visits
-		int highestVists = 0;
-		Edge selectedEdge = root.getChildEdges().get(0);
-
-		for(Edge edge : root.getChildEdges()) {
-			if(edge.getVisits() > highestVists) {
-				selectedEdge = edge;
-				highestVists = edge.getVisits();
-			}
-		}
-
-		return gameState.convertMove(root.getGameState(), selectedEdge.getMove());
+		return UpdatePath.selectRobustRootMove(root);
 	}
 }

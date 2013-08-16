@@ -2,6 +2,7 @@ package com.jnew528.finalYearProject;
 
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Edge;
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
+import com.jnew528.finalYearProject.DirectedAcyclicGraph.UpdateAll;
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.UpdatePath;
 
 import java.util.Random;
@@ -32,29 +33,16 @@ public class MctsTreeStd implements MctsTree {
 
 		// Select child with the selection policy
 		// In this case, the child with the highest number of visits
-		int highestVists = 0;
-		Edge selectedEdge = root.getChildEdges().get(0);
-
-		for(Edge edge : root.getChildEdges()) {
-			if(edge.getVisits() > highestVists) {
-				selectedEdge = edge;
-				highestVists = edge.getVisits();
-			}
-		}
-
-		return selectedEdge.getMove();
+		return UpdateAll.selectRobustRootMove(root);
 	}
 
 	public void performIteration(Node root) {
 		Node node = root;
-		Vector<Edge> traversedEdges = new Vector();
 
 		// Traverse the tree until we reach an expandable node
 		// ie a node that has untried moves and non-terminal
 		while(!node.hasUntriedMoves() && node.hasChildren()) {
-			Edge edge = UpdatePath.uctSelectChild(node);
-			traversedEdges.add(edge);
-			node = edge.getHead();
+			node = UpdateAll.uctSelectChild(node);
 		}
 
 		// Expand the node if it has untried moves
@@ -65,8 +53,7 @@ public class MctsTreeStd implements MctsTree {
 
 			// Remove the move that we used to expand the node and add the new node generated to the tree
 			Node newNode = new Node(newGameState);
-			Edge newEdge = node.addChild(newNode, move);
-			traversedEdges.add(newEdge);
+			node.addChild(newNode, move);
 			node = newNode;
 		}
 
@@ -80,14 +67,19 @@ public class MctsTreeStd implements MctsTree {
 		}
 
 		// Back propogate the result from the perspective of the player that just moved
-		for(Edge edge : traversedEdges) {
-			double result = gameState.getResult(edge.getTail().getGameState().getPlayerToMove(), true);
-			edge.update(result);
-			edge.getTail().incrementVisits();
-		}
+		// Were using updateall so update the nodes!!!
+		do {
+			double result = gameState.getResult(node.getGameState().getPlayerJustMoved(), true);
+			node.update(result, 1.0);
 
-		// Since the final node has no edge with a tail pointing to it!
-		node.incrementVisits();
+			// Since each node should only have one parent edge!
+			assert(node.getParentEdges().size() == 1 || node.getParentEdges().size() == 0);
+			if(node.getParentEdges().size() == 0) {
+				break;
+			} else {
+				node = node.getParentEdges().get(0).getTail();
+			}
+		} while (true);
 	}
 
 	public int getCollisions() {

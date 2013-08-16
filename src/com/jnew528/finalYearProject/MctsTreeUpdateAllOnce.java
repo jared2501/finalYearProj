@@ -2,7 +2,6 @@ package com.jnew528.finalYearProject;
 
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Edge;
 import com.jnew528.finalYearProject.DirectedAcyclicGraph.Node;
-import com.jnew528.finalYearProject.DirectedAcyclicGraph.UpdatePath;
 
 import java.util.*;
 
@@ -19,27 +18,24 @@ public class MctsTreeUpdateAllOnce extends MctsTreeUpdateAll {
 	protected void backpropogate(Node finalNode, GameState gameState) {
 		HashSet<Node> seenNodes = new HashSet();
 		Deque<Node> stack = new ArrayDeque();
+
 		stack.push(finalNode);
 
 		while(stack.size() > 0) {
 			Node current = stack.pop();
 
-			for(Edge e : current.getParentEdges()) {
+			if(!seenNodes.contains(current)) {
+				// Update current node ONLY if we havent seen it before
+				double result = gameState.getResult(current.getGameState().getPlayerJustMoved(), true);
+				current.update(result, 1.0);
+				seenNodes.add(current);
 
-				if(!seenNodes.contains(e.getTail())) {
-					seenNodes.add(e.getTail());
-
-					// Update the edges tail
-					double result = gameState.getResult(e.getTail().getGameState().getPlayerToMove(), true);
-					e.update(result);
-					e.getTail().incrementVisits();
-
-					// And add it to the stack to have a geez at
-					stack.push(e.getTail());
+				// and add parents to the stack if we havent seen them
+				for(Edge e : current.getParentEdges()) {
+					Node parent = e.getTail();
+					stack.push(parent);
 				}
 			}
 		}
-
-		finalNode.incrementVisits();
 	}
 }
