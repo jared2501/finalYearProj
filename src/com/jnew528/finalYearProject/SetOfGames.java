@@ -32,7 +32,11 @@ public class SetOfGames implements Callable<Vector<Double>> {
 		Vector<Double> output = new Vector<Double>();
 
 		MctsTree playerControl = new MctsTreeStd();
+<<<<<<< HEAD
 		MctsTree playerTesting = new MctsTreeUpdateAllOnce();
+=======
+		MctsTree playerTesting = new MctsTreeUpdateAll();
+>>>>>>> 7e4db35a579c751ab2be89274bcfdfd3246414ee
 
 		// Write the results to a file as we get them
 		double extendedPlayerWins = 0;
