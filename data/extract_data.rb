@@ -1,6 +1,5 @@
 file_names = [
-	'1376627569_UpdateAllGood_LeftRight_boardsize_100_numberOfGames_1000_maxNum_100_iterStart_50_iterEnd_1200_iterStep_50',
-	'1376627326_UpdateAllGood_LeftRight_boardsize_100_numberOfGames_1000_maxNum_100_iterStart_1300_iterEnd_1600_iterStep_100',
+	'1376661774_UpdatePath_LeftRight_boardsize_100_numberOfGames_1000_maxNum_100_iterStart_50_iterEnd_2500_iterStep_50'
 ]
 
 def gen_x_array(start,finish,i)
