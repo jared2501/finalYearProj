@@ -15,20 +15,20 @@ public class Main {
 
 	public static void main(String[] args) throws Exception{
 		// Game type settings
-		int numberOfGames = 1000;
+		int numberOfGames = 4000;
 		String gameType = "LeftRight";
 		int boardSize = 100;
 
 		// Iteration settings
-		int iterationsStart = 50;
-		int iterationsEnd = 2500;
-		int iterationsStep = 50;
+		int iterationsStart = 5;
+		int iterationsEnd = 45;
+		int iterationsStep = 5;
 		int maxNum = 100;
 
 		// New DIR name
 		long unixTime = System.currentTimeMillis() / 1000L;
 		String newDirName = "data" + System.getProperty("file.separator") + unixTime +
-				"_UpdatePath_" + gameType +
+				"_UpdateAllEvil_" + gameType +
 				"_boardsize_" + boardSize +
 				"_numberOfGames_" + numberOfGames +
 				"_maxNum_" + maxNum +
